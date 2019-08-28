@@ -1,5 +1,6 @@
 admins:
 - etsauer
+- openshift-merge-robot
 - oybed
 - sabre1041
 - sborenst
@@ -57,6 +58,7 @@ members:
 - noelo
 - NonyNo3lle
 - nunnchops
+- openshift-ci-robot
 - pabrahamsson
 - pathfinder-waffle
 - pcarney8
