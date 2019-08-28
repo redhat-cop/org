@@ -1,0 +1,1199 @@
+admins:
+- etsauer
+- openshift-merge-robot
+- oybed
+- sabre1041
+- sborenst
+billing_email: esauer@redhat.com
+company: ""
+default_repository_permission: read
+description: The Red Hat Communities of Practice
+email: ""
+has_organization_projects: true
+has_repository_projects: true
+location: ""
+members:
+- ahardin-rh
+- arilivigni
+- bbeaudoin
+- beelandc
+- boogiespook
+- bosebc
+- bvkin
+- CaseyOC
+- davgordo
+- dfwnetman
+- dstockdreher
+- ericzolf
+- fridim
+- garethahealy
+- ghyde
+- gjbianco
+- gsampaio-rh
+- huddlesj
+- ianwatsonrh
+- ibazulic
+- InfoSec812
+- jacobsee
+- JaredBurck
+- jbride
+- jimdillon
+- jlozadad
+- Jooho
+- juliaaano
+- kelaird
+- kkoller
+- ldomb
+- levysantanna
+- luckylittle
+- makentenza
+- malacourse
+- matallen
+- mathianasj
+- mike4263
+- mophahr
+- murphye
+- mwitzenm
+- newgoliath
+- noelo
+- NonyNo3lle
+- nunnchops
+- openshift-ci-robot
+- pabrahamsson
+- pathfinder-waffle
+- pcarney8
+- raffaelespazzoli
+- rhjcd
+- rpelisse
+- rut31337
+- samueltauil
+- shah-zobair
+- springdo
+- stencell
+- stratus-ss
+- sysmatrix1
+- syvanen
+- themoosman
+- thomas-crowe
+- thomasmckay
+- tomassedovic
+- tomgeorge
+- tonykay
+- trevorquinn
+- tylerauerbeck
+- victorock
+- vvaldez
+- wkulhanek
+members_can_create_repositories: false
+name: Red Hat Communities of Practice
+teams:
+  ansible-middleware:
+    description: Deploying Red Hat Middleware using Ansible
+    maintainers:
+    - sabre1041
+    members:
+    - rpelisse
+    - davgordo
+    - jlozadad
+    privacy: closed
+    repos:
+      ansible-role-jboss-common: write
+      jboss_amq: write
+      jboss_amq_openshift: write
+      jboss_bxms: write
+      jboss_datagrid: write
+      jboss_eap: write
+      jboss_fuse: write
+      jboss_webserver: write
+      redhat_sso: write
+  auto-docs:
+    description: ""
+    maintainers:
+    - sabre1041
+    - etsauer
+    - oybed
+    members:
+    - bvkin
+    privacy: closed
+    repos:
+      auto-docs: read
+    teams:
+      auto-docs-mergers:
+        description: ""
+        maintainers:
+        - sabre1041
+        - etsauer
+        - oybed
+        privacy: closed
+        repos:
+          auto-docs: write
+  automation-cop-members:
+    description: ""
+    maintainers:
+    - sabre1041
+    - ericzolf
+    members:
+    - vvaldez
+    - mophahr
+    - ericzolf
+    - victorock
+    - jlozadad
+    privacy: closed
+    repos:
+      automate-cicd: write
+      automate-exotic: write
+      automate-tower: write
+      automate-windows: write
+    teams:
+      automation-cop-mgrs:
+        description: ""
+        maintainers:
+        - sabre1041
+        - ericzolf
+        members:
+        - vvaldez
+        privacy: closed
+        repos:
+          automate-cicd: admin
+          automate-exotic: admin
+          automate-tower: admin
+          automate-windows: admin
+  container-cop:
+    description: Contributors to the Containers & PaaS CoP
+    maintainers:
+    - sabre1041
+    - etsauer
+    - oybed
+    members:
+    - InfoSec812
+    - tomassedovic
+    - rpelisse
+    - samueltauil
+    - noelo
+    - themoosman
+    - JaredBurck
+    - murphye
+    - mike4263
+    - vvaldez
+    - juliaaano
+    - tomgeorge
+    - trevorquinn
+    - Jooho
+    - bbeaudoin
+    - mophahr
+    - syvanen
+    - beelandc
+    - arilivigni
+    - pcarney8
+    - jacobsee
+    - kkoller
+    - pabrahamsson
+    - springdo
+    - raffaelespazzoli
+    - sysmatrix1
+    - luckylittle
+    - stratus-ss
+    - garethahealy
+    - dstockdreher
+    - CaseyOC
+    - makentenza
+    - huddlesj
+    - shah-zobair
+    - jimdillon
+    - davgordo
+    - mathianasj
+    - jlozadad
+    - mwitzenm
+    - dfwnetman
+    - bvkin
+    - malacourse
+    - tylerauerbeck
+    privacy: closed
+    repos:
+      casl-ansible: read
+      cluster-lifecycle: read
+      container-pipelines: read
+      containers-quickstarts: none
+      git-flow: read
+      gows: read
+      infra-ansible: read
+      k8s-notify: none
+      ninja-points: read
+      ocp-supply-chain-demo: read
+      openshift-demo-library: read
+      openshift-elasticsearch: read
+      openshift-event-controller: read
+      openshift-image-signing-scanning: read
+      openshift-management: read
+      openshift-playbooks: read
+      openshift-templates: read
+      openshift-toolkit: read
+      operationalizing-openshift-lab: none
+      pathfinder: read
+      pathfinder-ui: read
+      pbl-rocketchat: read
+      pipeline-library: read
+      rhc-ocp-playbook-test: read
+      rocketchat-integrations: read
+      spring-rest: read
+      uncontained.io: read
+    teams:
+      cant-contain-this:
+        description: ""
+        maintainers:
+        - sabre1041
+        - etsauer
+        - oybed
+        members:
+        - themoosman
+        - JaredBurck
+        - tomgeorge
+        - bbeaudoin
+        - beelandc
+        - pabrahamsson
+        - raffaelespazzoli
+        - dstockdreher
+        - makentenza
+        - huddlesj
+        - jimdillon
+        - davgordo
+        - mwitzenm
+        - malacourse
+        privacy: closed
+        repos:
+          casl-ansible: read
+          cluster-lifecycle: read
+          container-pipelines: read
+          containers-quickstarts: none
+          git-flow: read
+          gows: read
+          infra-ansible: read
+          k8s-notify: none
+          ninja-points: read
+          ocp-supply-chain-demo: read
+          openshift-demo-library: read
+          openshift-elasticsearch: read
+          openshift-event-controller: read
+          openshift-image-signing-scanning: read
+          openshift-management: read
+          openshift-playbooks: read
+          openshift-templates: read
+          openshift-toolkit: none
+          operationalizing-openshift-lab: none
+          pathfinder: read
+          pathfinder-ui: read
+          pbl-rocketchat: read
+          pipeline-library: read
+          rhc-ocp-playbook-test: read
+          rocketchat-integrations: read
+          spring-rest: read
+          uncontained.io: read
+        teams:
+          cant-contain-this-mergers:
+            description: People who can merge
+            maintainers:
+            - sabre1041
+            - etsauer
+            - oybed
+            members:
+            - JaredBurck
+            - tomgeorge
+            - bbeaudoin
+            - beelandc
+            - pabrahamsson
+            - huddlesj
+            - jimdillon
+            - davgordo
+            - mwitzenm
+            privacy: closed
+            repos:
+              casl-ansible: read
+              cluster-lifecycle: read
+              container-pipelines: read
+              containers-quickstarts: none
+              git-flow: read
+              gows: write
+              infra-ansible: read
+              k8s-notify: none
+              ninja-points: read
+              ocp-supply-chain-demo: read
+              openshift-demo-library: read
+              openshift-elasticsearch: read
+              openshift-event-controller: read
+              openshift-image-signing-scanning: read
+              openshift-management: read
+              openshift-playbooks: write
+              openshift-templates: read
+              openshift-toolkit: admin
+              operationalizing-openshift-lab: none
+              pathfinder: read
+              pathfinder-ui: read
+              pbl-rocketchat: read
+              pipeline-library: read
+              rhc-ocp-playbook-test: read
+              rocketchat-integrations: read
+              spring-rest: read
+              uncontained.io: write
+      casl:
+        description: Container Automation Solutions Lab contributors
+        maintainers:
+        - sabre1041
+        - etsauer
+        - oybed
+        members:
+        - tomassedovic
+        - JaredBurck
+        - vvaldez
+        - pcarney8
+        - jacobsee
+        - pabrahamsson
+        - stratus-ss
+        - makentenza
+        - huddlesj
+        - mwitzenm
+        - bvkin
+        - tylerauerbeck
+        privacy: closed
+        repos:
+          casl-ansible: read
+          cert-operator: none
+          cluster-lifecycle: read
+          container-pipelines: read
+          containers-quickstarts: none
+          git-flow: read
+          gows: read
+          infra-ansible: read
+          k8s-notify: none
+          ninja-points: read
+          ocp-supply-chain-demo: read
+          openshift-demo-library: read
+          openshift-elasticsearch: read
+          openshift-event-controller: read
+          openshift-image-signing-scanning: read
+          openshift-infra-skel: read
+          openshift-management: read
+          openshift-playbooks: read
+          openshift-templates: read
+          openshift-toolkit: read
+          operationalizing-openshift-lab: none
+          pathfinder: read
+          pathfinder-ui: read
+          pbl-rocketchat: read
+          pipeline-library: read
+          rhc-ocp-playbook-test: read
+          rocketchat-integrations: read
+          spring-rest: read
+          uncontained.io: read
+        teams:
+          casl-mergers:
+            description: CASL Mergers
+            maintainers:
+            - sabre1041
+            - etsauer
+            - oybed
+            members:
+            - makentenza
+            - tylerauerbeck
+            privacy: closed
+            repos:
+              casl-ansible: write
+              cert-operator: write
+              cluster-lifecycle: read
+              container-pipelines: read
+              containers-quickstarts: none
+              git-flow: read
+              gows: read
+              infra-ansible: read
+              k8s-notify: write
+              ninja-points: read
+              ocp-supply-chain-demo: read
+              openshift-demo-library: read
+              openshift-elasticsearch: read
+              openshift-event-controller: read
+              openshift-image-signing-scanning: read
+              openshift-infra-skel: read
+              openshift-management: read
+              openshift-playbooks: read
+              openshift-templates: read
+              openshift-toolkit: read
+              operationalizing-openshift-lab: none
+              pathfinder: read
+              pathfinder-ui: read
+              pbl-rocketchat: read
+              pipeline-library: read
+              rhc-ocp-playbook-test: read
+              rocketchat-integrations: read
+              spring-rest: read
+              uncontained.io: read
+          cluster-lifecycle:
+            description: ""
+            maintainers:
+            - sabre1041
+            - etsauer
+            - oybed
+            members:
+            - tylerauerbeck
+            privacy: closed
+            repos:
+              casl-ansible: read
+              cert-operator: none
+              cluster-lifecycle: read
+              container-pipelines: read
+              containers-quickstarts: none
+              git-flow: read
+              gows: read
+              infra-ansible: read
+              k8s-notify: none
+              ninja-points: read
+              ocp-supply-chain-demo: read
+              openshift-demo-library: read
+              openshift-elasticsearch: read
+              openshift-event-controller: read
+              openshift-image-signing-scanning: read
+              openshift-infra-skel: read
+              openshift-management: read
+              openshift-playbooks: read
+              openshift-templates: read
+              openshift-toolkit: read
+              operationalizing-openshift-lab: none
+              pathfinder: read
+              pathfinder-ui: read
+              pbl-rocketchat: read
+              pipeline-library: read
+              rhc-ocp-playbook-test: read
+              rocketchat-integrations: read
+              spring-rest: read
+              uncontained.io: read
+            teams:
+              cluster-lifecycle-mergers:
+                description: cluster-lifecycle repo Mergers
+                maintainers:
+                - sabre1041
+                - etsauer
+                - oybed
+                members:
+                - tylerauerbeck
+                privacy: closed
+                repos:
+                  casl-ansible: read
+                  cert-operator: none
+                  cluster-lifecycle: write
+                  container-pipelines: read
+                  containers-quickstarts: none
+                  git-flow: read
+                  gows: read
+                  infra-ansible: read
+                  k8s-notify: none
+                  ninja-points: read
+                  ocp-supply-chain-demo: read
+                  openshift-demo-library: read
+                  openshift-elasticsearch: read
+                  openshift-event-controller: read
+                  openshift-image-signing-scanning: read
+                  openshift-infra-skel: read
+                  openshift-management: read
+                  openshift-playbooks: read
+                  openshift-templates: read
+                  openshift-toolkit: read
+                  operationalizing-openshift-lab: none
+                  pathfinder: read
+                  pathfinder-ui: read
+                  pbl-rocketchat: read
+                  pipeline-library: read
+                  rhc-ocp-playbook-test: read
+                  rocketchat-integrations: read
+                  spring-rest: read
+                  uncontained.io: read
+          infra-ansible:
+            description: infra-ansible team
+            maintainers:
+            - sabre1041
+            - etsauer
+            - oybed
+            members:
+            - makentenza
+            - bvkin
+            - tylerauerbeck
+            privacy: closed
+            repos:
+              casl-ansible: read
+              cert-operator: none
+              cluster-lifecycle: read
+              container-pipelines: read
+              containers-quickstarts: none
+              git-flow: read
+              gows: read
+              infra-ansible: read
+              k8s-notify: none
+              ninja-points: read
+              ocp-supply-chain-demo: read
+              openshift-demo-library: read
+              openshift-elasticsearch: read
+              openshift-event-controller: read
+              openshift-image-signing-scanning: read
+              openshift-infra-skel: read
+              openshift-management: read
+              openshift-playbooks: read
+              openshift-templates: read
+              openshift-toolkit: read
+              operationalizing-openshift-lab: none
+              pathfinder: read
+              pathfinder-ui: read
+              pbl-rocketchat: read
+              pipeline-library: read
+              rhc-ocp-playbook-test: read
+              rocketchat-integrations: read
+              spring-rest: read
+              uncontained.io: read
+            teams:
+              infra-ansible-mergers:
+                description: infra-ansible Mergers
+                maintainers:
+                - sabre1041
+                - etsauer
+                - oybed
+                members:
+                - makentenza
+                - tylerauerbeck
+                privacy: closed
+                repos:
+                  casl-ansible: read
+                  cert-operator: none
+                  cluster-lifecycle: read
+                  container-pipelines: read
+                  containers-quickstarts: none
+                  git-flow: read
+                  gows: read
+                  infra-ansible: write
+                  k8s-notify: none
+                  ninja-points: read
+                  ocp-supply-chain-demo: read
+                  openshift-demo-library: read
+                  openshift-elasticsearch: read
+                  openshift-event-controller: read
+                  openshift-image-signing-scanning: read
+                  openshift-infra-skel: read
+                  openshift-management: read
+                  openshift-playbooks: read
+                  openshift-templates: read
+                  openshift-toolkit: read
+                  operationalizing-openshift-lab: none
+                  pathfinder: read
+                  pathfinder-ui: read
+                  pbl-rocketchat: read
+                  pipeline-library: read
+                  rhc-ocp-playbook-test: read
+                  rocketchat-integrations: read
+                  spring-rest: read
+                  uncontained.io: read
+          monitoring:
+            description: 'Monitoring Initiative '
+            maintainers:
+            - sabre1041
+            - oybed
+            members:
+            - makentenza
+            privacy: closed
+            repos:
+              casl-ansible: read
+              cert-operator: none
+              cluster-lifecycle: read
+              container-pipelines: read
+              containers-quickstarts: none
+              git-flow: read
+              gows: read
+              infra-ansible: read
+              k8s-notify: none
+              monitoring: read
+              ninja-points: read
+              ocp-supply-chain-demo: read
+              openshift-demo-library: read
+              openshift-elasticsearch: read
+              openshift-event-controller: read
+              openshift-image-signing-scanning: read
+              openshift-infra-skel: read
+              openshift-management: read
+              openshift-playbooks: read
+              openshift-templates: read
+              openshift-toolkit: read
+              operationalizing-openshift-lab: none
+              pathfinder: read
+              pathfinder-ui: read
+              pbl-rocketchat: read
+              pipeline-library: read
+              rhc-ocp-playbook-test: read
+              rocketchat-integrations: read
+              spring-rest: read
+              uncontained.io: read
+            teams:
+              monitoring-mergers:
+                description: Monitoring Initiative Mergers
+                maintainers:
+                - sabre1041
+                - oybed
+                members:
+                - makentenza
+                privacy: closed
+                repos:
+                  casl-ansible: read
+                  cert-operator: none
+                  cluster-lifecycle: read
+                  container-pipelines: read
+                  containers-quickstarts: none
+                  git-flow: read
+                  gows: read
+                  infra-ansible: read
+                  k8s-notify: none
+                  monitoring: write
+                  ninja-points: read
+                  ocp-supply-chain-demo: read
+                  openshift-demo-library: read
+                  openshift-elasticsearch: read
+                  openshift-event-controller: read
+                  openshift-image-signing-scanning: read
+                  openshift-infra-skel: read
+                  openshift-management: read
+                  openshift-playbooks: read
+                  openshift-templates: read
+                  openshift-toolkit: read
+                  operationalizing-openshift-lab: none
+                  pathfinder: read
+                  pathfinder-ui: read
+                  pbl-rocketchat: read
+                  pipeline-library: read
+                  rhc-ocp-playbook-test: read
+                  rocketchat-integrations: read
+                  spring-rest: read
+                  uncontained.io: read
+          openshift-applier:
+            description: Used to apply OpenShift objects to an OpenShift Cluster
+            maintainers:
+            - sabre1041
+            - etsauer
+            - oybed
+            members:
+            - jacobsee
+            - pabrahamsson
+            - tylerauerbeck
+            privacy: closed
+            repos:
+              applier-cli: read
+              casl-ansible: read
+              cert-operator: none
+              cluster-lifecycle: read
+              container-pipelines: read
+              containers-quickstarts: none
+              git-flow: read
+              gows: read
+              infra-ansible: read
+              k8s-notify: none
+              ninja-points: read
+              ocp-supply-chain-demo: read
+              openshift-applier: read
+              openshift-demo-library: read
+              openshift-elasticsearch: read
+              openshift-event-controller: read
+              openshift-image-signing-scanning: read
+              openshift-infra-skel: read
+              openshift-management: read
+              openshift-playbooks: read
+              openshift-templates: read
+              openshift-toolkit: read
+              operationalizing-openshift-lab: none
+              pathfinder: read
+              pathfinder-ui: read
+              pbl-rocketchat: read
+              pipeline-library: read
+              rhc-ocp-playbook-test: read
+              rocketchat-integrations: read
+              spring-rest: read
+              uncontained.io: read
+            teams:
+              openshift-applier-mergers:
+                description: openshift-applier Repo Mergers
+                maintainers:
+                - sabre1041
+                - etsauer
+                - oybed
+                members:
+                - jacobsee
+                - pabrahamsson
+                - tylerauerbeck
+                privacy: closed
+                repos:
+                  applier-cli: write
+                  casl-ansible: read
+                  cert-operator: none
+                  cluster-lifecycle: read
+                  container-pipelines: read
+                  containers-quickstarts: none
+                  git-flow: read
+                  gows: read
+                  infra-ansible: read
+                  k8s-notify: none
+                  ninja-points: read
+                  ocp-supply-chain-demo: read
+                  openshift-applier: write
+                  openshift-demo-library: read
+                  openshift-elasticsearch: read
+                  openshift-event-controller: read
+                  openshift-image-signing-scanning: read
+                  openshift-infra-skel: read
+                  openshift-management: read
+                  openshift-playbooks: read
+                  openshift-templates: read
+                  openshift-toolkit: read
+                  operationalizing-openshift-lab: none
+                  pathfinder: read
+                  pathfinder-ui: read
+                  pbl-rocketchat: read
+                  pipeline-library: read
+                  rhc-ocp-playbook-test: read
+                  rocketchat-integrations: read
+                  spring-rest: read
+                  uncontained.io: read
+          tool-integrations:
+            description: ""
+            maintainers:
+            - sabre1041
+            - oybed
+            members:
+            - pcarney8
+            privacy: closed
+            repos:
+              casl-ansible: read
+              cert-operator: none
+              cluster-lifecycle: read
+              container-pipelines: read
+              containers-quickstarts: none
+              git-flow: read
+              gows: read
+              infra-ansible: read
+              k8s-notify: none
+              ninja-points: read
+              ocp-supply-chain-demo: read
+              openshift-demo-library: read
+              openshift-elasticsearch: read
+              openshift-event-controller: read
+              openshift-image-signing-scanning: read
+              openshift-infra-skel: read
+              openshift-management: read
+              openshift-playbooks: read
+              openshift-templates: read
+              openshift-toolkit: read
+              operationalizing-openshift-lab: none
+              pathfinder: read
+              pathfinder-ui: read
+              pbl-rocketchat: read
+              pipeline-library: read
+              rhc-ocp-playbook-test: read
+              rocketchat-integrations: read
+              spring-rest: read
+              tool-integrations: read
+              uncontained.io: read
+            teams:
+              tool-integrations-mergers:
+                description: ""
+                maintainers:
+                - sabre1041
+                - oybed
+                members:
+                - pcarney8
+                privacy: closed
+                repos:
+                  casl-ansible: read
+                  cert-operator: none
+                  cluster-lifecycle: read
+                  container-pipelines: read
+                  containers-quickstarts: none
+                  git-flow: read
+                  gows: read
+                  infra-ansible: read
+                  k8s-notify: none
+                  ninja-points: read
+                  ocp-supply-chain-demo: read
+                  openshift-demo-library: read
+                  openshift-elasticsearch: read
+                  openshift-event-controller: read
+                  openshift-image-signing-scanning: read
+                  openshift-infra-skel: read
+                  openshift-management: read
+                  openshift-playbooks: read
+                  openshift-templates: read
+                  openshift-toolkit: read
+                  operationalizing-openshift-lab: none
+                  pathfinder: read
+                  pathfinder-ui: read
+                  pbl-rocketchat: read
+                  pipeline-library: read
+                  rhc-ocp-playbook-test: read
+                  rocketchat-integrations: read
+                  spring-rest: read
+                  tool-integrations: write
+                  uncontained.io: read
+      container-cop-core:
+        description: Core team for the PaaS & Containers CoP
+        maintainers:
+        - sabre1041
+        - etsauer
+        - pabrahamsson
+        - oybed
+        members:
+        - JaredBurck
+        - pcarney8
+        - raffaelespazzoli
+        privacy: closed
+        repos:
+          casl-ansible: admin
+          cluster-lifecycle: read
+          container-pipelines: admin
+          containers-quickstarts: admin
+          git-flow: read
+          gows: read
+          infra-ansible: read
+          k8s-notify: admin
+          ninja-points: read
+          ocp-supply-chain-demo: read
+          openshift-applier: admin
+          openshift-demo-library: admin
+          openshift-elasticsearch: read
+          openshift-event-controller: admin
+          openshift-image-signing-scanning: read
+          openshift-management: admin
+          openshift-playbooks: admin
+          openshift-templates: admin
+          openshift-toolkit: admin
+          operationalizing-openshift-lab: write
+          pathfinder: read
+          pathfinder-ui: read
+          pbl-rocketchat: admin
+          pipeline-library: read
+          rhc-ocp-playbook-test: read
+          rocketchat-integrations: read
+          spring-rest: read
+          uncontained.io: read
+      day-in-the-life:
+        description: Day in the Life of a Developer team
+        maintainers:
+        - sabre1041
+        - etsauer
+        - pabrahamsson
+        members:
+        - InfoSec812
+        - noelo
+        - murphye
+        - syvanen
+        - pcarney8
+        - pabrahamsson
+        - springdo
+        - raffaelespazzoli
+        - malacourse
+        privacy: closed
+        repos:
+          casl-ansible: read
+          cluster-lifecycle: read
+          container-native-spring-postgresql: read
+          container-pipelines: none
+          containers-quickstarts: none
+          git-flow: read
+          gows: read
+          infra-ansible: read
+          k8s-notify: none
+          ninja-points: read
+          ocp-supply-chain-demo: read
+          openshift-demo-library: read
+          openshift-elasticsearch: read
+          openshift-event-controller: read
+          openshift-image-signing-scanning: write
+          openshift-management: read
+          openshift-playbooks: read
+          openshift-templates: none
+          openshift-toolkit: none
+          operationalizing-openshift-lab: none
+          pathfinder: read
+          pathfinder-ui: read
+          pbl-rocketchat: read
+          pipeline-library: read
+          rhc-ocp-playbook-test: read
+          rocketchat-integrations: read
+          spring-rest: read
+          uncontained.io: read
+        teams:
+          day-in-the-life-mergers:
+            description: ""
+            maintainers:
+            - sabre1041
+            - etsauer
+            - pabrahamsson
+            members:
+            - InfoSec812
+            - murphye
+            - syvanen
+            - pcarney8
+            - springdo
+            - raffaelespazzoli
+            - malacourse
+            privacy: closed
+            repos:
+              casl-ansible: read
+              cluster-lifecycle: read
+              container-native-spring-postgresql: write
+              container-pipelines: admin
+              containers-quickstarts: admin
+              git-flow: read
+              gows: read
+              infra-ansible: read
+              k8s-notify: none
+              ninja-points: read
+              ocp-supply-chain-demo: read
+              openshift-demo-library: read
+              openshift-elasticsearch: read
+              openshift-event-controller: read
+              openshift-image-signing-scanning: write
+              openshift-management: read
+              openshift-playbooks: read
+              openshift-templates: admin
+              openshift-toolkit: admin
+              operationalizing-openshift-lab: none
+              pathfinder: read
+              pathfinder-ui: read
+              pbl-rocketchat: read
+              pipeline-library: write
+              rhc-ocp-playbook-test: read
+              rocketchat-integrations: read
+              spring-rest: write
+              uncontained.io: read
+      operators-wg:
+        description: ""
+        maintainers:
+        - sabre1041
+        - etsauer
+        members:
+        - kkoller
+        - raffaelespazzoli
+        - sysmatrix1
+        - mathianasj
+        privacy: closed
+        repos:
+          casl-ansible: read
+          cert-operator: none
+          cluster-lifecycle: read
+          container-pipelines: read
+          containers-quickstarts: none
+          git-flow: read
+          gows: read
+          infra-ansible: read
+          k8s-notify: none
+          ninja-points: read
+          ocp-supply-chain-demo: read
+          openshift-demo-library: read
+          openshift-elasticsearch: read
+          openshift-event-controller: read
+          openshift-image-signing-scanning: read
+          openshift-management: read
+          openshift-playbooks: read
+          openshift-templates: read
+          openshift-toolkit: read
+          operationalizing-openshift-lab: none
+          pathfinder: read
+          pathfinder-ui: read
+          pbl-rocketchat: read
+          pipeline-library: read
+          rhc-ocp-playbook-test: read
+          rocketchat-integrations: read
+          spring-rest: read
+          uncontained.io: read
+        teams:
+          operators-wg-mergers:
+            description: ""
+            maintainers:
+            - sabre1041
+            - etsauer
+            members:
+            - raffaelespazzoli
+            - mathianasj
+            privacy: closed
+            repos:
+              casl-ansible: read
+              cert-operator: write
+              cert-utils-operator: write
+              cluster-lifecycle: read
+              container-pipelines: read
+              containers-quickstarts: none
+              git-flow: read
+              gows: read
+              infra-ansible: read
+              k8s-notify: write
+              ninja-points: read
+              ocp-supply-chain-demo: read
+              openshift-demo-library: read
+              openshift-elasticsearch: read
+              openshift-event-controller: read
+              openshift-image-signing-scanning: read
+              openshift-management: read
+              openshift-playbooks: read
+              openshift-templates: read
+              openshift-toolkit: read
+              operationalizing-openshift-lab: none
+              operator-utils: write
+              pathfinder: read
+              pathfinder-ui: read
+              pbl-rocketchat: read
+              pipeline-library: read
+              rhc-ocp-playbook-test: read
+              rocketchat-integrations: read
+              spring-rest: read
+              uncontained.io: read
+  gpte:
+    description: ""
+    maintainers:
+    - newgoliath
+    - etsauer
+    - wkulhanek
+    - sborenst
+    members:
+    - fridim
+    - tonykay
+    - jbride
+    - rut31337
+    - newgoliath
+    - thomas-crowe
+    - wkulhanek
+    - rhjcd
+    - stencell
+    - NonyNo3lle
+    - bosebc
+    privacy: closed
+    repos:
+      agnosticd: write
+      openshift-4-alpha-enablement: read
+      openshift-infra-skel: read
+    teams:
+      gpte-admins:
+        description: ""
+        maintainers:
+        - newgoliath
+        - etsauer
+        - wkulhanek
+        members:
+        - fridim
+        - rut31337
+        - NonyNo3lle
+        privacy: closed
+        repos:
+          agnosticd: admin
+          babylon: admin
+          openshift-4-alpha-enablement: admin
+          openshift-infra-skel: admin
+          openshift-lab-origin: admin
+          operationalizing-openshift-lab: write
+  mdt:
+    description: Metrics Driven Transformation
+    maintainers:
+    - sabre1041
+    privacy: closed
+    repos:
+      mdt-quickstart: write
+  ninja-program:
+    description: ""
+    maintainers:
+    - sabre1041
+    - etsauer
+    members:
+    - matallen
+    privacy: closed
+    repos:
+      ninja-board: read
+      ninja-points: read
+    teams:
+      ninja-program-admins:
+        description: ""
+        maintainers:
+        - sabre1041
+        - etsauer
+        members:
+        - matallen
+        privacy: closed
+        repos:
+          ninja-board: admin
+          ninja-points: admin
+  pathfinder:
+    description: ""
+    maintainers:
+    - etsauer
+    members:
+    - gjbianco
+    - noelo
+    - matallen
+    - boogiespook
+    - dstockdreher
+    - nunnchops
+    - pathfinder-waffle
+    - kelaird
+    privacy: closed
+    repos:
+      pathfinder: admin
+      pathfinder-ui: write
+  pubcop:
+    description: ""
+    maintainers:
+    - ldomb
+    - etsauer
+    members:
+    - ldomb
+    privacy: closed
+    repos:
+      public-cloud-cop: read
+    teams:
+      pubcopadm:
+        description: ""
+        maintainers:
+        - ldomb
+        - etsauer
+        privacy: closed
+        repos:
+          public-cloud-cop: admin
+      pubcopcontrib:
+        description: ""
+        maintainers:
+        - ldomb
+        - etsauer
+        privacy: closed
+        repos:
+          public-cloud-cop: write
+  quay:
+    description: ""
+    maintainers:
+    - sabre1041
+    members:
+    - thomasmckay
+    - ibazulic
+    privacy: closed
+    repos:
+      quay-operator: write
+  uncontained.io:
+    description: Uncontained.io
+    maintainers:
+    - sabre1041
+    - etsauer
+    members:
+    - JaredBurck
+    - ahardin-rh
+    privacy: closed
+    repos:
+      openshift-playbooks: read
+      uncontained.io: read
+    teams:
+      content-coalition:
+        description: Content Decision Makers for Uncontained.io
+        maintainers:
+        - sabre1041
+        - etsauer
+        members:
+        - JaredBurck
+        - ahardin-rh
+        privacy: closed
+        repos:
+          openshift-playbooks: read
+          uncontained.io: read
+
