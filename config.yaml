@@ -136,7 +136,6 @@ orgs:
         members:
         - vvaldez
         - mophahr
-        - ericzolf
         - victorock
         - jlozadad
         privacy: closed
@@ -883,7 +882,6 @@ orgs:
             - noelo
             - murphye
             - pcarney8
-            - pabrahamsson
             - springdo
             - raffaelespazzoli
             - malacourse
@@ -1054,9 +1052,7 @@ orgs:
         - tonykay
         - jbride
         - rut31337
-        - newgoliath
         - thomas-crowe
-        - wkulhanek
         - rhjcd
         - stencell
         - NonyNo3lle
@@ -1137,8 +1133,7 @@ orgs:
         maintainers:
         - ldomb
         - etsauer
-        members:
-        - ldomb
+        members: []
         privacy: closed
         repos:
           public-cloud-cop: read
