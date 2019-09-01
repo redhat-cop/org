@@ -954,7 +954,7 @@ orgs:
                   pathfinder: read
                   pathfinder-ui: read
                   pbl-rocketchat: read
-                  pipeline-library: write
+                  pipeline-library: admin
                   rhc-ocp-playbook-test: read
                   rocketchat-integrations: read
                   spring-rest: write
