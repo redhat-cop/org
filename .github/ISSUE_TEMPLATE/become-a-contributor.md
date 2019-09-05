@@ -1,14 +1,10 @@
 ---
 name: Become a Contributor
-about: Request to be added as a Contributor to the Red Hat CoP Org
-title: Please add me to the CoP Org
-labels: ''
+about: Request to be added as a Contributor to the Red Hat Community of Practice Organization
+title: Please add me as a member of the redhat-cop organization
+labels: 'access'
 assignees: ''
 
 ---
 
-I would like to become a contributor to the following groups within the Red Hat Communities of Practice!
-
-- [ ] Containers
-- [ ] Automation
-- [ ] Cloud Infrastructure
+I would like to become a general contributor to the Red Hat Communities of Practice GitHub Organization
