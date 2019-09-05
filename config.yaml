@@ -882,6 +882,8 @@ orgs:
             - noelo
             - murphye
             - pcarney8
+            - pabrahamsson
+            - garethahealy
             - springdo
             - raffaelespazzoli
             - malacourse
@@ -901,7 +903,6 @@ orgs:
               openshift-demo-library: read
               openshift-elasticsearch: read
               openshift-event-controller: read
-              openshift-image-signing-scanning: write
               openshift-management: read
               openshift-playbooks: read
               openshift-templates: none
@@ -1133,7 +1134,7 @@ orgs:
         maintainers:
         - ldomb
         - etsauer
-        members: []
+        members:
         privacy: closed
         repos:
           public-cloud-cop: read
