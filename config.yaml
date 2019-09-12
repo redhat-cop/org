@@ -396,7 +396,7 @@ orgs:
                 repos:
                   casl-ansible: write
                   cert-operator: write
-                  cluster-lifecycle: read
+                  cluster-lifecycle: write
                   container-pipelines: read
                   containers-quickstarts: none
                   git-flow: read
