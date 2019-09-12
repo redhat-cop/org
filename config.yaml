@@ -39,6 +39,7 @@ orgs:
     - JaredBurck
     - jbride
     - jimdillon
+    - jkupferer
     - jlozadad
     - Jooho
     - juliaaano
@@ -62,6 +63,7 @@ orgs:
     - openshift-ci-robot
     - pabrahamsson
     - pathfinder-waffle
+    - pavelanni
     - pcarney8
     - raffaelespazzoli
     - rhjcd
@@ -1054,11 +1056,15 @@ orgs:
         - stencell
         - NonyNo3lle
         - bosebc
+        - pavelanni
+        - jkupferer
         privacy: closed
         repos:
           agnosticd: write
           openshift-4-alpha-enablement: read
           openshift-infra-skel: read
+          openshift-lab-origin: read
+          operationalizing-openshift-lab: read
         teams:
           gpte-admins:
             description: ""
@@ -1186,4 +1192,3 @@ orgs:
             repos:
               openshift-playbooks: read
               uncontained.io: read
-
