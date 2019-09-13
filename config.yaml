@@ -988,8 +988,8 @@ orgs:
           agnosticd: write
           openshift-4-alpha-enablement: read
           openshift-infra-skel: read
-          openshift-lab-origin: read
-          operationalizing-openshift-lab: read
+          openshift-lab-origin: write
+          operationalizing-openshift-lab: write
         teams:
           gpte-admins:
             description: ""
