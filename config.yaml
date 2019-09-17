@@ -108,6 +108,31 @@ orgs:
           jboss_fuse: write
           jboss_webserver: write
           redhat_sso: write
+      appdev-cop:
+        description: "Team for the management of the Application Development CoP"
+        maintainers:
+        - infosec812
+        - jeremyrdavis
+        privacy: closed
+        teams:
+          committers:
+            description: ""
+            privacy: closed
+          microservices:
+            description: ""
+            privacy: closed
+          modernization:
+            description: ""
+            privacy: closed
+          mobile:
+            description: ""
+            privacy: closed
+          reactive:
+            description: ""
+            privacy: closed
+          data-streaming:
+            description: ""
+            privacy: closed
       auto-docs:
         description: ""
         maintainers:
