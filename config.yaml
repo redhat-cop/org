@@ -119,21 +119,45 @@ orgs:
           committers:
             description: ""
             privacy: closed
+            maintainers:
+            - InfoSec812
+            - jeremyrdavis
+            repos: []
           microservices:
             description: ""
             privacy: closed
+            maintainers: 
+            - InfoSec812
+            - jeremyrdavis
+            repos: []
           modernization:
             description: ""
             privacy: closed
+            maintainers: 
+            - InfoSec812
+            - jeremyrdavis
+            repos: []
           mobile:
             description: ""
             privacy: closed
+            maintainers: 
+            - InfoSec812
+            - jeremyrdavis
+            repos: []
           reactive:
             description: ""
             privacy: closed
+            maintainers: 
+            - InfoSec812
+            - jeremyrdavis
+            repos: []
           data-streaming:
             description: ""
             privacy: closed
+            maintainers: 
+            - InfoSec812
+            - jeremyrdavis
+            repos: []
       auto-docs:
         description: ""
         maintainers:
