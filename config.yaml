@@ -38,6 +38,7 @@ orgs:
     - jacobsee
     - JaredBurck
     - jbride
+    - jeremyrdavis
     - jimdillon
     - jkupferer
     - jlozadad
@@ -111,7 +112,7 @@ orgs:
       appdev-cop:
         description: "Team for the management of the Application Development CoP"
         maintainers:
-        - infosec812
+        - InfoSec812
         - jeremyrdavis
         privacy: closed
         teams:
