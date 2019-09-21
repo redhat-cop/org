@@ -177,11 +177,11 @@ orgs:
         maintainers:
           - sabre1041
           - ericzolf
+          - jlozadad
         members:
           - vvaldez
           - mophahr
           - victorock
-          - jlozadad
         privacy: closed
         repos:
           automate-cicd: write
