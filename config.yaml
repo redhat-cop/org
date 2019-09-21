@@ -1,11 +1,11 @@
 orgs:
   redhat-cop:
     admins:
-    - etsauer
-    - openshift-merge-robot
-    - oybed
-    - sabre1041
-    - sborenst
+      - etsauer
+      - openshift-merge-robot
+      - oybed
+      - sabre1041
+      - sborenst
     billing_email: esauer@redhat.com
     company: ""
     default_repository_permission: read
@@ -15,89 +15,90 @@ orgs:
     has_repository_projects: true
     location: ""
     members:
-    - ahardin-rh
-    - arilivigni
-    - bbeaudoin
-    - beelandc
-    - boogiespook
-    - bosebc
-    - CaseyOC
-    - davgordo
-    - dfwnetman
-    - dstockdreher
-    - ericzolf
-    - fridim
-    - garethahealy
-    - ghyde
-    - gjbianco
-    - gsampaio-rh
-    - huddlesj
-    - ianwatsonrh
-    - ibazulic
-    - InfoSec812
-    - jacobsee
-    - JaredBurck
-    - jbride
-    - jeremyrdavis
-    - jimdillon
-    - jkupferer
-    - jlozadad
-    - Jooho
-    - juliaaano
-    - kelaird
-    - kkoller
-    - ldomb
-    - levysantanna
-    - luckylittle
-    - makentenza
-    - malacourse
-    - matallen
-    - mathianasj
-    - mike4263
-    - mophahr
-    - murphye
-    - mwitzenm
-    - newgoliath
-    - noelo
-    - NonyNo3lle
-    - nunnchops
-    - openshift-ci-robot
-    - pabrahamsson
-    - pathfinder-waffle
-    - pavelanni
-    - pcarney8
-    - raffaelespazzoli
-    - rhjcd
-    - rpelisse
-    - rut31337
-    - samueltauil
-    - shah-zobair
-    - springdo
-    - stencell
-    - stratus-ss
-    - sysmatrix1
-    - themoosman
-    - thomas-crowe
-    - thomasmckay
-    - tomassedovic
-    - tomgeorge
-    - tonykay
-    - trevorquinn
-    - tylerauerbeck
-    - victorock
-    - vvaldez
-    - wkulhanek
+      - ahardin-rh
+      - arilivigni
+      - bbeaudoin
+      - beelandc
+      - boogiespook
+      - bosebc
+      - CaseyOC
+      - cpeters
+      - davgordo
+      - dfwnetman
+      - dstockdreher
+      - ericzolf
+      - fridim
+      - garethahealy
+      - ghyde
+      - gjbianco
+      - gsampaio-rh
+      - huddlesj
+      - ianwatsonrh
+      - ibazulic
+      - InfoSec812
+      - jacobsee
+      - JaredBurck
+      - jbride
+      - jeremyrdavis
+      - jimdillon
+      - jkupferer
+      - jlozadad
+      - Jooho
+      - juliaaano
+      - kelaird
+      - kkoller
+      - ldomb
+      - levysantanna
+      - luckylittle
+      - makentenza
+      - malacourse
+      - matallen
+      - mathianasj
+      - mike4263
+      - mophahr
+      - murphye
+      - mwitzenm
+      - newgoliath
+      - noelo
+      - NonyNo3lle
+      - nunnchops
+      - openshift-ci-robot
+      - pabrahamsson
+      - pathfinder-waffle
+      - pavelanni
+      - pcarney8
+      - raffaelespazzoli
+      - rhjcd
+      - rpelisse
+      - rut31337
+      - samueltauil
+      - shah-zobair
+      - springdo
+      - stencell
+      - stratus-ss
+      - sysmatrix1
+      - themoosman
+      - thomas-crowe
+      - thomasmckay
+      - tomassedovic
+      - tomgeorge
+      - tonykay
+      - trevorquinn
+      - tylerauerbeck
+      - victorock
+      - vvaldez
+      - wkulhanek
     members_can_create_repositories: false
     name: Red Hat Communities of Practice
     teams:
       ansible-middleware:
         description: Deploying Red Hat Middleware using Ansible
         maintainers:
-        - sabre1041
+          - sabre1041
         members:
-        - rpelisse
-        - davgordo
-        - jlozadad
+          - rpelisse
+          - davgordo
+          - jlozadad
         privacy: closed
         repos:
           ansible-role-jboss-common: write
@@ -113,51 +114,51 @@ orgs:
         description: Team for the management of the Application Development CoP
         privacy: closed
         maintainers:
-        - InfoSec812
-        - jeremyrdavis
+          - InfoSec812
+          - jeremyrdavis
         teams:
           committers:
             description: ""
             privacy: closed
             maintainers:
-            - InfoSec812
-            - jeremyrdavis
+              - InfoSec812
+              - jeremyrdavis
           microservices:
             description: ""
             privacy: closed
             maintainers:
-            - InfoSec812
-            - jeremyrdavis
+              - InfoSec812
+              - jeremyrdavis
           modernization:
             description: ""
             privacy: closed
             maintainers:
-            - InfoSec812
-            - jeremyrdavis
-          mobile :
+              - InfoSec812
+              - jeremyrdavis
+          mobile:
             description: ""
             privacy: closed
             maintainers:
-            - InfoSec812
-            - jeremyrdavis
+              - InfoSec812
+              - jeremyrdavis
           reactive:
             description: ""
             privacy: closed
             maintainers:
-            - InfoSec812
-            - jeremyrdavis
+              - InfoSec812
+              - jeremyrdavis
           data-streaming:
             description: ""
             privacy: closed
             maintainers:
-            - InfoSec812
-            - jeremyrdavis
+              - InfoSec812
+              - jeremyrdavis
       auto-docs:
         description: ""
         maintainers:
-        - sabre1041
-        - etsauer
-        - oybed
+          - sabre1041
+          - etsauer
+          - oybed
         privacy: closed
         repos:
           auto-docs: read
@@ -165,22 +166,22 @@ orgs:
           auto-docs-mergers:
             description: ""
             maintainers:
-            - sabre1041
-            - etsauer
-            - oybed
+              - sabre1041
+              - etsauer
+              - oybed
             privacy: closed
             repos:
               auto-docs: write
       automation-cop-members:
         description: ""
         maintainers:
-        - sabre1041
-        - ericzolf
+          - sabre1041
+          - ericzolf
         members:
-        - vvaldez
-        - mophahr
-        - victorock
-        - jlozadad
+          - vvaldez
+          - mophahr
+          - victorock
+          - jlozadad
         privacy: closed
         repos:
           automate-cicd: write
@@ -191,10 +192,10 @@ orgs:
           automation-cop-mgrs:
             description: ""
             maintainers:
-            - sabre1041
-            - ericzolf
+              - sabre1041
+              - ericzolf
             members:
-            - vvaldez
+              - vvaldez
             privacy: closed
             repos:
               automate-cicd: admin
@@ -204,51 +205,51 @@ orgs:
       container-cop:
         description: Contributors to the Containers & PaaS CoP
         maintainers:
-        - sabre1041
-        - etsauer
-        - oybed
+          - sabre1041
+          - etsauer
+          - oybed
         members:
-        - InfoSec812
-        - tomassedovic
-        - rpelisse
-        - samueltauil
-        - noelo
-        - themoosman
-        - JaredBurck
-        - murphye
-        - mike4263
-        - vvaldez
-        - juliaaano
-        - tomgeorge
-        - trevorquinn
-        - Jooho
-        - bbeaudoin
-        - mophahr
-        - beelandc
-        - arilivigni
-        - pcarney8
-        - jacobsee
-        - kkoller
-        - pabrahamsson
-        - springdo
-        - raffaelespazzoli
-        - sysmatrix1
-        - luckylittle
-        - stratus-ss
-        - garethahealy
-        - dstockdreher
-        - CaseyOC
-        - makentenza
-        - huddlesj
-        - shah-zobair
-        - jimdillon
-        - davgordo
-        - mathianasj
-        - jlozadad
-        - mwitzenm
-        - dfwnetman
-        - malacourse
-        - tylerauerbeck
+          - InfoSec812
+          - tomassedovic
+          - rpelisse
+          - samueltauil
+          - noelo
+          - themoosman
+          - JaredBurck
+          - murphye
+          - mike4263
+          - vvaldez
+          - juliaaano
+          - tomgeorge
+          - trevorquinn
+          - Jooho
+          - bbeaudoin
+          - mophahr
+          - beelandc
+          - arilivigni
+          - pcarney8
+          - jacobsee
+          - kkoller
+          - pabrahamsson
+          - springdo
+          - raffaelespazzoli
+          - sysmatrix1
+          - luckylittle
+          - stratus-ss
+          - garethahealy
+          - dstockdreher
+          - CaseyOC
+          - makentenza
+          - huddlesj
+          - shah-zobair
+          - jimdillon
+          - davgordo
+          - mathianasj
+          - jlozadad
+          - mwitzenm
+          - dfwnetman
+          - malacourse
+          - tylerauerbeck
         privacy: closed
         repos:
           casl-ansible: read
@@ -283,24 +284,24 @@ orgs:
           cant-contain-this:
             description: ""
             maintainers:
-            - sabre1041
-            - etsauer
-            - oybed
+              - sabre1041
+              - etsauer
+              - oybed
             members:
-            - themoosman
-            - JaredBurck
-            - tomgeorge
-            - bbeaudoin
-            - beelandc
-            - pabrahamsson
-            - raffaelespazzoli
-            - dstockdreher
-            - makentenza
-            - huddlesj
-            - jimdillon
-            - davgordo
-            - mwitzenm
-            - malacourse
+              - themoosman
+              - JaredBurck
+              - tomgeorge
+              - bbeaudoin
+              - beelandc
+              - pabrahamsson
+              - raffaelespazzoli
+              - dstockdreher
+              - makentenza
+              - huddlesj
+              - jimdillon
+              - davgordo
+              - mwitzenm
+              - malacourse
             privacy: closed
             repos:
               casl-ansible: read
@@ -334,19 +335,19 @@ orgs:
               cant-contain-this-mergers:
                 description: People who can merge
                 maintainers:
-                - sabre1041
-                - etsauer
-                - oybed
+                  - sabre1041
+                  - etsauer
+                  - oybed
                 members:
-                - JaredBurck
-                - tomgeorge
-                - bbeaudoin
-                - beelandc
-                - pabrahamsson
-                - huddlesj
-                - jimdillon
-                - davgordo
-                - mwitzenm
+                  - JaredBurck
+                  - tomgeorge
+                  - bbeaudoin
+                  - beelandc
+                  - pabrahamsson
+                  - huddlesj
+                  - jimdillon
+                  - davgordo
+                  - mwitzenm
                 privacy: closed
                 repos:
                   casl-ansible: read
@@ -379,21 +380,21 @@ orgs:
           casl:
             description: Container Automation Solutions Lab contributors
             maintainers:
-            - sabre1041
-            - etsauer
-            - oybed
+              - sabre1041
+              - etsauer
+              - oybed
             members:
-            - tomassedovic
-            - JaredBurck
-            - vvaldez
-            - pcarney8
-            - jacobsee
-            - pabrahamsson
-            - stratus-ss
-            - makentenza
-            - huddlesj
-            - mwitzenm
-            - tylerauerbeck
+              - tomassedovic
+              - JaredBurck
+              - vvaldez
+              - pcarney8
+              - jacobsee
+              - pabrahamsson
+              - stratus-ss
+              - makentenza
+              - huddlesj
+              - mwitzenm
+              - tylerauerbeck
             privacy: closed
             repos:
               casl-ansible: read
@@ -430,12 +431,12 @@ orgs:
               casl-mergers:
                 description: CASL Mergers
                 maintainers:
-                - sabre1041
-                - etsauer
-                - oybed
+                  - sabre1041
+                  - etsauer
+                  - oybed
                 members:
-                - makentenza
-                - tylerauerbeck
+                  - makentenza
+                  - tylerauerbeck
                 privacy: closed
                 repos:
                   casl-ansible: write
@@ -471,12 +472,12 @@ orgs:
               infra-ansible:
                 description: infra-ansible team
                 maintainers:
-                - sabre1041
-                - etsauer
-                - oybed
+                  - sabre1041
+                  - etsauer
+                  - oybed
                 members:
-                - makentenza
-                - tylerauerbeck
+                  - makentenza
+                  - tylerauerbeck
                 privacy: closed
                 repos:
                   casl-ansible: read
@@ -512,13 +513,13 @@ orgs:
                   infra-ansible-mergers:
                     description: infra-ansible Mergers
                     maintainers:
-                    - sabre1041
-                    - etsauer
-                    - oybed
+                      - sabre1041
+                      - etsauer
+                      - oybed
                     members:
-                    - makentenza
-                    - tylerauerbeck
-                    - pabrahamsson
+                      - makentenza
+                      - tylerauerbeck
+                      - pabrahamsson
                     privacy: closed
                     repos:
                       casl-ansible: read
@@ -551,12 +552,12 @@ orgs:
                       spring-rest: read
                       uncontained.io: read
               monitoring:
-                description: 'Monitoring Initiative '
+                description: "Monitoring Initiative "
                 maintainers:
-                - sabre1041
-                - oybed
+                  - sabre1041
+                  - oybed
                 members:
-                - makentenza
+                  - makentenza
                 privacy: closed
                 repos:
                   casl-ansible: read
@@ -593,10 +594,10 @@ orgs:
                   monitoring-mergers:
                     description: Monitoring Initiative Mergers
                     maintainers:
-                    - sabre1041
-                    - oybed
+                      - sabre1041
+                      - oybed
                     members:
-                    - makentenza
+                      - makentenza
                     privacy: closed
                     repos:
                       casl-ansible: read
@@ -632,13 +633,13 @@ orgs:
               openshift-applier:
                 description: Used to apply OpenShift objects to an OpenShift Cluster
                 maintainers:
-                - sabre1041
-                - etsauer
-                - oybed
+                  - sabre1041
+                  - etsauer
+                  - oybed
                 members:
-                - jacobsee
-                - pabrahamsson
-                - tylerauerbeck
+                  - jacobsee
+                  - pabrahamsson
+                  - tylerauerbeck
                 privacy: closed
                 repos:
                   applier-cli: read
@@ -676,13 +677,13 @@ orgs:
                   openshift-applier-mergers:
                     description: openshift-applier Repo Mergers
                     maintainers:
-                    - sabre1041
-                    - etsauer
-                    - oybed
+                      - sabre1041
+                      - etsauer
+                      - oybed
                     members:
-                    - jacobsee
-                    - pabrahamsson
-                    - tylerauerbeck
+                      - jacobsee
+                      - pabrahamsson
+                      - tylerauerbeck
                     privacy: closed
                     repos:
                       applier-cli: write
@@ -719,10 +720,10 @@ orgs:
               tool-integrations:
                 description: ""
                 maintainers:
-                - sabre1041
-                - oybed
+                  - sabre1041
+                  - oybed
                 members:
-                - pcarney8
+                  - pcarney8
                 privacy: closed
                 repos:
                   casl-ansible: read
@@ -759,10 +760,10 @@ orgs:
                   tool-integrations-mergers:
                     description: ""
                     maintainers:
-                    - sabre1041
-                    - oybed
+                      - sabre1041
+                      - oybed
                     members:
-                    - pcarney8
+                      - pcarney8
                     privacy: closed
                     repos:
                       casl-ansible: read
@@ -798,14 +799,14 @@ orgs:
           container-cop-core:
             description: Core team for the PaaS & Containers CoP
             maintainers:
-            - sabre1041
-            - etsauer
-            - pabrahamsson
-            - oybed
+              - sabre1041
+              - etsauer
+              - pabrahamsson
+              - oybed
             members:
-            - JaredBurck
-            - pcarney8
-            - raffaelespazzoli
+              - JaredBurck
+              - pcarney8
+              - raffaelespazzoli
             privacy: closed
             repos:
               casl-ansible: admin
@@ -840,19 +841,19 @@ orgs:
           day-in-the-life:
             description: Day in the Life of a Developer team
             maintainers:
-            - sabre1041
-            - etsauer
-            - pabrahamsson
+              - sabre1041
+              - etsauer
+              - pabrahamsson
             members:
-            - InfoSec812
-            - noelo
-            - murphye
-            - pcarney8
-            - garethahealy
-            - springdo
-            - raffaelespazzoli
-            - malacourse
-            - garethahealy
+              - InfoSec812
+              - noelo
+              - murphye
+              - pcarney8
+              - garethahealy
+              - springdo
+              - raffaelespazzoli
+              - malacourse
+              - garethahealy
             privacy: closed
             repos:
               casl-ansible: read
@@ -886,16 +887,16 @@ orgs:
               day-in-the-life-mergers:
                 description: ""
                 maintainers:
-                - sabre1041
-                - etsauer
-                - pabrahamsson
+                  - sabre1041
+                  - etsauer
+                  - pabrahamsson
                 members:
-                - InfoSec812
-                - murphye
-                - pcarney8
-                - springdo
-                - raffaelespazzoli
-                - malacourse
+                  - InfoSec812
+                  - murphye
+                  - pcarney8
+                  - springdo
+                  - raffaelespazzoli
+                  - malacourse
                 privacy: closed
                 repos:
                   casl-ansible: read
@@ -929,13 +930,13 @@ orgs:
           operators-wg:
             description: ""
             maintainers:
-            - sabre1041
-            - etsauer
+              - sabre1041
+              - etsauer
             members:
-            - kkoller
-            - raffaelespazzoli
-            - sysmatrix1
-            - mathianasj
+              - kkoller
+              - raffaelespazzoli
+              - sysmatrix1
+              - mathianasj
             privacy: closed
             repos:
               casl-ansible: read
@@ -970,11 +971,11 @@ orgs:
               operators-wg-mergers:
                 description: ""
                 maintainers:
-                - sabre1041
-                - etsauer
+                  - sabre1041
+                  - etsauer
                 members:
-                - raffaelespazzoli
-                - mathianasj
+                  - raffaelespazzoli
+                  - mathianasj
                 privacy: closed
                 repos:
                   casl-ansible: read
@@ -1011,22 +1012,22 @@ orgs:
       gpte:
         description: ""
         maintainers:
-        - newgoliath
-        - etsauer
-        - wkulhanek
-        - sborenst
+          - newgoliath
+          - etsauer
+          - wkulhanek
+          - sborenst
         members:
-        - fridim
-        - tonykay
-        - jbride
-        - rut31337
-        - thomas-crowe
-        - rhjcd
-        - stencell
-        - NonyNo3lle
-        - bosebc
-        - pavelanni
-        - jkupferer
+          - fridim
+          - tonykay
+          - jbride
+          - rut31337
+          - thomas-crowe
+          - rhjcd
+          - stencell
+          - NonyNo3lle
+          - bosebc
+          - pavelanni
+          - jkupferer
         privacy: closed
         repos:
           agnosticd: write
@@ -1038,13 +1039,13 @@ orgs:
           gpte-admins:
             description: ""
             maintainers:
-            - newgoliath
-            - etsauer
-            - wkulhanek
+              - newgoliath
+              - etsauer
+              - wkulhanek
             members:
-            - fridim
-            - rut31337
-            - NonyNo3lle
+              - fridim
+              - rut31337
+              - NonyNo3lle
             privacy: closed
             repos:
               agnosticd: admin
@@ -1056,20 +1057,20 @@ orgs:
       mdt:
         description: Metrics Driven Transformation
         maintainers:
-        - sabre1041
+          - sabre1041
         members:
-        - etsauer
-        - tomgeorge
+          - etsauer
+          - tomgeorge
         privacy: closed
         repos:
           mdt-quickstart: write
       ninja-program:
         description: ""
         maintainers:
-        - sabre1041
-        - etsauer
+          - sabre1041
+          - etsauer
         members:
-        - matallen
+          - matallen
         privacy: closed
         repos:
           ninja-board: read
@@ -1078,10 +1079,10 @@ orgs:
           ninja-program-admins:
             description: ""
             maintainers:
-            - sabre1041
-            - etsauer
+              - sabre1041
+              - etsauer
             members:
-            - matallen
+              - matallen
             privacy: closed
             repos:
               ninja-board: admin
@@ -1089,16 +1090,16 @@ orgs:
       pathfinder:
         description: ""
         maintainers:
-        - etsauer
+          - etsauer
         members:
-        - gjbianco
-        - noelo
-        - matallen
-        - boogiespook
-        - dstockdreher
-        - nunnchops
-        - pathfinder-waffle
-        - kelaird
+          - gjbianco
+          - noelo
+          - matallen
+          - boogiespook
+          - dstockdreher
+          - nunnchops
+          - pathfinder-waffle
+          - kelaird
         privacy: closed
         repos:
           pathfinder: admin
@@ -1106,8 +1107,8 @@ orgs:
       pubcop:
         description: ""
         maintainers:
-        - ldomb
-        - etsauer
+          - ldomb
+          - etsauer
         members:
         privacy: closed
         repos:
@@ -1116,37 +1117,37 @@ orgs:
           pubcopadm:
             description: ""
             maintainers:
-            - ldomb
-            - etsauer
+              - ldomb
+              - etsauer
             privacy: closed
             repos:
               public-cloud-cop: admin
           pubcopcontrib:
             description: ""
             maintainers:
-            - ldomb
-            - etsauer
+              - ldomb
+              - etsauer
             privacy: closed
             repos:
               public-cloud-cop: write
       quay:
         description: ""
         maintainers:
-        - sabre1041
+          - sabre1041
         members:
-        - thomasmckay
-        - ibazulic
+          - thomasmckay
+          - ibazulic
         privacy: closed
         repos:
           quay-operator: write
       uncontained.io:
         description: Uncontained.io
         maintainers:
-        - sabre1041
-        - etsauer
+          - sabre1041
+          - etsauer
         members:
-        - JaredBurck
-        - ahardin-rh
+          - JaredBurck
+          - ahardin-rh
         privacy: closed
         repos:
           openshift-playbooks: read
@@ -1155,11 +1156,11 @@ orgs:
           content-coalition:
             description: Content Decision Makers for Uncontained.io
             maintainers:
-            - sabre1041
-            - etsauer
+              - sabre1041
+              - etsauer
             members:
-            - JaredBurck
-            - ahardin-rh
+              - JaredBurck
+              - ahardin-rh
             privacy: closed
             repos:
               openshift-playbooks: read
