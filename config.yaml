@@ -112,46 +112,46 @@ orgs:
       appdev-cop:
         description: Team for the management of the Application Development CoP
         privacy: closed
-      #  maintainers:
-      #  - InfoSec812
-      #  - jeremyrdavis
+        maintainers:
+        - InfoSec812
+        - jeremyrdavis
         teams:
           committers:
             description: ""
             privacy: closed
-     #       maintainers:
-     #       - InfoSec812
-     #       - jeremyrdavis
+            maintainers:
+            - InfoSec812
+            - jeremyrdavis
           microservices:
             description: ""
             privacy: closed
-     #       maintainers:
-     #       - InfoSec812
-     #       - jeremyrdavis
+            maintainers:
+            - InfoSec812
+            - jeremyrdavis
           modernization:
             description: ""
             privacy: closed
-     #       maintainers:
-     #       - InfoSec812
-     #       - jeremyrdavis
+            maintainers:
+            - InfoSec812
+            - jeremyrdavis
           mobile :
             description: ""
             privacy: closed
-            #maintainers:
-            #- InfoSec812
-            #- jeremyrdavis
+            maintainers:
+            - InfoSec812
+            - jeremyrdavis
           reactive:
             description: ""
             privacy: closed
-     #       maintainers:
-     #       - InfoSec812
-     #       - jeremyrdavis
+            maintainers:
+            - InfoSec812
+            - jeremyrdavis
           data-streaming:
             description: ""
             privacy: closed
-    #        maintainers:
-    #        - InfoSec812
-    #        - jeremyrdavis
+            maintainers:
+            - InfoSec812
+            - jeremyrdavis
       auto-docs:
         description: ""
         maintainers:
