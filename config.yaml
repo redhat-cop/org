@@ -1038,13 +1038,14 @@ orgs:
         privacy: closed
         repos:
           agnosticd: write
+          darktower: read
           openshift-4-alpha-enablement: read
           openshift-infra-skel: read
           openshift-lab-origin: write
           operationalizing-openshift-lab: write
         teams:
           gpte-admins:
-            description: ""
+            description: "GPTE Admin Team"
             maintainers:
               - newgoliath
               - etsauer
@@ -1057,10 +1058,32 @@ orgs:
             repos:
               agnosticd: admin
               babylon: admin
+              darktower: admin
               openshift-4-alpha-enablement: admin
               openshift-infra-skel: admin
               openshift-lab-origin: admin
               operationalizing-openshift-lab: write
+          babylon:
+            description: "Babylon Team"
+            maintainers:
+              - tonykay
+              - fridim
+            members:
+              - jkupferer
+            privacy: closed
+            repos:
+              babylon: write
+              darktower: write
+            teams:
+              babylon-admins:
+                description: "Babylon Team Administrators"
+                maintainers:
+                  - tonykay
+                  - fridim
+                members: []
+                repos:
+                  babylon: admin
+                  darktower: admin
       mdt:
         description: Metrics Driven Transformation
         maintainers:
