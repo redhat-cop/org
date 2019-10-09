@@ -95,13 +95,14 @@ orgs:
         description: Deploying Red Hat Middleware using Ansible
         maintainers:
           - sabre1041
-        members:
           - rpelisse
+        members:
           - davgordo
           - jlozadad
         privacy: closed
         repos:
           ansible-role-jboss-common: write
+          automate-jcliff: write
           jboss_amq: write
           jboss_amq_openshift: write
           jboss_bxms: write
