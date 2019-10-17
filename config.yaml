@@ -68,6 +68,7 @@ orgs:
       - pavelanni
       - pcarney8
       - raffaelespazzoli
+      - redhat-cop-ci-bot
       - rhjcd
       - rpelisse
       - rut31337
@@ -905,6 +906,7 @@ orgs:
                   - springdo
                   - raffaelespazzoli
                   - malacourse
+                  - redhat-cop-ci-bot
                 privacy: closed
                 repos:
                   casl-ansible: read
