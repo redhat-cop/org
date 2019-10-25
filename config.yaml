@@ -265,6 +265,7 @@ orgs:
           cluster-lifecycle: read
           container-pipelines: read
           containers-quickstarts: none
+          dash: read
           git-flow: read
           gows: read
           infra-ansible: read
@@ -657,6 +658,7 @@ orgs:
                   cluster-lifecycle: read
                   container-pipelines: read
                   containers-quickstarts: none
+                  dash: read
                   git-flow: read
                   gows: read
                   infra-ansible: read
@@ -701,6 +703,7 @@ orgs:
                       cluster-lifecycle: read
                       container-pipelines: read
                       containers-quickstarts: none
+                      dash: write
                       git-flow: read
                       gows: read
                       infra-ansible: read
