@@ -825,6 +825,7 @@ orgs:
               cluster-lifecycle: read
               container-pipelines: admin
               containers-quickstarts: admin
+              dash: admin
               git-flow: read
               gows: read
               infra-ansible: read
