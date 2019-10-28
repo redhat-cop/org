@@ -951,19 +951,21 @@ orgs:
               - raffaelespazzoli
               - sysmatrix1
               - mathianasj
+              - kkoller
             privacy: closed
             repos:
               casl-ansible: read
-              cert-operator: none
+              cert-operator: read
               cluster-lifecycle: read
               container-pipelines: read
               containers-quickstarts: none
               git-flow: read
               gows: read
               infra-ansible: read
-              k8s-notify: none
+              k8s-notify: read
               ninja-points: read
               ocp-supply-chain-demo: read
+              onboarding-manager: read
               openshift-demo-library: read
               openshift-elasticsearch: read
               openshift-event-controller: read
@@ -990,6 +992,7 @@ orgs:
                 members:
                   - raffaelespazzoli
                   - mathianasj
+                  - kkoller
                 privacy: closed
                 repos:
                   casl-ansible: read
