@@ -1101,6 +1101,9 @@ orgs:
         members:
           - etsauer
           - tomgeorge
+          - AlyIbrahim
+          - ramius345
+          - InfoSec812
         privacy: closed
         repos:
           mdt-quickstart: write
