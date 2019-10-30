@@ -16,6 +16,7 @@ orgs:
     location: ""
     members:
       - ahardin-rh
+      - AlyIbrahim
       - arilivigni
       - bbeaudoin
       - beelandc
@@ -68,6 +69,7 @@ orgs:
       - pavelanni
       - pcarney8
       - raffaelespazzoli
+      - ramius345
       - redhat-cop-ci-bot
       - rhjcd
       - rpelisse
@@ -1101,6 +1103,9 @@ orgs:
         members:
           - etsauer
           - tomgeorge
+          - AlyIbrahim
+          - ramius345
+          - InfoSec812
         privacy: closed
         repos:
           mdt-quickstart: write
