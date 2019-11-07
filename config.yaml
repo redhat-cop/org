@@ -868,7 +868,6 @@ orgs:
               - springdo
               - raffaelespazzoli
               - malacourse
-              - garethahealy
             privacy: closed
             repos:
               casl-ansible: read
@@ -913,6 +912,7 @@ orgs:
                   - raffaelespazzoli
                   - malacourse
                   - tylerauerbeck
+                  - garethahealy
                   - redhat-cop-ci-bot
                 privacy: closed
                 repos:
