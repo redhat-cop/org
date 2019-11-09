@@ -48,6 +48,7 @@ orgs:
       - juliaaano
       - kelaird
       - kkoller
+      - leethomasrh
       - ldomb
       - levysantanna
       - luckylittle
@@ -189,6 +190,7 @@ orgs:
         privacy: closed
         repos:
           automate-cicd: write
+          automate_elk: write
           automate-exotic: write
           automate-jcliff: write
           automate-tower: write
