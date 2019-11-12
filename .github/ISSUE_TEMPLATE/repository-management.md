@@ -34,3 +34,9 @@ Name of the team(s) and/or user(s) that should have read access on the newly cre
 ### Additional details
 
 Any additional information or context to provide for this request.
+
+---
+
+Review request:
+cc: @redhat-cop/container-cop-core
+
