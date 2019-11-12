@@ -12,4 +12,5 @@ I would like to become a general contributor to the Red Hat Communities of Pract
 ---
 
 Review request:
+
 cc: @redhat-cop/container-cop-core

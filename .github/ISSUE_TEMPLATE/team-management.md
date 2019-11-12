@@ -34,5 +34,6 @@ Name of the repositories that this team should be part of. If the user requestin
 ---
 
 Review request:
+
 cc: @redhat-cop/container-cop-core
 
