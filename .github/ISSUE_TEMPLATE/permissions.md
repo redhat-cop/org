@@ -18,3 +18,10 @@ Description of the changes requested
 ### Additional details
 
 Any additional information or context to provide for this request.
+
+---
+
+Review request:
+
+cc: @redhat-cop/container-cop-core
+

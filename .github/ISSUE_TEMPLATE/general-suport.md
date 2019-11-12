@@ -18,3 +18,10 @@ A clear and concise description of what you need assistance with.
 ### Users or Teams affected
 
 Name of users or teams that are affected by the issue.
+
+---
+
+Review request:
+
+cc: @redhat-cop/container-cop-core
+

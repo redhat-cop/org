@@ -847,6 +847,7 @@ orgs:
               openshift-templates: admin
               openshift-toolkit: admin
               operationalizing-openshift-lab: write
+              org: admin
               pathfinder: read
               pathfinder-ui: read
               pbl-rocketchat: admin
