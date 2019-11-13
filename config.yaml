@@ -1054,6 +1054,8 @@ orgs:
         privacy: closed
         repos:
           agnosticd: write
+          agnosticv: read
+          babylon: read
           darktower: read
           openshift-4-alpha-enablement: read
           openshift-infra-skel: read
@@ -1084,10 +1086,10 @@ orgs:
             maintainers:
               - tonykay
               - fridim
-            members:
               - jkupferer
             privacy: closed
             repos:
+              agnosticv: write
               babylon: write
               darktower: write
             teams:
@@ -1096,8 +1098,10 @@ orgs:
                 maintainers:
                   - tonykay
                   - fridim
+                  - jkupferer
                 members: []
                 repos:
+                  agnosticv: admin
                   babylon: admin
                   darktower: admin
       mdt:
