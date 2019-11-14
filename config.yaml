@@ -963,6 +963,7 @@ orgs:
             privacy: closed
             repos:
               casl-ansible: read
+              cert-utils-operator: read
               cert-operator: read
               cluster-lifecycle: read
               container-pipelines: read
@@ -971,6 +972,8 @@ orgs:
               gows: read
               infra-ansible: read
               k8s-notify: read
+              microsegmentation-operator: read
+              namespace-configuration-operator: read
               ninja-points: read
               ocp-supply-chain-demo: read
               onboarding-manager: read
@@ -982,12 +985,17 @@ orgs:
               openshift-playbooks: read
               openshift-templates: read
               openshift-toolkit: read
+              operator-utils: read
               operationalizing-openshift-lab: none
               pathfinder: read
               pathfinder-ui: read
               pbl-rocketchat: read
+              quay-operator: read
+              quay-openshift-registry-operator: read
               pipeline-library: read
+              redhat-cop-operators: read
               rhc-ocp-playbook-test: read
+              resource-operator-locker: read
               rocketchat-integrations: read
               spring-rest: read
               uncontained.io: read
@@ -1014,6 +1022,7 @@ orgs:
                   infra-ansible: read
                   k8s-notify: write
                   ninja-points: read
+                  microsegmentation-operator: write
                   ocp-supply-chain-demo: read
                   onboarding-manager: write
                   openshift-demo-library: read
@@ -1030,6 +1039,10 @@ orgs:
                   pathfinder-ui: read
                   pbl-rocketchat: read
                   pipeline-library: read
+                  quay-operator: write
+                  quay-openshift-registry-operator: write
+                  redhat-cop-operators: write
+                  resource-locker-operator: write
                   rhc-ocp-playbook-test: read
                   rocketchat-integrations: read
                   spring-rest: read
