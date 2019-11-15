@@ -995,7 +995,7 @@ orgs:
               pipeline-library: read
               redhat-cop-operators: read
               rhc-ocp-playbook-test: read
-              resource-operator-locker: read
+              resource-locker-operator: read
               rocketchat-integrations: read
               spring-rest: read
               uncontained.io: read
