@@ -268,6 +268,7 @@ orgs:
         privacy: closed
         repos:
           casl-ansible: read
+          casl-galaxy: read
           cluster-lifecycle: read
           container-pipelines: read
           containers-quickstarts: none
@@ -321,6 +322,7 @@ orgs:
             privacy: closed
             repos:
               casl-ansible: read
+              casl-galaxy: read
               cluster-lifecycle: read
               container-pipelines: read
               containers-quickstarts: none
@@ -367,6 +369,7 @@ orgs:
                 privacy: closed
                 repos:
                   casl-ansible: read
+                  casl-galaxy: read
                   cluster-lifecycle: read
                   container-pipelines: read
                   containers-quickstarts: none
@@ -414,6 +417,7 @@ orgs:
             privacy: closed
             repos:
               casl-ansible: read
+              casl-galaxy: read
               cert-operator: none
               cluster-lifecycle: read
               container-pipelines: read
@@ -456,6 +460,7 @@ orgs:
                 privacy: closed
                 repos:
                   casl-ansible: write
+                  casl-galaxy: write
                   cert-operator: write
                   cluster-lifecycle: write
                   container-pipelines: read
@@ -497,6 +502,7 @@ orgs:
                 privacy: closed
                 repos:
                   casl-ansible: read
+                  casl-galaxy: read
                   cert-operator: none
                   cluster-lifecycle: read
                   container-pipelines: read
@@ -539,6 +545,7 @@ orgs:
                     privacy: closed
                     repos:
                       casl-ansible: read
+                      casl-galaxy: read
                       cert-operator: none
                       cluster-lifecycle: read
                       container-pipelines: read
@@ -577,6 +584,7 @@ orgs:
                 privacy: closed
                 repos:
                   casl-ansible: read
+                  casl-galaxy: read
                   cert-operator: none
                   cluster-lifecycle: read
                   container-pipelines: read
@@ -617,6 +625,7 @@ orgs:
                     privacy: closed
                     repos:
                       casl-ansible: read
+                      casl-galaxy: read
                       cert-operator: none
                       cluster-lifecycle: read
                       container-pipelines: read
@@ -660,6 +669,7 @@ orgs:
                 repos:
                   applier-cli: read
                   casl-ansible: read
+                  casl-galaxy: read
                   cert-operator: none
                   cluster-lifecycle: read
                   container-pipelines: read
@@ -705,6 +715,7 @@ orgs:
                     repos:
                       applier-cli: write
                       casl-ansible: read
+                      casl-galaxy: read
                       cert-operator: none
                       cluster-lifecycle: read
                       container-pipelines: read
@@ -745,6 +756,7 @@ orgs:
                 privacy: closed
                 repos:
                   casl-ansible: read
+                  casl-galaxy: read
                   cert-operator: none
                   cluster-lifecycle: read
                   container-pipelines: read
@@ -785,6 +797,7 @@ orgs:
                     privacy: closed
                     repos:
                       casl-ansible: read
+                      casl-galaxy: read
                       cert-operator: none
                       cluster-lifecycle: read
                       container-pipelines: read
@@ -828,6 +841,7 @@ orgs:
             privacy: closed
             repos:
               casl-ansible: admin
+              casl-galaxy: admin
               cluster-lifecycle: read
               container-pipelines: admin
               containers-quickstarts: admin
@@ -876,6 +890,7 @@ orgs:
             privacy: closed
             repos:
               casl-ansible: read
+              casl-galaxy: read
               cluster-lifecycle: read
               container-native-spring-postgresql: read
               container-pipelines: none
@@ -922,6 +937,7 @@ orgs:
                 privacy: closed
                 repos:
                   casl-ansible: read
+                  casl-galaxy: read
                   cluster-lifecycle: read
                   container-native-spring-postgresql: write
                   container-pipelines: admin
@@ -963,6 +979,7 @@ orgs:
             privacy: closed
             repos:
               casl-ansible: read
+              casl-galaxy: read
               cert-utils-operator: read
               cert-operator: read
               cluster-lifecycle: read
@@ -1012,6 +1029,7 @@ orgs:
                 privacy: closed
                 repos:
                   casl-ansible: read
+                  casl-galaxy: read
                   cert-operator: write
                   cert-utils-operator: write
                   cluster-lifecycle: read
