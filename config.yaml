@@ -107,6 +107,7 @@ orgs:
           - jlozadad
         privacy: closed
         repos:
+          ansible_middleware_galaxy: write
           ansible-role-jboss-common: write
           automate-jcliff: write
           jboss_amq: write
