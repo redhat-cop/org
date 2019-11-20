@@ -1212,6 +1212,7 @@ orgs:
         description: ""
         maintainers:
           - makentenza
+          - rhmk
         members:
         privacy: closed
         teams:
@@ -1219,6 +1220,7 @@ orgs:
             description: ""
             maintainers:
               - makentenza
+              - miminar
             members:
             privacy: closed
             teams:
@@ -1244,17 +1246,18 @@ orgs:
             description: ""
             maintainers:
               - makentenza
+              - rhmk
             members:
             privacy: closed
             teams:
-              sdh-admins:
+              ansible-admins:
                 description: ""
                 maintainers:
                   - makentenza
                   - rhmk
                 members:
                 privacy: closed
-              sdh-mergers:
+              ansible-mergers:
                 description: ""
                 maintainers:
                   - makentenza
