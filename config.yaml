@@ -72,6 +72,7 @@ orgs:
       - pathfinder-waffle
       - pavelanni
       - pcarney8
+      - prakritiverma
       - raffaelespazzoli
       - ramius345
       - redhat-cop-ci-bot
@@ -1150,6 +1151,7 @@ orgs:
           - AlyIbrahim
           - ramius345
           - InfoSec812
+          - prakritiverma
         privacy: closed
         repos:
           mdt-quickstart: write
