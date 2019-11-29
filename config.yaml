@@ -1154,7 +1154,7 @@ orgs:
           - prakritiverma
         privacy: closed
         repos:
-          mdt-quickstart: write
+          pelorus: write
       ninja-program:
         description: ""
         maintainers:
