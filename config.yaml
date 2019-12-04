@@ -60,7 +60,6 @@ orgs:
       - matallen
       - mathianasj
       - mike4263
-      - miminar
       - mophahr
       - murphye
       - mwitzenm
@@ -78,7 +77,6 @@ orgs:
       - ramius345
       - redhat-cop-ci-bot
       - rhjcd
-      - rhmk
       - rpelisse
       - rut31337
       - samueltauil
@@ -1232,62 +1230,6 @@ orgs:
         privacy: closed
         repos:
           quay-operator: write
-      sap-cop:
-        description: ""
-        maintainers:
-          - makentenza
-          - rhmk
-        members:
-        privacy: closed
-        teams:
-          sdh:
-            description: ""
-            maintainers:
-              - makentenza
-              - miminar
-            members:
-            privacy: closed
-            teams:
-              sdh-admins:
-                description: ""
-                maintainers:
-                  - makentenza
-                  - miminar
-                members:
-                privacy: closed
-                repos:
-                  sap-datahub: admin
-              sdh-mergers:
-                description: ""
-                maintainers:
-                  - makentenza
-                  - miminar
-                members:
-                privacy: closed
-                repos:
-                  sap-datahub: write
-          ansible:
-            description: ""
-            maintainers:
-              - makentenza
-              - rhmk
-            members:
-            privacy: closed
-            teams:
-              ansible-admins:
-                description: ""
-                maintainers:
-                  - makentenza
-                  - rhmk
-                members:
-                privacy: closed
-              ansible-mergers:
-                description: ""
-                maintainers:
-                  - makentenza
-                  - rhmk
-                members:
-                privacy: closed
       uncontained.io:
         description: Uncontained.io
         maintainers:
