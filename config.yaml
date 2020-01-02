@@ -1100,6 +1100,7 @@ orgs:
           agnosticv: read
           babylon: read
           darktower: read
+          k8s_config: read
           openshift-4-alpha-enablement: read
           openshift-infra-skel: read
           openshift-lab-origin: write
@@ -1120,6 +1121,7 @@ orgs:
               agnosticd: admin
               babylon: admin
               darktower: admin
+              k8s_config: admin
               openshift-4-alpha-enablement: admin
               openshift-infra-skel: admin
               openshift-lab-origin: admin
@@ -1135,6 +1137,7 @@ orgs:
               agnosticv: write
               babylon: write
               darktower: write
+              k8s_config: write
             teams:
               babylon-admins:
                 description: "Babylon Team Administrators"
@@ -1147,6 +1150,7 @@ orgs:
                   agnosticv: admin
                   babylon: admin
                   darktower: admin
+                  k8s_config: admin
       mdt:
         description: Metrics Driven Transformation
         maintainers:
