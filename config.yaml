@@ -1098,6 +1098,7 @@ orgs:
         repos:
           agnosticd: write
           agnosticv: read
+          anarchy: read
           babylon: read
           darktower: read
           k8s_config: read
@@ -1119,6 +1120,7 @@ orgs:
             privacy: closed
             repos:
               agnosticd: admin
+              anarchy: admin
               babylon: admin
               darktower: admin
               k8s_config: admin
@@ -1135,6 +1137,7 @@ orgs:
             privacy: closed
             repos:
               agnosticv: write
+              anarchy: write
               babylon: write
               darktower: write
               k8s_config: write
@@ -1148,6 +1151,7 @@ orgs:
                 members: []
                 repos:
                   agnosticv: admin
+                  anarchy: admin
                   babylon: admin
                   darktower: admin
                   k8s_config: admin
