@@ -86,6 +86,7 @@ orgs:
       - rut31337
       - samueltauil
       - shah-zobair
+      - skypatrolcpt
       - springdo
       - stencell
       - stratus-ss
@@ -329,6 +330,7 @@ orgs:
               - davgordo
               - mwitzenm
               - malacourse
+              - skypatrolcpt
             privacy: closed
             repos:
               casl-ansible: read
@@ -376,6 +378,7 @@ orgs:
                   - jimdillon
                   - davgordo
                   - mwitzenm
+                  - skypatrolcpt
                 privacy: closed
                 repos:
                   casl-ansible: read
