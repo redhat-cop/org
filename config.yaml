@@ -1241,7 +1241,7 @@ orgs:
             repos:
               public-cloud-cop: write
       quay:
-        description: ""
+        description: "Quay"
         maintainers:
           - sabre1041
         members:
