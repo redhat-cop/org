@@ -3,6 +3,7 @@ orgs:
     admins:
       - etsauer
       - openshift-merge-robot
+      - redhat-cop-ci-bot
       - oybed
       - sabre1041
       - sborenst
@@ -80,7 +81,6 @@ orgs:
       - prakritiverma
       - raffaelespazzoli
       - ramius345
-      - redhat-cop-ci-bot
       - rhjcd
       - rpelisse
       - rut31337
