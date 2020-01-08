@@ -1,0 +1,18 @@
+# See the OWNERS docs at https://go.k8s.io/owners
+
+reviewers:
+  - etsauer
+  - JaredBurck
+  - oybed
+  - pabrahamsson
+  - pcarney8
+  - raffaelespazzoli
+  - sabre1041
+approvers:
+  - etsauer
+  - JaredBurck
+  - oybed
+  - pabrahamsson
+  - pcarney8
+  - raffaelespazzoli
+  - sabre1041
