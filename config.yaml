@@ -2,7 +2,6 @@ orgs:
   redhat-cop:
     admins:
       - etsauer
-      - openshift-merge-robot
       - redhat-cop-ci-bot
       - oybed
       - sabre1041
@@ -72,7 +71,6 @@ orgs:
       - noelo
       - NonyNo3lle
       - nunnchops
-      - openshift-ci-robot
       - pabrahamsson
       - pathfinder-waffle
       - pavelanni
