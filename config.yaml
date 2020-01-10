@@ -133,7 +133,7 @@ orgs:
           - jeremyrdavis
         teams:
           committers:
-            description: ""
+            description: "Some Comment Here"
             privacy: closed
             maintainers:
               - InfoSec812
