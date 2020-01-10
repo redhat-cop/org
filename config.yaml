@@ -1109,6 +1109,7 @@ orgs:
           openshift-infra-skel: read
           openshift-lab-origin: write
           operationalizing-openshift-lab: write
+          poolboy: read
         teams:
           gpte-admins:
             description: "GPTE Admin Team"
@@ -1131,6 +1132,7 @@ orgs:
               openshift-infra-skel: admin
               openshift-lab-origin: admin
               operationalizing-openshift-lab: write
+              poolboy: admin
           babylon:
             description: "Babylon Team"
             maintainers:
@@ -1144,6 +1146,7 @@ orgs:
               babylon: write
               darktower: write
               k8s_config: write
+              poolboy: write
             teams:
               babylon-admins:
                 description: "Babylon Team Administrators"
@@ -1158,6 +1161,7 @@ orgs:
                   babylon: admin
                   darktower: admin
                   k8s_config: admin
+                  poolboy: admin
       mdt:
         description: Metrics Driven Transformation
         maintainers:
