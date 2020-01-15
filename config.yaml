@@ -6,6 +6,7 @@ orgs:
       - oybed
       - sabre1041
       - sborenst
+      - pabrahamsson
     billing_email: esauer@redhat.com
     company: ""
     default_repository_permission: read
@@ -71,7 +72,6 @@ orgs:
       - noelo
       - NonyNo3lle
       - nunnchops
-      - pabrahamsson
       - pathfinder-waffle
       - pavelanni
       - pcarney8
