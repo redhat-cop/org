@@ -16,6 +16,7 @@ orgs:
     has_repository_projects: true
     location: ""
     members:
+      - aglenn360
       - ahardin-rh
       - AlyIbrahim
       - arilivigni
