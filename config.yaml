@@ -307,6 +307,7 @@ orgs:
           rhc-ocp-playbook-test: read
           rocketchat-integrations: read
           spring-rest: read
+          template2helm: read
           uncontained.io: read
         teams:
           cant-contain-this:
@@ -978,6 +979,7 @@ orgs:
                   rhc-ocp-playbook-test: read
                   rocketchat-integrations: read
                   spring-rest: write
+                  template2helm: admin
                   uncontained.io: read
           operators-wg:
             description: ""
