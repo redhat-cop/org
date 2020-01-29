@@ -103,6 +103,7 @@ orgs:
       - tylerauerbeck
       - victorock
       - vvaldez
+      - welshstew
       - wkulhanek
     members_can_create_repositories: false
     name: Red Hat Communities of Practice
