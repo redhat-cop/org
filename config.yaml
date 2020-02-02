@@ -236,6 +236,7 @@ orgs:
           - etsauer
           - oybed
         members:
+          - cpitman
           - InfoSec812
           - tomassedovic
           - rpelisse
@@ -941,6 +942,7 @@ orgs:
                   - etsauer
                   - pabrahamsson
                 members:
+                  - cpitman
                   - InfoSec812
                   - murphye
                   - pcarney8
