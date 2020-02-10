@@ -224,14 +224,19 @@ orgs:
             maintainers:
               - sabre1041
               - ericzolf
+              - jlozadad
             members:
               - vvaldez
             privacy: closed
             repos:
               automate-cicd: admin
+              automate_elk: admin
               automate-exotic: admin
+              automate-jcliff: admin
               automate-tower: admin
               automate-windows: admin
+              redhat_sso: admin
+              jboss_webserver: admin
       container-cop:
         description: Contributors to the Containers & PaaS CoP
         maintainers:
