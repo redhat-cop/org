@@ -26,6 +26,7 @@ orgs:
       - bosebc
       - CaseyOC
       - cmwylie19
+      - cnuland
       - cpeters
       - cpitman
       - davgordo
@@ -37,6 +38,7 @@ orgs:
       - ghyde
       - giofontana
       - gjbianco
+      - gnekic
       - gsampaio-rh
       - huddlesj
       - ianwatsonrh
@@ -67,6 +69,7 @@ orgs:
       - matallen
       - mathianasj
       - mike4263
+      - mm7259
       - mophahr
       - murphye
       - mwitzenm
@@ -74,6 +77,7 @@ orgs:
       - noelo
       - NonyNo3lle
       - nunnchops
+      - otatman
       - pamenon
       - pathfinder-waffle
       - pavelanni
@@ -1237,6 +1241,29 @@ orgs:
         repos:
           pathfinder: admin
           pathfinder-ui: write
+      project-initializer:
+        description: ""
+        maintainers:
+          - cnuland
+          - gnekic
+          - sabre1041
+        members:
+          - mm7259
+          - otatman
+        privacy: closed
+        repos:
+          project-initialize-operator: admin
+        teams:
+          project-initializer-mergers:
+            description: ""
+            maintainers:
+              - sabre1041
+            members:
+              - cnuland
+              - gnekic
+            privacy: closed
+            repos:
+              project-initialize-operator: write
       pubcop:
         description: ""
         maintainers:
