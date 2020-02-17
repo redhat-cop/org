@@ -242,21 +242,21 @@ orgs:
               automate-windows: admin
               redhat_sso: admin
               jboss_webserver: admin
-      businessautomaton-cop:
+      businessautomation-cop:
         description: Contributors to the Business Automation CoP
         maintainers:
           - pamenon
         privacy: closed
         repos:
-          businessautomation-cop: admin
+          businessautomation-cop: read
         teams:
-          businessautomaton-cop-mgrs:
+          businessautomation-cop-mgrs:
             description: ""
             maintainers:
               - pamenon
             privacy: closed
             repos:
-              businessautomaton-cop: admin
+              businessautomation-cop: admin
       container-cop:
         description: Contributors to the Containers & PaaS CoP
         maintainers:
