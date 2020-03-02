@@ -1144,7 +1144,7 @@ orgs:
           anarchy: read
           babylon: read
           babylon-events-console: read
-          darktower: read
+          dark-tower: read
           k8s_config: read
           openshift-4-alpha-enablement: read
           openshift-infra-skel: read
@@ -1168,7 +1168,7 @@ orgs:
               anarchy: admin
               babylon: admin
               babylon-events-console: admin
-              darktower: admin
+              dark-tower: admin
               k8s_config: admin
               openshift-4-alpha-enablement: admin
               openshift-infra-skel: admin
@@ -1187,7 +1187,7 @@ orgs:
               anarchy: write
               babylon: write
               babylon-events-console: write
-              darktower: write
+              dark-tower: write
               k8s_config: write
               poolboy: write
             teams:
@@ -1203,7 +1203,7 @@ orgs:
                   anarchy: admin
                   babylon: admin
                   babylon-events-console: admin
-                  darktower: admin
+                  dark-tower: admin
                   k8s_config: admin
                   poolboy: admin
       mdt:
