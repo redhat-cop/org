@@ -321,6 +321,7 @@ orgs:
           containers-quickstarts: none
           dash: read
           git-flow: read
+          github-actions: read
           gows: read
           infra-ansible: read
           k8s-notify: none
@@ -898,6 +899,7 @@ orgs:
               containers-quickstarts: admin
               dash: admin
               git-flow: read
+              github-actions: read
               gows: read
               infra-ansible: read
               k8s-notify: admin
@@ -1018,6 +1020,25 @@ orgs:
                   spring-rest: write
                   template2helm: admin
                   uncontained.io: read
+          github-actions:
+            description: GitHub Actions Collection
+            maintainers:
+              - jacobsee
+              - tylerauerbeck
+            members: []
+            privacy: closed
+            repos:
+              github-actions: admin
+            teams:
+              github-actions-mergers:
+                description: GitHub Actions Mergers
+                maintainers:
+                  - jacobsee
+                  - tylerauerbeck
+                members: []
+                privacy: closed
+                repos:
+                  github-actions: write
           operators-wg:
             description: ""
             maintainers:
