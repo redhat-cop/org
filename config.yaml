@@ -1025,7 +1025,6 @@ orgs:
             maintainers:
               - jacobsee
               - tylerauerbeck
-            members: []
             privacy: closed
             repos:
               github-actions: admin
@@ -1035,7 +1034,6 @@ orgs:
                 maintainers:
                   - jacobsee
                   - tylerauerbeck
-                members: []
                 privacy: closed
                 repos:
                   github-actions: write
