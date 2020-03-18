@@ -18,6 +18,7 @@ orgs:
     members:
       - aglenn360
       - ahardin-rh
+      - alecmerdler
       - AlyIbrahim
       - arilivigni
       - bbeaudoin
@@ -60,6 +61,7 @@ orgs:
       - jzsjjunior
       - kelaird
       - kkoller
+      - kleesc
       - leethomasrh
       - linuxstudio
       - ldomb
@@ -939,8 +941,10 @@ orgs:
         maintainers:
           - sabre1041
         members:
-          - thomasmckay
+          - alecmerdler
           - ibazulic
+          - kleesc
+          - thomasmckay
         privacy: closed
         repos:
           quay-operator: write
