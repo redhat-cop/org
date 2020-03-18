@@ -227,7 +227,6 @@ orgs:
           automate-tower-ha-dr: write
           automate_tower_lab: write
           automate-windows: write
-          infra-ansible: write
           redhat_sso: write
           jboss_webserver: write
         teams:
