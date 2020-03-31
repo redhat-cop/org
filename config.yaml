@@ -950,6 +950,19 @@ orgs:
         privacy: closed
         repos:
           quay-operator: write
+          quay-openshift-registry-operator: write
+      quay-mgrs:
+        description: ""
+        maintainers:
+          - sabre1041
+        members:
+          - alecmerdler
+          - kleesc
+          - thomasmckay
+        privacy: closed
+        repos:
+          quay-operator: admin
+          quay-openshift-registry-operator: admin
       uncontained.io:
         description: Uncontained.io
         maintainers:
