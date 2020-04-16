@@ -319,6 +319,9 @@ orgs:
           - dfwnetman
           - malacourse
           - tylerauerbeck
+          - linuxstudio
+          - JuozasA
+          - ianwatsonrh
         privacy: closed
         repos:
           casl-ansible: read
