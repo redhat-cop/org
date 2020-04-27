@@ -63,6 +63,7 @@ orgs:
       - JuozasA
       - jzsjjunior
       - kelaird
+      - kenwilli
       - kkoller
       - kleesc
       - leethomasrh
@@ -77,6 +78,7 @@ orgs:
       - malacourse
       - matallen
       - mathianasj
+      - mattheh
       - mike4263
       - mijaros
       - mm7259
@@ -105,6 +107,7 @@ orgs:
       - rpelisse
       - rut31337
       - samueltauil
+      - sbailleu
       - seravat
       - shah-zobair
       - skypatrolcpt
@@ -117,6 +120,7 @@ orgs:
       - themoosman
       - thomas-crowe
       - thomasmckay
+      - tolarewaju3
       - tomassedovic
       - tomgeorge
       - tonykay
@@ -846,13 +850,17 @@ orgs:
         maintainers:
           - sabre1041
         members:
-          - etsauer
-          - tomgeorge
           - AlyIbrahim
-          - ramius345
+          - etsauer
           - InfoSec812
+          - kenwilli
+          - mattheh
           - prakritiverma
+          - ramius345
+          - sbailleu
           - themoosman
+          - tolarewaju3
+          - tomgeorge
         privacy: closed
         repos:
           pelorus: write
