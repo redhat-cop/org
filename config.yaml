@@ -16,6 +16,7 @@ orgs:
     has_repository_projects: true
     location: ""
     members:
+      - 9strands
       - aglenn360
       - ahardin-rh
       - alecmerdler
