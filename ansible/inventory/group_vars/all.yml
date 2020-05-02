@@ -1,0 +1,339 @@
+---
+orgs:
+  - name: redhat-cop
+    repos:
+      - name: anarchy
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: babylon
+            type: robot
+            role: write
+      - name: anarchy-runner
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: babylon
+            type: robot
+            role: write
+      - name: anarchy-test-server
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: babylon
+            type: robot
+            role: write
+      - name: babylon-events-console
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: babylon
+            type: robot
+            role: write
+          - name: pushbot
+            type: robot
+            role: write
+      - name: babylon-events-console-operator
+        visibility: public
+        permissions:
+          - name: etsauer
+            type: user
+            role: admin
+          - name: babylon
+            type: robot
+            role: write
+      - name: build-s2i-executable
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+      - name: casl-ansible
+        visibility: public
+        permissions:
+          - name: pushbot
+            type: robot
+            role: write
+          - name: casl
+            type: team
+            role: admin
+          - name: contributors
+            type: team
+            role: write
+          - name: obedin
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
+      - name: cert-utils-operator
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
+      - name: dex
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+      - name: egress-ipam-operator
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
+      - name: gitlab-runners-ubi7-gitlab-runner
+        visibility: public
+        permissions:
+          - name: pabrahamsson
+            type: user
+            role: admin
+          - name: containers_quickstarts
+            type: robot
+            role: write
+      - name: gitlab-runners-ubi8-git
+        visibility: public
+        permissions:
+          - name: pabrahamsson
+            type: user
+            role: admin
+          - name: containers_quickstarts
+            type: robot
+            role: write
+      - name: image-scanning-signing-service
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
+      - name: image-signer
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
+      - name: jenkins-slave-ansible
+        visibility: public
+        permissions:
+          - name: etsauer
+            type: user
+            role: admin
+      - name: jenkins-slave-golang
+        visibility: public
+        permissions:
+          - name: etsauer
+            type: user
+            role: admin
+      - name: jenkins-slave-image-mgmt
+        visibility: public
+        permissions:
+          - name: etsauer
+            type: user
+            role: admin
+          - name: contributors
+            type: team
+            role: write
+      - name: jenkins-slave-image-mvn
+        visibility: public
+        permissions:
+          - name: etsauer
+            type: user
+            role: admin
+      - name: jenkins-slave-ruby
+        visibility: public
+        permissions:
+          - name: etsauer
+            type: user
+            role: admin
+      - name: keepalived-operator
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
+      - name: microsegmentation-operator
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
+      - name: namespace-configuration-operator
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
+      - name: ninja-board
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+      - name: image-signer
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+      - name: onboarding-manager
+        visibility: public
+        permissions:
+          - name: etsauer
+            type: user
+            role: admin
+          - name: image_pusher
+            type: robot
+            role: write
+      - name: openshift-applier
+        visibility: public
+        permissions:
+          - name: obedin
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
+          - name: casl
+            type: team
+            role: admin
+      - name: operator-utils
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
+      - name: podpreset-webhook
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
+      - name: poolboy
+        visibility: public
+        permissions:
+          - name: etsauer
+            type: user
+            role: admin
+          - name: babylon
+            type: robot
+            role: write
+      - name: quay-openshift-registry-operator
+        visibility: private
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
+      - name: quay-operator
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
+      - name: resource-locker-operator
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
+      - name: sonarqube
+        visibility: public
+        permissions:
+          - name: pabrahamsson
+            type: user
+            role: admin
+          - name: owners
+            type: team
+            role: admin
+      - name: tool-box
+        visibility: public
+        permissions:
+          - name: etsauer
+            type: user
+            role: admin
+          - name: contributors
+            type: team
+            role: write
+      - name: uncontained-local-dev
+        visibility: public
+        permissions:
+          - name: etsauer
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
+          - name: uncontainedci
+            type: robot
+            role: write
+    robots:
+      - name: uncontainedci
+        description: "Image Push Bot for Uncontained.io"
+      - name: pushbot
+        description: "Push access for org"
+      - name: image_pusher
+        description: "Push images for onboarding-manager"
+      - name: containers_quickstarts
+      - name: babylon
+        description: "Repositories related to the Babylon project"
+    teams:
+      - name: owners
+        role: admin
+        members:
+          - name: ablock
+          - name: etsauer
+          - name: obedin
+          - name: pabrahamsson
+      - name: contributors
+        role: member
+      - name: casl
+        role: member
+      - name: openinnvationlabs
+        role: creator
+        members:
+          - name: pabrahamsson
