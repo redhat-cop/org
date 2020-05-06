@@ -17,6 +17,7 @@ orgs:
     location: ""
     members:
       - 9strands
+      - AdlerFleurant
       - aglenn360
       - ahardin-rh
       - alecmerdler
@@ -40,6 +41,7 @@ orgs:
       - ericzolf
       - erouvas
       - finmahon
+      - fostimus
       - fridim
       - garethahealy
       - ghyde
@@ -62,6 +64,7 @@ orgs:
       - josecastillolema
       - juliaaano
       - JuozasA
+      - jtlnguyen
       - jzsjjunior
       - kelaird
       - kenwilli
@@ -884,6 +887,9 @@ orgs:
               - sabre1041
               - etsauer
             members:
+              - AdlerFleurant
+              - fostimus
+              - jtlnguyen
               - matallen
             privacy: closed
             repos:
