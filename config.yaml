@@ -360,6 +360,7 @@ orgs:
           pathfinder-ui: read
           pbl-rocketchat: read
           pipeline-library: read
+          rego-policies: read
           rhc-ocp-playbook-test: read
           rocketchat-integrations: read
           spring-rest: read
@@ -543,6 +544,7 @@ orgs:
               pathfinder-ui: read
               pbl-rocketchat: admin
               pipeline-library: read
+              rego-policies: read
               rhc-ocp-playbook-test: read
               rocketchat-integrations: read
               spring-rest: read
@@ -588,6 +590,7 @@ orgs:
               pathfinder-ui: read
               pbl-rocketchat: read
               pipeline-library: read
+              rego-policies: read
               rhc-ocp-playbook-test: read
               rocketchat-integrations: read
               spring-rest: read
@@ -761,6 +764,31 @@ orgs:
                   rocketchat-integrations: read
                   spring-rest: read
                   uncontained.io: read
+          rego-policies:
+            description: Rego policies Collection
+            maintainers:
+              - etsauer
+              - pabrahamsson
+              - sabre1041
+            members:
+              - garethahealy
+              - tylerauerbeck
+            privacy: closed
+            repos:
+              rego-policies: admin
+            teams:
+              rego-policies-mergers:
+                description: GitHub Actions Mergers
+                maintainers:
+                  - etsauer
+                  - pabrahamsson
+                  - sabre1041
+                members:
+                  - garethahealy
+                  - tylerauerbeck
+                privacy: closed
+                repos:
+                  rego-policies: write
       gpte:
         description: ""
         maintainers:
