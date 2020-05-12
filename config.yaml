@@ -57,6 +57,7 @@ orgs:
       - JaredBurck
       - jbride
       - jeremyrdavis
+      - jgoldsmith613
       - jimdillon
       - jkupferer
       - jlozadad
@@ -549,6 +550,16 @@ orgs:
               rocketchat-integrations: read
               spring-rest: read
               uncontained.io: read
+          container-security:
+            description: Container Security
+            maintainers:
+              - sabre1041
+              - cnuland
+              - jgoldsmith613
+            privacy: closed
+            repos:
+              image-scanning-signing-service: admin
+              openshift-image-signing-scanning: admin
           day-in-the-life:
             description: Day in the Life of a Developer team
             maintainers:
