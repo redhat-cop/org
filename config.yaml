@@ -695,6 +695,7 @@ orgs:
               containers-quickstarts: none
               git-flow: read
               gows: read
+              group-sync-operator: read
               infra-ansible: read
               k8s-notify: read
               microsegmentation-operator: read
@@ -746,6 +747,7 @@ orgs:
                   containers-quickstarts: none
                   git-flow: read
                   gows: read
+                  group-sync-operator: write
                   infra-ansible: read
                   k8s-notify: write
                   ninja-points: read
