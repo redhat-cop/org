@@ -116,6 +116,15 @@ orgs:
           - name: containers_quickstarts
             type: robot
             role: write
+      - name: group-sync-operator
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
       - name: image-scanning-signing-service
         visibility: public
         permissions:
@@ -252,6 +261,15 @@ orgs:
             type: user
             role: admin
           - name: babylon
+            type: robot
+            role: write
+      - name: project-initialize-operator
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
             type: robot
             role: write
       - name: quay-openshift-registry-operator
