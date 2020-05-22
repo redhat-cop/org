@@ -28,7 +28,9 @@ orgs:
       - beelandc
       - boogiespook
       - bosebc
+      - bszeti
       - CaseyOC
+      - ckavili
       - cmwylie19
       - cnuland
       - cpeters
@@ -77,6 +79,7 @@ orgs:
       - linuxstudio
       - ldomb
       - levysantanna
+      - lpsantil
       - luckylittle
       - makentenza
       - marcredhat
@@ -334,6 +337,9 @@ orgs:
           - linuxstudio
           - JuozasA
           - ianwatsonrh
+          - bszeti
+          - ckavili
+          - lpsantil
         privacy: closed
         repos:
           casl-ansible: read
