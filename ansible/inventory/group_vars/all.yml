@@ -89,7 +89,7 @@ orgs:
           - name: ablock
             type: user
             role: admin
-      - name: egress-ipam-operator
+      - name: egressip-ipam-operator
         visibility: public
         permissions:
           - name: ablock
@@ -99,15 +99,6 @@ orgs:
             type: robot
             role: write
       - name: gitlab-runners-ubi7-gitlab-runner
-        visibility: public
-        permissions:
-          - name: pabrahamsson
-            type: user
-            role: admin
-          - name: containers_quickstarts
-            type: robot
-            role: write
-      - name: gitlab-runners-ubi8-git
         visibility: public
         permissions:
           - name: pabrahamsson
@@ -143,6 +134,15 @@ orgs:
           - name: pushbot
             type: robot
             role: write
+      - name: jenkins-agent-python
+        visibility: public
+        permissions:
+          - name: pabrahamsson
+            type: user
+            role: admin
+          - name: containers_quickstarts
+            type: robot
+            role: write
       - name: jenkins-slave-ansible
         visibility: public
         permissions:
@@ -164,7 +164,7 @@ orgs:
           - name: contributors
             type: team
             role: write
-      - name: jenkins-slave-image-mvn
+      - name: jenkins-slave-mvn
         visibility: public
         permissions:
           - name: etsauer
@@ -194,6 +194,15 @@ orgs:
           - name: pushbot
             type: robot
             role: write
+      - name: must-gather-operator
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
       - name: namespace-configuration-operator
         visibility: public
         permissions:
@@ -209,7 +218,7 @@ orgs:
           - name: ablock
             type: user
             role: admin
-      - name: image-signer
+      - name: ninja-graphs
         visibility: public
         permissions:
           - name: ablock
@@ -272,6 +281,15 @@ orgs:
           - name: pushbot
             type: robot
             role: write
+      - name: python-kopf-s2i
+        visibility: public
+        permissions:
+          - name: pabrahamsson
+            type: user
+            role: admin
+          - name: containers_quickstarts
+            type: robot
+            role: write
       - name: quay-openshift-registry-operator
         visibility: private
         permissions:
@@ -288,6 +306,15 @@ orgs:
             type: user
             role: admin
           - name: pushbot
+            type: robot
+            role: write
+      - name: rabbitmq
+        visibility: public
+        permissions:
+          - name: pabrahamsson
+            type: user
+            role: admin
+          - name: containers_quickstarts
             type: robot
             role: write
       - name: resource-locker-operator
@@ -317,6 +344,51 @@ orgs:
           - name: contributors
             type: team
             role: write
+      - name: ubi7-gitlab-runner
+        visibility: public
+        permissions:
+          - name: pabrahamsson
+            type: user
+            role: admin
+          - name: containers_quickstarts
+            type: robot
+            role: write
+      - name: ubi8-asciidoctor
+        visibility: public
+        permissions:
+          - name: pabrahamsson
+            type: user
+            role: admin
+          - name: containers_quickstarts
+            type: robot
+            role: write
+      - name: ubi8-bats
+        visibility: public
+        permissions:
+          - name: pabrahamsson
+            type: user
+            role: admin
+          - name: containers_quickstarts
+            type: robot
+            role: write
+      - name: ubi8-git
+        visibility: public
+        permissions:
+          - name: pabrahamsson
+            type: user
+            role: admin
+          - name: containers_quickstarts
+            type: robot
+            role: write
+      - name: ubi8-google-api-python-client
+        visibility: public
+        permissions:
+          - name: pabrahamsson
+            type: user
+            role: admin
+          - name: containers_quickstarts
+            type: robot
+            role: write
       - name: uncontained-local-dev
         visibility: public
         permissions:
@@ -337,6 +409,7 @@ orgs:
       - name: image_pusher
         description: "Push images for onboarding-manager"
       - name: containers_quickstarts
+        description: "Image Push Bot for containers-quickstarts"
       - name: babylon
         description: "Repositories related to the Babylon project"
     teams:
