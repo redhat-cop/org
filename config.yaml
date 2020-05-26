@@ -348,6 +348,7 @@ orgs:
           container-pipelines: read
           containers-quickstarts: none
           dash: read
+          declarative-openshift: read
           git-flow: read
           github-actions: read
           gows: read
@@ -484,6 +485,8 @@ orgs:
               - etsauer
               - oybed
             privacy: closed
+            repos:
+              declarative-openshift: read
             teams:
               casl-mergers:
                 description: CASL Mergers
@@ -504,6 +507,7 @@ orgs:
                   cert-operator: write
                   cluster-lifecycle: write
                   dash: write
+                  declarative-openshift: write
                   infra-ansible: write
                   monitoring: write
                   onboarding-manager: write
