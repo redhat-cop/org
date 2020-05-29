@@ -245,12 +245,12 @@ orgs:
           automate-exotic: write
           automate-jcliff: write
           automate-tower: write
-          automate_tower_genie_collections: write
           automate-tower-ha-dr: write
           automate_tower_lab: write
           automate-windows: write
           redhat_sso: write
           jboss_webserver: write
+          tower_configuration: write
         teams:
           automation-cop-mgrs:
             description: ""
