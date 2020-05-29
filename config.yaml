@@ -24,6 +24,7 @@ orgs:
       - alecmerdler
       - AlyIbrahim
       - arilivigni
+      - Arman084
       - bbeaudoin
       - beelandc
       - boogiespook
@@ -244,12 +245,12 @@ orgs:
           automate-exotic: write
           automate-jcliff: write
           automate-tower: write
-          automate_tower_genie_collections: write
           automate-tower-ha-dr: write
           automate_tower_lab: write
           automate-windows: write
           redhat_sso: write
           jboss_webserver: write
+          tower_configuration: write
         teams:
           automation-cop-mgrs:
             description: ""
@@ -292,6 +293,7 @@ orgs:
           - oybed
         members:
           - aizuddin85
+          - Arman084
           - cpitman
           - InfoSec812
           - tomassedovic
@@ -941,6 +943,7 @@ orgs:
               - etsauer
             members:
               - AdlerFleurant
+              - Arman084
               - fostimus
               - jtlnguyen
               - matallen
