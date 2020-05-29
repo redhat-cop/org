@@ -49,6 +49,7 @@ orgs:
       - finmahon
       - fostimus
       - fridim
+      - FWCoder
       - garethahealy
       - ghyde
       - giofontana
@@ -346,6 +347,7 @@ orgs:
           - lpsantil
           - drichtarik
           - abaird-rh
+          - FWCoder
         privacy: closed
         repos:
           casl-ansible: read
@@ -354,6 +356,7 @@ orgs:
           container-pipelines: read
           containers-quickstarts: none
           dash: read
+          declarative-openshift: read
           declarative-openshift: read
           git-flow: read
           github-actions: read
@@ -413,6 +416,7 @@ orgs:
               cluster-lifecycle: read
               container-pipelines: read
               containers-quickstarts: none
+              declarative-openshift: read
               git-flow: read
               gows: read
               infra-ansible: read
@@ -461,6 +465,7 @@ orgs:
                   cluster-lifecycle: read
                   container-pipelines: read
                   containers-quickstarts: none
+                  declarative-openshift: write
                   git-flow: read
                   gows: write
                   infra-ansible: read
@@ -674,6 +679,18 @@ orgs:
                   spring-rest: write
                   template2helm: admin
                   uncontained.io: read
+          declarative-openshift:
+            description: Maintainers of the declarative-openshift repo
+            maintainers:
+              - etsauer
+            members:
+              - jkupferer
+              - sabre1041
+              - tylerauerbeck
+              - FWCoder
+              - gnekic
+            repos:
+              declarative-openshift: write
           github-actions:
             description: GitHub Actions Collection
             maintainers:
