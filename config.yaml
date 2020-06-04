@@ -18,6 +18,7 @@ orgs:
     members:
       - 9strands
       - AdlerFleurant
+      - abaird-rh
       - aglenn360
       - ahardin-rh
       - aizuddin85
@@ -41,6 +42,7 @@ orgs:
       - davgordo
       - ddeno
       - dfwnetman
+      - drichtarik
       - dstockdreher
       - ericzolf
       - erouvas
@@ -342,6 +344,8 @@ orgs:
           - bszeti
           - ckavili
           - lpsantil
+          - drichtarik
+          - abaird-rh
         privacy: closed
         repos:
           casl-ansible: read
