@@ -98,6 +98,15 @@ orgs:
           - name: pushbot
             type: robot
             role: write
+      - name: gitlab-cleanup
+        visibility: public
+        permissions:
+          - name: pabrahamsson
+            type: user
+            role: admin
+          - name: openshift_management
+            type: robot
+            role: write
       - name: gitlab-runners-ubi7-gitlab-runner
         visibility: public
         permissions:
@@ -412,6 +421,8 @@ orgs:
         description: "Image Push Bot for containers-quickstarts"
       - name: babylon
         description: "Repositories related to the Babylon project"
+      - name: openshift_management
+        description: Image Push Bot for openshift-management
     teams:
       - name: owners
         role: admin
