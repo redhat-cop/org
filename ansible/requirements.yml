@@ -1,0 +1,3 @@
+- src: https://github.com/redhat-cop/infra-ansible
+  version: master
+  name: infra-ansible
