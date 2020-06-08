@@ -357,7 +357,6 @@ orgs:
           containers-quickstarts: none
           dash: read
           declarative-openshift: read
-          declarative-openshift: read
           git-flow: read
           github-actions: read
           gows: read
