@@ -1,0 +1,24 @@
+name: Quay Management
+on:
+  push:
+    #paths:
+    #  - "ansible/**"
+    branches:
+      - "master"
+
+jobs:
+  quay-management:
+    name: "Quay Organization Management"
+    if: "github.repository == 'redhat-cop/org'"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Run ansible-lint
+        uses: ansible/ansible-lint-action@master
+        with:
+          targets: "."
+      - name: Install Dependencies
+        run: ansible-galaxy install -r ansible/requirements.yml
+      - name: Manage Quay Repository
+        run: ansible-playbook -i ansible/inventory ansible/playbooks/quay_management.yml ${{secrets.ANSIBLE_EXTRA_VARS}}
