@@ -1062,6 +1062,15 @@ orgs:
         repos:
           quay-operator: admin
           quay-openshift-registry-operator: admin
+      sqlserver-coi:
+        description: SQL Server Community of Interest
+        maintainers:
+          - adamgoossens
+          - limershein
+        members: []
+        privacy: closed
+        repos:
+          sqlserver-coi: admin
       uncontained.io:
         description: Uncontained.io
         maintainers:
