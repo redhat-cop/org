@@ -17,6 +17,7 @@ orgs:
     location: ""
     members:
       - 9strands
+      - adamgoossens
       - AdlerFleurant
       - abaird-rh
       - aglenn360
@@ -80,6 +81,7 @@ orgs:
       - kleesc
       - leethomasrh
       - leoaaraujo
+      - limershein
       - linuxstudio
       - ldomb
       - levysantanna
@@ -296,6 +298,7 @@ orgs:
           - oybed
         members:
           - aizuddin85
+          - adamgoossens
           - Arman084
           - cpitman
           - InfoSec812
@@ -317,6 +320,7 @@ orgs:
           - beelandc
           - arilivigni
           - pcarney8
+          - limershein
           - jacobsee
           - kkoller
           - pabrahamsson
