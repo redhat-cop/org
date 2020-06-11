@@ -2,6 +2,24 @@
 orgs:
   - name: redhat-cop
     repos:
+      - name: alertmanager-telegram-gateway
+        visibility: public
+        permissions:
+          - name: mzali
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
+      - name: alertmanager-line-gateway
+        visibility: public
+        permissions:
+          - name: mzali
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
       - name: anarchy
         visibility: public
         permissions:
