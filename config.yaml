@@ -246,7 +246,7 @@ orgs:
         privacy: closed
         repos:
           automate-cicd: write
-          automate_elk: write
+          elk_automation: write
           automate-exotic: write
           automate-jcliff: write
           automate-tower: write
@@ -268,7 +268,7 @@ orgs:
             privacy: closed
             repos:
               automate-cicd: admin
-              automate_elk: admin
+              elk_automation: admin
               automate-exotic: admin
               automate-jcliff: admin
               automate-tower: admin
