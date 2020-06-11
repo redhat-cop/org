@@ -17,6 +17,7 @@ orgs:
     location: ""
     members:
       - 9strands
+      - adamgoossens
       - AdlerFleurant
       - abaird-rh
       - aglenn360
@@ -80,6 +81,7 @@ orgs:
       - kleesc
       - leethomasrh
       - leoaaraujo
+      - limershein
       - linuxstudio
       - ldomb
       - levysantanna
@@ -244,7 +246,7 @@ orgs:
         privacy: closed
         repos:
           automate-cicd: write
-          automate_elk: write
+          elk_automation: write
           automate-exotic: write
           automate-jcliff: write
           automate-tower: write
@@ -266,7 +268,7 @@ orgs:
             privacy: closed
             repos:
               automate-cicd: admin
-              automate_elk: admin
+              elk_automation: admin
               automate-exotic: admin
               automate-jcliff: admin
               automate-tower: admin
@@ -1062,6 +1064,15 @@ orgs:
         repos:
           quay-operator: admin
           quay-openshift-registry-operator: admin
+      sqlserver-coi:
+        description: SQL Server Community of Interest
+        maintainers:
+          - adamgoossens
+          - limershein
+        members: []
+        privacy: closed
+        repos:
+          sqlserver-coi: admin
       uncontained.io:
         description: Uncontained.io
         maintainers:
