@@ -125,6 +125,12 @@ orgs:
           - name: openshift_management
             type: robot
             role: write
+      - name: prune-ocp-projects
+        visibility: public
+        permissions:
+          - name: openshift_management
+            type: robot
+            role: write
       - name: gitlab-runners-ubi7-gitlab-runner
         visibility: public
         permissions:
