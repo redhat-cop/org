@@ -137,6 +137,7 @@ orgs:
       - thomas-crowe
       - thomasmckay
       - tolarewaju3
+      - tom-stockwell
       - tomassedovic
       - tomgeorge
       - tonykay
@@ -351,6 +352,7 @@ orgs:
           - drichtarik
           - abaird-rh
           - FWCoder
+          - tom-stockwell
         privacy: closed
         repos:
           casl-ansible: read
