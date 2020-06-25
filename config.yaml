@@ -698,6 +698,7 @@ orgs:
           github-actions:
             description: GitHub Actions Collection
             maintainers:
+              - garethahealy
               - jacobsee
               - tylerauerbeck
             privacy: closed
@@ -707,6 +708,7 @@ orgs:
               github-actions-mergers:
                 description: GitHub Actions Mergers
                 maintainers:
+                  - garethahealy
                   - jacobsee
                   - tylerauerbeck
                 privacy: closed
