@@ -355,6 +355,7 @@ orgs:
           - tom-stockwell
         privacy: closed
         repos:
+          bats-library: read
           casl-ansible: read
           casl-galaxy: read
           cluster-lifecycle: read
@@ -390,6 +391,27 @@ orgs:
           template2helm: read
           uncontained.io: read
         teams:
+          bats:
+            description: Bash Automation Testing System
+            maintainers:
+              - garethahealy
+              - springdo
+              - pabrahamsson
+            members: []
+            privacy: closed
+            repos:
+              bats-library: read
+            teams:
+              bats-mergers:
+                description: BATS Mergers & Admins
+                maintainers:
+                  - garethahealy
+                  - springdo
+                  - pabrahamsson
+                members: []
+                privacy: closed
+                repos:
+                  bats-library: admin
           cant-contain-this:
             description: ""
             maintainers:
@@ -543,6 +565,7 @@ orgs:
               - raffaelespazzoli
             privacy: closed
             repos:
+              bats-library: admin
               casl-ansible: admin
               casl-galaxy: admin
               cluster-lifecycle: read
