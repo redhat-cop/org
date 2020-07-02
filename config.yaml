@@ -258,6 +258,9 @@ orgs:
           automate-tower-ha-dr: write
           automate_tower_lab: write
           automate-windows: write
+          cloud_provision_automation_collection: write
+          hardware_automation_collection: write
+          molecule_cicd_automation: write
           redhat_sso: write
           jboss_webserver: write
           tower_configuration: write
