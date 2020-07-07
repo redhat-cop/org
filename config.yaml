@@ -287,6 +287,7 @@ orgs:
         description: Contributors to the Business Automation CoP
         maintainers:
           - pamenon
+          - ally-jarrett
         privacy: closed
         repos:
           businessautomation-cop: read
@@ -295,6 +296,7 @@ orgs:
             description: ""
             maintainers:
               - pamenon
+              - ally-jarrett
             privacy: closed
             repos:
               businessautomation-cop: admin
