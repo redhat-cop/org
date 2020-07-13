@@ -140,6 +140,15 @@ orgs:
           - name: containers_quickstarts
             type: robot
             role: write
+      - name: global-load-balancer-operator
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
       - name: group-sync-operator
         visibility: public
         permissions:
