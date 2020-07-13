@@ -2,6 +2,15 @@
 orgs:
   - name: redhat-cop
     repos:
+      - name: argocd-operator
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: argocd
+            type: robot
+            role: write
       - name: alertmanager-telegram-gateway
         visibility: public
         permissions:
@@ -456,6 +465,8 @@ orgs:
         description: "Repositories related to the Babylon project"
       - name: openshift_management
         description: Image Push Bot for openshift-management
+      - name: argocd
+        description: Image Push Bot for argocd
     teams:
       - name: owners
         role: admin
