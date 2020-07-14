@@ -292,6 +292,9 @@ orgs:
         maintainers:
           - pamenon
           - ally-jarrett
+          - mumeno
+          - hwurht
+          - kmacedovarela
         privacy: closed
         repos:
           businessautomation-cop: read
@@ -301,6 +304,9 @@ orgs:
             maintainers:
               - pamenon
               - ally-jarrett
+              - mumeno
+              - hwurht
+              - kmacedovarela
             privacy: closed
             repos:
               businessautomation-cop: admin
