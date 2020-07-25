@@ -415,6 +415,7 @@ orgs:
               - garethahealy
               - springdo
               - pabrahamsson
+              - ckavili
             members: []
             privacy: closed
             repos:
@@ -426,6 +427,7 @@ orgs:
                   - garethahealy
                   - springdo
                   - pabrahamsson
+                  - ckavili
                 members: []
                 privacy: closed
                 repos:
@@ -865,21 +867,25 @@ orgs:
               - etsauer
               - pabrahamsson
               - sabre1041
-            members:
               - garethahealy
+              - ckavili
+              - springdo
+            members:
               - tylerauerbeck
             privacy: closed
             repos:
               rego-policies: admin
             teams:
               rego-policies-mergers:
-                description: GitHub Actions Mergers
+                description: Rego policies Mergers
                 maintainers:
                   - etsauer
                   - pabrahamsson
                   - sabre1041
-                members:
                   - garethahealy
+                  - ckavili
+                  - springdo
+                members:
                   - tylerauerbeck
                 privacy: closed
                 repos:
