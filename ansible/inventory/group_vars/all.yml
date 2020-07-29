@@ -374,7 +374,7 @@ orgs:
           - name: jacobsee
             type: user
             role: admin
-          - name: resource_dispatcher
+          - name: pushbot
             type: robot
             role: write
       - name: resource-locker-operator
