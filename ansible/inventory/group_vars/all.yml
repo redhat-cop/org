@@ -368,6 +368,15 @@ orgs:
           - name: containers_quickstarts
             type: robot
             role: write
+      - name: resource-dispatcher
+        visibility: public
+        permissions:
+          - name: jacobsee
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
       - name: resource-locker-operator
         visibility: public
         permissions:
