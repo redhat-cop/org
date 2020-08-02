@@ -48,6 +48,7 @@ orgs:
       - dfwnetman
       - drichtarik
       - dstockdreher
+      - eformat
       - ericzolf
       - erouvas
       - finmahon
@@ -70,12 +71,14 @@ orgs:
       - jbride
       - jeremyrdavis
       - jgoldsmith613
+      - jijiechen
       - jimdillon
       - jkupferer
       - jlozadad
       - jonahkh
       - Jooho
       - josecastillolema
+      - jtudelag
       - juliaaano
       - juliovp01
       - JuozasA
@@ -107,6 +110,7 @@ orgs:
       - mophahr
       - mumeno
       - murphye
+      - mvmaestri
       - mwitzenm
       - newgoliath
       - noelo
@@ -637,6 +641,13 @@ orgs:
               - etsauer
               - pabrahamsson
             members:
+              - ckavili
+              - eformat
+              - tylerauerbeck
+              - gsampaio-rh
+              - jtudelag
+              - mvmaestri
+              - jijiechen
               - InfoSec812
               - noelo
               - murphye
