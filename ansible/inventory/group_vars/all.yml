@@ -140,6 +140,15 @@ orgs:
           - name: openshift_management
             type: robot
             role: write
+      - name: github-runner-ubi8
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: containers_quickstarts
+            type: robot
+            role: write
       - name: gitlab-runners-ubi7-gitlab-runner
         visibility: public
         permissions:
