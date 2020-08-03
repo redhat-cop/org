@@ -261,7 +261,6 @@ orgs:
           automate-jcliff: write
           automate-tower: write
           automate-tower-ha-dr: write
-          automate_tower_lab: write
           automate-windows: write
           cloud_provision_automation_collection: write
           hardware_automation_collection: write
@@ -269,6 +268,7 @@ orgs:
           redhat_sso: write
           jboss_webserver: write
           tower_configuration: write
+          tower_configuration_examples: write
         teams:
           automation-cop-mgrs:
             description: ""
