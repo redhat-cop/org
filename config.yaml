@@ -656,6 +656,7 @@ orgs:
               containers-quickstarts: none
               git-flow: read
               gows: read
+              helm-charts: read
               infra-ansible: read
               k8s-notify: none
               ninja-points: read
@@ -705,6 +706,7 @@ orgs:
                   containers-quickstarts: admin
                   git-flow: read
                   gows: read
+                  helm-charts: admin
                   infra-ansible: read
                   k8s-notify: none
                   ninja-points: read
