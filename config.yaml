@@ -17,6 +17,7 @@ orgs:
     location: ""
     members:
       - 9strands
+      - abryson-redhat
       - adamgoossens
       - AdlerFleurant
       - abaird-rh
@@ -1001,6 +1002,7 @@ orgs:
         maintainers:
           - sabre1041
         members:
+          - abryson-redhat
           - AlyIbrahim
           - etsauer
           - InfoSec812
