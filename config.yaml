@@ -822,7 +822,6 @@ orgs:
               pathfinder: read
               pathfinder-ui: read
               pbl-rocketchat: read
-              quay-operator: read
               quay-openshift-registry-operator: read
               pipeline-library: read
               redhat-cop-operators: read
@@ -874,7 +873,6 @@ orgs:
                   pathfinder-ui: read
                   pbl-rocketchat: read
                   pipeline-library: read
-                  quay-operator: write
                   quay-openshift-registry-operator: write
                   redhat-cop-operators: write
                   resource-locker-operator: write
@@ -1126,7 +1124,6 @@ orgs:
           - thomasmckay
         privacy: closed
         repos:
-          quay-operator: write
           quay-openshift-registry-operator: write
       quay-mgrs:
         description: ""
@@ -1138,7 +1135,6 @@ orgs:
           - thomasmckay
         privacy: closed
         repos:
-          quay-operator: admin
           quay-openshift-registry-operator: admin
       sqlserver-coi:
         description: SQL Server Community of Interest
