@@ -46,6 +46,7 @@ orgs:
       - danhawker
       - darthlukan
       - davgordo
+      - David-Igou
       - ddeno
       - dfwnetman
       - drichtarik
@@ -845,6 +846,7 @@ orgs:
                   - sabre1041
                   - etsauer
                 members:
+                  - David-Igou
                   - raffaelespazzoli
                   - mathianasj
                   - kkoller
@@ -862,6 +864,7 @@ orgs:
                   group-sync-operator: write
                   infra-ansible: read
                   k8s-notify: write
+                  keepalived-operator: write
                   ninja-points: read
                   microsegmentation-operator: write
                   must-gather-operator: write
