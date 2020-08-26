@@ -85,6 +85,7 @@ orgs:
       - JuozasA
       - jtlnguyen
       - jzsjjunior
+      - kedark3
       - kelaird
       - kenwilli
       - kkoller
@@ -109,6 +110,7 @@ orgs:
       - mijaros
       - mm7259
       - mophahr
+      - mpetrive-rh
       - mumeno
       - murphye
       - mvmaestri
@@ -136,6 +138,7 @@ orgs:
       - rut31337
       - samueltauil
       - sbailleu
+      - sean-m-sullivan
       - seravat
       - shah-zobair
       - skypatrolcpt
@@ -255,9 +258,13 @@ orgs:
           - ericzolf
           - jlozadad
         members:
-          - vvaldez
+          - kedark3
           - mophahr
+          - mpetrive-rh
+          - sean-m-sullivan
+          - Tompage1994
           - victorock
+          - vvaldez
         privacy: closed
         repos:
           automate-cicd: write
