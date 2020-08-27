@@ -194,6 +194,18 @@ orgs:
           - name: pushbot
             type: robot
             role: write
+      - name: infra-ansible
+        visibility: public
+        permissions:
+          - name: pushbot
+            type: robot
+            role: write
+          - name: casl
+            type: team
+            role: admin
+          - name: obedin
+            type: user
+            role: admin
       - name: jenkins-agent-python
         visibility: public
         permissions:
