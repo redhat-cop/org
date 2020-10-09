@@ -1089,7 +1089,7 @@ orgs:
           - otatman
         privacy: closed
         repos:
-          project-initialize-operator: admin
+          project-initialize-operator: write
         teams:
           project-initializer-mergers:
             description: ""
@@ -1100,7 +1100,7 @@ orgs:
               - gnekic
             privacy: closed
             repos:
-              project-initialize-operator: write
+              project-initialize-operator: admin
       pubcop:
         description: ""
         maintainers:
