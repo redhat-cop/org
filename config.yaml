@@ -970,6 +970,7 @@ orgs:
               agnosticd: admin
               anarchy: admin
               babylon: admin
+              babylon_agnostics: admin
               babylon-events-console: admin
               dark-tower: admin
               k8s_config: admin
@@ -1005,6 +1006,7 @@ orgs:
                   agnosticv: admin
                   anarchy: admin
                   babylon: admin
+                  babylon_agnostics: admin
                   babylon-events-console: admin
                   dark-tower: admin
                   k8s_config: admin
