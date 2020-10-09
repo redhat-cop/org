@@ -116,6 +116,15 @@ orgs:
           - name: ablock
             type: user
             role: admin
+      - name: dynamic-rbac-operator
+        visibility: public
+        permissions:
+          - name: jacobsee
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
       - name: egressip-ipam-operator
         visibility: public
         permissions:
