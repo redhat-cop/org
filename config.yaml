@@ -898,6 +898,15 @@ orgs:
                   rocketchat-integrations: read
                   spring-rest: read
                   uncontained.io: read
+              dynamic-rbac-operator-admins:
+                description: Admin group for the dynamic-rbac-operator
+                maintainers:
+                  - jacobsee
+                  - oybed
+                  - tylerauerbeck
+                privacy: closed
+                repos:
+                  dynamic-rbac-operator: admin
           rego-policies:
             description: Rego policies Collection
             maintainers:
