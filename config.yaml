@@ -857,6 +857,7 @@ orgs:
                   - raffaelespazzoli
                   - mathianasj
                   - kkoller
+                  - cnuland
                 privacy: closed
                 repos:
                   casl-ansible: read
@@ -875,6 +876,7 @@ orgs:
                   ninja-points: read
                   microsegmentation-operator: write
                   must-gather-operator: write
+                  namespace-configuration-operator: write
                   ocp-supply-chain-demo: read
                   onboarding-manager: write
                   openshift-demo-library: read
