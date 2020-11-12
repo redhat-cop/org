@@ -847,6 +847,7 @@ orgs:
               rocketchat-integrations: read
               spring-rest: read
               uncontained.io: read
+              volume-expander-operator: read
             teams:
               operators-wg-mergers:
                 description: ""
@@ -901,6 +902,7 @@ orgs:
                   rocketchat-integrations: read
                   spring-rest: read
                   uncontained.io: read
+                  volume-expander-operator: write
               dynamic-rbac-operator-admins:
                 description: Admin group for the dynamic-rbac-operator
                 maintainers:
