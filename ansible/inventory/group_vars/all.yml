@@ -500,6 +500,15 @@ orgs:
           - name: pushbot
             type: robot
             role: write
+      - name: volume-expander-operator-controller-bundle
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
     robots:
       - name: uncontainedci
         description: "Image Push Bot for Uncontained.io"
