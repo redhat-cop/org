@@ -813,6 +813,7 @@ orgs:
               cert-operator: read
               cluster-lifecycle: read
               container-pipelines: read
+              community-operators: read
               containers-quickstarts: none
               dynamic-rbac-operator: read
               git-flow: read
@@ -867,6 +868,7 @@ orgs:
                   cert-operator: write
                   cert-utils-operator: write
                   cluster-lifecycle: read
+                  community-operators: write
                   container-pipelines: read
                   containers-quickstarts: none
                   git-flow: read
