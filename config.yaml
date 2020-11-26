@@ -276,6 +276,7 @@ orgs:
         privacy: closed
         repos:
           automate-cicd: write
+          automation-good-practices: write
           elk_automation: write
           automate-exotic: write
           automate-jcliff: write
@@ -302,6 +303,7 @@ orgs:
             privacy: closed
             repos:
               automate-cicd: admin
+              automation-good-practices: admin
               elk_automation: admin
               automate-exotic: admin
               automate-jcliff: admin
