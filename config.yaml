@@ -276,6 +276,7 @@ orgs:
           - vvaldez
         privacy: closed
         repos:
+          ah_configuration: write
           automate-cicd: write
           elk_automation: write
           automate-exotic: write
@@ -302,6 +303,7 @@ orgs:
               - vvaldez
             privacy: closed
             repos:
+              ah_configuration: admin
               automate-cicd: admin
               elk_automation: admin
               automate-exotic: admin
