@@ -278,6 +278,7 @@ orgs:
         repos:
           ah_configuration: write
           automate-cicd: write
+          automation-good-practices: write
           elk_automation: write
           automate-exotic: write
           automate-jcliff: write
@@ -305,6 +306,7 @@ orgs:
             repos:
               ah_configuration: admin
               automate-cicd: admin
+              automation-good-practices: admin
               elk_automation: admin
               automate-exotic: admin
               automate-jcliff: admin
