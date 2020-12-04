@@ -948,6 +948,14 @@ orgs:
                 privacy: closed
                 repos:
                   rego-policies: write
+      cyberinfrasig:
+        description: "Cyber Infrastructure Special Interest Group"
+        maintainers:
+          - hfenner
+        members: []
+        privacy: closed
+        repos:
+          disconnectedinfra: admin 
       gpte:
         description: ""
         maintainers:
