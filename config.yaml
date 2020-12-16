@@ -276,7 +276,6 @@ orgs:
           - vvaldez
         privacy: closed
         repos:
-          ah_configuration: write
           automate-cicd: write
           automation-good-practices: write
           elk_automation: write
@@ -304,7 +303,6 @@ orgs:
               - vvaldez
             privacy: closed
             repos:
-              ah_configuration: admin
               automate-cicd: admin
               automation-good-practices: admin
               elk_automation: admin
@@ -315,6 +313,18 @@ orgs:
               redhat_sso: admin
               jboss_webserver: admin
               tower_utilities: admin
+      automation-cop-tower-mgrs:
+        description: Tower managers of Automation CoP
+        maintainers:
+          - sean-m-sullivan
+          - Tompage1994
+        members: []
+        repos:
+          ah_configuration: admin
+          tower_configuration: admin
+          tower_configuration_examples: admin
+          tower_utilities: admin
+        privacy: closed
       businessautomation-cop:
         description: Contributors to the Business Automation CoP
         maintainers:
