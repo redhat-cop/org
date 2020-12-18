@@ -335,6 +335,15 @@ orgs:
           - name: pushbot
             type: robot
             role: write
+      - name: operator-utils-bundle
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
       - name: podpreset-webhook
         visibility: public
         permissions:
