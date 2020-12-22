@@ -185,6 +185,15 @@ orgs:
           - name: pushbot
             type: robot
             role: write
+      - name: group-sync-operator-bundle
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
       - name: image-scanning-signing-service
         visibility: public
         permissions:
@@ -266,6 +275,15 @@ orgs:
           - name: pushbot
             type: robot
             role: write
+      - name: keepalived-operator-bundle
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
       - name: microsegmentation-operator
         visibility: public
         permissions:
@@ -284,7 +302,25 @@ orgs:
           - name: pushbot
             type: robot
             role: write
+      - name: must-gather-operator-bundle
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
       - name: namespace-configuration-operator
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
+      - name: namespace-configuration-operator-bundle
         visibility: public
         permissions:
           - name: ablock
@@ -417,6 +453,15 @@ orgs:
             type: robot
             role: write
       - name: resource-locker-operator
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
+      - name: resource-locker-operator-bundle
         visibility: public
         permissions:
           - name: ablock
