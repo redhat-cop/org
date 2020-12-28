@@ -110,6 +110,15 @@ orgs:
           - name: pushbot
             type: robot
             role: write
+      - name: cert-utils-operator-bundle
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
       - name: dex
         visibility: public
         permissions:
@@ -126,6 +135,15 @@ orgs:
             type: robot
             role: write
       - name: egressip-ipam-operator
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
+      - name: egressip-ipam-operator-bundle
         visibility: public
         permissions:
           - name: ablock
@@ -168,6 +186,15 @@ orgs:
             type: robot
             role: write
       - name: global-load-balancer-operator
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
+      - name: global-load-balancer-operator-bundle
         visibility: public
         permissions:
           - name: ablock
