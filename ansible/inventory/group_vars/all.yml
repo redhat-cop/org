@@ -110,6 +110,15 @@ orgs:
           - name: pushbot
             type: robot
             role: write
+      - name: cert-utils-operator-bundle
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
       - name: dex
         visibility: public
         permissions:
@@ -126,6 +135,15 @@ orgs:
             type: robot
             role: write
       - name: egressip-ipam-operator
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
+      - name: egressip-ipam-operator-bundle
         visibility: public
         permissions:
           - name: ablock
@@ -176,7 +194,25 @@ orgs:
           - name: pushbot
             type: robot
             role: write
+      - name: global-load-balancer-operator-bundle
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
       - name: group-sync-operator
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
+      - name: group-sync-operator-bundle
         visibility: public
         permissions:
           - name: ablock
@@ -266,6 +302,15 @@ orgs:
           - name: pushbot
             type: robot
             role: write
+      - name: keepalived-operator-bundle
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
       - name: microsegmentation-operator
         visibility: public
         permissions:
@@ -284,7 +329,25 @@ orgs:
           - name: pushbot
             type: robot
             role: write
+      - name: must-gather-operator-bundle
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
       - name: namespace-configuration-operator
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
+      - name: namespace-configuration-operator-bundle
         visibility: public
         permissions:
           - name: ablock
@@ -417,6 +480,15 @@ orgs:
             type: robot
             role: write
       - name: resource-locker-operator
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
+      - name: resource-locker-operator-bundle
         visibility: public
         permissions:
           - name: ablock
