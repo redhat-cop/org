@@ -878,48 +878,24 @@ orgs:
                   - cnuland
                 privacy: closed
                 repos:
-                  casl-ansible: read
-                  casl-galaxy: read
                   cert-operator: write
-                  cert-utils-operator: write
-                  cluster-lifecycle: read
+                  cert-utils-operator: admin
                   community-operators: write
                   container-pipelines: read
                   containers-quickstarts: none
-                  git-flow: read
-                  gows: read
-                  group-sync-operator: write
-                  infra-ansible: read
-                  k8s-notify: write
-                  keepalived-operator: write
-                  ninja-points: read
-                  microsegmentation-operator: write
-                  must-gather-operator: write
-                  namespace-configuration-operator: write
-                  ocp-supply-chain-demo: read
-                  onboarding-manager: write
-                  openshift-demo-library: read
-                  openshift-elasticsearch: read
+                  egressip-ipam-operator: admin
+                  global-load-balancer-operator: admin
+                  group-sync-operator: admin
+                  keepalived-operator: admin
+                  must-gather-operator: admin
+                  namespace-configuration-operator: admin
                   openshift-event-controller: read
                   openshift-image-signing-scanning: read
-                  openshift-management: read
-                  openshift-playbooks: read
-                  openshift-templates: read
-                  openshift-toolkit: read
-                  operationalizing-openshift-lab: none
-                  operator-utils: write
-                  pathfinder: read
-                  pathfinder-ui: read
-                  pbl-rocketchat: read
-                  pipeline-library: read
+                  operator-utils: admin
                   quay-openshift-registry-operator: write
-                  redhat-cop-operators: write
-                  resource-locker-operator: write
-                  rhc-ocp-playbook-test: read
-                  rocketchat-integrations: read
-                  spring-rest: read
-                  uncontained.io: read
-                  volume-expander-operator: write
+                  redhat-cop-operators: admin
+                  resource-locker-operator: admin
+                  volume-expander-operator: admin
               dynamic-rbac-operator-admins:
                 description: Admin group for the dynamic-rbac-operator
                 maintainers:
