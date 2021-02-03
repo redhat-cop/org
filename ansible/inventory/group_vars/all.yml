@@ -434,6 +434,15 @@ orgs:
           - name: pushbot
             type: robot
             role: write
+      - name: proactive-node-scaling-operator
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
       - name: python-kopf-s2i
         visibility: public
         permissions:

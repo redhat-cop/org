@@ -855,8 +855,9 @@ orgs:
               pathfinder: read
               pathfinder-ui: read
               pbl-rocketchat: read
-              quay-openshift-registry-operator: read
               pipeline-library: read
+              proactive-node-scaling-operator: read
+              quay-openshift-registry-operator: read
               redhat-cop-operators: read
               rhc-ocp-playbook-test: read
               resource-locker-operator: read
@@ -892,6 +893,7 @@ orgs:
                   openshift-event-controller: read
                   openshift-image-signing-scanning: read
                   operator-utils: admin
+                  proactive-node-scaling-operator: admin
                   quay-openshift-registry-operator: write
                   redhat-cop-operators: admin
                   resource-locker-operator: admin
