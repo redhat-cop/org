@@ -73,6 +73,7 @@ orgs:
       - ibazulic
       - InfoSec812
       - jacobsee
+      - jarcher
       - JaredBurck
       - jbride
       - jeremyrdavis
@@ -121,6 +122,7 @@ orgs:
       - murphye
       - mvmaestri
       - mwitzenm
+      - nasx
       - newgoliath
       - noelo
       - NonyNo3lle
@@ -135,6 +137,7 @@ orgs:
       - pecorawal
       - prakritiverma
       - radudd
+      - raedrizk
       - raffaelespazzoli
       - ramius345
       - rhjcd
@@ -150,6 +153,7 @@ orgs:
       - skypatrolcpt
       - Smithe2413
       - springdo
+      - stephennimmo
       - stencell
       - stratus-ss
       - sushilsuresh
@@ -158,6 +162,7 @@ orgs:
       - themoosman
       - thomas-crowe
       - thomasmckay
+      - thomasphall
       - tolarewaju3
       - stocky37
       - tomassedovic
@@ -1175,6 +1180,19 @@ orgs:
         privacy: closed
         repos:
           quay-openshift-registry-operator: admin
+      rhel-edge-automation-arch:
+        description: RHEL for Edge Automation Deployment Architecture
+        maintainers:
+          - sabre1041
+          - nasx
+        members:
+          - jarcher
+          - samueltauil
+          - stephennimmo
+          - thomasphall
+        privacy: closed
+        repos:
+          rhel-edge-automation-arch: admin
       sqlserver-coi:
         description: SQL Server Community of Interest
         maintainers:
