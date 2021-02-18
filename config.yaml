@@ -1062,8 +1062,7 @@ orgs:
           - malacourse
           - raffaelespazzoli
         privacy: closed
-        repos:
-          pelorus: write
+        repos: {}
       ninja-program:
         description: ""
         maintainers:
