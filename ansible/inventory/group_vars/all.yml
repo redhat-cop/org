@@ -416,6 +416,15 @@ orgs:
           - name: pushbot
             type: robot
             role: write
+      - name: podpreset-webhook-bundle
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
       - name: poolboy
         visibility: public
         permissions:
