@@ -862,7 +862,6 @@ orgs:
               pbl-rocketchat: read
               pipeline-library: read
               proactive-node-scaling-operator: read
-              quay-openshift-registry-operator: read
               redhat-cop-operators: read
               rhc-ocp-playbook-test: read
               resource-locker-operator: read
@@ -899,7 +898,6 @@ orgs:
                   openshift-image-signing-scanning: read
                   operator-utils: admin
                   proactive-node-scaling-operator: admin
-                  quay-openshift-registry-operator: write
                   redhat-cop-operators: admin
                   resource-locker-operator: admin
                   volume-expander-operator: admin
@@ -1166,8 +1164,7 @@ orgs:
           - kleesc
           - thomasmckay
         privacy: closed
-        repos:
-          quay-openshift-registry-operator: write
+        repos: {}
       quay-mgrs:
         description: ""
         maintainers:
@@ -1177,8 +1174,7 @@ orgs:
           - kleesc
           - thomasmckay
         privacy: closed
-        repos:
-          quay-openshift-registry-operator: admin
+        repos: {}
       rhel-edge-automation-arch:
         description: RHEL for Edge Automation Deployment Architecture
         maintainers:
