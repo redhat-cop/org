@@ -29,6 +29,7 @@ orgs:
       - alecmerdler
       - ally-jarrett
       - AlyIbrahim
+      - andrewwiththeredhat
       - apitanga
       - arilivigni
       - Arman084
@@ -1185,6 +1186,8 @@ orgs:
           - samueltauil
           - stephennimmo
           - thomasphall
+          - raedrizk
+          - andrewwiththeredhat
         privacy: closed
         repos:
           rhel-edge-automation-arch: admin
