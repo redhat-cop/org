@@ -804,7 +804,7 @@ orgs:
               - tylerauerbeck
             privacy: closed
             repos:
-              github-actions: admin
+              github-actions: read
             teams:
               github-actions-mergers:
                 description: GitHub Actions Mergers
@@ -814,7 +814,7 @@ orgs:
                   - tylerauerbeck
                 privacy: closed
                 repos:
-                  github-actions: write
+                  github-actions: admin
           operators-wg:
             description: ""
             maintainers:
@@ -924,7 +924,7 @@ orgs:
               - tylerauerbeck
             privacy: closed
             repos:
-              rego-policies: admin
+              rego-policies: read
             teams:
               rego-policies-mergers:
                 description: Rego policies Mergers
@@ -939,7 +939,7 @@ orgs:
                   - tylerauerbeck
                 privacy: closed
                 repos:
-                  rego-policies: write
+                  rego-policies: admin
       cyberinfrasig:
         description: "Cyber Infrastructure Special Interest Group"
         maintainers:
