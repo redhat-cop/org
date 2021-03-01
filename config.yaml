@@ -76,6 +76,7 @@ orgs:
       - jacobsee
       - jarcher
       - JaredBurck
+      - jflowers
       - jbride
       - jeremyrdavis
       - jgoldsmith613
@@ -815,6 +816,16 @@ orgs:
                 privacy: closed
                 repos:
                   github-actions: admin
+          ocp-disconnected:
+            description: "OCP disconnected special interest group"
+            maintainers:
+              - jflowers
+              - itewk
+              - sabre1041
+            members: []
+            privacy: closed
+            repos:
+              ocp-disconnected-docs: admin
           operators-wg:
             description: ""
             maintainers:
