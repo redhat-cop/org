@@ -608,7 +608,7 @@ orgs:
           - name: pushbot
             type: robot
             role: write
-      - name: volume-expander-operator-controller-bundle
+      - name: volume-expander-operator-bundle
         visibility: public
         permissions:
           - name: ablock
