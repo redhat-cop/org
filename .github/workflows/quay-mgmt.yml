@@ -4,7 +4,7 @@ on:
     #paths:
     #  - "ansible/**"
     branches:
-      - "master"
+      - "main"
 
 jobs:
   quay-management:
