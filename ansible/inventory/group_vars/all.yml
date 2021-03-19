@@ -670,7 +670,9 @@ orgs:
       - name: babylon
         role: member
         members:
+          - name: fridim
           - name: jkupferer
+          - name: tonykay
       - name: contributors
         role: member
       - name: casl
