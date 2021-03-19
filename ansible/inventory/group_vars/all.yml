@@ -36,6 +36,9 @@ orgs:
             type: user
             role: admin
           - name: babylon
+            type: team
+            role: admin
+          - name: babylon
             type: robot
             role: write
       - name: anarchy-runner
@@ -43,6 +46,9 @@ orgs:
         permissions:
           - name: ablock
             type: user
+            role: admin
+          - name: babylon
+            type: team
             role: admin
           - name: babylon
             type: robot
@@ -54,6 +60,18 @@ orgs:
             type: user
             role: admin
           - name: babylon
+            type: team
+            role: admin
+          - name: babylon
+            type: robot
+            role: write
+      - name: babylon-admin
+        visibility: public
+        permissions:
+          - name: babylon
+            type: team
+            role: admin
+          - name: babylon
             type: robot
             role: write
       - name: babylon-events-console
@@ -61,6 +79,9 @@ orgs:
         permissions:
           - name: ablock
             type: user
+            role: admin
+          - name: babylon
+            type: team
             role: admin
           - name: babylon
             type: robot
@@ -73,6 +94,9 @@ orgs:
         permissions:
           - name: etsauer
             type: user
+            role: admin
+          - name: babylon
+            type: team
             role: admin
           - name: babylon
             type: robot
@@ -428,6 +452,9 @@ orgs:
       - name: poolboy
         visibility: public
         permissions:
+          - name: babylon
+            type: team
+            role: admin
           - name: etsauer
             type: user
             role: admin
@@ -648,3 +675,7 @@ orgs:
         role: creator
         members:
           - name: pabrahamsson
+      - name: babylon
+        role: member
+        members:
+          - name: jkupferer
