@@ -667,6 +667,10 @@ orgs:
           - name: etsauer
           - name: obedin
           - name: pabrahamsson
+      - name: babylon
+        role: member
+        members:
+          - name: jkupferer
       - name: contributors
         role: member
       - name: casl
@@ -675,7 +679,3 @@ orgs:
         role: creator
         members:
           - name: pabrahamsson
-      - name: babylon
-        role: member
-        members:
-          - name: jkupferer
