@@ -461,6 +461,18 @@ orgs:
           - name: babylon
             type: robot
             role: write
+      - name: poolboy-admin
+        visibility: public
+        permissions:
+          - name: babylon
+            type: team
+            role: admin
+          - name: ablock
+            type: user
+            role: admin
+          - name: babylon
+            type: robot
+            role: write
       - name: project-initialize-operator
         visibility: public
         permissions:
