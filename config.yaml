@@ -148,6 +148,7 @@ orgs:
       - raedrizk
       - raffaelespazzoli
       - ramius345
+      - ravisantoshgudimetla
       - rflorenc
       - rhjcd
       - richardwalkerdev
@@ -807,6 +808,19 @@ orgs:
               - gnekic
             repos:
               declarative-openshift: write
+          golang-cop:
+            description: "Team for the management of the Golang CoP"
+            maintainers:
+              - radudd
+            members:
+              - rflorenc
+              - berkeragir
+              - tosmi
+              - raffaelespazzoli
+              - ravisantoshgudimetla
+              - sabre1041
+            privacy: closed
+            repos: {}
           github-actions:
             description: GitHub Actions Collection
             maintainers:
