@@ -344,6 +344,33 @@ orgs:
           - name: pushbot
             type: robot
             role: write
+      - name: monitoring-hpilo-exporter
+        visibility: public
+        permissions:
+          - name: pushbot
+            type: robot
+            role: write
+          - name: monitoring
+            type: team
+            role: admin
+      - name: monitoring-lenovo-flex-exporter
+        visibility: public
+        permissions:
+          - name: pushbot
+            type: robot
+            role: write
+          - name: monitoring
+            type: team
+            role: admin
+      - name: monitoring-netapp-exporter
+        visibility: public
+        permissions:
+          - name: pushbot
+            type: robot
+            role: write
+          - name: monitoring
+            type: team
+            role: admin
       - name: must-gather-operator
         visibility: public
         permissions:
@@ -693,3 +720,8 @@ orgs:
         role: creator
         members:
           - name: pabrahamsson
+      - name: monitoring
+        role: member
+        members:
+          - name: jacobsee
+          - name: obedin
