@@ -245,15 +245,6 @@ orgs:
           - name: pushbot
             type: robot
             role: write
-      - name: hpilo-exporter
-        visibility: public
-        permissions:
-          - name: pushbot
-            type: robot
-            role: write
-          - name: prometheusexporters
-            type: team
-            role: admin
       - name: image-scanning-signing-service
         visibility: public
         permissions:
@@ -344,15 +335,6 @@ orgs:
           - name: pushbot
             type: robot
             role: write
-      - name: lenovo-flex-exporter
-        visibility: public
-        permissions:
-          - name: pushbot
-            type: robot
-            role: write
-          - name: prometheusexporters
-            type: team
-            role: admin
       - name: microsegmentation-operator
         visibility: public
         permissions:
@@ -362,6 +344,33 @@ orgs:
           - name: pushbot
             type: robot
             role: write
+      - name: monitoring-hpilo-exporter
+        visibility: public
+        permissions:
+          - name: pushbot
+            type: robot
+            role: write
+          - name: monitoring
+            type: team
+            role: admin
+      - name: monitoring-lenovo-flex-exporter
+        visibility: public
+        permissions:
+          - name: pushbot
+            type: robot
+            role: write
+          - name: monitoring
+            type: team
+            role: admin
+      - name: monitoring-netapp-exporter
+        visibility: public
+        permissions:
+          - name: pushbot
+            type: robot
+            role: write
+          - name: monitoring
+            type: team
+            role: admin
       - name: must-gather-operator
         visibility: public
         permissions:
@@ -398,15 +407,6 @@ orgs:
           - name: pushbot
             type: robot
             role: write
-      - name: netapp-exporter
-        visibility: public
-        permissions:
-          - name: pushbot
-            type: robot
-            role: write
-          - name: prometheusexporters
-            type: team
-            role: admin
       - name: ninja-board
         visibility: public
         permissions:
@@ -720,7 +720,8 @@ orgs:
         role: creator
         members:
           - name: pabrahamsson
-      - name: prometheusexporters
+      - name: monitoring
         role: member
         members:
           - name: jacobsee
+          - name: obedin
