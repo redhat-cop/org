@@ -599,6 +599,24 @@ orgs:
           - name: owners
             type: team
             role: admin
+      - name: tekton-task-conftest
+        visibility: public
+        permissions:
+          - name: pabrahamsson
+            type: user
+            role: admin
+          - name: containers_quickstarts
+            type: robot
+            role: write
+      - name: tekton-task-helm
+        visibility: public
+        permissions:
+          - name: pabrahamsson
+            type: user
+            role: admin
+          - name: containers_quickstarts
+            type: robot
+            role: write
       - name: tool-box
         visibility: public
         permissions:
