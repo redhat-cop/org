@@ -275,6 +275,15 @@ orgs:
           - name: obedin
             type: user
             role: admin
+      - name: jenkins-agent-image-mgmt
+        visibility: public
+        permissions:
+          - name: pabrahamsson
+            type: user
+            role: admin
+          - name: containers_quickstarts
+            type: robot
+            role: write
       - name: jenkins-agent-python
         visibility: public
         permissions:
