@@ -1033,6 +1033,7 @@ orgs:
             privacy: closed
             repos:
               agnosticd: admin
+              agnostics: admin
               anarchy: admin
               babylon: admin
               babylon_agnostics: admin
@@ -1069,6 +1070,7 @@ orgs:
                 members: []
                 repos:
                   agnosticv: admin
+                  agnostics: admin
                   anarchy: admin
                   babylon: admin
                   babylon_agnostics: admin
