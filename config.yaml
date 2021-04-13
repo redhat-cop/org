@@ -188,6 +188,7 @@ orgs:
       - trv-rpeoples
       - truncj
       - tylerauerbeck
+      - varodrig
       - vdrvergara
       - victorock
       - vvaldez
@@ -1004,6 +1005,7 @@ orgs:
           - bosebc
           - pavelanni
           - jkupferer
+          - varodrig
         privacy: closed
         repos:
           agnosticd: write
