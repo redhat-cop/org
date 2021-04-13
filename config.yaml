@@ -1012,6 +1012,7 @@ orgs:
           anarchy: read
           babylon: read
           babylon-events-console: read
+          classroom: write
           dark-tower: read
           k8s_config: read
           openshift-4-alpha-enablement: read
@@ -1038,6 +1039,7 @@ orgs:
               babylon: admin
               babylon_agnostics: admin
               babylon-events-console: admin
+              classroom: admin
               dark-tower: admin
               k8s_config: admin
               openshift-4-alpha-enablement: admin
