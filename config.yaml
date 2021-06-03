@@ -50,6 +50,7 @@ orgs:
       - cnuland
       - cpeters
       - cpitman
+      - d-jana
       - danhawker
       - darthlukan
       - davgordo
@@ -71,6 +72,7 @@ orgs:
       - ghyde
       - giofontana
       - gjbianco
+      - gmontalvoy
       - gnekic
       - gsampaio-rh
       - hfenner
@@ -121,6 +123,7 @@ orgs:
       - marcredhat
       - marciopaiva
       - malacourse
+      - marcosmamorim
       - matallen
       - mathianasj
       - mattheh
@@ -145,6 +148,7 @@ orgs:
       - paulbarfuss
       - pcarney8
       - pecorawal
+      - prakhar1985
       - prakritiverma
       - radudd
       - raedrizk
@@ -194,6 +198,7 @@ orgs:
       - vvaldez
       - welshstew
       - willowmck
+      - wilson-walrus
       - wkulhanek
     members_can_create_repositories: false
     name: Red Hat Communities of Practice
