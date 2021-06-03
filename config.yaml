@@ -50,6 +50,7 @@ orgs:
       - cnuland
       - cpeters
       - cpitman
+      - d-jana
       - danhawker
       - darthlukan
       - davgordo
@@ -71,6 +72,7 @@ orgs:
       - ghyde
       - giofontana
       - gjbianco
+      - gmontalvoy
       - gnekic
       - gsampaio-rh
       - hfenner
@@ -121,6 +123,7 @@ orgs:
       - marcredhat
       - marciopaiva
       - malacourse
+      - marcosmamorim
       - matallen
       - mathianasj
       - mattheh
@@ -143,9 +146,9 @@ orgs:
       - pamenon
       - pathfinder-waffle
       - paulbarfuss
-      - pavelanni
       - pcarney8
       - pecorawal
+      - prakhar1985
       - prakritiverma
       - radudd
       - raedrizk
@@ -195,6 +198,7 @@ orgs:
       - vvaldez
       - welshstew
       - willowmck
+      - wilson-walrus
       - wkulhanek
     members_can_create_repositories: false
     name: Red Hat Communities of Practice
@@ -990,22 +994,24 @@ orgs:
       gpte:
         description: ""
         maintainers:
-          - newgoliath
-          - etsauer
-          - wkulhanek
-          - sborenst
-        members:
           - fridim
-          - tonykay
-          - jbride
-          - rut31337
-          - thomas-crowe
-          - rhjcd
-          - stencell
-          - NonyNo3lle
-          - bosebc
-          - pavelanni
           - jkupferer
+          - newgoliath
+          - sborenst
+          - wkulhanek
+        members:
+          - bosebc
+          - d-jana
+          - gmontalvoy
+          - marcosmamorim
+          - NonyNo3lle
+          - prakhar1985
+          - rhjcd
+          - rut31337
+          - stencell
+          - thomas-crowe
+          - tonykay
+          - wilson-walrus
           - varodrig
         privacy: closed
         repos:
@@ -1026,13 +1032,14 @@ orgs:
           gpte-admins:
             description: "GPTE Admin Team"
             maintainers:
+              - fridim
+              - jkupferer
               - newgoliath
-              - etsauer
               - wkulhanek
             members:
-              - fridim
-              - rut31337
+              - marcosmamorim
               - NonyNo3lle
+              - rut31337
             privacy: closed
             repos:
               agnosticd: admin
