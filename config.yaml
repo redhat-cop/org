@@ -854,10 +854,12 @@ orgs:
               - jflowers
               - itewk
               - sabre1041
-            members: []
+            members:
+              - arvin-a
             privacy: closed
             repos:
               ocp-disconnected-docs: admin
+              openshift-disconnected-operators: admin
           operators-wg:
             description: ""
             maintainers:
