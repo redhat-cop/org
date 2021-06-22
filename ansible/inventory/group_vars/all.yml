@@ -41,6 +41,15 @@ orgs:
           - name: babylon
             type: robot
             role: write
+      - name: anarchy-operator
+        visibility: public
+        permissions:
+          - name: babylon
+            type: team
+            role: admin
+          - name: babylon
+            type: robot
+            role: write
       - name: anarchy-runner
         visibility: public
         permissions:
