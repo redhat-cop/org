@@ -83,6 +83,24 @@ orgs:
           - name: babylon
             type: robot
             role: write
+      - name: babylon-catalog-api
+        visibility: public
+        permissions:
+          - name: babylon
+            type: team
+            role: admin
+          - name: babylon
+            type: robot
+            role: write
+      - name: babylon-catalog-ui
+        visibility: public
+        permissions:
+          - name: babylon
+            type: team
+            role: admin
+          - name: babylon
+            type: robot
+            role: write
       - name: babylon-events-console
         visibility: public
         permissions:
