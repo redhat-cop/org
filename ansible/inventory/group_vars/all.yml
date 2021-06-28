@@ -380,6 +380,15 @@ orgs:
           - name: pushbot
             type: robot
             role: write
+      - name: monitoring-aws-sq-exporter
+        visibility: public
+        permissions:
+          - name: pushbot
+            type: robot
+            role: write
+          - name: monitoring
+            type: team
+            role: admin
       - name: monitoring-hpilo-exporter
         visibility: public
         permissions:
@@ -778,4 +787,5 @@ orgs:
         role: member
         members:
           - name: jacobsee
+          - name: jfilipcz
           - name: obedin
