@@ -202,6 +202,7 @@ orgs:
       - willowmck
       - wilson-walrus
       - wkulhanek
+      - yvarbanov
     members_can_create_repositories: false
     name: Red Hat Communities of Practice
     teams:
@@ -1018,6 +1019,7 @@ orgs:
           - tonykay
           - wilson-walrus
           - varodrig
+          - yvarbanov
         privacy: closed
         repos:
           agnosticd: write
