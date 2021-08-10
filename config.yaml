@@ -884,6 +884,7 @@ orgs:
               cluster-lifecycle: read
               container-pipelines: read
               community-operators: read
+              community-operators-prod: read
               containers-quickstarts: none
               dynamic-rbac-operator: read
               git-flow: read
@@ -936,6 +937,7 @@ orgs:
                   cert-operator: write
                   cert-utils-operator: admin
                   community-operators: write
+                  community-operators-prod: write
                   container-pipelines: read
                   containers-quickstarts: none
                   egressip-ipam-operator: admin
