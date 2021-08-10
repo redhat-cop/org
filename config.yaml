@@ -75,6 +75,7 @@ orgs:
       - gjbianco
       - gmontalvoy
       - gnekic
+      - gnunn1
       - gsampaio-rh
       - hfenner
       - huddlesj
@@ -150,6 +151,7 @@ orgs:
       - paulbarfuss
       - pcarney8
       - pecorawal
+      - pittar
       - prakhar1985
       - prakritiverma
       - radudd
@@ -852,6 +854,27 @@ orgs:
                 privacy: closed
                 repos:
                   github-actions: admin
+          gitops-wg:
+            description: "GitOps Working Group"
+            maintainers:
+              - sabre1041
+              - pittar
+              - gnunn1
+            members: []
+            privacy: closed
+            repos:
+              gitops-catalog: read
+            teams:
+              gitops-wg-mergers:
+                description: "GitOps Working Group Mergers"
+                maintainers:
+                  - sabre1041
+                  - pittar
+                  - gnunn1
+                members: []
+                privacy: closed
+                repos:
+                  gitops-catalog: admin
           ocp-disconnected:
             description: "OCP disconnected special interest group"
             maintainers:
