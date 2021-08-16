@@ -3,6 +3,7 @@ orgs:
     admins:
       - etsauer
       - redhat-cop-ci-bot
+      - garethahealy
       - oybed
       - sabre1041
       - sborenst
