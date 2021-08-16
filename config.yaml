@@ -4,10 +4,11 @@ orgs:
       - etsauer
       - redhat-cop-ci-bot
       - garethahealy
+      - JaredBurck
       - oybed
+      - pabrahamsson
       - sabre1041
       - sborenst
-      - pabrahamsson
     billing_email: esauer@redhat.com
     company: ""
     default_repository_permission: read
