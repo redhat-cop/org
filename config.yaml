@@ -3,9 +3,10 @@ orgs:
     admins:
       - etsauer
       - redhat-cop-ci-bot
+      - garethahealy
+      - JaredBurck
       - oybed
       - sabre1041
-      - sborenst
       - pabrahamsson
     billing_email: esauer@redhat.com
     company: ""
@@ -69,7 +70,6 @@ orgs:
       - fostimus
       - fridim
       - FWCoder
-      - garethahealy
       - ghyde
       - giofontana
       - gjbianco
@@ -86,7 +86,6 @@ orgs:
       - itewk
       - jacobsee
       - jarcher
-      - JaredBurck
       - jfilipcz
       - jflowers
       - jbride
@@ -168,6 +167,7 @@ orgs:
       - ryanzhang
       - samueltauil
       - sbailleu
+      - sborenst
       - sean-m-sullivan
       - seravat
       - shah-zobair
