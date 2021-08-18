@@ -1130,7 +1130,8 @@ orgs:
           - kaileshmistry
           - TinyExplosions
           - aglenn360
-        members: []
+        members:
+          - aglenn360
         privacy: closed
         repos:
           distributed-working-cop: admin
