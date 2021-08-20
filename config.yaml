@@ -8,7 +8,6 @@ orgs:
       - oybed
       - pabrahamsson
       - sabre1041
-      - pabrahamsson
     billing_email: esauer@redhat.com
     company: ""
     default_repository_permission: read
