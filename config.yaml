@@ -351,7 +351,6 @@ orgs:
         maintainers:
           - sean-m-sullivan
           - Tompage1994
-        members: []
         repos:
           ah_configuration: admin
           tower_configuration: admin
@@ -452,7 +451,6 @@ orgs:
               - springdo
               - pabrahamsson
               - ckavili
-            members: []
             privacy: closed
             repos:
               bats-library: read
@@ -464,7 +462,6 @@ orgs:
                   - springdo
                   - pabrahamsson
                   - ckavili
-                members: []
                 privacy: closed
                 repos:
                   bats-library: admin
@@ -748,7 +745,6 @@ orgs:
               - sabre1041
               - pittar
               - gnunn1
-            members: []
             privacy: closed
             repos:
               gitops-catalog: read
@@ -759,7 +755,6 @@ orgs:
                   - sabre1041
                   - pittar
                   - gnunn1
-                members: []
                 privacy: closed
                 repos:
                   gitops-catalog: admin
@@ -873,7 +868,6 @@ orgs:
         description: "Cyber Infrastructure Special Interest Group"
         maintainers:
           - hfenner
-        members: []
         privacy: closed
         repos:
           disconnectedinfra: admin 
@@ -966,7 +960,6 @@ orgs:
                   - tonykay
                   - fridim
                   - jkupferer
-                members: []
                 repos:
                   agnosticv: admin
                   agnostics: admin
@@ -983,7 +976,6 @@ orgs:
           - kaileshmistry
           - TinyExplosions
           - aglenn360
-        members: []
         privacy: closed
         repos:
           distributed-working-cop: admin
@@ -1146,7 +1138,6 @@ orgs:
         maintainers:
           - adamgoossens
           - limershein
-        members: []
         privacy: closed
         repos:
           sqlserver-coi: admin
