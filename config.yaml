@@ -443,7 +443,7 @@ orgs:
           - FWCoder
           - stocky37
         privacy: closed
-        repos: []
+        repos: {}
         teams:
           bats:
             description: Bash Automation Testing System
@@ -547,7 +547,7 @@ orgs:
               - etsauer
               - oybed
             privacy: closed
-            repos: []
+            repos: {}
             teams:
               casl-mergers:
                 description: CASL Mergers
