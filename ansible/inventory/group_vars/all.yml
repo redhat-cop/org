@@ -41,6 +41,15 @@ orgs:
           - name: babylon
             type: robot
             role: write
+      - name: anarchy-operator
+        visibility: public
+        permissions:
+          - name: babylon
+            type: team
+            role: admin
+          - name: babylon
+            type: robot
+            role: write
       - name: anarchy-runner
         visibility: public
         permissions:
@@ -66,6 +75,24 @@ orgs:
             type: robot
             role: write
       - name: babylon-admin
+        visibility: public
+        permissions:
+          - name: babylon
+            type: team
+            role: admin
+          - name: babylon
+            type: robot
+            role: write
+      - name: babylon-catalog-api
+        visibility: public
+        permissions:
+          - name: babylon
+            type: team
+            role: admin
+          - name: babylon
+            type: robot
+            role: write
+      - name: babylon-catalog-ui
         visibility: public
         permissions:
           - name: babylon
@@ -353,6 +380,15 @@ orgs:
           - name: pushbot
             type: robot
             role: write
+      - name: monitoring-aws-sq-exporter
+        visibility: public
+        permissions:
+          - name: pushbot
+            type: robot
+            role: write
+          - name: monitoring
+            type: team
+            role: admin
       - name: monitoring-hpilo-exporter
         visibility: public
         permissions:
@@ -608,6 +644,24 @@ orgs:
           - name: owners
             type: team
             role: admin
+      - name: tekton-task-conftest
+        visibility: public
+        permissions:
+          - name: pabrahamsson
+            type: user
+            role: admin
+          - name: containers_quickstarts
+            type: robot
+            role: write
+      - name: tekton-task-helm
+        visibility: public
+        permissions:
+          - name: pabrahamsson
+            type: user
+            role: admin
+          - name: containers_quickstarts
+            type: robot
+            role: write
       - name: tool-box
         visibility: public
         permissions:
@@ -733,4 +787,5 @@ orgs:
         role: member
         members:
           - name: jacobsee
+          - name: jfilipcz
           - name: obedin

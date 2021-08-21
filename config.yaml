@@ -3,9 +3,10 @@ orgs:
     admins:
       - etsauer
       - redhat-cop-ci-bot
+      - garethahealy
+      - JaredBurck
       - oybed
       - sabre1041
-      - sborenst
       - pabrahamsson
     billing_email: esauer@redhat.com
     company: ""
@@ -34,6 +35,7 @@ orgs:
       - andrewwiththeredhat
       - apitanga
       - arilivigni
+      - arvin-a
       - Arman084
       - arthomasredhat
       - bbeaudoin
@@ -43,12 +45,13 @@ orgs:
       - bosebc
       - bszeti
       - CaseyOC
-      - chadhellyea
+      - chadmf
       - ckavili
       - cmwylie19
       - cnuland
       - cpeters
       - cpitman
+      - d-jana
       - danhawker
       - darthlukan
       - davgordo
@@ -61,16 +64,18 @@ orgs:
       - eformat
       - ericzolf
       - erouvas
+      - evisb
       - eye0fra
       - finmahon
       - fostimus
       - fridim
       - FWCoder
-      - garethahealy
       - ghyde
       - giofontana
       - gjbianco
+      - gmontalvoy
       - gnekic
+      - gnunn1
       - gsampaio-rh
       - hfenner
       - huddlesj
@@ -81,7 +86,7 @@ orgs:
       - itewk
       - jacobsee
       - jarcher
-      - JaredBurck
+      - jfilipcz
       - jflowers
       - jbride
       - jeremyrdavis
@@ -101,6 +106,7 @@ orgs:
       - JuozasA
       - jtlnguyen
       - jzsjjunior
+      - kaileshmistry
       - kedark3
       - kelaird
       - kenwilli
@@ -120,6 +126,7 @@ orgs:
       - marcredhat
       - marciopaiva
       - malacourse
+      - marcosmamorim
       - matallen
       - mathianasj
       - mattheh
@@ -142,9 +149,10 @@ orgs:
       - pamenon
       - pathfinder-waffle
       - paulbarfuss
-      - pavelanni
       - pcarney8
       - pecorawal
+      - pittar
+      - prakhar1985
       - prakritiverma
       - radudd
       - raedrizk
@@ -160,6 +168,7 @@ orgs:
       - ryanzhang
       - samueltauil
       - sbailleu
+      - sborenst
       - sean-m-sullivan
       - seravat
       - shah-zobair
@@ -180,6 +189,7 @@ orgs:
       - tosmi
       - stocky37
       - theckang
+      - TinyExplosions
       - tomassedovic
       - tomgeorge
       - Tompage1994
@@ -188,12 +198,15 @@ orgs:
       - trv-rpeoples
       - truncj
       - tylerauerbeck
+      - varodrig
       - vdrvergara
       - victorock
       - vvaldez
       - welshstew
       - willowmck
+      - wilson-walrus
       - wkulhanek
+      - yvarbanov
     members_can_create_repositories: false
     name: Red Hat Communities of Practice
     teams:
@@ -639,6 +652,7 @@ orgs:
               - pabrahamsson
               - oybed
             members:
+              - garethahealy
               - JaredBurck
               - pcarney8
               - raffaelespazzoli
@@ -842,16 +856,39 @@ orgs:
                 privacy: closed
                 repos:
                   github-actions: admin
+          gitops-wg:
+            description: "GitOps Working Group"
+            maintainers:
+              - sabre1041
+              - pittar
+              - gnunn1
+            members: []
+            privacy: closed
+            repos:
+              gitops-catalog: read
+            teams:
+              gitops-wg-mergers:
+                description: "GitOps Working Group Mergers"
+                maintainers:
+                  - sabre1041
+                  - pittar
+                  - gnunn1
+                members: []
+                privacy: closed
+                repos:
+                  gitops-catalog: admin
           ocp-disconnected:
             description: "OCP disconnected special interest group"
             maintainers:
               - jflowers
               - itewk
               - sabre1041
-            members: []
+            members:
+              - arvin-a
             privacy: closed
             repos:
               ocp-disconnected-docs: admin
+              openshift-disconnected-operators: admin
           operators-wg:
             description: ""
             maintainers:
@@ -872,6 +909,7 @@ orgs:
               cluster-lifecycle: read
               container-pipelines: read
               community-operators: read
+              community-operators-prod: read
               containers-quickstarts: none
               dynamic-rbac-operator: read
               git-flow: read
@@ -924,6 +962,7 @@ orgs:
                   cert-operator: write
                   cert-utils-operator: admin
                   community-operators: write
+                  community-operators-prod: write
                   container-pipelines: read
                   containers-quickstarts: none
                   egressip-ipam-operator: admin
@@ -988,22 +1027,27 @@ orgs:
       gpte:
         description: ""
         maintainers:
-          - newgoliath
-          - etsauer
-          - wkulhanek
-          - sborenst
-        members:
           - fridim
-          - tonykay
-          - jbride
-          - rut31337
-          - thomas-crowe
-          - rhjcd
-          - stencell
-          - NonyNo3lle
-          - bosebc
-          - pavelanni
           - jkupferer
+          - newgoliath
+          - sborenst
+          - wkulhanek
+        members:
+          - bosebc
+          - d-jana
+          - evisb
+          - gmontalvoy
+          - marcosmamorim
+          - NonyNo3lle
+          - prakhar1985
+          - rhjcd
+          - rut31337
+          - stencell
+          - thomas-crowe
+          - tonykay
+          - wilson-walrus
+          - varodrig
+          - yvarbanov
         privacy: closed
         repos:
           agnosticd: write
@@ -1011,6 +1055,7 @@ orgs:
           anarchy: read
           babylon: read
           babylon-events-console: read
+          classroom: write
           dark-tower: read
           k8s_config: read
           openshift-4-alpha-enablement: read
@@ -1022,20 +1067,23 @@ orgs:
           gpte-admins:
             description: "GPTE Admin Team"
             maintainers:
+              - fridim
+              - jkupferer
               - newgoliath
-              - etsauer
               - wkulhanek
             members:
-              - fridim
-              - rut31337
+              - marcosmamorim
               - NonyNo3lle
+              - rut31337
             privacy: closed
             repos:
               agnosticd: admin
+              agnostics: admin
               anarchy: admin
               babylon: admin
               babylon_agnostics: admin
               babylon-events-console: admin
+              classroom: admin
               dark-tower: admin
               k8s_config: admin
               openshift-4-alpha-enablement: admin
@@ -1068,6 +1116,7 @@ orgs:
                 members: []
                 repos:
                   agnosticv: admin
+                  agnostics: admin
                   anarchy: admin
                   babylon: admin
                   babylon_agnostics: admin
@@ -1075,6 +1124,16 @@ orgs:
                   dark-tower: admin
                   k8s_config: admin
                   poolboy: admin
+      distributed-working:
+        description: Distributed working community of practice
+        maintainers:
+          - kaileshmistry
+          - TinyExplosions
+          - aglenn360
+        members: []
+        privacy: closed
+        repos:
+          distributed-working-cop: admin
       mdt:
         description: Metrics Driven Transformation
         maintainers:
@@ -1219,7 +1278,7 @@ orgs:
           - sabre1041
           - nasx
         members:
-          - chadhellyea
+          - chadmf
           - jarcher
           - samueltauil
           - stephennimmo
