@@ -6,8 +6,8 @@ orgs:
       - garethahealy
       - JaredBurck
       - oybed
-      - sabre1041
       - pabrahamsson
+      - sabre1041
     billing_email: esauer@redhat.com
     company: ""
     default_repository_permission: read
@@ -351,7 +351,6 @@ orgs:
         maintainers:
           - sean-m-sullivan
           - Tompage1994
-        members: []
         repos:
           ah_configuration: admin
           tower_configuration: admin
@@ -443,42 +442,7 @@ orgs:
           - FWCoder
           - stocky37
         privacy: closed
-        repos:
-          bats-library: read
-          casl-ansible: read
-          casl-galaxy: read
-          cluster-lifecycle: read
-          container-pipelines: read
-          containers-quickstarts: none
-          dash: read
-          declarative-openshift: read
-          git-flow: read
-          github-actions: read
-          gows: read
-          infra-ansible: read
-          k8s-notify: none
-          ninja-points: read
-          ocp-supply-chain-demo: read
-          onboarding-manager: read
-          openshift-demo-library: read
-          openshift-elasticsearch: read
-          openshift-event-controller: read
-          openshift-image-signing-scanning: read
-          openshift-management: read
-          openshift-playbooks: read
-          openshift-templates: read
-          openshift-toolkit: read
-          operationalizing-openshift-lab: none
-          pathfinder: read
-          pathfinder-ui: read
-          pbl-rocketchat: read
-          pipeline-library: read
-          rego-policies: read
-          rhc-ocp-playbook-test: read
-          rocketchat-integrations: read
-          spring-rest: read
-          template2helm: read
-          uncontained.io: read
+        repos: {}
         teams:
           bats:
             description: Bash Automation Testing System
@@ -487,7 +451,6 @@ orgs:
               - springdo
               - pabrahamsson
               - ckavili
-            members: []
             privacy: closed
             repos:
               bats-library: read
@@ -499,7 +462,6 @@ orgs:
                   - springdo
                   - pabrahamsson
                   - ckavili
-                members: []
                 privacy: closed
                 repos:
                   bats-library: admin
@@ -528,16 +490,11 @@ orgs:
               - skypatrolcpt
             privacy: closed
             repos:
-              casl-ansible: read
-              casl-galaxy: read
               cluster-lifecycle: read
               container-pipelines: read
-              containers-quickstarts: none
               declarative-openshift: read
               git-flow: read
               gows: read
-              infra-ansible: read
-              k8s-notify: none
               ninja-points: read
               ocp-supply-chain-demo: read
               openshift-demo-library: read
@@ -547,8 +504,6 @@ orgs:
               openshift-management: read
               openshift-playbooks: read
               openshift-templates: read
-              openshift-toolkit: none
-              operationalizing-openshift-lab: none
               pathfinder: read
               pathfinder-ui: read
               pbl-rocketchat: read
@@ -577,34 +532,10 @@ orgs:
                   - skypatrolcpt
                 privacy: closed
                 repos:
-                  casl-ansible: read
-                  casl-galaxy: read
-                  cluster-lifecycle: read
-                  container-pipelines: read
-                  containers-quickstarts: none
                   declarative-openshift: write
-                  git-flow: read
                   gows: write
-                  infra-ansible: read
-                  k8s-notify: none
-                  ninja-points: read
-                  ocp-supply-chain-demo: read
-                  openshift-demo-library: read
-                  openshift-elasticsearch: read
-                  openshift-event-controller: read
-                  openshift-image-signing-scanning: read
-                  openshift-management: read
                   openshift-playbooks: write
-                  openshift-templates: read
                   openshift-toolkit: admin
-                  operationalizing-openshift-lab: none
-                  pathfinder: read
-                  pathfinder-ui: read
-                  pbl-rocketchat: read
-                  pipeline-library: read
-                  rhc-ocp-playbook-test: read
-                  rocketchat-integrations: read
-                  spring-rest: read
                   uncontained.io: write
           casl:
             description: Container Automation Solutions Lab contributors
@@ -613,8 +544,7 @@ orgs:
               - etsauer
               - oybed
             privacy: closed
-            repos:
-              declarative-openshift: read
+            repos: {}
             teams:
               casl-mergers:
                 description: CASL Mergers
@@ -661,38 +591,21 @@ orgs:
               bats-library: admin
               casl-ansible: admin
               casl-galaxy: admin
-              cluster-lifecycle: read
               container-pipelines: admin
               containers-quickstarts: admin
               dash: admin
-              git-flow: read
-              github-actions: read
-              gows: read
-              infra-ansible: read
               k8s-notify: admin
-              ninja-points: read
-              ocp-supply-chain-demo: read
               onboarding-manager: write
               openshift-applier: admin
               openshift-demo-library: admin
-              openshift-elasticsearch: read
               openshift-event-controller: admin
-              openshift-image-signing-scanning: read
               openshift-management: admin
               openshift-playbooks: admin
               openshift-templates: admin
               openshift-toolkit: admin
               operationalizing-openshift-lab: write
               org: admin
-              pathfinder: read
-              pathfinder-ui: read
               pbl-rocketchat: admin
-              pipeline-library: read
-              rego-policies: read
-              rhc-ocp-playbook-test: read
-              rocketchat-integrations: read
-              spring-rest: read
-              uncontained.io: read
           container-security:
             description: Container Security
             maintainers:
@@ -727,17 +640,11 @@ orgs:
               - malacourse
             privacy: closed
             repos:
-              casl-ansible: read
-              casl-galaxy: read
               cluster-lifecycle: read
               container-native-spring-postgresql: read
-              container-pipelines: none
-              containers-quickstarts: none
               git-flow: read
               gows: read
               helm-charts: read
-              infra-ansible: read
-              k8s-notify: none
               ninja-points: read
               ocp-supply-chain-demo: read
               openshift-demo-library: read
@@ -745,9 +652,6 @@ orgs:
               openshift-event-controller: read
               openshift-management: read
               openshift-playbooks: read
-              openshift-templates: none
-              openshift-toolkit: none
-              operationalizing-openshift-lab: none
               pathfinder: read
               pathfinder-ui: read
               pbl-rocketchat: read
@@ -781,37 +685,16 @@ orgs:
                   - redhat-cop-ci-bot
                 privacy: closed
                 repos:
-                  casl-ansible: read
-                  casl-galaxy: read
-                  cluster-lifecycle: read
                   container-native-spring-postgresql: write
                   container-pipelines: admin
                   containers-quickstarts: admin
-                  git-flow: read
-                  gows: read
                   helm-charts: admin
-                  infra-ansible: read
-                  k8s-notify: none
-                  ninja-points: read
-                  ocp-supply-chain-demo: read
-                  openshift-demo-library: read
-                  openshift-elasticsearch: read
-                  openshift-event-controller: read
                   openshift-image-signing-scanning: write
-                  openshift-management: read
-                  openshift-playbooks: read
                   openshift-templates: admin
                   openshift-toolkit: admin
-                  operationalizing-openshift-lab: none
-                  pathfinder: read
-                  pathfinder-ui: read
-                  pbl-rocketchat: read
                   pipeline-library: admin
-                  rhc-ocp-playbook-test: read
-                  rocketchat-integrations: read
                   spring-rest: write
                   template2helm: admin
-                  uncontained.io: read
           declarative-openshift:
             description: Maintainers of the declarative-openshift repo
             maintainers:
@@ -862,7 +745,6 @@ orgs:
               - sabre1041
               - pittar
               - gnunn1
-            members: []
             privacy: closed
             repos:
               gitops-catalog: read
@@ -873,7 +755,6 @@ orgs:
                   - sabre1041
                   - pittar
                   - gnunn1
-                members: []
                 privacy: closed
                 repos:
                   gitops-catalog: admin
@@ -902,48 +783,19 @@ orgs:
               - kkoller
             privacy: closed
             repos:
-              casl-ansible: read
-              casl-galaxy: read
               cert-utils-operator: read
               cert-operator: read
-              cluster-lifecycle: read
-              container-pipelines: read
               community-operators: read
               community-operators-prod: read
-              containers-quickstarts: none
               dynamic-rbac-operator: read
-              git-flow: read
-              gows: read
               group-sync-operator: read
-              infra-ansible: read
-              k8s-notify: read
               microsegmentation-operator: read
               must-gather-operator: read
               namespace-configuration-operator: read
-              ninja-points: read
-              ocp-supply-chain-demo: read
-              onboarding-manager: read
-              openshift-demo-library: read
-              openshift-elasticsearch: read
-              openshift-event-controller: read
-              openshift-image-signing-scanning: read
-              openshift-management: read
-              openshift-playbooks: read
-              openshift-templates: read
-              openshift-toolkit: read
               operator-utils: read
-              operationalizing-openshift-lab: none
-              pathfinder: read
-              pathfinder-ui: read
-              pbl-rocketchat: read
-              pipeline-library: read
               proactive-node-scaling-operator: read
               redhat-cop-operators: read
-              rhc-ocp-playbook-test: read
               resource-locker-operator: read
-              rocketchat-integrations: read
-              spring-rest: read
-              uncontained.io: read
               volume-expander-operator: read
             teams:
               operators-wg-mergers:
@@ -963,16 +815,12 @@ orgs:
                   cert-utils-operator: admin
                   community-operators: write
                   community-operators-prod: write
-                  container-pipelines: read
-                  containers-quickstarts: none
                   egressip-ipam-operator: admin
                   global-load-balancer-operator: admin
                   group-sync-operator: admin
                   keepalived-operator: admin
                   must-gather-operator: admin
                   namespace-configuration-operator: admin
-                  openshift-event-controller: read
-                  openshift-image-signing-scanning: read
                   operator-utils: admin
                   proactive-node-scaling-operator: admin
                   redhat-cop-operators: admin
@@ -1020,7 +868,6 @@ orgs:
         description: "Cyber Infrastructure Special Interest Group"
         maintainers:
           - hfenner
-        members: []
         privacy: closed
         repos:
           disconnectedinfra: admin 
@@ -1113,7 +960,6 @@ orgs:
                   - tonykay
                   - fridim
                   - jkupferer
-                members: []
                 repos:
                   agnosticv: admin
                   agnostics: admin
@@ -1130,7 +976,6 @@ orgs:
           - kaileshmistry
           - TinyExplosions
           - aglenn360
-        members: []
         privacy: closed
         repos:
           distributed-working-cop: admin
@@ -1293,7 +1138,6 @@ orgs:
         maintainers:
           - adamgoossens
           - limershein
-        members: []
         privacy: closed
         repos:
           sqlserver-coi: admin
