@@ -870,7 +870,7 @@ orgs:
           - hfenner
         privacy: closed
         repos:
-          disconnectedinfra: admin 
+          disconnectedinfra: admin
       gpte:
         description: ""
         maintainers:
@@ -880,6 +880,7 @@ orgs:
           - sborenst
           - wkulhanek
         members:
+          - 9strands
           - bosebc
           - d-jana
           - evisb
