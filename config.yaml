@@ -327,6 +327,7 @@ orgs:
           molecule_cicd_automation: write
           redhat_sso: write
           jboss_webserver: write
+          ee_utilities: write
           tower_configuration: write
           tower_configuration_examples: write
           tower_utilities: write
@@ -358,6 +359,7 @@ orgs:
           - Tompage1994
         repos:
           ah_configuration: admin
+          ee_utilities: admin
           tower_configuration: admin
           tower_configuration_examples: admin
           tower_utilities: admin
