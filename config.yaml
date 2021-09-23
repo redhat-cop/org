@@ -368,6 +368,7 @@ orgs:
         description: Contributors to the Business Automation CoP
         maintainers:
           - pamenon
+          - erouvas
           - ally-jarrett
           - mumeno
           - hwurht
@@ -380,6 +381,7 @@ orgs:
             description: ""
             maintainers:
               - pamenon
+              - erouvas
               - ally-jarrett
               - mumeno
               - hwurht
