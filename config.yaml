@@ -145,6 +145,7 @@ orgs:
       - mwitzenm
       - nasx
       - newgoliath
+      - nickjordan
       - noelo
       - NonyNo3lle
       - nstrug
@@ -783,13 +784,13 @@ orgs:
             description: ""
             maintainers:
               - sabre1041
-              - etsauer
+              - raffaelespazzoli
             members:
               - kkoller
-              - raffaelespazzoli
               - sysmatrix1
               - mathianasj
               - kkoller
+              - nickjordan
             privacy: closed
             repos:
               cert-utils-operator: read
@@ -798,6 +799,7 @@ orgs:
               community-operators-prod: read
               dynamic-rbac-operator: read
               group-sync-operator: read
+              kube-rbac-proxy: read
               microsegmentation-operator: read
               must-gather-operator: read
               namespace-configuration-operator: read
@@ -811,13 +813,13 @@ orgs:
                 description: ""
                 maintainers:
                   - sabre1041
-                  - etsauer
+                  - raffaelespazzoli
                 members:
                   - David-Igou
-                  - raffaelespazzoli
                   - mathianasj
                   - kkoller
                   - cnuland
+                  - nickjordan
                 privacy: closed
                 repos:
                   cert-operator: write
@@ -828,6 +830,7 @@ orgs:
                   global-load-balancer-operator: admin
                   group-sync-operator: admin
                   keepalived-operator: admin
+                  kube-rbac-proxy: admin
                   must-gather-operator: admin
                   namespace-configuration-operator: admin
                   operator-utils: admin
