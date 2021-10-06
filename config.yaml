@@ -798,13 +798,17 @@ orgs:
               community-operators: read
               community-operators-prod: read
               dynamic-rbac-operator: read
+              egress-ipam-operator: read
+              global-load-balancer-operator: read
               group-sync-operator: read
               kube-rbac-proxy: read
               microsegmentation-operator: read
               must-gather-operator: read
               namespace-configuration-operator: read
+              openshift-disconnected-operators: read
               operator-utils: read
               proactive-node-scaling-operator: read
+              project-initialize-operators: read
               redhat-cop-operators: read
               resource-locker-operator: read
               volume-expander-operator: read
@@ -822,22 +826,26 @@ orgs:
                   - nickjordan
                 privacy: closed
                 repos:
-                  cert-operator: write
                   cert-utils-operator: admin
-                  community-operators: write
-                  community-operators-prod: write
-                  egressip-ipam-operator: admin
+                  cert-operator: admin
+                  community-operators: admin
+                  community-operators-prod: admin
+                  dynamic-rbac-operator: admin
+                  egress-ipam-operator: admin
                   global-load-balancer-operator: admin
                   group-sync-operator: admin
-                  keepalived-operator: admin
                   kube-rbac-proxy: admin
+                  microsegmentation-operator: admin
                   must-gather-operator: admin
                   namespace-configuration-operator: admin
+                  openshift-disconnected-operators: admin
                   operator-utils: admin
                   proactive-node-scaling-operator: admin
+                  project-initialize-operators: admin
                   redhat-cop-operators: admin
                   resource-locker-operator: admin
                   volume-expander-operator: admin
+
               dynamic-rbac-operator-admins:
                 description: Admin group for the dynamic-rbac-operator
                 maintainers:
