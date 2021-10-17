@@ -371,6 +371,15 @@ orgs:
           - name: pushbot
             type: robot
             role: write
+      - name: kube-rbac-proxy
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
       - name: microsegmentation-operator
         visibility: public
         permissions:
