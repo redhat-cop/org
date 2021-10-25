@@ -217,6 +217,18 @@ orgs:
     members_can_create_repositories: false
     name: Red Hat Communities of Practice
     teams:
+      agnosticd-core:
+        description: Core team members for the agnosticd project.
+        maintainers:
+          - fridim
+          - jkupferer
+          - stencell
+          - tonykay
+          - wkulhanek
+        members: []
+        privacy: closed
+        repos:
+          agnosticd: admin
       ansible-middleware:
         description: Deploying Red Hat Middleware using Ansible
         maintainers:
