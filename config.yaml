@@ -824,6 +824,7 @@ orgs:
               project-initialize-operator: read
               redhat-cop-operators: read
               resource-locker-operator: read
+              vault-config-operator: read
               volume-expander-operator: read
             teams:
               operators-wg-mergers:
@@ -857,6 +858,7 @@ orgs:
                   project-initialize-operator: admin
                   redhat-cop-operators: admin
                   resource-locker-operator: admin
+                  vault-config-operator: admin
                   volume-expander-operator: admin
 
               dynamic-rbac-operator-admins:
