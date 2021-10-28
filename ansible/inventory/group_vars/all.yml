@@ -746,6 +746,15 @@ orgs:
           - name: pushbot
             type: robot
             role: write
+      - name: vault-config-operator-bundle
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
       - name: volume-expander-operator
         visibility: public
         permissions:
