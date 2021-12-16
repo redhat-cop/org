@@ -816,6 +816,7 @@ orgs:
               community-operators-prod: read
               dynamic-rbac-operator: read
               egressip-ipam-operator: read
+              github-workflows-operators: read
               global-load-balancer-operator: read
               group-sync-operator: read
               kube-rbac-proxy: read
@@ -850,6 +851,7 @@ orgs:
                   community-operators-prod: admin
                   dynamic-rbac-operator: admin
                   egressip-ipam-operator: admin
+                  github-workflows-operators: admin
                   global-load-balancer-operator: admin
                   group-sync-operator: admin
                   kube-rbac-proxy: admin
