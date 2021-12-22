@@ -825,6 +825,7 @@ orgs:
               namespace-configuration-operator: read
               openshift-disconnected-operators: read
               operator-utils: read
+              patch-operator: read
               proactive-node-scaling-operator: read
               project-initialize-operator: read
               redhat-cop-operators: read
@@ -860,6 +861,7 @@ orgs:
                   namespace-configuration-operator: admin
                   openshift-disconnected-operators: admin
                   operator-utils: admin
+                  patch-operator: admin
                   proactive-node-scaling-operator: admin
                   project-initialize-operator: admin
                   redhat-cop-operators: admin
