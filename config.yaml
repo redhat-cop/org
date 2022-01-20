@@ -436,7 +436,6 @@ orgs:
           - mophahr
           - beelandc
           - arilivigni
-          - pcarney8
           - jacobsee
           - kkoller
           - pabrahamsson
@@ -458,7 +457,6 @@ orgs:
           - mwitzenm
           - dfwnetman
           - malacourse
-          - tylerauerbeck
           - linuxstudio
           - JuozasA
           - ianwatsonrh
@@ -584,7 +582,6 @@ orgs:
                   - jacobsee
                   - pabrahamsson
                   - paulbarfuss
-                  - tylerauerbeck
                 privacy: closed
                 repos:
                   applier-cli: write
@@ -612,7 +609,6 @@ orgs:
             members:
               - garethahealy
               - JaredBurck
-              - pcarney8
               - raffaelespazzoli
             privacy: closed
             repos:
@@ -653,7 +649,6 @@ orgs:
             members:
               - ckavili
               - eformat
-              - tylerauerbeck
               - gsampaio-rh
               - jtudelag
               - mvmaestri
@@ -661,7 +656,6 @@ orgs:
               - InfoSec812
               - noelo
               - murphye
-              - pcarney8
               - garethahealy
               - springdo
               - raffaelespazzoli
@@ -700,7 +694,6 @@ orgs:
                   - cpitman
                   - InfoSec812
                   - murphye
-                  - pcarney8
                   - springdo
                   - eformat
                   - ckavili
@@ -708,7 +701,6 @@ orgs:
                   - gsampaio-rh
                   - raffaelespazzoli
                   - malacourse
-                  - tylerauerbeck
                   - garethahealy
                   - redhat-cop-ci-bot
                 privacy: closed
@@ -730,7 +722,6 @@ orgs:
             members:
               - jkupferer
               - sabre1041
-              - tylerauerbeck
               - FWCoder
               - gnekic
             repos:
@@ -753,7 +744,6 @@ orgs:
             maintainers:
               - garethahealy
               - jacobsee
-              - tylerauerbeck
             privacy: closed
             repos:
               github-actions: read
@@ -763,7 +753,6 @@ orgs:
                 maintainers:
                   - garethahealy
                   - jacobsee
-                  - tylerauerbeck
                 privacy: closed
                 repos:
                   github-actions: admin
@@ -875,7 +864,6 @@ orgs:
                 maintainers:
                   - jacobsee
                   - oybed
-                  - tylerauerbeck
                 privacy: closed
                 repos:
                   dynamic-rbac-operator: admin
@@ -889,7 +877,6 @@ orgs:
               - ckavili
               - springdo
             members:
-              - tylerauerbeck
             privacy: closed
             repos:
               rego-policies: read
@@ -904,7 +891,6 @@ orgs:
                   - ckavili
                   - springdo
                 members:
-                  - tylerauerbeck
                 privacy: closed
                 repos:
                   rego-policies: admin
