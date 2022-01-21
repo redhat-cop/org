@@ -47,6 +47,7 @@ orgs:
       - bszeti
       - CaseyOC
       - chadmf
+      - christianh814
       - ckavili
       - ckomopou
       - cmwylie19
@@ -771,6 +772,15 @@ orgs:
                 privacy: closed
                 repos:
                   gitops-catalog: admin
+          helpernode:
+            description: "GitOps Working Group"
+            maintainers:
+              - christianh814
+            members:
+              - robersandovol
+            privacy: closed
+            repos:
+              ocp4-helpernode: admin
           ocp-disconnected:
             description: "OCP disconnected special interest group"
             maintainers:
