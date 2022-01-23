@@ -100,7 +100,6 @@ orgs:
       - jijiechen
       - jimdillon
       - jkupferer
-      - jlozadad
       - johnsimcall
       - jonahkh
       - Jooho
@@ -174,6 +173,7 @@ orgs:
       - rhjcd
       - richardwalkerdev
       - robbbbh
+      - robersandovol
       - rpelisse
       - rut31337
       - ryanzhang
@@ -240,7 +240,6 @@ orgs:
           - rpelisse
         members:
           - davgordo
-          - jlozadad
         privacy: closed
         repos:
           ansible_middleware_galaxy: write
@@ -321,7 +320,6 @@ orgs:
         maintainers:
           - sabre1041
           - ericzolf
-          - jlozadad
         members:
           - kedark3
           - mophahr
@@ -355,7 +353,6 @@ orgs:
             maintainers:
               - sabre1041
               - ericzolf
-              - jlozadad
             members:
               - vvaldez
             privacy: closed
@@ -451,7 +448,6 @@ orgs:
           - jimdillon
           - davgordo
           - mathianasj
-          - jlozadad
           - mwitzenm
           - dfwnetman
           - malacourse
