@@ -956,6 +956,7 @@ orgs:
               - jkupferer
               - newgoliath
               - wkulhanek
+              - 9strands
             members:
               - marcosmamorim
               - NonyNo3lle
@@ -982,6 +983,7 @@ orgs:
               - tonykay
               - fridim
               - jkupferer
+              - 9strands
             privacy: closed
             repos:
               agnosticv: write
@@ -999,6 +1001,7 @@ orgs:
                   - fridim
                   - jkupferer
                   - d-jana
+                  - 9strands
                 repos:
                   agnosticv: admin
                   agnostics: admin
