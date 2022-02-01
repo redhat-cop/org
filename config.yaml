@@ -191,6 +191,7 @@ orgs:
       - stratus-ss
       - sushilsuresh
       - sysmatrix1
+      - tech2734
       - thiasant
       - themoosman
       - thomas-crowe
@@ -320,10 +321,11 @@ orgs:
         maintainers:
           - sabre1041
           - ericzolf
+          - mophahr
+          - tech2734
         members:
           - djdanielsson
           - kedark3
-          - mophahr
           - mpetrive-rh
           - sean-m-sullivan
           - Tompage1994
@@ -354,8 +356,9 @@ orgs:
             maintainers:
               - sabre1041
               - ericzolf
-            members:
-              - vvaldez
+              - mophahr
+              - tech2734
+            members: []
             privacy: closed
             repos:
               automate-cicd: admin
@@ -364,9 +367,14 @@ orgs:
               automate-exotic: admin
               automate-jcliff: admin
               automate-tower: admin
+              automate-tower-ha-dr: admin
               automate-windows: admin
-              redhat_sso: admin
-              jboss_webserver: admin
+              cloud_provision_automation_collection: admin
+              hardware_automation_collection: admin
+              molecule_cicd_automation: admin
+              ee_utilities: admin
+              tower_configuration: admin
+              tower_configuration_examples: admin
               tower_utilities: admin
       automation-cop-tower-mgrs:
         description: Tower managers of Automation CoP
