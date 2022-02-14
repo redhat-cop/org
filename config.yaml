@@ -810,6 +810,7 @@ orgs:
               - mathianasj
               - kkoller
               - nickjordan
+              - trevorbox
             privacy: closed
             repos:
               cert-utils-operator: read
