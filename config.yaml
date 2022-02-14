@@ -173,7 +173,7 @@ orgs:
       - rhjcd
       - richardwalkerdev
       - robbbbh
-      - robersandovol
+      - robertsandoval
       - rpelisse
       - rut31337
       - ryanzhang
@@ -783,7 +783,7 @@ orgs:
             maintainers:
               - christianh814
             members:
-              - robersandovol
+              - robertsandoval
             privacy: closed
             repos:
               ocp4-helpernode: admin
