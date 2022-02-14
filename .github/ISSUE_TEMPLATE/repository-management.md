@@ -19,6 +19,11 @@ Name of the repository to create or location of existing repository to migrate.
 
 Description applied to the newly created repository.
 
+### Associated CoP
+
+The CoP this repository associated with:
+- https://source.redhat.com/communitiesatredhat/communities_of_practice
+
 ### Admin Access
 
 Name of the team(s) and/or user(s) that should have admin access on the newly created repository.
