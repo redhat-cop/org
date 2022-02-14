@@ -21,7 +21,7 @@ Description applied to the newly created repository.
 
 ### Associated CoP
 
-The CoP this repository associated with:
+The CoP this repository is associated with:
 - https://source.redhat.com/communitiesatredhat/communities_of_practice
 
 ### Admin Access
