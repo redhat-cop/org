@@ -847,6 +847,7 @@ orgs:
                   - kkoller
                   - cnuland
                   - nickjordan
+                  - trevorbox
                 privacy: closed
                 repos:
                   cert-utils-operator: admin
