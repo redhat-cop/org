@@ -835,6 +835,7 @@ orgs:
               redhat-cop-operators: read
               resource-locker-operator: read
               vault-config-operator: read
+              vault-plugin-secrets-quay: read
               volume-expander-operator: read
             teams:
               operators-wg-mergers:
@@ -872,6 +873,7 @@ orgs:
                   redhat-cop-operators: admin
                   resource-locker-operator: admin
                   vault-config-operator: admin
+                  vault-plugin-secrets-quay: admin
                   volume-expander-operator: admin
 
               dynamic-rbac-operator-admins:
