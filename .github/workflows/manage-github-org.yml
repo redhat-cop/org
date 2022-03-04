@@ -1,0 +1,84 @@
+name: Manage GitHub Org Configuration
+on:
+  workflow_call:
+    inputs:
+      APPLY_CHANGES:
+        description: "Apply changes to the organization"
+        default: false
+        required: false
+        type: boolean
+      GHPROXY_IMAGE:
+        description: "GHProxy Image"
+        default: "gcr.io/k8s-prow/ghproxy"
+        required: false
+        type: string
+      GHPROXY_IMAGE_VERSION:
+        description: "GHProxy Image Version"
+        default: "v20220303-a0cbe4894b"
+        required: false
+        type: string
+      PERIBOLOS_IMAGE:
+        description: "Peribolos Image"
+        default: "gcr.io/k8s-prow/peribolos"
+        required: false
+        type: string
+      PERIBOLOS_IMAGE_VERSION:
+        description: "Peribolos Image Version"
+        default: "v20220303-a0cbe4894b"
+        required: false
+        type: string
+    secrets:
+      PERIBOLOS_TOKEN:
+        description: "Github PAT Token"
+        required: true
+
+env:
+  PERIBOLOS_TOKEN: ${{ secrets.PERIBOLOS_TOKEN }}
+  GHPROXY_IMAGE: ${{ inputs.GHPROXY_IMAGE }}
+  GHPROXY_IMAGE_VERSION: ${{ inputs.GHPROXY_IMAGE_VERSION }}
+  PERIBOLOS_IMAGE: ${{ inputs.PERIBOLOS_IMAGE }}
+  PERIBOLOS_IMAGE_VERSION: ${{ inputs.PERIBOLOS_IMAGE_VERSION }}
+  APPLY_CHANGES: ${{ inputs.APPLY_CHANGES }}
+  DOCKER_NETWORK: "peribolos"
+
+jobs:
+  manage-github-org-config:
+    runs-on: ubuntu-latest
+    name: manage-github-org-config
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3.0.0
+        with:
+          persist-credentials: false
+
+      - name: Create Docker Network
+        run: |
+          docker network create ${{ env.DOCKER_NETWORK }}
+
+      - name: Create ghproxy container
+        run: |
+          docker run -d --rm \
+            --network=${{ env.DOCKER_NETWORK }} \
+            --name=ghproxy \
+            ${{ env.GHPROXY_IMAGE }}:${{ env.GHPROXY_IMAGE_VERSION }}
+
+      - name: Peribolos run
+        run: |
+          echo ${{ env.PERIBOLOS_TOKEN }} > $RUNNER_TEMP/token
+
+          docker run --rm \
+            --network=${{ env.DOCKER_NETWORK }} \
+            -v $RUNNER_TEMP/token:/etc/github/token \
+            -v $(pwd)/config.yaml:/etc/config/config.yaml \
+            $PERIBOLOS_IMAGE:$PERIBOLOS_IMAGE_VERSION \
+            --github-token-path=/etc/github/token \
+            --config-path=/etc/config/config.yaml \
+            --fix-org \
+            --fix-org-members \
+            --fix-team-members \
+            --github-endpoint=http://ghproxy:8888 \
+            --github-graphql-endpoint=http://ghproxy:8888/graphql \
+            --fix-teams \
+            --fix-team-repos \
+            --confirm=${{ env.APPLY_CHANGES }}
