@@ -1,0 +1,17 @@
+name: Update GitHub Org Configuration
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  push:
+    paths:
+      - "config.yaml"
+    branches:
+      - main
+jobs:
+  manage-github-org-config-workflow:
+    name: manage-github-org-config-workflow
+    uses: redhat-cop-dev/org/.github/workflows/manage-github-org.yml@main
+    secrets:
+      PERIBOLOS_TOKEN: ${{ secrets.PERIBOLOS_TOKEN }}
+    with:
+      APPLY_CHANGES: true
