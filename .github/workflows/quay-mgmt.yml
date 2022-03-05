@@ -1,10 +1,15 @@
 name: Quay Management
 on:
   push:
-    #paths:
-    #  - "ansible/**"
+    paths:
+      - "ansible/**"
     branches:
       - "main"
+  pull_request:
+    branches:
+      - main
+  schedule:
+    - cron: "0 3 * * *"
 
 jobs:
   quay-management:
@@ -18,7 +23,10 @@ jobs:
         uses: ansible/ansible-lint-action@master
         with:
           targets: "."
+          override-deps: |
+            ansible-lint==5.3.2
       - name: Install Dependencies
         run: ansible-galaxy install -r ansible/requirements.yml
       - name: Manage Quay Repository
+        if: github.event_name == 'push' || github.event_name == 'schedule'
         run: ansible-playbook -i ansible/inventory ansible/playbooks/quay_management.yml ${{secrets.ANSIBLE_EXTRA_VARS}}
