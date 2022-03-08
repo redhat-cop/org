@@ -18,6 +18,8 @@ jobs:
         uses: ansible/ansible-lint-action@master
         with:
           targets: "."
+          override-deps: |
+            ansible-lint==5.4.0
       - name: Install Dependencies
         run: ansible-galaxy install -r ansible/requirements.yml
       - name: Manage Quay Repository
