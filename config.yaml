@@ -352,9 +352,9 @@ orgs:
           redhat_sso: write
           jboss_webserver: write
           ee_utilities: write
-          tower_configuration: write
+          controller_configuration: write
           tower_configuration_examples: write
-          tower_utilities: write
+          aap_utilities: write
         teams:
           automation-cop-mgrs:
             description: ""
@@ -380,9 +380,9 @@ orgs:
               hardware_automation_collection: admin
               molecule_cicd_automation: admin
               ee_utilities: admin
-              tower_configuration: admin
+              controller_configuration: admin
               tower_configuration_examples: admin
-              tower_utilities: admin
+              aap_utilities: admin
       automation-cop-tower-mgrs:
         description: Tower managers of Automation CoP
         maintainers:
@@ -391,9 +391,9 @@ orgs:
         repos:
           ah_configuration: admin
           ee_utilities: admin
-          tower_configuration: admin
+          controller_configuration: admin
           tower_configuration_examples: admin
-          tower_utilities: admin
+          aap_utilities: admin
         privacy: closed
       businessautomation-cop:
         description: Contributors to the Business Automation CoP
