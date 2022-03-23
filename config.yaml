@@ -77,6 +77,7 @@ orgs:
       - ghyde
       - giofontana
       - gjbianco
+      - glimpsovstar
       - gmontalvoy
       - gnekic
       - gnunn1
@@ -88,6 +89,7 @@ orgs:
       - ibazulic
       - InfoSec812
       - ippul
+      - itblaked
       - itewk
       - jacobsee
       - jarcher
@@ -324,6 +326,8 @@ orgs:
           - ericzolf
           - mophahr
           - tech2734
+          - itblaked
+          - glimpsovstar
         members:
           - djdanielsson
           - kedark3
@@ -359,6 +363,8 @@ orgs:
               - ericzolf
               - mophahr
               - tech2734
+              - itblaked
+              - glimpsovstar
             members: []
             privacy: closed
             repos:
