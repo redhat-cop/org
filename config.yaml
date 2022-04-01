@@ -29,6 +29,7 @@ orgs:
       - aizuddin85
       - alirealasad
       - alecmerdler
+      - aleixhub
       - ally-jarrett
       - AlyIbrahim
       - andreahall12
@@ -927,6 +928,7 @@ orgs:
       gpte:
         description: ""
         maintainers:
+          - aleixhub
           - fridim
           - jkupferer
           - newgoliath
@@ -999,6 +1001,7 @@ orgs:
           babylon:
             description: "Babylon Team"
             maintainers:
+              - aleixhub
               - tonykay
               - fridim
               - jkupferer
@@ -1016,6 +1019,7 @@ orgs:
               babylon-admins:
                 description: "Babylon Team Administrators"
                 maintainers:
+                  - aleixhub
                   - tonykay
                   - fridim
                   - jkupferer
