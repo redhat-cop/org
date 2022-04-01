@@ -26,9 +26,11 @@ orgs:
       - afflom
       - aglenn360
       - ahardin-rh
+      - ahsen-shah
       - aizuddin85
       - alirealasad
       - alecmerdler
+      - aleixhub
       - ally-jarrett
       - AlyIbrahim
       - andreahall12
@@ -934,6 +936,8 @@ orgs:
           - wkulhanek
         members:
           - 9strands
+          - ahsen-shah
+          - aleixhub
           - bbethell-1
           - bosebc
           - d-jana
@@ -999,10 +1003,13 @@ orgs:
           babylon:
             description: "Babylon Team"
             maintainers:
+              - aleixhub
               - tonykay
               - fridim
               - jkupferer
               - 9strands
+            members:
+              - ahsen-shah
             privacy: closed
             repos:
               agnosticv: write
@@ -1016,6 +1023,8 @@ orgs:
               babylon-admins:
                 description: "Babylon Team Administrators"
                 maintainers:
+                  - ahsen-shah
+                  - aleixhub
                   - tonykay
                   - fridim
                   - jkupferer
