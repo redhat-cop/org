@@ -26,6 +26,7 @@ orgs:
       - afflom
       - aglenn360
       - ahardin-rh
+      - ahsen-shah
       - aizuddin85
       - alirealasad
       - alecmerdler
@@ -928,7 +929,6 @@ orgs:
       gpte:
         description: ""
         maintainers:
-          - aleixhub
           - fridim
           - jkupferer
           - newgoliath
@@ -936,6 +936,8 @@ orgs:
           - wkulhanek
         members:
           - 9strands
+          - ahsen-shah
+          - aleixhub
           - bbethell-1
           - bosebc
           - d-jana
@@ -1006,6 +1008,8 @@ orgs:
               - fridim
               - jkupferer
               - 9strands
+            members:
+              - ahsen-shah
             privacy: closed
             repos:
               agnosticv: write
@@ -1019,6 +1023,7 @@ orgs:
               babylon-admins:
                 description: "Babylon Team Administrators"
                 maintainers:
+                  - ahsen-shah
                   - aleixhub
                   - tonykay
                   - fridim
