@@ -93,7 +93,6 @@ orgs:
       - ibazulic
       - InfoSec812
       - ippul
-      - itblaked
       - itewk
       - jacobsee
       - jarcher
@@ -329,8 +328,7 @@ orgs:
           - sabre1041
           - ericzolf
           - mophahr
-          - tech2734
-          - itblaked
+          - vvaldez
           - glimpsovstar
         members:
           - bontreger
@@ -368,8 +366,7 @@ orgs:
               - sabre1041
               - ericzolf
               - mophahr
-              - tech2734
-              - itblaked
+              - vvaldez
               - glimpsovstar
             members: []
             privacy: closed
