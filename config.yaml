@@ -339,7 +339,6 @@ orgs:
           - sean-m-sullivan
           - Tompage1994
           - victorock
-          - vvaldez
         privacy: closed
         repos:
           automate-cicd: write
