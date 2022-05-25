@@ -342,6 +342,7 @@ orgs:
         privacy: closed
         repos:
           automate-cicd: write
+          automate_fedora_desktop: write
           automation-good-practices: write
           elk_automation: write
           automate-exotic: write
@@ -371,6 +372,7 @@ orgs:
             privacy: closed
             repos:
               automate-cicd: admin
+              automate_fedora_desktop: admin
               automation-good-practices: admin
               elk_automation: admin
               automate-exotic: admin
