@@ -1213,6 +1213,27 @@ orgs:
         privacy: closed
         repos:
           rhel-edge-automation-arch: admin
+      service-mesh-patterns-admins:
+        description: Service Mesh Patterns Admins
+        maintainers:
+          - davgordo
+        members:
+          - trevorbox
+        privacy: closed
+        repos:
+          service-mesh-patterns: admin
+      service-mesh-patterns-writers:
+        description: Service Mesh Patterns Writers
+        maintainers:
+          - InfoSec812
+        members:
+          - rmgrimm
+          - k-von
+          - dasong666
+          - jayfray12
+        privacy: closed
+        repos:
+          service-mesh-patterns: write
       sqlserver-coi:
         description: SQL Server Community of Interest
         maintainers:
