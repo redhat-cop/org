@@ -271,6 +271,8 @@ orgs:
         maintainers:
           - InfoSec812
           - jeremyrdavis
+        repo:
+          quarkus-scalable-graphql-demo: admin
         teams:
           committers:
             description: ""
