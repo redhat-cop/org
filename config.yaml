@@ -364,6 +364,7 @@ orgs:
           jboss_webserver: write
           ee_utilities: write
           controller_configuration: write
+          services_catalog_configuration: write
           tower_configuration_examples: write
           aap_utilities: write
         teams:
@@ -394,6 +395,7 @@ orgs:
               controller_configuration: admin
               tower_configuration_examples: admin
               aap_utilities: admin
+              services_catalog_configuration: admin
       automation-cop-tower-mgrs:
         description: Tower managers of Automation CoP
         maintainers:
@@ -405,6 +407,7 @@ orgs:
           controller_configuration: admin
           tower_configuration_examples: admin
           aap_utilities: admin
+          services_catalog_configuration: admin
         privacy: closed
       businessautomation-cop:
         description: Contributors to the Business Automation CoP
