@@ -50,6 +50,7 @@ orgs:
       - branic
       - bszeti
       - CaseyOC
+      - cescoffier
       - chadmf
       - christianh814
       - ckavili
@@ -66,6 +67,7 @@ orgs:
       - David-Igou
       - day0hero
       - ddeno
+      - deewhyweb
       - dfwnetman
       - djdanielsson
       - drichtarik
@@ -86,6 +88,7 @@ orgs:
       - gmontalvoy
       - gnekic
       - gnunn1
+      - GregJohnStewart
       - gsampaio-rh
       - hfenner
       - huddlesj
@@ -133,6 +136,7 @@ orgs:
       - kubealex
       - leethomasrh
       - leoaaraujo
+      - LightGuard
       - limershein
       - linuxstudio
       - ldomb
@@ -147,6 +151,7 @@ orgs:
       - matallen
       - mathianasj
       - mattheh
+      - mbogoevici
       - mike4263
       - mijaros
       - mm7259
@@ -177,6 +182,7 @@ orgs:
       - raffaelespazzoli
       - ramius345
       - ravisantoshgudimetla
+      - rdruss
       - rflorenc
       - rhjcd
       - richardwalkerdev
@@ -187,6 +193,7 @@ orgs:
       - rut31337
       - ryanzhang
       - samueltauil
+      - sangeetaraghu
       - sbailleu
       - sborenst
       - sean-m-sullivan
@@ -194,6 +201,7 @@ orgs:
       - shah-zobair
       - skypatrolcpt
       - Smithe2413
+      - smrowley
       - springdo
       - stephennimmo
       - stencell
@@ -271,6 +279,15 @@ orgs:
         maintainers:
           - InfoSec812
           - jeremyrdavis
+        members:
+          - deewhyweb
+          - smrowley
+          - cescoffier
+          - mbogoevici
+          - LightGuard
+          - GregJohnStewart
+          - sangeetaraghu
+          - rdruss
         repo:
           quarkus-scalable-graphql-demo: admin
         teams:
