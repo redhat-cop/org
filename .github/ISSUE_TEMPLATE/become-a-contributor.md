@@ -7,7 +7,12 @@ assignees: ''
 
 ---
 
-I would like to become a general contributor to the Red Hat Communities of Practice GitHub Organization
+I would like to become a general contributor to the Red Hat Communities of Practice GitHub Organization. 
+
+To be a member of the Red Hat CoP GitHub org, you are required to be a Red Hat employee.
+Non-employees are invited to be outside-collaborators (https://github.com/orgs/redhat-cop/outside-collaborators).
+For this reason, please complete the below form as well:
+- https://red.ht/github-redhat-cop-username
 
 ---
 

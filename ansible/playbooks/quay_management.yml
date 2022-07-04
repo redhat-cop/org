@@ -3,5 +3,5 @@
   gather_facts: false
   tasks:
     - name: "Manage Red Hat CoP Quay Organization"
-      include_role:
+      ansible.builtin.include_role:
         name: infra-ansible/roles/scm/quay

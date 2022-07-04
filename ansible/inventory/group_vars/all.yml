@@ -371,6 +371,15 @@ orgs:
           - name: pushbot
             type: robot
             role: write
+      - name: kube-rbac-proxy
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
       - name: microsegmentation-operator
         visibility: public
         permissions:
@@ -495,6 +504,24 @@ orgs:
             type: robot
             role: write
       - name: operator-utils-bundle
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
+      - name: patch-operator
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
+      - name: patch-operator-bundle
         visibility: public
         permissions:
           - name: ablock
@@ -726,6 +753,24 @@ orgs:
             type: robot
             role: write
           - name: uncontainedci
+            type: robot
+            role: write
+      - name: vault-config-operator
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
+      - name: vault-config-operator-bundle
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
             type: robot
             role: write
       - name: volume-expander-operator
