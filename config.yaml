@@ -449,6 +449,15 @@ orgs:
             privacy: closed
             repos:
               businessautomation-cop: admin
+      serverlessworkflow-decisioning-cop:
+        description: Contributors to the ServerlessWorkFlow & Decisioning CoP
+        maintainers:
+          - pamenon
+          - erouvas
+          - pauljamesbrown
+        privacy: closed
+        repos:
+          serverlessworkflow-decisioning-cop: admin
       container-cop:
         description: Contributors to the Containers & PaaS CoP
         maintainers:
