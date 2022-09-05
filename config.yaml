@@ -190,6 +190,7 @@ orgs:
       - rmgrimm
       - robbbbh
       - robertsandoval
+      - RobotSail
       - rpelisse
       - rut31337
       - ryanzhang
@@ -426,6 +427,13 @@ orgs:
           tower_configuration_examples: admin
           aap_utilities: admin
           services_catalog_configuration: admin
+        privacy: closed
+      blockchain-cop:
+        description: The Blockchain Community of Practice
+        maintainers:
+          - RobotSail
+        repos:
+          blockchain-cop: write
         privacy: closed
       businessautomation-cop:
         description: Contributors to the Business Automation CoP
