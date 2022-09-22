@@ -97,6 +97,7 @@ orgs:
       - InfoSec812
       - ippul
       - itewk
+      - ivarmu
       - jacobsee
       - jarcher
       - jayfray12
@@ -200,6 +201,7 @@ orgs:
       - sean-m-sullivan
       - seravat
       - shah-zobair
+      - silvinux
       - skypatrolcpt
       - Smithe2413
       - smrowley
@@ -359,9 +361,11 @@ orgs:
           - bontreger
           - branic
           - djdanielsson
+          - ivarmu
           - kedark3
           - mpetrive-rh
           - sean-m-sullivan
+          - silvinux
           - Tompage1994
           - victorock
         privacy: closed
@@ -417,6 +421,7 @@ orgs:
       automation-cop-tower-mgrs:
         description: Tower managers of Automation CoP
         maintainers:
+          - djdanielsson
           - sean-m-sullivan
           - Tompage1994
         repos:
