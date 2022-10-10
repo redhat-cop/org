@@ -1140,7 +1140,7 @@ orgs:
           ninja-board: read
           ninja-points: read
         teams:
-          givebaack-program-admins:
+          giveback-program-admins:
             description: ""
             maintainers:
               - sabre1041
