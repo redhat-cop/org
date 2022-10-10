@@ -180,7 +180,9 @@ orgs:
       - prakritiverma
       - radudd
       - raedrizk
+      - rafamqrs
       - raffaelespazzoli
+      - raffamendes
       - ramius345
       - ravisantoshgudimetla
       - rdruss
@@ -1124,29 +1126,39 @@ orgs:
           - raffaelespazzoli
         privacy: closed
         repos: {}
-      ninja-program:
+      giveback-program:
         description: ""
         maintainers:
           - sabre1041
-          - etsauer
-        members:
           - matallen
+        members:
+          - rafamqrs
+          - branic
+          - raffamendes
         privacy: closed
         repos:
           ninja-board: read
           ninja-points: read
         teams:
-          ninja-program-admins:
+          givebaack-program-admins:
             description: ""
             maintainers:
               - sabre1041
-              - etsauer
-            members:
-              - AdlerFleurant
-              - Arman084
-              - fostimus
-              - jtlnguyen
               - matallen
+            members: []
+            privacy: closed
+            repos:
+              ninja-board: admin
+              ninja-points: admin
+          giveback-program-technical:
+            description: ""
+            maintainers:
+              - sabre1041
+              - matallen
+            members:
+              - rafamqrs
+              - branic
+              - raffamendes
             privacy: closed
             repos:
               ninja-board: admin
