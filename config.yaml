@@ -778,6 +778,7 @@ orgs:
                   pipeline-library: admin
                   spring-rest: write
                   template2helm: admin
+                  openshift-management: admin
           declarative-openshift:
             description: Maintainers of the declarative-openshift repo
             maintainers:
