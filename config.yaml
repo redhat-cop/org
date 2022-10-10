@@ -417,7 +417,7 @@ orgs:
               molecule_cicd_automation: admin
               ee_utilities: admin
               controller_configuration: admin
-              tower_configuration_examples: admin
+              aap_configuration_template: admin
               aap_utilities: admin
               services_catalog_configuration: admin
       automation-cop-tower-mgrs:
@@ -430,7 +430,7 @@ orgs:
           ah_configuration: admin
           ee_utilities: admin
           controller_configuration: admin
-          tower_configuration_examples: admin
+          aap_configuration_template: admin
           aap_utilities: admin
           services_catalog_configuration: admin
         privacy: closed
