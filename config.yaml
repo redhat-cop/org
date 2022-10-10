@@ -389,7 +389,7 @@ orgs:
           ee_utilities: write
           controller_configuration: write
           services_catalog_configuration: write
-          tower_configuration_examples: write
+          aap_configuration_template: write
           aap_utilities: write
         teams:
           automation-cop-mgrs:
