@@ -58,6 +58,7 @@ orgs:
       - cnuland
       - cpeters
       - cpitman
+      - cidrblock
       - d-jana
       - danhawker
       - darthlukan
@@ -108,6 +109,7 @@ orgs:
       - jgoldsmith613
       - jhawkinsRH
       - jijiechen
+      - jillr
       - jimdillon
       - jkupferer
       - johnsimcall
@@ -423,6 +425,8 @@ orgs:
       automation-cop-tower-mgrs:
         description: Tower managers of Automation CoP
         maintainers:
+          - cidrblock
+          - jillr
           - djdanielsson
           - sean-m-sullivan
           - Tompage1994
