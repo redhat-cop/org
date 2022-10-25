@@ -269,8 +269,8 @@ orgs:
           - davgordo
         privacy: closed
         repos:
-          ansible_middleware_galaxy: write
           ansible-role-jboss-common: write
+          ansible_middleware_galaxy: write
           automate-jcliff: write
           jboss_amq: write
           jboss_amq_openshift: write
@@ -282,7 +282,6 @@ orgs:
           redhat_sso: write
       appdev-cop:
         description: Team for the management of the Application Development CoP
-        privacy: closed
         maintainers:
           - InfoSec812
           - jeremyrdavis
@@ -295,45 +294,46 @@ orgs:
           - GregJohnStewart
           - sangeetaraghu
           - rdruss
+        privacy: closed
         repo:
           quarkus-scalable-graphql-demo: admin
         teams:
           committers:
             description: ""
-            privacy: closed
             maintainers:
               - InfoSec812
               - jeremyrdavis
-          microservices:
-            description: ""
             privacy: closed
-            maintainers:
-              - InfoSec812
-              - jeremyrdavis
-          modernization:
-            description: ""
-            privacy: closed
-            maintainers:
-              - InfoSec812
-              - jeremyrdavis
-          mobile:
-            description: ""
-            privacy: closed
-            maintainers:
-              - InfoSec812
-              - jeremyrdavis
-          reactive:
-            description: ""
-            privacy: closed
-            maintainers:
-              - InfoSec812
-              - jeremyrdavis
           data-streaming:
             description: ""
-            privacy: closed
             maintainers:
               - InfoSec812
               - jeremyrdavis
+            privacy: closed
+          microservices:
+            description: ""
+            maintainers:
+              - InfoSec812
+              - jeremyrdavis
+            privacy: closed
+          mobile:
+            description: ""
+            maintainers:
+              - InfoSec812
+              - jeremyrdavis
+            privacy: closed
+          modernization:
+            description: ""
+            maintainers:
+              - InfoSec812
+              - jeremyrdavis
+            privacy: closed
+          reactive:
+            description: ""
+            maintainers:
+              - InfoSec812
+              - jeremyrdavis
+            privacy: closed
       auto-docs:
         description: ""
         maintainers:
@@ -374,25 +374,25 @@ orgs:
           - victorock
         privacy: closed
         repos:
+          aap_configuration_template: write
+          aap_utilities: write
           automate-cicd: write
-          automate_fedora_desktop: write
-          automation-good-practices: write
-          elk_automation: write
           automate-exotic: write
           automate-jcliff: write
           automate-tower: write
           automate-tower-ha-dr: write
           automate-windows: write
+          automate_fedora_desktop: write
+          automation-good-practices: write
           cloud_provision_automation_collection: write
+          controller_configuration: write
+          ee_utilities: write
+          elk_automation: write
           hardware_automation_collection: write
+          jboss_webserver: write
           molecule_cicd_automation: write
           redhat_sso: write
-          jboss_webserver: write
-          ee_utilities: write
-          controller_configuration: write
           services_catalog_configuration: write
-          aap_configuration_template: write
-          aap_utilities: write
         teams:
           automation-cop-mgrs:
             description: ""
@@ -405,22 +405,22 @@ orgs:
             members: []
             privacy: closed
             repos:
+              aap_configuration_template: admin
+              aap_utilities: admin
               automate-cicd: admin
-              automate_fedora_desktop: admin
-              automation-good-practices: admin
-              elk_automation: admin
               automate-exotic: admin
               automate-jcliff: admin
               automate-tower: admin
               automate-tower-ha-dr: admin
               automate-windows: admin
+              automate_fedora_desktop: admin
+              automation-good-practices: admin
               cloud_provision_automation_collection: admin
+              controller_configuration: admin
+              ee_utilities: admin
+              elk_automation: admin
               hardware_automation_collection: admin
               molecule_cicd_automation: admin
-              ee_utilities: admin
-              controller_configuration: admin
-              aap_configuration_template: admin
-              aap_utilities: admin
               services_catalog_configuration: admin
       automation-cop-tower-mgrs:
         description: Tower managers of Automation CoP
@@ -431,21 +431,21 @@ orgs:
         members:
           - jillr
           - cidrblock
+        privacy: closed
         repos:
-          ah_configuration: admin
-          ee_utilities: admin
-          controller_configuration: admin
           aap_configuration_template: admin
           aap_utilities: admin
+          ah_configuration: admin
+          controller_configuration: admin
+          ee_utilities: admin
           services_catalog_configuration: admin
-        privacy: closed
       blockchain-cop:
         description: The Blockchain Community of Practice
         maintainers:
           - RobotSail
+        privacy: closed
         repos:
           blockchain-cop: write
-        privacy: closed
       businessautomation-cop:
         description: Contributors to the Business Automation CoP
         maintainers:
@@ -469,15 +469,6 @@ orgs:
             privacy: closed
             repos:
               businessautomation-cop: admin
-      serverlessworkflow-decisioning-cop:
-        description: Contributors to the ServerlessWorkFlow & Decisioning CoP
-        maintainers:
-          - pamenon
-          - erouvas
-          - pauljamesbrown
-        privacy: closed
-        repos:
-          serverlessworkflow-decisioning-cop: admin
       container-cop:
         description: Contributors to the Containers & PaaS CoP
         maintainers:
@@ -778,12 +769,12 @@ orgs:
                   containers-quickstarts: admin
                   helm-charts: admin
                   openshift-image-signing-scanning: write
+                  openshift-management: admin
                   openshift-templates: admin
                   openshift-toolkit: admin
                   pipeline-library: admin
                   spring-rest: write
                   template2helm: admin
-                  openshift-management: admin
           declarative-openshift:
             description: Maintainers of the declarative-openshift repo
             maintainers:
@@ -795,19 +786,6 @@ orgs:
               - gnekic
             repos:
               declarative-openshift: write
-          golang-cop:
-            description: "Team for the management of the Golang CoP"
-            maintainers:
-              - radudd
-            members:
-              - rflorenc
-              - berkeragir
-              - tosmi
-              - raffaelespazzoli
-              - ravisantoshgudimetla
-              - sabre1041
-            privacy: closed
-            repos: {}
           github-actions:
             description: GitHub Actions Collection
             maintainers:
@@ -844,6 +822,19 @@ orgs:
                 privacy: closed
                 repos:
                   gitops-catalog: admin
+          golang-cop:
+            description: "Team for the management of the Golang CoP"
+            maintainers:
+              - radudd
+            members:
+              - rflorenc
+              - berkeragir
+              - tosmi
+              - raffaelespazzoli
+              - ravisantoshgudimetla
+              - sabre1041
+            privacy: closed
+            repos: {}
           helpernode:
             description: "GitOps Working Group"
             maintainers:
@@ -879,8 +870,8 @@ orgs:
               - trevorbox
             privacy: closed
             repos:
-              cert-utils-operator: read
               cert-operator: read
+              cert-utils-operator: read
               community-operators: read
               community-operators-prod: read
               dynamic-rbac-operator: read
@@ -903,6 +894,14 @@ orgs:
               vault-plugin-secrets-quay: read
               volume-expander-operator: read
             teams:
+              dynamic-rbac-operator-admins:
+                description: Admin group for the dynamic-rbac-operator
+                maintainers:
+                  - jacobsee
+                  - oybed
+                privacy: closed
+                repos:
+                  dynamic-rbac-operator: admin
               operators-wg-mergers:
                 description: ""
                 maintainers:
@@ -918,8 +917,8 @@ orgs:
                   - trevorbox
                 privacy: closed
                 repos:
-                  cert-utils-operator: admin
                   cert-operator: admin
+                  cert-utils-operator: admin
                   community-operators: admin
                   community-operators-prod: admin
                   dynamic-rbac-operator: admin
@@ -941,15 +940,6 @@ orgs:
                   vault-config-operator: admin
                   vault-plugin-secrets-quay: admin
                   volume-expander-operator: admin
-
-              dynamic-rbac-operator-admins:
-                description: Admin group for the dynamic-rbac-operator
-                maintainers:
-                  - jacobsee
-                  - oybed
-                privacy: closed
-                repos:
-                  dynamic-rbac-operator: admin
           rego-policies:
             description: Rego policies Collection
             maintainers:
@@ -984,6 +974,52 @@ orgs:
         privacy: closed
         repos:
           disconnectedinfra: admin
+      distributed-working:
+        description: Distributed working community of practice
+        maintainers:
+          - kaileshmistry
+          - TinyExplosions
+          - aglenn360
+        privacy: closed
+        repos:
+          distributed-working-cop: admin
+      giveback-program:
+        description: ""
+        maintainers:
+          - sabre1041
+          - matallen
+        members:
+          - rafamqrs
+          - branic
+          - raffamendes
+        privacy: closed
+        repos:
+          ninja-board: read
+          ninja-points: read
+        teams:
+          giveback-program-admins:
+            description: ""
+            maintainers:
+              - sabre1041
+              - matallen
+            members: []
+            privacy: closed
+            repos:
+              ninja-board: admin
+              ninja-points: admin
+          giveback-program-technical:
+            description: ""
+            maintainers:
+              - sabre1041
+              - matallen
+            members:
+              - rafamqrs
+              - branic
+              - raffamendes
+            privacy: closed
+            repos:
+              ninja-board: admin
+              ninja-points: admin
       gpte:
         description: ""
         maintainers:
@@ -1031,34 +1067,6 @@ orgs:
           operationalizing-openshift-lab: write
           poolboy: read
         teams:
-          gpte-admins:
-            description: "GPTE Admin Team"
-            maintainers:
-              - fridim
-              - jkupferer
-              - newgoliath
-              - wkulhanek
-              - 9strands
-            members:
-              - marcosmamorim
-              - NonyNo3lle
-              - rut31337
-            privacy: closed
-            repos:
-              agnosticd: admin
-              agnostics: admin
-              anarchy: admin
-              babylon: admin
-              babylon_agnostics: admin
-              babylon-events-console: admin
-              classroom: admin
-              dark-tower: admin
-              k8s_config: admin
-              openshift-4-alpha-enablement: admin
-              openshift-infra-skel: admin
-              openshift-lab-origin: admin
-              operationalizing-openshift-lab: write
-              poolboy: admin
           babylon:
             description: "Babylon Team"
             maintainers:
@@ -1090,24 +1098,43 @@ orgs:
                   - d-jana
                   - 9strands
                 repos:
-                  agnosticv: admin
                   agnostics: admin
+                  agnosticv: admin
                   anarchy: admin
                   babylon: admin
-                  babylon_agnostics: admin
                   babylon-events-console: admin
+                  babylon_agnostics: admin
                   dark-tower: admin
                   k8s_config: admin
                   poolboy: admin
-      distributed-working:
-        description: Distributed working community of practice
-        maintainers:
-          - kaileshmistry
-          - TinyExplosions
-          - aglenn360
-        privacy: closed
-        repos:
-          distributed-working-cop: admin
+          gpte-admins:
+            description: "GPTE Admin Team"
+            maintainers:
+              - fridim
+              - jkupferer
+              - newgoliath
+              - wkulhanek
+              - 9strands
+            members:
+              - marcosmamorim
+              - NonyNo3lle
+              - rut31337
+            privacy: closed
+            repos:
+              agnosticd: admin
+              agnostics: admin
+              anarchy: admin
+              babylon: admin
+              babylon-events-console: admin
+              babylon_agnostics: admin
+              classroom: admin
+              dark-tower: admin
+              k8s_config: admin
+              openshift-4-alpha-enablement: admin
+              openshift-infra-skel: admin
+              openshift-lab-origin: admin
+              operationalizing-openshift-lab: write
+              poolboy: admin
       mdt:
         description: Metrics Driven Transformation
         maintainers:
@@ -1132,43 +1159,6 @@ orgs:
           - raffaelespazzoli
         privacy: closed
         repos: {}
-      giveback-program:
-        description: ""
-        maintainers:
-          - sabre1041
-          - matallen
-        members:
-          - rafamqrs
-          - branic
-          - raffamendes
-        privacy: closed
-        repos:
-          ninja-board: read
-          ninja-points: read
-        teams:
-          giveback-program-admins:
-            description: ""
-            maintainers:
-              - sabre1041
-              - matallen
-            members: []
-            privacy: closed
-            repos:
-              ninja-board: admin
-              ninja-points: admin
-          giveback-program-technical:
-            description: ""
-            maintainers:
-              - sabre1041
-              - matallen
-            members:
-              - rafamqrs
-              - branic
-              - raffamendes
-            privacy: closed
-            repos:
-              ninja-board: admin
-              ninja-points: admin
       pathfinder:
         description: ""
         maintainers:
@@ -1273,6 +1263,15 @@ orgs:
         privacy: closed
         repos:
           rhel-edge-automation-arch: admin
+      serverlessworkflow-decisioning-cop:
+        description: Contributors to the ServerlessWorkFlow & Decisioning CoP
+        maintainers:
+          - pamenon
+          - erouvas
+          - pauljamesbrown
+        privacy: closed
+        repos:
+          serverlessworkflow-decisioning-cop: admin
       service-mesh-patterns-admins:
         description: Service Mesh Patterns Admins
         maintainers:

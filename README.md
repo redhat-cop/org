@@ -5,6 +5,14 @@ Organization. The data here is consumed by the
 [peribolos](https://git.k8s.io/test-infra/prow/cmd/peribolos)
 tool to maintain organization and team membership, as well as team creation and deletion.
 
+Please keep the `config.yaml` file recursively sorted.
+
+`yq` can be helpful here:
+
+```
+yq -i 'sort_keys(..)' config.yaml
+```
+
 ### Support
 
 Need support? Open an [issue](https://github.com/redhat-cop/org/issues).
