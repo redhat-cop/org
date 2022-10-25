@@ -52,6 +52,7 @@ orgs:
       - cescoffier
       - chadmf
       - christianh814
+      - cidrblock
       - ckavili
       - ckomopou
       - cmwylie19
@@ -110,6 +111,7 @@ orgs:
       - jijiechen
       - jimdillon
       - jkupferer
+      - jillr
       - johnsimcall
       - jonahkh
       - Jooho
@@ -426,6 +428,9 @@ orgs:
           - djdanielsson
           - sean-m-sullivan
           - Tompage1994
+        members:
+          - jillr
+          - cidrblock
         repos:
           ah_configuration: admin
           ee_utilities: admin
