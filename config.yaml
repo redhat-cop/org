@@ -37,6 +37,7 @@ orgs:
       - apitanga
       - arilivigni
       - arman084
+      - arnaik-rh
       - arthomasredhat
       - arvin-a
       - bbeaudoin
@@ -59,6 +60,7 @@ orgs:
       - cnuland
       - cpeters
       - cpitman
+      - cpmeadors
       - d-jana
       - danhawker
       - darthlukan
@@ -154,6 +156,7 @@ orgs:
       - mathianasj
       - mattheh
       - mbogoevici
+      - mffiedler
       - mijaros
       - mike4263
       - mm7259
@@ -1301,6 +1304,15 @@ orgs:
         privacy: closed
         repos:
           sqlserver-coi: admin
+      testing-cop:
+        description: Testing Community of Practice
+        maintainers:
+          - arnaik-rh
+          - cpmeadors
+          - mffiedler
+        privacy: closed
+        repos:
+          testing-cop: admin
       uncontained.io:
         description: Uncontained.io
         maintainers:
