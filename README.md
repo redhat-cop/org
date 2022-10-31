@@ -9,7 +9,12 @@ Please keep the `config.yaml` file recursively sorted.
 
 `yq` can be helpful here:
 
-```
+```shell
+# downcase all lists
+yq -i e '(... | select(type == "!!seq"))[] |= downcase' config.yaml && \
+# sort all lists
+yq -i e '(... | select(type == "!!seq")) |= sort' config.yaml && \
+# sort all keys
 yq -i 'sort_keys(..)' config.yaml
 ```
 
