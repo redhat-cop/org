@@ -39,6 +39,7 @@ orgs:
       - arman084
       - arthomasredhat
       - arvin-a
+      - ashwini-mhatre
       - bbeaudoin
       - bbethell-1
       - beelandc
@@ -88,6 +89,7 @@ orgs:
       - gmontalvoy
       - gnekic
       - gnunn1
+      - gomathiselvis
       - gregjohnstewart
       - gsampaio-rh
       - hfenner
@@ -123,10 +125,12 @@ orgs:
       - juliaaano
       - juliovp01
       - juozasa
+      - justjais
       - jzsjjunior
       - k-von
       - kaileshmistry
       - kaiobrien
+      - kb-perbyte
       - kedark3
       - kelaird
       - kenwilli
@@ -166,6 +170,7 @@ orgs:
       - nasx
       - newgoliath
       - nickjordan
+      - nilashishc
       - noelo
       - nonyno3lle
       - nstrug
@@ -180,6 +185,7 @@ orgs:
       - pittar
       - prakhar1985
       - prakritiverma
+      - qalthos
       - radudd
       - raedrizk
       - rafamqrs
@@ -195,6 +201,7 @@ orgs:
       - robbbbh
       - robertsandoval
       - robotsail
+      - rohitthakur2590
       - rpelisse
       - rut31337
       - ryanzhang
@@ -232,6 +239,7 @@ orgs:
       - tosmi
       - treddy08
       - trevorbox
+      - trishnaguha
       - truncj
       - trv-rpeoples
       - vaibhavjainwiz
@@ -429,8 +437,16 @@ orgs:
           - sean-m-sullivan
           - tompage1994
         members:
+          - ashwini-mhatre
           - cidrblock
+          - gomathiselvis
           - jillr
+          - justjais
+          - kb-perbyte
+          - nilashishc
+          - qalthos
+          - rohitthakur2590
+          - trishnaguha
         privacy: closed
         repos:
           aap_configuration_template: admin
@@ -438,6 +454,9 @@ orgs:
           ah_configuration: admin
           controller_configuration: admin
           ee_utilities: admin
+          network.base: admin
+          network.bgp: admin
+          network.vpn: admin
           services_catalog_configuration: admin
       blockchain-cop:
         description: The Blockchain Community of Practice
