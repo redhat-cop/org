@@ -460,6 +460,7 @@ orgs:
           network.base: admin
           network.bgp: admin
           network.vpn: admin
+          security.firewall_mgmt: admin
           services_catalog_configuration: admin
       blockchain-cop:
         description: The Blockchain Community of Practice
