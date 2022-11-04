@@ -1269,6 +1269,15 @@ orgs:
           - thomasmckay
         privacy: closed
         repos: {}
+      rh4gsre:
+        description: SRE practices for government
+        maintainers:
+          - hfenner
+          - hultzj
+          - swarren
+        members: []
+        privacy: closed
+        repos: []
       rhel-edge-automation-arch:
         description: RHEL for Edge Automation Deployment Architecture
         maintainers:
