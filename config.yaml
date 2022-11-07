@@ -1277,7 +1277,8 @@ orgs:
           - swarren
         members: []
         privacy: closed
-        repos: []
+        repos:
+          rhdirt: admin
       rhel-edge-automation-arch:
         description: RHEL for Edge Automation Deployment Architecture
         maintainers:
