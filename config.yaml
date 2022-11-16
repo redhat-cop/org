@@ -19,6 +19,7 @@ orgs:
     members:
       - 9strands
       - abaird-rh
+      - abikouo
       - abhijithumbe
       - abryson-redhat
       - adamgoossens
@@ -30,6 +31,7 @@ orgs:
       - aizuddin85
       - alecmerdler
       - aleixhub
+      - alinabuzachis
       - alirealasad
       - alyibrahim
       - andreahall12
@@ -92,6 +94,8 @@ orgs:
       - gnekic
       - gnunn1
       - gomathiselvis
+      - goneri
+      - gravesm
       - gregjohnstewart
       - gsampaio-rh
       - hfenner
@@ -154,6 +158,7 @@ orgs:
       - luckylittle
       - makentenza
       - malacourse
+      - mandar242
       - marciopaiva
       - marcosmamorim
       - marcredhat
@@ -442,12 +447,17 @@ orgs:
           - sean-m-sullivan
           - tompage1994
         members:
+          - abikouo
+          - alinabuzachis
           - ashwini-mhatre
           - cidrblock
           - gomathiselvis
+          - goneri
+          - gravesm
           - jillr
           - justjais
           - kb-perbyte
+          - mandar242
           - nilashishc
           - qalthos
           - rohitthakur2590
@@ -457,6 +467,8 @@ orgs:
           aap_configuration_template: admin
           aap_utilities: admin
           ah_configuration: admin
+          cloud.aws_ops: admin
+          cloud.aws_troubleshooting: admin
           controller_configuration: admin
           ee_utilities: admin
           network.base: admin
