@@ -921,6 +921,7 @@ orgs:
               dynamic-rbac-operator: read
               egressip-ipam-operator: read
               github-workflows-operators: read
+              gitwebhook-operator: read
               global-load-balancer-operator: read
               group-sync-operator: read
               kube-rbac-proxy: read
@@ -968,6 +969,7 @@ orgs:
                   dynamic-rbac-operator: admin
                   egressip-ipam-operator: admin
                   github-workflows-operators: admin
+                  gitwebhook-operator: admin
                   global-load-balancer-operator: admin
                   group-sync-operator: admin
                   kube-rbac-proxy: admin
