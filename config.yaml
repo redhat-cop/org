@@ -454,6 +454,7 @@ orgs:
           - alinabuzachis
           - ashwini-mhatre
           - cidrblock
+          - esolutecoder
           - gomathiselvis
           - goneri
           - gravesm
@@ -461,6 +462,8 @@ orgs:
           - justjais
           - kb-perbyte
           - mandar242
+          - matoval
+          - maxamillion
           - nilashishc
           - qalthos
           - rohitthakur2590
@@ -474,6 +477,7 @@ orgs:
           cloud.aws_troubleshooting: admin
           controller_configuration: admin
           ee_utilities: admin
+          infra.osbuild: admin
           network.base: admin
           network.bgp: admin
           network.vpn: admin
