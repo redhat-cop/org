@@ -397,6 +397,7 @@ orgs:
         repos:
           aap_configuration_template: write
           aap_utilities: write
+          ansible_collections_tooling: write
           automate-cicd: write
           automate-exotic: write
           automate-jcliff: write
@@ -428,6 +429,7 @@ orgs:
             repos:
               aap_configuration_template: admin
               aap_utilities: admin
+              ansible_collections_tooling: admin
               automate-cicd: admin
               automate-exotic: admin
               automate-jcliff: admin
@@ -473,6 +475,7 @@ orgs:
           aap_configuration_template: admin
           aap_utilities: admin
           ah_configuration: admin
+          ansible_collections_tooling: admin
           cloud.aws_ops: admin
           cloud.aws_troubleshooting: admin
           controller_configuration: admin
