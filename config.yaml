@@ -483,6 +483,7 @@ orgs:
           infra.osbuild: admin
           network.base: admin
           network.bgp: admin
+          network.ospf: admin
           network.vpn: admin
           security.firewall_mgmt: admin
           services_catalog_configuration: admin
