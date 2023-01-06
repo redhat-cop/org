@@ -398,7 +398,6 @@ orgs:
           aap_configuration_template: write
           aap_utilities: write
           ansible_collections_tooling: write
-          automate-cicd: write
           automate-exotic: write
           automate-jcliff: write
           automate-tower: write
@@ -430,7 +429,6 @@ orgs:
               aap_configuration_template: admin
               aap_utilities: admin
               ansible_collections_tooling: admin
-              automate-cicd: admin
               automate-exotic: admin
               automate-jcliff: admin
               automate-tower: admin
