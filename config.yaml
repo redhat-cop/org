@@ -23,6 +23,7 @@ orgs:
       - abhijithumbe
       - abryson-redhat
       - adamgoossens
+      - adetalhouet
       - adlerfleurant
       - afflom
       - aglenn360
@@ -233,6 +234,7 @@ orgs:
       - stencell
       - stephennimmo
       - stocky37
+      - strangiato
       - stratus-ss
       - sushilsuresh
       - sysmatrix1
@@ -864,9 +866,11 @@ orgs:
               gitops-wg-mergers:
                 description: "GitOps Working Group Mergers"
                 maintainers:
+                  - adetalhouet
                   - gnunn1
                   - pittar
                   - sabre1041
+                  - strangiato
                 privacy: closed
                 repos:
                   gitops-catalog: admin
