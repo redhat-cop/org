@@ -18,6 +18,7 @@ orgs:
     location: ""
     members:
       - 9strands
+      - ashokjammula1
       - abaird-rh
       - abikouo
       - abhijithumbe
@@ -1085,6 +1086,7 @@ orgs:
           - wkulhanek
         members:
           - 9strands
+          - ashokjammula1
           - ahsen-shah
           - aleixhub
           - bbethell-1
@@ -1126,6 +1128,7 @@ orgs:
             description: "Babylon Team"
             maintainers:
               - 9strands
+              - ashokjammula1
               - aleixhub
               - fridim
               - jkupferer
@@ -1146,6 +1149,7 @@ orgs:
                 description: "Babylon Team Administrators"
                 maintainers:
                   - 9strands
+                  - ashokjammula1
                   - ahsen-shah
                   - aleixhub
                   - d-jana
@@ -1166,6 +1170,7 @@ orgs:
             description: "GPTE Admin Team"
             maintainers:
               - 9strands
+              - ashokjammula1
               - fridim
               - jkupferer
               - newgoliath
