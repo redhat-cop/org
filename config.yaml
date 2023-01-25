@@ -18,7 +18,6 @@ orgs:
     location: ""
     members:
       - 9strands
-      - ashokjammula1
       - abaird-rh
       - abikouo
       - abhijithumbe
@@ -43,6 +42,7 @@ orgs:
       - arnaik-rh
       - arthomasredhat
       - arvin-a
+      - ashokjammula1
       - ashwini-mhatre
       - bbeaudoin
       - bbethell-1
@@ -1128,8 +1128,8 @@ orgs:
             description: "Babylon Team"
             maintainers:
               - 9strands
-              - ashokjammula1
               - aleixhub
+              - ashokjammula1
               - fridim
               - jkupferer
               - tonykay
@@ -1149,8 +1149,8 @@ orgs:
                 description: "Babylon Team Administrators"
                 maintainers:
                   - 9strands
-                  - ashokjammula1
                   - ahsen-shah
+                  - ashokjammula1
                   - aleixhub
                   - d-jana
                   - fridim
