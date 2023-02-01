@@ -19,8 +19,8 @@ orgs:
     members:
       - 9strands
       - abaird-rh
-      - abikouo
       - abhijithumbe
+      - abikouo
       - abryson-redhat
       - adamgoossens
       - adetalhouet
@@ -239,8 +239,8 @@ orgs:
       - strangiato
       - stratus-ss
       - sushilsuresh
-      - sysmatrix1
       - swarred
+      - sysmatrix1
       - tech2734
       - theckang
       - themoosman
@@ -459,7 +459,6 @@ orgs:
           - alinabuzachis
           - ashwini-mhatre
           - cidrblock
-          - resolutecoder
           - gomathiselvis
           - goneri
           - gravesm
@@ -471,6 +470,7 @@ orgs:
           - maxamillion
           - nilashishc
           - qalthos
+          - resolutecoder
           - rohitthakur2590
           - trishnaguha
         privacy: closed
