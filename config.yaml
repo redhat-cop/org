@@ -42,6 +42,7 @@ orgs:
       - arnaik-rh
       - arthomasredhat
       - arvin-a
+      - ashokjammula1
       - ashwini-mhatre
       - bbeaudoin
       - bbethell-1
@@ -1087,6 +1088,7 @@ orgs:
           - 9strands
           - ahsen-shah
           - aleixhub
+          - ashokjammula1
           - bbethell-1
           - bosebc
           - d-jana
@@ -1127,6 +1129,7 @@ orgs:
             maintainers:
               - 9strands
               - aleixhub
+              - ashokjammula1
               - fridim
               - jkupferer
               - tonykay
@@ -1148,6 +1151,7 @@ orgs:
                   - 9strands
                   - ahsen-shah
                   - aleixhub
+                  - ashokjammula1
                   - d-jana
                   - fridim
                   - jkupferer
@@ -1166,6 +1170,7 @@ orgs:
             description: "GPTE Admin Team"
             maintainers:
               - 9strands
+              - ashokjammula1
               - fridim
               - jkupferer
               - newgoliath
