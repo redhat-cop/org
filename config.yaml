@@ -91,7 +91,6 @@ orgs:
       - ghyde
       - giofontana
       - gjbianco
-      - glimpsovstar
       - gmontalvoy
       - gnekic
       - gnunn1
@@ -383,7 +382,6 @@ orgs:
         description: ""
         maintainers:
           - ericzolf
-          - glimpsovstar
           - mophahr
           - sabre1041
           - vvaldez
@@ -424,7 +422,6 @@ orgs:
             description: ""
             maintainers:
               - ericzolf
-              - glimpsovstar
               - mophahr
               - sabre1041
               - vvaldez
