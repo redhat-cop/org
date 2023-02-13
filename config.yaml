@@ -478,6 +478,7 @@ orgs:
           ansible_collections_tooling: admin
           cloud.aws_ops: admin
           cloud.aws_troubleshooting: admin
+          cloud.azure_roles: admin
           controller_configuration: admin
           ee_utilities: admin
           infra.osbuild: admin
