@@ -181,6 +181,7 @@ orgs:
       - mvmaestri
       - mwitzenm
       - nasx
+      - neosilicon-redhat
       - newgoliath
       - nickjordan
       - nilashishc
@@ -492,6 +493,7 @@ orgs:
       blockchain-cop:
         description: The Blockchain Community of Practice
         maintainers:
+          - neosilicon-redhat
           - robotsail
         privacy: closed
         repos:
