@@ -196,6 +196,7 @@ orgs:
       - pauljamesbrown
       - pecorawal
       - perryrivera1
+      - pfeifferj
       - pittar
       - prakhar1985
       - prakritiverma
@@ -1023,6 +1024,18 @@ orgs:
                 privacy: closed
                 repos:
                   rego-policies: admin
+          triage:
+            description: Issue managers for container-cop
+            maintainers:
+              - etsauer
+            members:
+              - pfeifferj
+            privacy: closed
+            repos:
+              k8s-notify: triage
+              namespace-configuration-operator: triage
+              openshift-toolkit: triage
+              vault-config-operator: triage
       cyberinfrasig:
         description: "Cyber Infrastructure Special Interest Group"
         maintainers:
