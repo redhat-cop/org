@@ -411,6 +411,7 @@ orgs:
           automate_fedora_desktop: write
           automation-good-practices: write
           cloud_provision_automation_collection: write
+          config_as_code_workshop: write
           controller_configuration: write
           ee_utilities: write
           elk_automation: write
@@ -441,6 +442,7 @@ orgs:
               automate_fedora_desktop: admin
               automation-good-practices: admin
               cloud_provision_automation_collection: admin
+              config_as_code_workshop: admin
               controller_configuration: admin
               ee_utilities: admin
               elk_automation: admin
@@ -481,6 +483,7 @@ orgs:
           cloud.aws_ops: admin
           cloud.aws_troubleshooting: admin
           cloud.azure_ops: admin
+          config_as_code_workshop: admin
           controller_configuration: admin
           ee_utilities: admin
           infra.osbuild: admin
