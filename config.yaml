@@ -100,6 +100,7 @@ orgs:
       - gregjohnstewart
       - grodideal
       - gsampaio-rh
+      - heatmiser
       - hfenner
       - huddlesj
       - hultzj
@@ -240,6 +241,7 @@ orgs:
       - strangiato
       - stratus-ss
       - sushilsuresh
+      - swapdisk
       - swarred
       - sysmatrix1
       - tech2734
@@ -307,6 +309,15 @@ orgs:
           jboss_fuse: write
           jboss_webserver: write
           redhat_sso: write
+      ansible-snapshot-admins:
+        description: Administrators for ansible-snapshot
+        maintainers:
+          - heatmiser
+          - swapdisk
+        members: []
+        privacy: closed
+        repos:
+          ansible-snapshot: admin
       appdev-cop:
         description: Team for the management of the Application Development CoP
         maintainers:
