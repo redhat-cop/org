@@ -26,7 +26,9 @@ jobs:
           override-deps: |
             ansible-lint==5.3.2
       - name: Install Dependencies
-        run: ansible-galaxy install -r ansible/requirements.yml
+        run: ansible-galaxy install -r ansible/requirements.yml -p $HOME/roles
       - name: Manage Quay Repository
         if: github.event_name == 'push' || github.event_name == 'schedule'
+        env:
+          ANSIBLE_ROLES_PATH: '$HOME/roles/infra-ansible/roles/scm'
         run: ansible-playbook -i ansible/inventory ansible/playbooks/quay_management.yml ${{secrets.ANSIBLE_EXTRA_VARS}}
