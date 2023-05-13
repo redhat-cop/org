@@ -1,7 +1,8 @@
 ---
-- hosts: localhost
+- name: Manage Quay Organization
+  hosts: localhost
   gather_facts: false
   tasks:
     - name: "Manage Red Hat CoP Quay Organization"
       ansible.builtin.include_role:
-        name: infra-ansible/roles/scm/quay
+        name: quay
