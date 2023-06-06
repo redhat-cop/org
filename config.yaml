@@ -500,6 +500,7 @@ orgs:
           network.bgp: admin
           network.interfaces: admin
           network.ospf: admin
+          network.telemetry: admin
           network.vpn: admin
           security.firewall_mgmt: admin
           services_catalog_configuration: admin
