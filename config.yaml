@@ -488,7 +488,6 @@ orgs:
         repos:
           aap_configuration_template: admin
           aap_utilities: admin
-          ah_configuration: admin
           ansible_collections_tooling: admin
           cloud.aws_ops: admin
           cloud.aws_troubleshooting: admin
