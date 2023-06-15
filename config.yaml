@@ -398,6 +398,7 @@ orgs:
           - mophahr
           - sabre1041
           - vvaldez
+          - djdanielsson
         members:
           - bontreger
           - branic
@@ -438,6 +439,7 @@ orgs:
               - mophahr
               - sabre1041
               - vvaldez
+              - djdanielsson
             members: []
             privacy: closed
             repos:
