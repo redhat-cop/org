@@ -1329,6 +1329,20 @@ orgs:
           - thomasmckay
         privacy: closed
         repos: {}
+      redhat-cop-sre:
+        description: "Red Hat CoP SRE"
+        maintainers:
+          - djdanielsson
+          - etsauer
+          - garethahealy
+          - JaredBurck
+          - oybed
+          - pabrahamsson
+          - sabre1041
+        members: []
+        privacy: closed
+        repos:
+          org: admin
       rh4gsre:
         description: SRE practices for government
         maintainers:
