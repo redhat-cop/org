@@ -466,8 +466,18 @@ orgs:
           - djdanielsson
           - sean-m-sullivan
           - tompage1994
+        privacy: closed
+        repos:
+          aap_configuration_template: admin
+          aap_utilities: admin
+          ansible_collections_tooling: admin
+          controller_configuration: admin
+          ee_utilities: admin
+          services_catalog_configuration: admin
+      validated_content_curators:
+        description: Validated Content Contributors
+        maintainers: []
         members:
-          - abikouo
           - alinabuzachis
           - ashwini-mhatre
           - cidrblock
@@ -488,14 +498,9 @@ orgs:
           - trishnaguha
         privacy: closed
         repos:
-          aap_configuration_template: admin
-          aap_utilities: admin
-          ansible_collections_tooling: admin
           cloud.aws_ops: admin
           cloud.aws_troubleshooting: admin
           cloud.azure_ops: admin
-          controller_configuration: admin
-          ee_utilities: admin
           infra.osbuild: admin
           network.base: admin
           network.bgp: admin
@@ -504,7 +509,6 @@ orgs:
           network.telemetry: admin
           network.vpn: admin
           security.firewall_mgmt: admin
-          services_catalog_configuration: admin
       blockchain-cop:
         description: The Blockchain Community of Practice
         maintainers:
