@@ -478,6 +478,7 @@ orgs:
         description: Validated Content Contributors
         maintainers: []
         members:
+          - abikouo
           - alinabuzachis
           - ashwini-mhatre
           - cidrblock
