@@ -395,11 +395,11 @@ orgs:
       automation-cop-members:
         description: ""
         maintainers:
+          - djdanielsson
           - ericzolf
           - mophahr
           - sabre1041
           - vvaldez
-          - djdanielsson
         members:
           - bontreger
           - branic
@@ -430,16 +430,16 @@ orgs:
           jboss_webserver: write
           molecule_cicd_automation: write
           redhat_sso: write
-          services_catalog_configuration: write
+          eda_configuration: write
         teams:
           automation-cop-mgrs:
             description: ""
             maintainers:
+              - djdanielsson
               - ericzolf
               - mophahr
               - sabre1041
               - vvaldez
-              - djdanielsson
             members: []
             privacy: closed
             repos:
@@ -459,57 +459,61 @@ orgs:
               elk_automation: admin
               hardware_automation_collection: admin
               molecule_cicd_automation: admin
-              services_catalog_configuration: admin
-      automation-cop-tower-mgrs:
-        description: Tower managers of Automation CoP
-        maintainers:
-          - djdanielsson
-          - sean-m-sullivan
-          - tompage1994
-        privacy: closed
-        repos:
-          aap_configuration_template: admin
-          aap_utilities: admin
-          ansible_collections_tooling: admin
-          controller_configuration: admin
-          ee_utilities: admin
-          services_catalog_configuration: admin
-      validated_content_curators:
-        description: Validated Content Contributors
-        maintainers: []
-        members:
-          - abikouo
-          - alinabuzachis
-          - ashwini-mhatre
-          - cidrblock
-          - gomathiselvis
-          - goneri
-          - gravesm
-          - jillr
-          - justjais
-          - kb-perbyte
-          - mandar242
-          - matoval
-          - maxamillion
-          - nilashishc
-          - qalthos
-          - resolutecoder
-          - rohitthakur2590
-          - thom-at-redhat
-          - trishnaguha
-        privacy: closed
-        repos:
-          cloud.aws_ops: admin
-          cloud.aws_troubleshooting: admin
-          cloud.azure_ops: admin
-          infra.osbuild: admin
-          network.base: admin
-          network.bgp: admin
-          network.interfaces: admin
-          network.ospf: admin
-          network.telemetry: admin
-          network.vpn: admin
-          security.firewall_mgmt: admin
+              eda_configuration: admin
+          automation-cop-tower-mgrs:
+            description: AAP Config as Code managers
+            maintainers:
+              - djdanielsson
+              - sean-m-sullivan
+              - tompage1994
+            members: []
+            privacy: closed
+            repos:
+              aap_configuration_template: admin
+              aap_utilities: admin
+              ansible_collections_tooling: admin
+              controller_configuration: admin
+              ee_utilities: admin
+              eda_configuration: admin
+          validated-content-curators:
+            description: Validated Content Contributors
+            maintainers: []
+            members:
+              - abikouo
+              - alinabuzachis
+              - ashwini-mhatre
+              - cidrblock
+              - gomathiselvis
+              - goneri
+              - gravesm
+              - jillr
+              - justjais
+              - kb-perbyte
+              - mandar242
+              - matoval
+              - maxamillion
+              - nilashishc
+              - qalthos
+              - resolutecoder
+              - rohitthakur2590
+              - thom-at-redhat
+              - trishnaguha
+            privacy: closed
+            repos:
+              aap_utilities: write
+              controller_configuration: write
+              cloud.aws_ops: admin
+              cloud.aws_troubleshooting: admin
+              cloud.azure_ops: admin
+              ee_utilities: write
+              infra.osbuild: admin
+              network.base: admin
+              network.bgp: admin
+              network.interfaces: admin
+              network.ospf: admin
+              network.telemetry: admin
+              network.vpn: admin
+              security.firewall_mgmt: admin
       blockchain-cop:
         description: The Blockchain Community of Practice
         maintainers:
