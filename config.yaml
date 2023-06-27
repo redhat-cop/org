@@ -506,7 +506,9 @@ orgs:
               cloud.aws_ops: admin
               cloud.aws_troubleshooting: admin
               cloud.azure_ops: admin
+              cloud.gcp_ops: admin
               ee_utilities: write
+              infra.leapp: admin
               infra.osbuild: admin
               network.base: admin
               network.bgp: admin
