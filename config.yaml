@@ -427,6 +427,7 @@ orgs:
           ee_utilities: write
           elk_automation: write
           hardware_automation_collection: write
+          infra.leapp: write
           jboss_webserver: write
           molecule_cicd_automation: write
           redhat_sso: write
