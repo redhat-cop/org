@@ -427,6 +427,7 @@ orgs:
           ee_utilities: write
           elk_automation: write
           hardware_automation_collection: write
+          infra.leapp: write
           jboss_webserver: write
           molecule_cicd_automation: write
           redhat_sso: write
@@ -506,7 +507,9 @@ orgs:
               cloud.aws_ops: admin
               cloud.aws_troubleshooting: admin
               cloud.azure_ops: admin
+              cloud.gcp_ops: admin
               ee_utilities: write
+              infra.leapp: admin
               infra.osbuild: admin
               network.base: admin
               network.bgp: admin
