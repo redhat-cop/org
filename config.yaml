@@ -508,6 +508,7 @@ orgs:
               cloud.aws_troubleshooting: admin
               cloud.azure_ops: admin
               cloud.gcp_ops: admin
+              edge.microshift: admin
               ee_utilities: write
               infra.leapp: admin
               infra.osbuild: admin
