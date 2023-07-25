@@ -512,6 +512,7 @@ orgs:
               ee_utilities: write
               infra.leapp: admin
               infra.osbuild: admin
+              network.acls: admin
               network.base: admin
               network.bgp: admin
               network.interfaces: admin
