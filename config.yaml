@@ -918,20 +918,15 @@ orgs:
           - bbethell-1
           - bosebc
           - d-jana
-          - evisb
-          - gmontalvoy
           - klewis0928
           - marcosmamorim
-          - NonyNo3lle
           - perryrivera1
           - prakhar1985
           - rhjcd
           - rut31337
           - stencell
-          - thomas-crowe
           - tonykay
           - wilson-walrus
-          - varodrig
           - yvarbanov
         privacy: closed
         repos:
@@ -958,7 +953,7 @@ orgs:
               - wkulhanek
             members:
               - marcosmamorim
-              - NonyNo3lle
+              - 9strands
               - rut31337
             privacy: closed
             repos:
