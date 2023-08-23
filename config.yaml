@@ -282,6 +282,7 @@ orgs:
       agnosticd-core:
         description: Core team members for the agnosticd project.
         maintainers:
+          - agonzalezrh
           - fridim
           - jkupferer
           - prakhar1985
