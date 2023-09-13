@@ -1026,7 +1026,7 @@ orgs:
                   vault-config-operator: admin
                   vault-plugin-secrets-quay: admin
                   volume-expander-operator: admin
-              operators-wg-write:
+              operators-wg-writers:
                 description: ""
                 maintainers:
                   - raffaelespazzoli
