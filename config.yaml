@@ -192,6 +192,7 @@ orgs:
       - nilashishc
       - noelo
       - nonyno3lle
+      - noseka1
       - nstrug
       - nunnchops
       - otatman
@@ -997,13 +998,7 @@ orgs:
                 maintainers:
                   - raffaelespazzoli
                   - sabre1041
-                members:
-                  - cnuland
                   - davgordo
-                  - david-igou
-                  - kkoller
-                  - mathianasj
-                  - nickjordan
                   - trevorbox
                 privacy: closed
                 repos:
@@ -1031,6 +1026,46 @@ orgs:
                   vault-config-operator: admin
                   vault-plugin-secrets-quay: admin
                   volume-expander-operator: admin
+              operators-wg-writers:
+                description: ""
+                maintainers:
+                  - raffaelespazzoli
+                  - sabre1041
+                  - davgordo
+                  - trevorbox
+                members:
+                  - cnuland
+                  - david-igou
+                  - kkoller
+                  - mathianasj
+                  - nickjordan
+                  - noseka1
+                privacy: closed
+                repos:
+                  cert-operator: write
+                  cert-utils-operator: write
+                  community-operators: write
+                  community-operators-prod: write
+                  dynamic-rbac-operator: write
+                  egressip-ipam-operator: write
+                  github-workflows-operators: write
+                  gitwebhook-operator: write
+                  global-load-balancer-operator: write
+                  group-sync-operator: write
+                  kube-rbac-proxy: write
+                  microsegmentation-operator: write
+                  must-gather-operator: write
+                  namespace-configuration-operator: write
+                  openshift-disconnected-operators: write
+                  operator-utils: write
+                  patch-operator: write
+                  proactive-node-scaling-operator: write
+                  project-initialize-operator: write
+                  redhat-cop-operators: write
+                  resource-locker-operator: write
+                  vault-config-operator: write
+                  vault-plugin-secrets-quay: write
+                  volume-expander-operator: write
           rego-policies:
             description: Rego policies Collection
             maintainers:
