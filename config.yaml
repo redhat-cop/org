@@ -520,6 +520,7 @@ orgs:
               infra.leapp: admin
               infra.osbuild: admin
               network.acls: admin
+              network.backup: admin
               network.base: admin
               network.bgp: admin
               network.interfaces: admin
