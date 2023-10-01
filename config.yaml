@@ -18,6 +18,7 @@ orgs:
     location: ""
     members:
       - 9strands
+      - A-Beck
       - abaird-rh
       - abhijithumbe
       - abikouo
@@ -52,6 +53,7 @@ orgs:
       - bontreger
       - boogiespook
       - bosebc
+      - brady-spiva
       - branic
       - bszeti
       - caseyoc
@@ -155,6 +157,7 @@ orgs:
       - kmacedovarela
       - krain-arnold
       - kubealex
+      - kyetter
       - ldomb
       - leethomasrh
       - leoaaraujo
@@ -325,6 +328,46 @@ orgs:
         privacy: closed
         repos:
           ansible-snapshot: admin
+      ansible-zipship:
+        description: "Ansible ZipShip"
+        maintainers:
+          - A-Beck
+          - sabre1041
+          - bontreger
+          - brady-spiva
+          - jeffcpullen
+          - kyetter
+        members: []
+        privacy: closed
+        repos:
+          ansible-zipship-images: read
+        teams:
+          ansible-zipship-admins:
+            description: Ansible ZipShip Admins
+            maintainers:
+              - A-Beck
+              - sabre1041
+              - bontreger
+              - brady-spiva
+              - jeffcpullen
+              - kyetter
+            members: []
+            privacy: closed
+            repos:
+              ansible-zipship-images: admin
+          ansible-zipship-mergers:
+            description: Ansible ZipShip Mergers
+            maintainers:
+              - A-Beck
+              - sabre1041
+              - bontreger
+              - brady-spiva
+              - jeffcpullen
+              - kyetter
+            members: []
+            privacy: closed
+            repos:
+              ansible-zipship-images: write
       appdev-cop:
         description: Team for the management of the Application Development CoP
         maintainers:
