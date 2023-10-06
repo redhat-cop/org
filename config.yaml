@@ -352,7 +352,8 @@ orgs:
               - brady-spiva
               - jeffcpullen
               - kyetter
-            members: []
+            members:
+              - hultzj
             privacy: closed
             repos:
               ansible-zipship-images: admin
