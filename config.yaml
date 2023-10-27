@@ -344,6 +344,7 @@ orgs:
         members: []
         privacy: closed
         repos:
+          ansible-zipship: admin
           ansible-zipship-images: read
         teams:
           ansible-zipship-admins:
@@ -359,6 +360,7 @@ orgs:
               - hultzj
             privacy: closed
             repos:
+              ansible-zipship: admin
               ansible-zipship-images: admin
           ansible-zipship-mergers:
             description: Ansible ZipShip Mergers
@@ -372,6 +374,7 @@ orgs:
             members: []
             privacy: closed
             repos:
+              ansible-zipship: write
               ansible-zipship-images: write
       appdev-cop:
         description: Team for the management of the Application Development CoP
