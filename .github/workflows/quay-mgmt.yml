@@ -18,11 +18,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Run ansible-lint
         uses: ansible/ansible-lint-action@main
         with:
           path: "ansible/"
+      # Manually downgrade Ansible version due to https://github.com/ansible/ansible/issues/81965
+      - name: Install Ansible 2.15.4
+        run: pip install "ansible-core==2.15.4"
       - name: Install Dependencies
         run: ansible-galaxy install -r ansible/requirements.yml -p $HOME/roles
       - name: Manage Quay Repository
