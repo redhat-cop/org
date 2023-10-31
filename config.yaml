@@ -953,6 +953,7 @@ orgs:
             privacy: closed
             repos:
               gitops-catalog: read
+              gitops-standards-repo-template: read
             teams:
               gitops-wg-mergers:
                 description: "GitOps Working Group Mergers"
@@ -960,11 +961,13 @@ orgs:
                   - adetalhouet
                   - gnunn1
                   - pittar
+                  - raffaelespazzoli
                   - sabre1041
                   - strangiato
                 privacy: closed
                 repos:
                   gitops-catalog: admin
+                  gitops-standards-repo-template: admin
           golang-cop:
             description: "Team for the management of the Golang CoP"
             maintainers:
