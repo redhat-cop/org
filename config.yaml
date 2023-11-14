@@ -68,7 +68,6 @@ orgs:
       - cmwylie19
       - cnuland
       - cpeters
-      - cpitman
       - cpmeadors
       - crenwick93
       - d-jana
@@ -118,7 +117,6 @@ orgs:
       - ippul
       - itewk
       - ivarmu
-      - jacobsee
       - jarcher
       - jayfray12
       - jbride
@@ -626,7 +624,6 @@ orgs:
           - bszeti
           - caseyoc
           - ckavili
-          - cpitman
           - davgordo
           - dfwnetman
           - drichtarik
@@ -636,7 +633,6 @@ orgs:
           - huddlesj
           - ianwatsonrh
           - infosec812
-          - jacobsee
           - jaredburck
           - jimdillon
           - jooho
@@ -779,7 +775,6 @@ orgs:
                   - oybed
                   - sabre1041
                 members:
-                  - jacobsee
                   - pabrahamsson
                   - paulbarfuss
                 privacy: closed
@@ -892,7 +887,6 @@ orgs:
                   - sabre1041
                 members:
                   - ckavili
-                  - cpitman
                   - eformat
                   - garethahealy
                   - gsampaio-rh
@@ -931,7 +925,6 @@ orgs:
             description: GitHub Actions Collection
             maintainers:
               - garethahealy
-              - jacobsee
               - springdo
             privacy: closed
             repos:
@@ -941,7 +934,6 @@ orgs:
                 description: GitHub Actions Mergers
                 maintainers:
                   - garethahealy
-                  - jacobsee
                   - springdo
                 privacy: closed
                 repos:
@@ -1046,7 +1038,6 @@ orgs:
               dynamic-rbac-operator-admins:
                 description: Admin group for the dynamic-rbac-operator
                 maintainers:
-                  - jacobsee
                   - oybed
                 privacy: closed
                 repos:
