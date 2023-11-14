@@ -932,6 +932,7 @@ orgs:
             maintainers:
               - garethahealy
               - jacobsee
+              - springdo
             privacy: closed
             repos:
               github-actions: read
@@ -941,6 +942,7 @@ orgs:
                 maintainers:
                   - garethahealy
                   - jacobsee
+                  - springdo
                 privacy: closed
                 repos:
                   github-actions: admin
