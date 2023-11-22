@@ -60,7 +60,6 @@ orgs:
       - chadmf
       - charles-shaw
       - chetan-07
-      - christianh814
       - cidrblock
       - ckavili
       - ckomopou
@@ -976,7 +975,7 @@ orgs:
           helpernode:
             description: "GitOps Working Group"
             maintainers:
-              - christianh814
+              - sabre1041
             members:
               - robertsandoval
             privacy: closed
