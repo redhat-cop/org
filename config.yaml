@@ -27,7 +27,6 @@ orgs:
       - adetalhouet
       - adlerfleurant
       - afflom
-      - aglenn360
       - agonzalezrh
       - ahardin-rh
       - ahsen-shah
@@ -262,7 +261,6 @@ orgs:
       - thomas-crowe
       - thomasmckay
       - thomasphall
-      - tinyexplosions
       - tolarewaju3
       - tomassedovic
       - tomgeorge
@@ -1164,9 +1162,7 @@ orgs:
       distributed-working:
         description: Distributed working community of practice
         maintainers:
-          - aglenn360
           - kaileshmistry
-          - tinyexplosions
         privacy: closed
         repos:
           distributed-working-cop: admin
