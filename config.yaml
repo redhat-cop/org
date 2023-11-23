@@ -27,7 +27,6 @@ orgs:
       - adetalhouet
       - adlerfleurant
       - afflom
-      - aglenn360
       - agonzalezrh
       - ahardin-rh
       - ahsen-shah
@@ -61,7 +60,6 @@ orgs:
       - chadmf
       - charles-shaw
       - chetan-07
-      - christianh814
       - cidrblock
       - ckavili
       - ckomopou
@@ -262,7 +260,6 @@ orgs:
       - thomas-crowe
       - thomasmckay
       - thomasphall
-      - tinyexplosions
       - tolarewaju3
       - tomassedovic
       - tomgeorge
@@ -978,7 +975,7 @@ orgs:
           helpernode:
             description: "GitOps Working Group"
             maintainers:
-              - christianh814
+              - sabre1041
             members:
               - robertsandoval
             privacy: closed
@@ -1164,9 +1161,7 @@ orgs:
       distributed-working:
         description: Distributed working community of practice
         maintainers:
-          - aglenn360
           - kaileshmistry
-          - tinyexplosions
         privacy: closed
         repos:
           distributed-working-cop: admin
