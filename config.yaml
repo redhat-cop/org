@@ -122,7 +122,6 @@ orgs:
       - jeremyrdavis
       - jfilipcz
       - jflowers
-      - jgoldsmith613
       - jhawkinsrh
       - jijiechen
       - jillr
@@ -240,7 +239,6 @@ orgs:
       - shah-zobair
       - silvinux
       - skypatrolcpt
-      - smithe2413
       - smrowley
       - springdo
       - stencell
@@ -826,7 +824,6 @@ orgs:
             description: Container Security
             maintainers:
               - cnuland
-              - jgoldsmith613
               - sabre1041
             privacy: closed
             repos:
