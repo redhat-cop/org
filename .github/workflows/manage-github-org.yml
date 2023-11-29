@@ -24,7 +24,7 @@ on:
         type: string
       PERIBOLOS_IMAGE_VERSION:
         description: "Peribolos Image Version"
-        default: "v20220303-a0cbe4894b"
+        default: "v20231128-bb6aa76183"
         required: false
         type: string
     secrets:
