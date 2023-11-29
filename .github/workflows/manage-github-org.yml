@@ -14,6 +14,7 @@ on:
         type: string
       GHPROXY_IMAGE_VERSION:
         description: "GHProxy Image Version"
+        # renovate: datasource=docker depName=ghproxy lookupName=gcr.io/k8s-prow/ghproxy versioning=loose
         default: "v20231128-bb6aa76183"
         required: false
         type: string
@@ -24,6 +25,7 @@ on:
         type: string
       PERIBOLOS_IMAGE_VERSION:
         description: "Peribolos Image Version"
+        # renovate: datasource=docker depName=peribolos lookupName=gcr.io/k8s-prow/peribolos versioning=loose
         default: "v20231128-bb6aa76183"
         required: false
         type: string
