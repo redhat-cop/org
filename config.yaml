@@ -294,26 +294,6 @@ orgs:
         privacy: closed
         repos:
           agnosticd: admin
-      ansible-middleware:
-        description: Deploying Red Hat Middleware using Ansible
-        maintainers:
-          - rpelisse
-          - sabre1041
-        members:
-          - davgordo
-        privacy: closed
-        repos:
-          ansible-role-jboss-common: write
-          ansible_middleware_galaxy: write
-          automate-jcliff: write
-          jboss_amq: write
-          jboss_amq_openshift: write
-          jboss_bxms: write
-          jboss_datagrid: write
-          jboss_eap: write
-          jboss_fuse: write
-          jboss_webserver: write
-          redhat_sso: write
       ansible-zipship:
         description: "Ansible ZipShip"
         maintainers:
