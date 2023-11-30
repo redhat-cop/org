@@ -14,7 +14,7 @@ on:
         type: string
       GHPROXY_IMAGE_VERSION:
         description: "GHProxy Image Version"
-        default: "v20220303-a0cbe4894b"
+        default: "v20231128-bb6aa76183"
         required: false
         type: string
       PERIBOLOS_IMAGE:
