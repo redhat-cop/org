@@ -1334,23 +1334,6 @@ orgs:
           - tomgeorge
         privacy: closed
         repos: {}
-      pathfinder:
-        description: ""
-        maintainers:
-          - etsauer
-        members:
-          - boogiespook
-          - dstockdreher
-          - gjbianco
-          - kelaird
-          - matallen
-          - noelo
-          - nunnchops
-          - pathfinder-waffle
-        privacy: closed
-        repos:
-          pathfinder: admin
-          pathfinder-ui: write
       project-initializer:
         description: ""
         maintainers:
