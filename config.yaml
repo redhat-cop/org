@@ -1145,13 +1145,6 @@ orgs:
         privacy: closed
         repos:
           disconnectedinfra: admin
-      distributed-working:
-        description: Distributed working community of practice
-        maintainers:
-          - kaileshmistry
-        privacy: closed
-        repos:
-          distributed-working-cop: admin
       giveback-program:
         description: ""
         maintainers:
