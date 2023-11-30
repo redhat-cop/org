@@ -315,15 +315,6 @@ orgs:
           jboss_fuse: write
           jboss_webserver: write
           redhat_sso: write
-      ansible-snapshot-admins:
-        description: Administrators for ansible-snapshot
-        maintainers:
-          - heatmiser
-          - swapdisk
-        members: []
-        privacy: closed
-        repos:
-          ansible-snapshot: admin
       ansible-zipship:
         description: "Ansible ZipShip"
         maintainers:
