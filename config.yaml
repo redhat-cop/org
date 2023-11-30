@@ -1495,28 +1495,3 @@ orgs:
         privacy: closed
         repos:
           testing-cop: admin
-      uncontained.io:
-        description: Uncontained.io
-        maintainers:
-          - etsauer
-          - sabre1041
-        members:
-          - ahardin-rh
-          - jaredburck
-        privacy: closed
-        repos:
-          openshift-playbooks: read
-          uncontained.io: read
-        teams:
-          content-coalition:
-            description: Content Decision Makers for Uncontained.io
-            maintainers:
-              - etsauer
-              - sabre1041
-            members:
-              - ahardin-rh
-              - jaredburck
-            privacy: closed
-            repos:
-              openshift-playbooks: read
-              uncontained.io: read
