@@ -1400,27 +1400,6 @@ orgs:
             privacy: closed
             repos:
               public-cloud-cop: write
-      quay:
-        description: ""
-        maintainers:
-          - sabre1041
-        members:
-          - alecmerdler
-          - ibazulic
-          - kleesc
-          - thomasmckay
-        privacy: closed
-        repos: {}
-      quay-mgrs:
-        description: ""
-        maintainers:
-          - sabre1041
-        members:
-          - alecmerdler
-          - kleesc
-          - thomasmckay
-        privacy: closed
-        repos: {}
       redhat-cop-sre:
         description: "Red Hat CoP SRE"
         maintainers:
