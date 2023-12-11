@@ -285,6 +285,15 @@ orgs:
         privacy: closed
         repos:
           agnosticd: admin
+      ansible-snapshot-admins:
+        description: Administrators for ansible-snapshot
+        maintainers:
+          - heatmiser
+          - swapdisk
+        members: []
+        privacy: closed
+        repos:
+          infra.lvm_snapshots: admin
       ansible-zipship:
         description: "Ansible ZipShip"
         maintainers:
