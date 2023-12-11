@@ -150,7 +150,6 @@ orgs:
       - krain-arnold
       - kubealex
       - kyetter
-      - ldomb
       - leethomasrh
       - leoaaraujo
       - levysantanna
@@ -1311,7 +1310,6 @@ orgs:
         description: ""
         maintainers:
           - etsauer
-          - ldomb
         members:
         privacy: closed
         repos:
@@ -1321,7 +1319,6 @@ orgs:
             description: ""
             maintainers:
               - etsauer
-              - ldomb
             privacy: closed
             repos:
               public-cloud-cop: admin
@@ -1329,7 +1326,6 @@ orgs:
             description: ""
             maintainers:
               - etsauer
-              - ldomb
             privacy: closed
             repos:
               public-cloud-cop: write
