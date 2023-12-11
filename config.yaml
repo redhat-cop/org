@@ -18,7 +18,7 @@ orgs:
     location: ""
     members:
       - 9strands
-      - A-Beck
+      - a-beck
       - abaird-rh
       - abhijithumbe
       - abikouo
@@ -288,12 +288,12 @@ orgs:
       ansible-zipship:
         description: "Ansible ZipShip"
         maintainers:
-          - A-Beck
-          - sabre1041
+          - a-beck
           - bontreger
           - brady-spiva
           - jeffcpullen
           - kyetter
+          - sabre1041
         members: []
         privacy: closed
         repos:
@@ -303,12 +303,12 @@ orgs:
           ansible-zipship-admins:
             description: Ansible ZipShip Admins
             maintainers:
-              - A-Beck
-              - sabre1041
+              - a-beck
               - bontreger
               - brady-spiva
               - jeffcpullen
               - kyetter
+              - sabre1041
             members:
               - hultzj
             privacy: closed
@@ -318,12 +318,12 @@ orgs:
           ansible-zipship-mergers:
             description: Ansible ZipShip Mergers
             maintainers:
-              - A-Beck
-              - sabre1041
+              - a-beck
               - bontreger
               - brady-spiva
               - jeffcpullen
               - kyetter
+              - sabre1041
             members: []
             privacy: closed
             repos:
@@ -434,6 +434,7 @@ orgs:
           automation-good-practices: write
           cloud_provision_automation_collection: write
           controller_configuration: write
+          eda_configuration: write
           ee_utilities: write
           elk_automation: write
           hardware_automation_collection: write
@@ -441,7 +442,6 @@ orgs:
           jboss_webserver: write
           molecule_cicd_automation: write
           redhat_sso: write
-          eda_configuration: write
         teams:
           automation-cop-mgrs:
             description: ""
@@ -466,11 +466,11 @@ orgs:
               automation-good-practices: admin
               cloud_provision_automation_collection: admin
               controller_configuration: admin
+              eda_configuration: admin
               ee_utilities: admin
               elk_automation: admin
               hardware_automation_collection: admin
               molecule_cicd_automation: admin
-              eda_configuration: admin
           automation-cop-tower-mgrs:
             description: AAP Config as Code managers
             maintainers:
@@ -484,8 +484,8 @@ orgs:
               aap_utilities: admin
               ansible_collections_tooling: admin
               controller_configuration: admin
-              ee_utilities: admin
               eda_configuration: admin
+              ee_utilities: admin
           validated-content-curators:
             description: Validated Content Contributors
             maintainers: []
@@ -513,12 +513,12 @@ orgs:
             privacy: closed
             repos:
               aap_utilities: write
-              controller_configuration: write
               cloud.aws_ops: admin
               cloud.aws_troubleshooting: admin
               cloud.azure_ops: admin
               cloud.gcp_ops: admin
               cloud.terraform_ops: admin
+              controller_configuration: write
               edge.microshift: admin
               ee_utilities: write
               infra.leapp: admin
@@ -994,9 +994,9 @@ orgs:
               operators-wg-mergers:
                 description: ""
                 maintainers:
+                  - davgordo
                   - raffaelespazzoli
                   - sabre1041
-                  - davgordo
                   - trevorbox
                 privacy: closed
                 repos:
@@ -1027,9 +1027,9 @@ orgs:
               operators-wg-writers:
                 description: ""
                 maintainers:
+                  - davgordo
                   - raffaelespazzoli
                   - sabre1041
-                  - davgordo
                   - trevorbox
                 members:
                   - cnuland
@@ -1334,7 +1334,7 @@ orgs:
           - djdanielsson
           - etsauer
           - garethahealy
-          - JaredBurck
+          - jaredburck
           - oybed
           - pabrahamsson
           - sabre1041
