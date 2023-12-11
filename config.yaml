@@ -38,7 +38,6 @@ orgs:
       - alyibrahim
       - apitanga
       - arilivigni
-      - arman084
       - arnaik-rh
       - arthomasredhat
       - arvin-a
@@ -87,7 +86,6 @@ orgs:
       - eye0fra
       - finmahon
       - fridim
-      - fwcoder
       - ghyde
       - giofontana
       - gjbianco
@@ -143,7 +141,6 @@ orgs:
       - kaiobrien
       - kb-perbyte
       - kedark3
-      - kelaird
       - kenwilli
       - kincl
       - kkoller
@@ -153,7 +150,6 @@ orgs:
       - krain-arnold
       - kubealex
       - kyetter
-      - ldomb
       - leethomasrh
       - leoaaraujo
       - levysantanna
@@ -165,7 +161,6 @@ orgs:
       - makentenza
       - malacourse
       - mandar242
-      - marciopaiva
       - marcosmamorim
       - marcredhat
       - matallen
@@ -212,8 +207,6 @@ orgs:
       - rafamqrs
       - raffaelespazzoli
       - raffamendes
-      - ramius345
-      - ravisantoshgudimetla
       - rdruss
       - resolutecoder
       - rflorenc
@@ -269,9 +262,7 @@ orgs:
       - trv-rpeoples
       - vaibhavjainwiz
       - varodrig
-      - vdrvergara
       - victorock
-      - vikassharma437
       - vvaldez
       - welshstew
       - willowmck
@@ -582,7 +573,6 @@ orgs:
           - abaird-rh
           - aizuddin85
           - arilivigni
-          - arman084
           - bbeaudoin
           - beelandc
           - bszeti
@@ -592,7 +582,6 @@ orgs:
           - dfwnetman
           - drichtarik
           - dstockdreher
-          - fwcoder
           - garethahealy
           - huddlesj
           - ianwatsonrh
@@ -878,7 +867,6 @@ orgs:
             maintainers:
               - etsauer
             members:
-              - fwcoder
               - gnekic
               - jkupferer
               - sabre1041
@@ -932,7 +920,6 @@ orgs:
             members:
               - berkeragir
               - raffaelespazzoli
-              - ravisantoshgudimetla
               - rflorenc
               - sabre1041
               - tosmi
@@ -1289,7 +1276,6 @@ orgs:
           - mattheh
           - oybed
           - raffaelespazzoli
-          - ramius345
           - sbailleu
           - themoosman
           - tolarewaju3
@@ -1323,7 +1309,6 @@ orgs:
         description: ""
         maintainers:
           - etsauer
-          - ldomb
         members:
         privacy: closed
         repos:
@@ -1333,7 +1318,6 @@ orgs:
             description: ""
             maintainers:
               - etsauer
-              - ldomb
             privacy: closed
             repos:
               public-cloud-cop: admin
@@ -1341,7 +1325,6 @@ orgs:
             description: ""
             maintainers:
               - etsauer
-              - ldomb
             privacy: closed
             repos:
               public-cloud-cop: write
