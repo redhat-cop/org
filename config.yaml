@@ -38,7 +38,6 @@ orgs:
       - alyibrahim
       - apitanga
       - arilivigni
-      - arman084
       - arnaik-rh
       - arthomasredhat
       - arvin-a
@@ -87,7 +86,6 @@ orgs:
       - eye0fra
       - finmahon
       - fridim
-      - fwcoder
       - ghyde
       - giofontana
       - gjbianco
@@ -164,7 +162,6 @@ orgs:
       - makentenza
       - malacourse
       - mandar242
-      - marciopaiva
       - marcosmamorim
       - marcredhat
       - matallen
@@ -211,7 +208,6 @@ orgs:
       - rafamqrs
       - raffaelespazzoli
       - raffamendes
-      - ramius345
       - ravisantoshgudimetla
       - rdruss
       - resolutecoder
@@ -268,9 +264,7 @@ orgs:
       - trv-rpeoples
       - vaibhavjainwiz
       - varodrig
-      - vdrvergara
       - victorock
-      - vikassharma437
       - vvaldez
       - welshstew
       - willowmck
@@ -581,7 +575,6 @@ orgs:
           - abaird-rh
           - aizuddin85
           - arilivigni
-          - arman084
           - bbeaudoin
           - beelandc
           - bszeti
@@ -591,7 +584,6 @@ orgs:
           - dfwnetman
           - drichtarik
           - dstockdreher
-          - fwcoder
           - garethahealy
           - huddlesj
           - ianwatsonrh
@@ -877,7 +869,6 @@ orgs:
             maintainers:
               - etsauer
             members:
-              - fwcoder
               - gnekic
               - jkupferer
               - sabre1041
@@ -1289,7 +1280,6 @@ orgs:
           - mattheh
           - oybed
           - raffaelespazzoli
-          - ramius345
           - sbailleu
           - themoosman
           - tolarewaju3
