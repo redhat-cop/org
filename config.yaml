@@ -288,7 +288,7 @@ orgs:
       ansible-zipship:
         description: "Ansible ZipShip"
         maintainers:
-          - A-beck
+          - a-beck
           - bontreger
           - brady-spiva
           - jeffcpullen
