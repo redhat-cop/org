@@ -1298,6 +1298,21 @@ orgs:
           - tomgeorge
         privacy: closed
         repos: {}
+      openshift-reference-architectures:
+        description: "OpenShift Reference Architectures"
+        maintainers:
+          - cmcornejocrespo
+          - jaredburck
+          - josephassiga
+          - jtudelag
+          - lautou
+          - rmarting
+          - secsec
+          - vinel
+        members: []
+        privacy: closed
+        repos:
+          openshift-reference-architectures: write
       project-initializer:
         description: ""
         maintainers:
