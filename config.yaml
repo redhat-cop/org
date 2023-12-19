@@ -1301,15 +1301,15 @@ orgs:
       openshift-reference-architectures:
         description: "OpenShift Reference Architectures"
         maintainers:
-          - cmcornejocrespo
           - jaredburck
-          - josephassiga
           - jtudelag
           - lautou
           - rmarting
+        members:
+          - cmcornejocrespo
+          - josephassiga
           - secsec
           - vinel
-        members: []
         privacy: closed
         repos:
           openshift-reference-architectures: write
