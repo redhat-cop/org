@@ -137,7 +137,6 @@ orgs:
       - juliovp01
       - juozasa
       - justjais
-      - jzsjjunior
       - k-von
       - kaileshmistry
       - kaiobrien
@@ -149,7 +148,6 @@ orgs:
       - kleesc
       - klewis0928
       - kmacedovarela
-      - krain-arnold
       - kubealex
       - kyetter
       - lautou
@@ -172,12 +170,10 @@ orgs:
       - mattheh
       - matthew-willis-redhat
       - maxamillion
-      - mbogoevici
       - mffiedler
       - mhjacks
       - mijaros
       - mike4263
-      - mm7259
       - mophahr
       - mpetrive-rh
       - mumeno
@@ -192,7 +188,6 @@ orgs:
       - noelo
       - nonyno3lle
       - noseka1
-      - nstrug
       - nunnchops
       - otatman
       - pamenon
@@ -216,7 +211,6 @@ orgs:
       - rflorenc
       - rhjcd
       - ribua
-      - richardwalkerdev
       - rmarting
       - rmgrimm
       - robbbbh
@@ -242,10 +236,8 @@ orgs:
       - stephennimmo
       - stocky37
       - strangiato
-      - stratus-ss
       - sushilsuresh
       - swapdisk
-      - swarred
       - sysmatrix1
       - tech2734
       - theckang
@@ -355,7 +347,6 @@ orgs:
           - deewhyweb
           - gregjohnstewart
           - lightguard
-          - mbogoevici
           - rdruss
           - sangeetaraghu
           - smrowley
@@ -626,7 +617,6 @@ orgs:
           - shah-zobair
           - springdo
           - stocky37
-          - stratus-ss
           - sysmatrix1
           - themoosman
           - tomassedovic
@@ -1320,7 +1310,6 @@ orgs:
           - gnekic
           - sabre1041
         members:
-          - mm7259
           - otatman
         privacy: closed
         repos:
@@ -1378,7 +1367,6 @@ orgs:
         maintainers:
           - hfenner
           - hultzj
-          - swarred
         members: []
         privacy: closed
         repos:
