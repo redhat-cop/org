@@ -99,7 +99,9 @@ orgs:
       - gregjohnstewart
       - grodideal
       - gsampaio-rh
+      - guidograzioli
       - hakbailey
+      - hcherukuri
       - heatmiser
       - hfenner
       - huddlesj
@@ -206,10 +208,12 @@ orgs:
       - rafamqrs
       - raffaelespazzoli
       - raffamendes
+      - ranabirchakraborty
       - rdruss
       - resolutecoder
       - rflorenc
       - rhjcd
+      - rhodzelmans
       - rhvinel
       - ribua
       - rmarting
@@ -267,6 +271,7 @@ orgs:
       - willowmck
       - wilson-walrus
       - wkulhanek
+      - wolfc
       - yvarbanov
     members_can_create_repositories: false
     name: Red Hat Communities of Practice
@@ -504,7 +509,9 @@ orgs:
               - gomathiselvis
               - goneri
               - gravesm
+              - guidograzioli
               - hakbailey
+              - hcherukuri
               - jillr
               - justjais
               - kb-perbyte
@@ -513,10 +520,15 @@ orgs:
               - maxamillion
               - nilashishc
               - qalthos
+              - ranabirchakraborty
               - resolutecoder
+              - rhodzelmans
               - rohitthakur2590
+              - rpelisse
+              - sabre1041
               - thom-at-redhat
               - trishnaguha
+              - wolfc
             privacy: closed
             repos:
               aap_utilities: write
@@ -538,6 +550,7 @@ orgs:
               network.ospf: admin
               network.telemetry: admin
               network.vpn: admin
+              ocpv_lab: admin
               security.firewall_mgmt: admin
       blockchain-cop:
         description: The Blockchain Community of Practice
