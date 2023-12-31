@@ -210,6 +210,7 @@ orgs:
       - resolutecoder
       - rflorenc
       - rhjcd
+      - rhvinel
       - ribua
       - rmarting
       - rmgrimm
@@ -225,7 +226,6 @@ orgs:
       - sbailleu
       - sborenst
       - sean-m-sullivan
-      - secsec
       - seravat
       - shah-zobair
       - silvinux
@@ -260,8 +260,8 @@ orgs:
       - trv-rpeoples
       - vaibhavjainwiz
       - varodrig
+      - vbroniko
       - victorock
-      - vinel
       - vvaldez
       - welshstew
       - willowmck
@@ -1298,8 +1298,8 @@ orgs:
         members:
           - cmcornejocrespo
           - josephassiga
-          - secsec
-          - vinel
+          - rhvinel
+          - vbroniko
         privacy: closed
         repos:
           openshift-reference-architectures: write
