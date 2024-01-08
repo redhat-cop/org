@@ -15,7 +15,7 @@ on:
       GHPROXY_IMAGE_VERSION:
         description: "GHProxy Image Version"
         # renovate: datasource=docker depName=ghproxy lookupName=gcr.io/k8s-prow/ghproxy versioning=loose
-        default: "v20231228-1bde19262c"
+        default: "v20240106-a582061558"
         required: false
         type: string
       PERIBOLOS_IMAGE:
