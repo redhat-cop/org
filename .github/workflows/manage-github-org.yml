@@ -14,7 +14,8 @@ on:
         type: string
       GHPROXY_IMAGE_VERSION:
         description: "GHProxy Image Version"
-        default: "v20220303-a0cbe4894b"
+        # renovate: datasource=docker depName=ghproxy lookupName=gcr.io/k8s-prow/ghproxy versioning=loose
+        default: "v20240106-a582061558"
         required: false
         type: string
       PERIBOLOS_IMAGE:
@@ -24,7 +25,8 @@ on:
         type: string
       PERIBOLOS_IMAGE_VERSION:
         description: "Peribolos Image Version"
-        default: "v20220303-a0cbe4894b"
+        # renovate: datasource=docker depName=peribolos lookupName=gcr.io/k8s-prow/peribolos versioning=loose
+        default: "v20240106-a582061558"
         required: false
         type: string
     secrets:
@@ -48,7 +50,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3.0.0
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
         with:
           persist-credentials: false
 

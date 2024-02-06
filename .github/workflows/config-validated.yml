@@ -1,0 +1,30 @@
+name: Validate GitHub Org Configuration
+on:
+  pull_request:
+    paths:
+      - "config.yaml"
+jobs:
+  config-validated:
+    runs-on: ubuntu-latest
+    name: config-validated
+    steps:
+      - name: Checkout
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+
+      - name: Lowercase and sort config.yaml key and values
+        uses: mikefarah/yq@master
+        with:
+          cmd: yq -i e '(... | select(type == "!!seq"))[] |= downcase' config.yaml && yq -i e '(... | select(type == "!!seq")) |= sort' config.yaml && yq -i 'sort_keys(..)' config.yaml
+
+      - name: Check if there are changes to config.yaml
+        id: changes
+        run: echo "changed=$(git status --porcelain config.yaml | wc -l)" >> $GITHUB_OUTPUT
+
+      - name: Fail if config.yaml changes found
+        if: steps.changes.outputs.changed >= 1
+        run: |
+          echo "Uncommitted changes to config.yaml exist. Failing."
+          echo 
+          git status --porcelain
+          git --no-pager diff config.yaml 
+          exit 1

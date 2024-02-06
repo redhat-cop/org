@@ -18,7 +18,7 @@ orgs:
     location: ""
     members:
       - 9strands
-      - A-Beck
+      - a-beck
       - abaird-rh
       - abhijithumbe
       - abikouo
@@ -27,7 +27,6 @@ orgs:
       - adetalhouet
       - adlerfleurant
       - afflom
-      - aglenn360
       - agonzalezrh
       - ahardin-rh
       - ahsen-shah
@@ -37,10 +36,8 @@ orgs:
       - alinabuzachis
       - alirealasad
       - alyibrahim
-      - andreahall12
       - apitanga
       - arilivigni
-      - arman084
       - arnaik-rh
       - arthomasredhat
       - arvin-a
@@ -60,15 +57,15 @@ orgs:
       - cescoffier
       - chadmf
       - charles-shaw
+      - chofstede
       - chetan-07
-      - christianh814
       - cidrblock
       - ckavili
       - ckomopou
+      - cmcornejocrespo
       - cmwylie19
       - cnuland
       - cpeters
-      - cpitman
       - cpmeadors
       - crenwick93
       - d-jana
@@ -90,9 +87,7 @@ orgs:
       - evisb
       - eye0fra
       - finmahon
-      - fostimus
       - fridim
-      - fwcoder
       - ghyde
       - giofontana
       - gjbianco
@@ -105,7 +100,9 @@ orgs:
       - gregjohnstewart
       - grodideal
       - gsampaio-rh
+      - guidograzioli
       - hakbailey
+      - hcherukuri
       - heatmiser
       - hfenner
       - huddlesj
@@ -118,7 +115,6 @@ orgs:
       - ippul
       - itewk
       - ivarmu
-      - jacobsee
       - jarcher
       - jayfray12
       - jbride
@@ -126,7 +122,6 @@ orgs:
       - jeremyrdavis
       - jfilipcz
       - jflowers
-      - jgoldsmith613
       - jhawkinsrh
       - jijiechen
       - jillr
@@ -137,6 +132,7 @@ orgs:
       - jooho
       - jordigilh
       - josecastillolema
+      - josephassiga
       - jscar-hawk
       - jtlnguyen
       - jtudelag
@@ -144,23 +140,20 @@ orgs:
       - juliovp01
       - juozasa
       - justjais
-      - jzsjjunior
       - k-von
       - kaileshmistry
       - kaiobrien
       - kb-perbyte
       - kedark3
-      - kelaird
       - kenwilli
       - kincl
       - kkoller
       - kleesc
       - klewis0928
       - kmacedovarela
-      - krain-arnold
       - kubealex
       - kyetter
-      - ldomb
+      - lautou
       - leethomasrh
       - leoaaraujo
       - levysantanna
@@ -170,9 +163,9 @@ orgs:
       - lpsantil
       - luckylittle
       - makentenza
+      - makirill
       - malacourse
       - mandar242
-      - marciopaiva
       - marcosmamorim
       - marcredhat
       - matallen
@@ -181,11 +174,10 @@ orgs:
       - mattheh
       - matthew-willis-redhat
       - maxamillion
-      - mbogoevici
       - mffiedler
+      - mhjacks
       - mijaros
       - mike4263
-      - mm7259
       - mophahr
       - mpetrive-rh
       - mumeno
@@ -200,7 +192,6 @@ orgs:
       - noelo
       - nonyno3lle
       - noseka1
-      - nstrug
       - nunnchops
       - otatman
       - pamenon
@@ -219,14 +210,15 @@ orgs:
       - rafamqrs
       - raffaelespazzoli
       - raffamendes
-      - ramius345
-      - ravisantoshgudimetla
+      - ranabirchakraborty
       - rdruss
       - resolutecoder
       - rflorenc
       - rhjcd
+      - rhodzelmans
+      - rhvinel
       - ribua
-      - richardwalkerdev
+      - rmarting
       - rmgrimm
       - robbbbh
       - robertsandoval
@@ -244,17 +236,14 @@ orgs:
       - shah-zobair
       - silvinux
       - skypatrolcpt
-      - smithe2413
       - smrowley
       - springdo
       - stencell
       - stephennimmo
       - stocky37
       - strangiato
-      - stratus-ss
       - sushilsuresh
       - swapdisk
-      - swarred
       - sysmatrix1
       - tech2734
       - theckang
@@ -264,7 +253,6 @@ orgs:
       - thomas-crowe
       - thomasmckay
       - thomasphall
-      - tinyexplosions
       - tolarewaju3
       - tomassedovic
       - tomgeorge
@@ -278,14 +266,14 @@ orgs:
       - trv-rpeoples
       - vaibhavjainwiz
       - varodrig
-      - vdrvergara
+      - vbroniko
       - victorock
-      - vikassharma437
       - vvaldez
       - welshstew
       - willowmck
       - wilson-walrus
       - wkulhanek
+      - wolfc
       - yvarbanov
     members_can_create_repositories: false
     name: Red Hat Communities of Practice
@@ -303,26 +291,6 @@ orgs:
         privacy: closed
         repos:
           agnosticd: admin
-      ansible-middleware:
-        description: Deploying Red Hat Middleware using Ansible
-        maintainers:
-          - rpelisse
-          - sabre1041
-        members:
-          - davgordo
-        privacy: closed
-        repos:
-          ansible-role-jboss-common: write
-          ansible_middleware_galaxy: write
-          automate-jcliff: write
-          jboss_amq: write
-          jboss_amq_openshift: write
-          jboss_bxms: write
-          jboss_datagrid: write
-          jboss_eap: write
-          jboss_fuse: write
-          jboss_webserver: write
-          redhat_sso: write
       ansible-snapshot-admins:
         description: Administrators for ansible-snapshot
         maintainers:
@@ -331,16 +299,16 @@ orgs:
         members: []
         privacy: closed
         repos:
-          ansible-snapshot: admin
+          infra.lvm_snapshots: admin
       ansible-zipship:
         description: "Ansible ZipShip"
         maintainers:
-          - A-Beck
-          - sabre1041
+          - a-beck
           - bontreger
           - brady-spiva
           - jeffcpullen
           - kyetter
+          - sabre1041
         members: []
         privacy: closed
         repos:
@@ -350,12 +318,12 @@ orgs:
           ansible-zipship-admins:
             description: Ansible ZipShip Admins
             maintainers:
-              - A-Beck
-              - sabre1041
+              - a-beck
               - bontreger
               - brady-spiva
               - jeffcpullen
               - kyetter
+              - sabre1041
             members:
               - hultzj
             privacy: closed
@@ -365,12 +333,12 @@ orgs:
           ansible-zipship-mergers:
             description: Ansible ZipShip Mergers
             maintainers:
-              - A-Beck
-              - sabre1041
+              - a-beck
               - bontreger
               - brady-spiva
               - jeffcpullen
               - kyetter
+              - sabre1041
             members: []
             privacy: closed
             repos:
@@ -386,7 +354,6 @@ orgs:
           - deewhyweb
           - gregjohnstewart
           - lightguard
-          - mbogoevici
           - rdruss
           - sangeetaraghu
           - smrowley
@@ -481,6 +448,7 @@ orgs:
           automation-good-practices: write
           cloud_provision_automation_collection: write
           controller_configuration: write
+          eda_configuration: write
           ee_utilities: write
           elk_automation: write
           hardware_automation_collection: write
@@ -488,7 +456,6 @@ orgs:
           jboss_webserver: write
           molecule_cicd_automation: write
           redhat_sso: write
-          eda_configuration: write
         teams:
           automation-cop-mgrs:
             description: ""
@@ -513,11 +480,11 @@ orgs:
               automation-good-practices: admin
               cloud_provision_automation_collection: admin
               controller_configuration: admin
+              eda_configuration: admin
               ee_utilities: admin
               elk_automation: admin
               hardware_automation_collection: admin
               molecule_cicd_automation: admin
-              eda_configuration: admin
           automation-cop-tower-mgrs:
             description: AAP Config as Code managers
             maintainers:
@@ -531,8 +498,8 @@ orgs:
               aap_utilities: admin
               ansible_collections_tooling: admin
               controller_configuration: admin
-              ee_utilities: admin
               eda_configuration: admin
+              ee_utilities: admin
           validated-content-curators:
             description: Validated Content Contributors
             maintainers: []
@@ -544,7 +511,9 @@ orgs:
               - gomathiselvis
               - goneri
               - gravesm
+              - guidograzioli
               - hakbailey
+              - hcherukuri
               - jillr
               - justjais
               - kb-perbyte
@@ -552,20 +521,25 @@ orgs:
               - matoval
               - maxamillion
               - nilashishc
-              - omaciel
               - qalthos
+              - ranabirchakraborty
               - resolutecoder
+              - rhodzelmans
               - rohitthakur2590
+              - rpelisse
+              - sabre1041
               - thom-at-redhat
               - trishnaguha
+              - wolfc
             privacy: closed
             repos:
               aap_utilities: write
-              controller_configuration: write
               cloud.aws_ops: admin
               cloud.aws_troubleshooting: admin
               cloud.azure_ops: admin
               cloud.gcp_ops: admin
+              cloud.terraform_ops: admin
+              controller_configuration: write
               edge.microshift: admin
               ee_utilities: write
               infra.leapp: admin
@@ -578,6 +552,7 @@ orgs:
               network.ospf: admin
               network.telemetry: admin
               network.vpn: admin
+              ocpv_lab: admin
               security.firewall_mgmt: admin
       blockchain-cop:
         description: The Blockchain Community of Practice
@@ -620,23 +595,19 @@ orgs:
           - abaird-rh
           - aizuddin85
           - arilivigni
-          - arman084
           - bbeaudoin
           - beelandc
           - bszeti
           - caseyoc
           - ckavili
-          - cpitman
           - davgordo
           - dfwnetman
           - drichtarik
           - dstockdreher
-          - fwcoder
           - garethahealy
           - huddlesj
           - ianwatsonrh
           - infosec812
-          - jacobsee
           - jaredburck
           - jimdillon
           - jooho
@@ -661,7 +632,6 @@ orgs:
           - shah-zobair
           - springdo
           - stocky37
-          - stratus-ss
           - sysmatrix1
           - themoosman
           - tomassedovic
@@ -779,7 +749,6 @@ orgs:
                   - oybed
                   - sabre1041
                 members:
-                  - jacobsee
                   - pabrahamsson
                   - paulbarfuss
                 privacy: closed
@@ -834,7 +803,6 @@ orgs:
             description: Container Security
             maintainers:
               - cnuland
-              - jgoldsmith613
               - sabre1041
             privacy: closed
             repos:
@@ -892,7 +860,6 @@ orgs:
                   - sabre1041
                 members:
                   - ckavili
-                  - cpitman
                   - eformat
                   - garethahealy
                   - gsampaio-rh
@@ -921,7 +888,6 @@ orgs:
             maintainers:
               - etsauer
             members:
-              - fwcoder
               - gnekic
               - jkupferer
               - sabre1041
@@ -931,7 +897,7 @@ orgs:
             description: GitHub Actions Collection
             maintainers:
               - garethahealy
-              - jacobsee
+              - springdo
             privacy: closed
             repos:
               github-actions: read
@@ -940,7 +906,7 @@ orgs:
                 description: GitHub Actions Mergers
                 maintainers:
                   - garethahealy
-                  - jacobsee
+                  - springdo
                 privacy: closed
                 repos:
                   github-actions: admin
@@ -953,6 +919,7 @@ orgs:
             privacy: closed
             repos:
               gitops-catalog: read
+              gitops-standards-repo-template: read
             teams:
               gitops-wg-mergers:
                 description: "GitOps Working Group Mergers"
@@ -960,11 +927,13 @@ orgs:
                   - adetalhouet
                   - gnunn1
                   - pittar
+                  - raffaelespazzoli
                   - sabre1041
                   - strangiato
                 privacy: closed
                 repos:
                   gitops-catalog: admin
+                  gitops-standards-repo-template: admin
           golang-cop:
             description: "Team for the management of the Golang CoP"
             maintainers:
@@ -972,7 +941,6 @@ orgs:
             members:
               - berkeragir
               - raffaelespazzoli
-              - ravisantoshgudimetla
               - rflorenc
               - sabre1041
               - tosmi
@@ -981,7 +949,7 @@ orgs:
           helpernode:
             description: "GitOps Working Group"
             maintainers:
-              - christianh814
+              - sabre1041
             members:
               - robertsandoval
             privacy: closed
@@ -1005,7 +973,6 @@ orgs:
               - raffaelespazzoli
               - sabre1041
             members:
-              - kkoller
               - kkoller
               - mathianasj
               - nickjordan
@@ -1041,7 +1008,6 @@ orgs:
               dynamic-rbac-operator-admins:
                 description: Admin group for the dynamic-rbac-operator
                 maintainers:
-                  - jacobsee
                   - oybed
                 privacy: closed
                 repos:
@@ -1049,9 +1015,9 @@ orgs:
               operators-wg-mergers:
                 description: ""
                 maintainers:
+                  - davgordo
                   - raffaelespazzoli
                   - sabre1041
-                  - davgordo
                   - trevorbox
                 privacy: closed
                 repos:
@@ -1082,9 +1048,9 @@ orgs:
               operators-wg-writers:
                 description: ""
                 maintainers:
+                  - davgordo
                   - raffaelespazzoli
                   - sabre1041
-                  - davgordo
                   - trevorbox
                 members:
                   - cnuland
@@ -1165,15 +1131,6 @@ orgs:
         privacy: closed
         repos:
           disconnectedinfra: admin
-      distributed-working:
-        description: Distributed working community of practice
-        maintainers:
-          - aglenn360
-          - kaileshmistry
-          - tinyexplosions
-        privacy: closed
-        repos:
-          distributed-working-cop: admin
       giveback-program:
         description: ""
         maintainers:
@@ -1228,6 +1185,7 @@ orgs:
           - bosebc
           - d-jana
           - klewis0928
+          - makirill
           - marcosmamorim
           - perryrivera1
           - prakhar1985
@@ -1340,30 +1298,27 @@ orgs:
           - mattheh
           - oybed
           - raffaelespazzoli
-          - ramius345
           - sbailleu
           - themoosman
           - tolarewaju3
           - tomgeorge
         privacy: closed
         repos: {}
-      pathfinder:
-        description: ""
+      openshift-reference-architectures:
+        description: "OpenShift Reference Architectures"
         maintainers:
-          - etsauer
+          - jaredburck
+          - jtudelag
+          - lautou
+          - rmarting
         members:
-          - boogiespook
-          - dstockdreher
-          - gjbianco
-          - kelaird
-          - matallen
-          - noelo
-          - nunnchops
-          - pathfinder-waffle
+          - cmcornejocrespo
+          - josephassiga
+          - rhvinel
+          - vbroniko
         privacy: closed
         repos:
-          pathfinder: admin
-          pathfinder-ui: write
+          openshift-reference-architectures: write
       project-initializer:
         description: ""
         maintainers:
@@ -1371,7 +1326,6 @@ orgs:
           - gnekic
           - sabre1041
         members:
-          - mm7259
           - otatman
         privacy: closed
         repos:
@@ -1391,7 +1345,6 @@ orgs:
         description: ""
         maintainers:
           - etsauer
-          - ldomb
         members:
         privacy: closed
         repos:
@@ -1401,7 +1354,6 @@ orgs:
             description: ""
             maintainers:
               - etsauer
-              - ldomb
             privacy: closed
             repos:
               public-cloud-cop: admin
@@ -1409,38 +1361,16 @@ orgs:
             description: ""
             maintainers:
               - etsauer
-              - ldomb
             privacy: closed
             repos:
               public-cloud-cop: write
-      quay:
-        description: ""
-        maintainers:
-          - sabre1041
-        members:
-          - alecmerdler
-          - ibazulic
-          - kleesc
-          - thomasmckay
-        privacy: closed
-        repos: {}
-      quay-mgrs:
-        description: ""
-        maintainers:
-          - sabre1041
-        members:
-          - alecmerdler
-          - kleesc
-          - thomasmckay
-        privacy: closed
-        repos: {}
       redhat-cop-sre:
         description: "Red Hat CoP SRE"
         maintainers:
           - djdanielsson
           - etsauer
           - garethahealy
-          - JaredBurck
+          - jaredburck
           - oybed
           - pabrahamsson
           - sabre1041
@@ -1453,7 +1383,6 @@ orgs:
         maintainers:
           - hfenner
           - hultzj
-          - swarred
         members: []
         privacy: closed
         repos:
@@ -1546,28 +1475,3 @@ orgs:
         privacy: closed
         repos:
           testing-cop: admin
-      uncontained.io:
-        description: Uncontained.io
-        maintainers:
-          - etsauer
-          - sabre1041
-        members:
-          - ahardin-rh
-          - jaredburck
-        privacy: closed
-        repos:
-          openshift-playbooks: read
-          uncontained.io: read
-        teams:
-          content-coalition:
-            description: Content Decision Makers for Uncontained.io
-            maintainers:
-              - etsauer
-              - sabre1041
-            members:
-              - ahardin-rh
-              - jaredburck
-            privacy: closed
-            repos:
-              openshift-playbooks: read
-              uncontained.io: read
