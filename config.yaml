@@ -544,6 +544,7 @@ orgs:
               ee_utilities: write
               infra.leapp: admin
               infra.osbuild: admin
+              middleware_ocpv: admin
               network.acls: admin
               network.backup: admin
               network.base: admin
@@ -552,7 +553,6 @@ orgs:
               network.ospf: admin
               network.telemetry: admin
               network.vpn: admin
-              ocpv_lab: admin
               security.firewall_mgmt: admin
       blockchain-cop:
         description: The Blockchain Community of Practice
