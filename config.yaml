@@ -576,6 +576,7 @@ orgs:
               network.bgp: admin
               network.interfaces: admin
               network.ospf: admin
+              network.restore: admin
               network.telemetry: admin
               network.vpn: admin
               security.firewall_mgmt: admin
