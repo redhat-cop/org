@@ -224,7 +224,9 @@ orgs:
       - robertsandoval
       - robotsail
       - rohitthakur2590
+      - roverflow
       - rpelisse
+      - ruchip16
       - rut31337
       - ryanzhang
       - samueltauil
@@ -291,6 +293,29 @@ orgs:
         privacy: closed
         repos:
           agnosticd: admin
+      ansible-networking:
+        description: Ansible Networking
+        maintainers:
+          - ashwini-mhatre
+          - cidrblock
+          - kb-perbyte
+          - nilashishc
+          - rohitthakur2590
+          - roverflow
+          - ruchip16
+          - trishnaguha
+        members: []
+        privacy: closed
+        repos:
+          network.acls: admin
+          network.backup: admin
+          network.base: admin
+          network.bgp: admin
+          network.interfaces: admin
+          network.ospf: admin
+          network.restore: admin
+          network.telemetry: admin
+          network.vpn: admin
       ansible-snapshot-admins:
         description: Administrators for ansible-snapshot
         maintainers:
