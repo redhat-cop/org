@@ -43,6 +43,7 @@ orgs:
       - arvin-a
       - ashokjammula1
       - ashwini-mhatre
+      - bardielle
       - bbeaudoin
       - bbethell-1
       - beelandc
@@ -162,6 +163,7 @@ orgs:
       - linuxstudio
       - lpsantil
       - luckylittle
+      - machacekondra
       - makentenza
       - makirill
       - malacourse
@@ -532,6 +534,7 @@ orgs:
               - abikouo
               - alinabuzachis
               - ashwini-mhatre
+              - bardielle
               - cidrblock
               - gomathiselvis
               - goneri
@@ -542,6 +545,7 @@ orgs:
               - jillr
               - justjais
               - kb-perbyte
+              - machacekondra
               - mandar242
               - matoval
               - maxamillion
@@ -564,6 +568,7 @@ orgs:
               cloud.azure_ops: admin
               cloud.gcp_ops: admin
               cloud.terraform_ops: admin
+              cloud.vmware_ops: admin
               controller_configuration: write
               edge.microshift: admin
               ee_utilities: write
