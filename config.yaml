@@ -926,6 +926,15 @@ orgs:
               - sabre1041
             repos:
               declarative-openshift: write
+          devspaces:
+            description: OpenShift Dev Spaces
+            maintainers:
+              - cgruver
+              - etsauer
+              - natelove
+            privacy: closed
+            repos:
+              devspaces-images: admin
           github-actions:
             description: GitHub Actions Collection
             maintainers:
