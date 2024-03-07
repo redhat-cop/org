@@ -142,11 +142,9 @@ orgs:
       - juliovp01
       - juozasa
       - justjais
-      - k-von
       - kaileshmistry
       - kaiobrien
       - kb-perbyte
-      - kedark3
       - kenwilli
       - kincl
       - kkoller
@@ -184,7 +182,6 @@ orgs:
       - mophahr
       - mpetrive-rh
       - mumeno
-      - murphye
       - mvmaestri
       - mwitzenm
       - nasx
@@ -242,7 +239,6 @@ orgs:
       - seravat
       - shah-zobair
       - silvinux
-      - skypatrolcpt
       - smrowley
       - springdo
       - stencell
@@ -262,7 +258,6 @@ orgs:
       - thomasphall
       - tolarewaju3
       - tomassedovic
-      - tomgeorge
       - tompage1994
       - tonykay
       - tosmi
@@ -459,7 +454,6 @@ orgs:
           - branic
           - chofstede
           - ivarmu
-          - kedark3
           - mpetrive-rh
           - sean-m-sullivan
           - silvinux
@@ -657,7 +651,6 @@ orgs:
           - mathianasj
           - mike4263
           - mophahr
-          - murphye
           - mwitzenm
           - noelo
           - pabrahamsson
@@ -670,7 +663,6 @@ orgs:
           - sysmatrix1
           - themoosman
           - tomassedovic
-          - tomgeorge
           - vvaldez
         privacy: closed
         repos: {}
@@ -716,9 +708,7 @@ orgs:
               - mwitzenm
               - pabrahamsson
               - raffaelespazzoli
-              - skypatrolcpt
               - themoosman
-              - tomgeorge
             privacy: closed
             repos:
               cluster-lifecycle: read
@@ -759,8 +749,6 @@ orgs:
                   - jimdillon
                   - mwitzenm
                   - pabrahamsson
-                  - skypatrolcpt
-                  - tomgeorge
                 privacy: closed
                 repos:
                   declarative-openshift: write
@@ -858,7 +846,6 @@ orgs:
               - jijiechen
               - jtudelag
               - malacourse
-              - murphye
               - mvmaestri
               - noelo
               - raffaelespazzoli
@@ -901,7 +888,6 @@ orgs:
                   - infosec812
                   - jtudelag
                   - malacourse
-                  - murphye
                   - raffaelespazzoli
                   - redhat-cop-ci-bot
                   - springdo
@@ -1345,7 +1331,6 @@ orgs:
           - sbailleu
           - themoosman
           - tolarewaju3
-          - tomgeorge
         privacy: closed
         repos: {}
       openshift-reference-architectures:
@@ -1497,7 +1482,6 @@ orgs:
         members:
           - dasong666
           - jayfray12
-          - k-von
           - rmgrimm
         privacy: closed
         repos:
