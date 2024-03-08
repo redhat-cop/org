@@ -461,6 +461,7 @@ orgs:
           - victorock
         privacy: closed
         repos:
+          aap_config_as_code_docs: write
           aap_configuration_template: write
           aap_utilities: write
           ansible_collections_tooling: write
@@ -493,6 +494,7 @@ orgs:
             members: []
             privacy: closed
             repos:
+              aap_config_as_code_docs: admin
               aap_configuration_template: admin
               aap_utilities: admin
               ansible_collections_tooling: admin
@@ -519,6 +521,7 @@ orgs:
             members: []
             privacy: closed
             repos:
+              aap_config_as_code_docs: admin
               aap_configuration_template: admin
               aap_utilities: admin
               ansible_collections_tooling: admin
