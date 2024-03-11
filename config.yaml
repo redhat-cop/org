@@ -26,18 +26,12 @@ orgs:
       - adamgoossens
       - adetalhouet
       - adlerfleurant
-      - afflom
       - agonzalezrh
       - ahardin-rh
       - ahsen-shah
       - aizuddin85
-      - alecmerdler
       - aleixhub
       - alinabuzachis
-      - alirealasad
-      - alyibrahim
-      - apitanga
-      - arilivigni
       - arnaik-rh
       - arthomasredhat
       - arvin-a
@@ -67,14 +61,12 @@ orgs:
       - ckavili
       - ckomopou
       - cmcornejocrespo
-      - cmwylie19
       - cnuland
       - cpeters
       - cpmeadors
       - crenwick93
       - d-jana
       - danhawker
-      - darthlukan
       - dasong666
       - davgordo
       - david-igou
@@ -88,14 +80,11 @@ orgs:
       - eformat
       - ericzolf
       - erouvas
-      - evisb
       - eye0fra
-      - finmahon
       - fridim
       - ghyde
       - giofontana
       - gjbianco
-      - gmontalvoy
       - gnekic
       - gnunn1
       - gomathiselvis
@@ -125,14 +114,12 @@ orgs:
       - jbride
       - jeffcpullen
       - jeremyrdavis
-      - jfilipcz
       - jflowers
       - jhawkinsrh
       - jillr
       - jimdillon
       - jkupferer
       - johnsimcall
-      - jonahkh
       - jooho
       - jordigilh
       - josecastillolema
@@ -170,7 +157,6 @@ orgs:
       - malacourse
       - mandar242
       - marcosmamorim
-      - marcredhat
       - matallen
       - mathianasj
       - matoval
@@ -255,18 +241,15 @@ orgs:
       - themoosman
       - thiasant
       - thom-at-redhat
-      - thomas-crowe
       - thomasmckay
       - thomasphall
       - tolarewaju3
-      - tomassedovic
       - tompage1994
       - tonykay
       - tosmi
       - treddy08
       - trevorbox
       - trishnaguha
-      - truncj
       - trv-rpeoples
       - vaibhavjainwiz
       - varodrig
@@ -274,7 +257,6 @@ orgs:
       - victorock
       - vvaldez
       - welshstew
-      - willowmck
       - wilson-walrus
       - wkulhanek
       - wolfc
@@ -628,7 +610,6 @@ orgs:
         members:
           - abaird-rh
           - aizuddin85
-          - arilivigni
           - bbeaudoin
           - beelandc
           - bszeti
@@ -667,7 +648,6 @@ orgs:
           - stocky37
           - sysmatrix1
           - themoosman
-          - tomassedovic
           - vvaldez
         privacy: closed
         repos: {}
@@ -702,7 +682,6 @@ orgs:
             members:
               - bbeaudoin
               - beelandc
-              - cmwylie19
               - davgordo
               - dstockdreher
               - huddlesj
@@ -1319,10 +1298,8 @@ orgs:
           - sabre1041
         members:
           - abryson-redhat
-          - alyibrahim
           - etsauer
           - infosec812
-          - jonahkh
           - kenwilli
           - kkoller
           - malacourse
