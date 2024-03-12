@@ -265,6 +265,60 @@ orgs:
     members_can_create_repositories: false
     name: Red Hat Communities of Practice
     teams:
+      aarchived:
+        description: Archived repos - double AA spelling to make top of list
+        maintainers:
+          - etsauer
+          - garethahealy
+          - jaredburck
+          - oybed
+          - pabrahamsson
+          - redhat-cop-ci-bot
+          - sabre1041
+        members: []
+        privacy: closed
+        repos:
+          ansible-middleware-playbooks: admin
+          ansible-role-jboss-common: admin
+          ansible_middleware_galaxy: admin
+          applier-cli: admin
+          automate-jcliff: admin
+          casl-ansible: admin
+          casl-galaxy: admin
+          community-operators: admin
+          container-native-spring-postgresql: admin
+          dark-tower: admin
+          dash: admin
+          distributed-working-cop: admin
+          jboss_amq: admin
+          jboss_amq_openshift: admin
+          jboss_bxms: admin
+          jboss_datagrid: admin
+          jboss_eap: admin
+          jboss_fuse: admin
+          jboss_webserver: admin
+          k8s-notify: admin
+          microsegmentation-operator: admin
+          ocp-supply-chain-demo: admin
+          openshift-4-alpha-enablement: admin
+          openshift-demo-library: admin
+          openshift-elasticsearch: admin
+          openshift-event-controller: admin
+          openshift-image-signing-scanning: admin
+          openshift-migration-best-practices: admin
+          openshift-playbooks: admin
+          operationalizing-openshift-lab: admin
+          pathfinder: admin
+          pathfinder-ui: admin
+          pbl-rocketchat: admin
+          pipeline-library: admin
+          redhat_sso: admin
+          resource-locker-operator: admin
+          rhc-ocp-playbook-test: admin
+          rocketchat-integrations: admin
+          spring-rest: admin
+          template2helm: admin
+          uncontained.io: admin
       agnosticd-core:
         description: Core team members for the agnosticd project.
         maintainers:
@@ -452,7 +506,6 @@ orgs:
           aap_utilities: write
           ansible_collections_tooling: write
           automate-exotic: write
-          automate-jcliff: write
           automate-tower: write
           automate-tower-ha-dr: write
           automate-windows: write
@@ -465,9 +518,7 @@ orgs:
           elk_automation: write
           hardware_automation_collection: write
           infra.leapp: write
-          jboss_webserver: write
           molecule_cicd_automation: write
-          redhat_sso: write
         teams:
           automation-cop-mgrs:
             description: ""
@@ -486,7 +537,6 @@ orgs:
               aap_utilities: admin
               ansible_collections_tooling: admin
               automate-exotic: admin
-              automate-jcliff: admin
               automate-tower: admin
               automate-tower-ha-dr: admin
               automate-windows: admin
@@ -704,22 +754,8 @@ orgs:
               git-flow: read
               gows: read
               ninja-points: read
-              ocp-supply-chain-demo: read
-              openshift-demo-library: read
-              openshift-elasticsearch: read
-              openshift-event-controller: read
-              openshift-image-signing-scanning: read
               openshift-management: read
-              openshift-playbooks: read
               openshift-templates: read
-              pathfinder: read
-              pathfinder-ui: read
-              pbl-rocketchat: read
-              pipeline-library: read
-              rhc-ocp-playbook-test: read
-              rocketchat-integrations: read
-              spring-rest: read
-              uncontained.io: read
             teams:
               cant-contain-this-mergers:
                 description: People who can merge
@@ -740,9 +776,7 @@ orgs:
                 repos:
                   declarative-openshift: write
                   gows: write
-                  openshift-playbooks: write
                   openshift-toolkit: admin
-                  uncontained.io: write
           casl:
             description: Container Automation Solutions Lab contributors
             maintainers:
@@ -762,19 +796,15 @@ orgs:
                   - pabrahamsson
                 privacy: closed
                 repos:
-                  applier-cli: write
                   casl-ansible: write
-                  casl-galaxy: write
                   cert-operator: write
                   cluster-lifecycle: write
-                  dash: write
                   declarative-openshift: write
                   dynamic-rbac-operator: write
                   infra-ansible: write
                   monitoring: write
                   onboarding-manager: write
                   openshift-applier: write
-                  openshift-event-controller: write
                   openshift-management: write
                   tool-integrations: write
           container-cop-core:
@@ -792,22 +822,14 @@ orgs:
             repos:
               bats-library: admin
               casl-ansible: admin
-              casl-galaxy: admin
               container-pipelines: admin
               containers-quickstarts: admin
-              dash: admin
-              k8s-notify: admin
               onboarding-manager: write
               openshift-applier: admin
-              openshift-demo-library: admin
-              openshift-event-controller: admin
               openshift-management: admin
-              openshift-playbooks: admin
               openshift-templates: admin
               openshift-toolkit: admin
-              operationalizing-openshift-lab: write
               org: admin
-              pbl-rocketchat: admin
           container-security:
             description: Container Security
             maintainers:
@@ -816,7 +838,6 @@ orgs:
             privacy: closed
             repos:
               image-scanning-signing-service: admin
-              openshift-image-signing-scanning: admin
           day-in-the-life:
             description: Day in the Life of a Developer team
             maintainers:
@@ -837,26 +858,12 @@ orgs:
             privacy: closed
             repos:
               cluster-lifecycle: read
-              container-native-spring-postgresql: read
               git-flow: read
               gows: read
               helm-charts: read
               ninja-points: read
-              ocp-supply-chain-demo: read
-              openshift-demo-library: read
-              openshift-elasticsearch: read
-              openshift-event-controller: read
               openshift-management: read
-              openshift-playbooks: read
-              pathfinder: read
-              pathfinder-ui: read
-              pbl-rocketchat: read
-              pipeline-library: read
               rego-policies: read
-              rhc-ocp-playbook-test: read
-              rocketchat-integrations: read
-              spring-rest: read
-              uncontained.io: read
             teams:
               day-in-the-life-mergers:
                 description: ""
@@ -876,17 +883,12 @@ orgs:
                   - springdo
                 privacy: closed
                 repos:
-                  container-native-spring-postgresql: write
                   container-pipelines: admin
                   containers-quickstarts: admin
                   helm-charts: admin
-                  openshift-image-signing-scanning: write
                   openshift-management: admin
                   openshift-templates: admin
                   openshift-toolkit: admin
-                  pipeline-library: admin
-                  spring-rest: write
-                  template2helm: admin
           declarative-openshift:
             description: Maintainers of the declarative-openshift repo
             maintainers:
@@ -995,7 +997,6 @@ orgs:
             repos:
               cert-operator: read
               cert-utils-operator: read
-              community-operators: read
               community-operators-prod: read
               dynamic-rbac-operator: read
               egressip-ipam-operator: read
@@ -1004,7 +1005,6 @@ orgs:
               global-load-balancer-operator: read
               group-sync-operator: read
               kube-rbac-proxy: read
-              microsegmentation-operator: read
               must-gather-operator: read
               namespace-configuration-operator: read
               openshift-disconnected-operators: read
@@ -1013,7 +1013,6 @@ orgs:
               proactive-node-scaling-operator: read
               project-initialize-operator: read
               redhat-cop-operators: read
-              resource-locker-operator: read
               vault-config-operator: read
               vault-plugin-secrets-quay: read
               volume-expander-operator: read
@@ -1036,7 +1035,6 @@ orgs:
                 repos:
                   cert-operator: admin
                   cert-utils-operator: admin
-                  community-operators: admin
                   community-operators-prod: admin
                   dynamic-rbac-operator: admin
                   egressip-ipam-operator: admin
@@ -1045,7 +1043,6 @@ orgs:
                   global-load-balancer-operator: admin
                   group-sync-operator: admin
                   kube-rbac-proxy: admin
-                  microsegmentation-operator: admin
                   must-gather-operator: admin
                   namespace-configuration-operator: admin
                   openshift-disconnected-operators: admin
@@ -1054,7 +1051,6 @@ orgs:
                   proactive-node-scaling-operator: admin
                   project-initialize-operator: admin
                   redhat-cop-operators: admin
-                  resource-locker-operator: admin
                   vault-config-operator: admin
                   vault-plugin-secrets-quay: admin
                   volume-expander-operator: admin
@@ -1076,7 +1072,6 @@ orgs:
                 repos:
                   cert-operator: write
                   cert-utils-operator: write
-                  community-operators: write
                   community-operators-prod: write
                   dynamic-rbac-operator: write
                   egressip-ipam-operator: write
@@ -1085,7 +1080,6 @@ orgs:
                   global-load-balancer-operator: write
                   group-sync-operator: write
                   kube-rbac-proxy: write
-                  microsegmentation-operator: write
                   must-gather-operator: write
                   namespace-configuration-operator: write
                   openshift-disconnected-operators: write
@@ -1094,7 +1088,6 @@ orgs:
                   proactive-node-scaling-operator: write
                   project-initialize-operator: write
                   redhat-cop-operators: write
-                  resource-locker-operator: write
                   vault-config-operator: write
                   vault-plugin-secrets-quay: write
                   volume-expander-operator: write
@@ -1133,7 +1126,6 @@ orgs:
               - pfeifferj
             privacy: closed
             repos:
-              k8s-notify: triage
               namespace-configuration-operator: triage
               openshift-toolkit: triage
               vault-config-operator: triage
@@ -1217,12 +1209,9 @@ orgs:
           babylon: read
           babylon-events-console: read
           classroom: write
-          dark-tower: read
           k8s_config: read
-          openshift-4-alpha-enablement: read
           openshift-infra-skel: read
           openshift-lab-origin: write
-          operationalizing-openshift-lab: write
           poolboy: read
         teams:
           babylon:
@@ -1242,7 +1231,6 @@ orgs:
               anarchy: write
               babylon: write
               babylon-events-console: write
-              dark-tower: write
               k8s_config: write
               poolboy: write
             teams:
@@ -1264,7 +1252,6 @@ orgs:
                   babylon: admin
                   babylon-events-console: admin
                   babylon_agnostics: admin
-                  dark-tower: admin
                   k8s_config: admin
                   poolboy: admin
           gpte-admins:
@@ -1288,12 +1275,9 @@ orgs:
               babylon-events-console: admin
               babylon_agnostics: admin
               classroom: admin
-              dark-tower: admin
               k8s_config: admin
-              openshift-4-alpha-enablement: admin
               openshift-infra-skel: admin
               openshift-lab-origin: admin
-              operationalizing-openshift-lab: write
               poolboy: admin
       mdt:
         description: Metrics Driven Transformation
