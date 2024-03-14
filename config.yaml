@@ -824,16 +824,25 @@ orgs:
               - raffaelespazzoli
             privacy: closed
             repos:
+              acm-policies: admin
               bats-library: admin
               casl-ansible: admin
+              chocolatey-packages: admin
               container-pipelines: admin
               containers-quickstarts: admin
+              homebrew-redhat-cop: admin
+              katacoda-scenarios: admin
+              keepalived-operator: admin
+              ocp4-prereqs-validator: admin
+              ocp4-vsphere-workshop: admin
               onboarding-manager: write
               openshift-applier: admin
               openshift-management: admin
               openshift-templates: admin
               openshift-toolkit: admin
               org: admin
+              osia: admin
+              podpreset-webhook: admin
           container-security:
             description: Container Security
             maintainers:
@@ -1046,6 +1055,7 @@ orgs:
                   gitwebhook-operator: admin
                   global-load-balancer-operator: admin
                   group-sync-operator: admin
+                  keepalived-operator: admin
                   kube-rbac-proxy: admin
                   must-gather-operator: admin
                   namespace-configuration-operator: admin
@@ -1376,6 +1386,8 @@ orgs:
         privacy: closed
         repos:
           org: admin
+          redhat-cop.github.io: admin
+          test-infra: admin
       rh4gsre:
         description: SRE practices for government
         maintainers:
