@@ -287,6 +287,7 @@ orgs:
           ansible_middleware_galaxy: admin
           applier-cli: admin
           automate-jcliff: admin
+          canary: admin
           casl-ansible: admin
           casl-galaxy: admin
           community-operators: admin
@@ -304,6 +305,7 @@ orgs:
           k8s-notify: admin
           microsegmentation-operator: admin
           ocp-supply-chain-demo: admin
+          open-organization: admin
           openshift-4-alpha-enablement: admin
           openshift-demo-library: admin
           openshift-elasticsearch: admin
@@ -320,6 +322,7 @@ orgs:
           resource-locker-operator: admin
           rhc-ocp-playbook-test: admin
           rocketchat-integrations: admin
+          rti: admin
           spring-rest: admin
           template2helm: admin
           uncontained.io: admin
