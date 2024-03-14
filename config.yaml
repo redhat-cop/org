@@ -1397,6 +1397,20 @@ orgs:
         privacy: closed
         repos:
           rhel-edge-automation-arch: admin
+      rhel-migration:
+        description: Team focused on RHEL migrations
+        maintainers:
+          - andywaltlova
+          - heatmiser
+          - r0x0d
+        members:
+          - djdanielsson
+          - matejbuocik
+          - monnte
+          - solumath
+        privacy: closed
+        repos:
+          infra.convert2rhel: admin
       rhis-builder:
         description: A Red Hat Technology based lab environment suitable for demonstrating a Red Hat opinionated architecture involving automated Standard Operating Environments for Red Hat Enterprise Linux.
         maintainers: []
