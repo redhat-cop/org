@@ -914,6 +914,9 @@ orgs:
             members:
               - gnekic
               - jkupferer
+              - lpanza
+              - oybed
+              - pacopeng
               - sabre1041
             repos:
               declarative-openshift: write
