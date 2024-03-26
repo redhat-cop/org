@@ -22,7 +22,6 @@ orgs:
       - abaird-rh
       - abhijithumbe
       - abikouo
-      - abryson-redhat
       - adamgoossens
       - adetalhouet
       - adlerfleurant
@@ -50,7 +49,6 @@ orgs:
       - brady-spiva
       - branic
       - bszeti
-      - caseyoc
       - cescoffier
       - cgruver
       - chadmf
@@ -72,12 +70,9 @@ orgs:
       - davgordo
       - david-igou
       - day0hero
-      - ddeno
       - deewhyweb
-      - dfwnetman
       - djdanielsson
       - drichtarik
-      - dstockdreher
       - eformat
       - ericzolf
       - erouvas
@@ -127,7 +122,6 @@ orgs:
       - josecastillolema
       - josephassiga
       - jscar-hawk
-      - jtlnguyen
       - jtudelag
       - juliaaano
       - juliovp01
@@ -174,24 +168,19 @@ orgs:
       - monnte
       - mophahr
       - mpetrive-rh
-      - mumeno
       - mvmaestri
       - mwitzenm
       - nasx
       - natelove
-      - neosilicon-redhat
       - newgoliath
       - nickjordan
       - nilashishc
       - noelo
       - nonyno3lle
       - noseka1
-      - nunnchops
-      - otatman
       - pacopeng
       - pamenon
       - parmstro
-      - pathfinder-waffle
       - pauljamesbrown
       - pecorawal
       - perryrivera1
@@ -211,7 +200,6 @@ orgs:
       - rflorenc
       - rhjcd
       - rhodzelmans
-      - rhvinel
       - ribua
       - rmarting
       - rmgrimm
@@ -246,18 +234,15 @@ orgs:
       - tech2734
       - theckang
       - themoosman
-      - thiasant
       - thom-at-redhat
       - thomasmckay
       - thomasphall
-      - tolarewaju3
       - tompage1994
       - tonykay
       - tosmi
       - treddy08
       - trevorbox
       - trishnaguha
-      - trv-rpeoples
       - vaibhavjainwiz
       - varodrig
       - vbroniko
@@ -635,7 +620,6 @@ orgs:
       blockchain-cop:
         description: The Blockchain Community of Practice
         maintainers:
-          - neosilicon-redhat
           - robotsail
         privacy: closed
         repos:
@@ -646,7 +630,6 @@ orgs:
           - erouvas
           - hwurht
           - kmacedovarela
-          - mumeno
           - pamenon
         privacy: closed
         repos:
@@ -658,7 +641,6 @@ orgs:
               - erouvas
               - hwurht
               - kmacedovarela
-              - mumeno
               - pamenon
             privacy: closed
             repos:
@@ -675,12 +657,9 @@ orgs:
           - bbeaudoin
           - beelandc
           - bszeti
-          - caseyoc
           - ckavili
           - davgordo
-          - dfwnetman
           - drichtarik
-          - dstockdreher
           - garethahealy
           - huddlesj
           - ianwatsonrh
@@ -745,7 +724,6 @@ orgs:
               - bbeaudoin
               - beelandc
               - davgordo
-              - dstockdreher
               - huddlesj
               - jaredburck
               - jimdillon
@@ -1306,7 +1284,6 @@ orgs:
         maintainers:
           - sabre1041
         members:
-          - abryson-redhat
           - etsauer
           - infosec812
           - kenwilli
@@ -1317,7 +1294,6 @@ orgs:
           - raffaelespazzoli
           - sbailleu
           - themoosman
-          - tolarewaju3
         privacy: closed
         repos: {}
       openshift-reference-architectures:
@@ -1330,7 +1306,6 @@ orgs:
         members:
           - cmcornejocrespo
           - josephassiga
-          - rhvinel
           - vbroniko
         privacy: closed
         repos:
@@ -1341,8 +1316,7 @@ orgs:
           - cnuland
           - gnekic
           - sabre1041
-        members:
-          - otatman
+        members: []
         privacy: closed
         repos:
           project-initialize-operator: write
