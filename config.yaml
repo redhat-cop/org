@@ -28,7 +28,6 @@ orgs:
       - agonzalezrh
       - ahardin-rh
       - ahsen-shah
-      - aizuddin85
       - aleixhub
       - alinabuzachis
       - andywaltlova
@@ -78,7 +77,6 @@ orgs:
       - erouvas
       - eye0fra
       - fridim
-      - ghyde
       - giofontana
       - gjbianco
       - gnekic
@@ -135,14 +133,12 @@ orgs:
       - kkoller
       - kleesc
       - klewis0928
-      - kmacedovarela
       - kubealex
       - kyetter
       - lautou
       - leethomasrh
       - leoaaraujo
       - levysantanna
-      - lightguard
       - limershein
       - linuxstudio
       - lpanza
@@ -168,7 +164,6 @@ orgs:
       - monnte
       - mophahr
       - mpetrive-rh
-      - mvmaestri
       - mwitzenm
       - nasx
       - natelove
@@ -411,7 +406,6 @@ orgs:
           - cescoffier
           - deewhyweb
           - gregjohnstewart
-          - lightguard
           - rdruss
           - sangeetaraghu
           - smrowley
@@ -631,7 +625,6 @@ orgs:
         maintainers:
           - erouvas
           - hwurht
-          - kmacedovarela
           - pamenon
         privacy: closed
         repos:
@@ -642,7 +635,6 @@ orgs:
             maintainers:
               - erouvas
               - hwurht
-              - kmacedovarela
               - pamenon
             privacy: closed
             repos:
@@ -655,7 +647,6 @@ orgs:
           - sabre1041
         members:
           - abaird-rh
-          - aizuddin85
           - bbeaudoin
           - beelandc
           - bszeti
@@ -849,7 +840,6 @@ orgs:
               - infosec812
               - jtudelag
               - malacourse
-              - mvmaestri
               - noelo
               - raffaelespazzoli
               - springdo
