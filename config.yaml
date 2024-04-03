@@ -186,7 +186,6 @@ orgs:
       - r0x0d
       - radudd
       - raedrizk
-      - rafamqrs
       - raffaelespazzoli
       - raffamendes
       - ranabirchakraborty
@@ -1135,7 +1134,6 @@ orgs:
           - sabre1041
         members:
           - branic
-          - rafamqrs
           - raffamendes
         privacy: closed
         repos:
@@ -1159,7 +1157,6 @@ orgs:
               - sabre1041
             members:
               - branic
-              - rafamqrs
               - raffamendes
             privacy: closed
             repos:
