@@ -176,6 +176,33 @@ orgs:
           - name: ablock
             type: user
             role: admin
+      - name: devspaces-base
+        visibility: public
+        permissions:
+          - name: etsauer
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
+      - name: devspaces-nodejs-18
+        visibility: public
+        permissions:
+          - name: etsauer
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
+      - name: devspaces-openjdk-17
+        visibility: public
+        permissions:
+          - name: etsauer
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
       - name: dynamic-rbac-operator
         visibility: public
         permissions:
