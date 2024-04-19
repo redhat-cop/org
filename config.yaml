@@ -167,12 +167,15 @@ orgs:
       - mwitzenm
       - nasx
       - natelove
+      - neosilicon-redhat
       - newgoliath
       - nickjordan
       - nilashishc
+      - nirarg
       - noelo
       - nonyno3lle
       - noseka1
+      - p3ck
       - pacopeng
       - pamenon
       - parmstro
@@ -310,13 +313,17 @@ orgs:
       agnosticd-core:
         description: Core team members for the agnosticd project.
         maintainers:
+          - 9strands
           - agonzalezrh
+          - d-jana
           - fridim
           - jkupferer
+          - newgoliath
           - prakhar1985
+          - rut31337
           - tonykay
           - wkulhanek
-          - newgoliath
+          - yvarbanov
         members: []
         privacy: closed
         repos:
@@ -565,7 +572,6 @@ orgs:
               - bardielle
               - cidrblock
               - gomathiselvis
-              - goneri
               - gravesm
               - guidograzioli
               - hakbailey
@@ -578,6 +584,8 @@ orgs:
               - matoval
               - maxamillion
               - nilashishc
+              - nirarg
+              - p3ck
               - qalthos
               - ranabirchakraborty
               - resolutecoder
