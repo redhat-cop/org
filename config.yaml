@@ -313,16 +313,14 @@ orgs:
       agnosticd-core:
         description: Core team members for the agnosticd project.
         maintainers:
-          - 9strands
           - agonzalezrh
-          - d-jana
           - fridim
           - jkupferer
+          - newgoliath
           - prakhar1985
           - rut31337
           - tonykay
           - wkulhanek
-          - yvarbanov
         members: []
         privacy: closed
         repos:
@@ -1256,10 +1254,13 @@ orgs:
             maintainers:
               - 9strands
               - ashokjammula1
+              - bbethell-1
+              - d-jana
               - fridim
               - jkupferer
               - newgoliath
               - wkulhanek
+              - yvarbanov
             members:
               - marcosmamorim
               - rut31337
