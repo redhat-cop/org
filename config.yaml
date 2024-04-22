@@ -401,6 +401,27 @@ orgs:
             repos:
               ansible-zipship: write
               ansible-zipship-images: write
+      ansible-openshift-virt-day2:
+        description: "Ansible OpenShift Virtualization Day 2 Ops and Management"
+        maintainers:
+          - vvaldez
+          - bontreger
+          - sabre1041
+        members: []
+        privacy: closed
+        repos:
+          ansible-openshift-virt-day2: admin
+          ansible-openshift-virt-day2: read
+        teams:
+          ansible-openshift-virt-day2-admins:
+            description: Ansible OpenShift Virtualization Day 2 Admins
+            maintainers:
+              - vvaldez
+              - bontreger
+              - sabre1041
+            privacy: closed
+            repos:
+              ansible-openshift-virt-day2: admin
       appdev-cop:
         description: Team for the management of the Application Development CoP
         maintainers:
