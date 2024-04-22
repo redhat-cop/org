@@ -411,7 +411,6 @@ orgs:
         privacy: closed
         repos:
           ansible-openshift-virt-day2: admin
-          ansible-openshift-virt-day2: read
         teams:
           ansible-openshift-virt-day2-admins:
             description: Ansible OpenShift Virtualization Day 2 Admins
