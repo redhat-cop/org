@@ -894,6 +894,7 @@ orgs:
               - oybed
               - pacopeng
               - sabre1041
+              - senthilredhat
             repos:
               declarative-openshift: write
           devspaces:
