@@ -149,6 +149,7 @@ orgs:
       - makirill
       - malacourse
       - mandar242
+      - mannyci
       - marcosmamorim
       - matallen
       - matejbuocik
@@ -161,6 +162,7 @@ orgs:
       - mhjacks
       - mijaros
       - mike4263
+      - mmtktl
       - monnte
       - mophahr
       - mpetrive-rh
@@ -250,6 +252,7 @@ orgs:
       - wilson-walrus
       - wkulhanek
       - wolfc
+      - yigitpolat
       - yvarbanov
     members_can_create_repositories: false
     name: Red Hat Communities of Practice
