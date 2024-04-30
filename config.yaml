@@ -50,6 +50,7 @@ orgs:
       - bszeti
       - cescoffier
       - cgruver
+      - cgwalters
       - chadmf
       - chanoian
       - charles-shaw
@@ -58,6 +59,7 @@ orgs:
       - cidrblock
       - ckavili
       - ckomopou
+      - ckyrouac
       - cmcornejocrespo
       - cnuland
       - cpeters
@@ -106,6 +108,7 @@ orgs:
       - jarcher
       - jayfray12
       - jbride
+      - jeckersb
       - jeffcpullen
       - jeffmcutter
       - jeremyrdavis
@@ -1382,6 +1385,27 @@ orgs:
         privacy: closed
         repos:
           rhdirt: admin
+      rhel-bootc:
+        description: "RHEL bootc"
+        maintainers:
+          - cgwalters
+          - ckyrouac
+          - jeckersb
+          - sabre1041
+        privacy: closed
+        repos:
+          rhel-bootc-examples: read
+        teams:
+          rhel-bootc-mergers:
+            description: "RHEL bootc Mergers"
+            maintainers:
+              - cgwalters
+              - ckyrouac
+              - jeckersb
+              - sabre1041
+            privacy: closed
+            repos:
+              rhel-bootc-examples: write
       rhel-edge-automation-arch:
         description: RHEL for Edge Automation Deployment Architecture
         maintainers:
