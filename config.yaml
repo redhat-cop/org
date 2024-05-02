@@ -29,6 +29,7 @@ orgs:
       - ahardin-rh
       - ahsen-shah
       - aleixhub
+      - aliakkaya7
       - alinabuzachis
       - andywaltlova
       - arnaik-rh
@@ -571,6 +572,7 @@ orgs:
             maintainers: []
             members:
               - abikouo
+              - aliakkaya7
               - alinabuzachis
               - ashwini-mhatre
               - bardielle
@@ -603,6 +605,7 @@ orgs:
             privacy: closed
             repos:
               aap_utilities: write
+              ansible_rekey_variables: admin
               cloud.aws_ops: admin
               cloud.aws_troubleshooting: admin
               cloud.azure_ops: admin
