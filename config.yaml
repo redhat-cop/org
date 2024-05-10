@@ -279,6 +279,7 @@ orgs:
           ansible_middleware_galaxy: admin
           applier-cli: admin
           automate-jcliff: admin
+          businessautomation-cop: admin
           canary: admin
           casl-ansible: admin
           casl-galaxy: admin
@@ -635,25 +636,6 @@ orgs:
         privacy: closed
         repos:
           blockchain-cop: write
-      businessautomation-cop:
-        description: Contributors to the Business Automation CoP
-        maintainers:
-          - erouvas
-          - hwurht
-          - pamenon
-        privacy: closed
-        repos:
-          businessautomation-cop: read
-        teams:
-          businessautomation-cop-mgrs:
-            description: ""
-            maintainers:
-              - erouvas
-              - hwurht
-              - pamenon
-            privacy: closed
-            repos:
-              businessautomation-cop: admin
       container-cop:
         description: Contributors to the Containers & PaaS CoP
         maintainers:
