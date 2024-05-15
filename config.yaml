@@ -36,7 +36,6 @@ orgs:
       - arthomasredhat
       - arvin-a
       - ashokjammula1
-      - ashwini-mhatre
       - bardielle
       - bbeaudoin
       - bbethell-1
@@ -338,7 +337,6 @@ orgs:
       ansible-networking:
         description: Ansible Networking
         maintainers:
-          - ashwini-mhatre
           - cidrblock
           - kb-perbyte
           - nilashishc
@@ -576,7 +574,6 @@ orgs:
               - abikouo
               - aliakkaya7
               - alinabuzachis
-              - ashwini-mhatre
               - bardielle
               - cidrblock
               - gomathiselvis
