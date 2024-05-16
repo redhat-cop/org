@@ -411,8 +411,10 @@ orgs:
       appdev-cop:
         description: Team for the management of the Application Development CoP
         maintainers:
+          - deewhyweb
           - infosec812
           - jeremyrdavis
+          - pamenon
         members:
           - cescoffier
           - deewhyweb
@@ -422,43 +424,16 @@ orgs:
           - smrowley
         privacy: closed
         repo:
+          appdev-cop: admin
           quarkus-scalable-graphql-demo: admin
         teams:
           committers:
             description: ""
             maintainers:
+              - deewhyweb
               - infosec812
               - jeremyrdavis
-            privacy: closed
-          data-streaming:
-            description: ""
-            maintainers:
-              - infosec812
-              - jeremyrdavis
-            privacy: closed
-          microservices:
-            description: ""
-            maintainers:
-              - infosec812
-              - jeremyrdavis
-            privacy: closed
-          mobile:
-            description: ""
-            maintainers:
-              - infosec812
-              - jeremyrdavis
-            privacy: closed
-          modernization:
-            description: ""
-            maintainers:
-              - infosec812
-              - jeremyrdavis
-            privacy: closed
-          reactive:
-            description: ""
-            maintainers:
-              - infosec812
-              - jeremyrdavis
+              - pamenon
             privacy: closed
       auto-docs:
         description: ""
