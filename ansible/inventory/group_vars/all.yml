@@ -152,6 +152,18 @@ orgs:
           - name: pushbot
             type: robot
             role: write
+      - name: cekit-builder
+        visibility: public
+        permissions:
+          - name: etsauer
+            type: user
+            role: admin
+          - name: cgruver
+            type: user
+            role: admin
+          - name: devspaces-images
+            type: robot
+            role: write
       - name: cert-utils-operator
         visibility: public
         permissions:
@@ -182,7 +194,10 @@ orgs:
           - name: etsauer
             type: user
             role: admin
-          - name: pushbot
+          - name: cgruver
+            type: user
+            role: admin
+          - name: devspaces-images
             type: robot
             role: write
       - name: devspaces-nodejs-18
@@ -191,7 +206,10 @@ orgs:
           - name: etsauer
             type: user
             role: admin
-          - name: pushbot
+          - name: cgruver
+            type: user
+            role: admin
+          - name: devspaces-images
             type: robot
             role: write
       - name: devspaces-openjdk-17
@@ -200,7 +218,46 @@ orgs:
           - name: etsauer
             type: user
             role: admin
-          - name: pushbot
+          - name: cgruver
+            type: user
+            role: admin
+          - name: devspaces-images
+            type: robot
+            role: write
+      - name: devspaces-java-node-combined
+        visibility: public
+        permissions:
+          - name: etsauer
+            type: user
+            role: admin
+          - name: cgruver
+            type: user
+            role: admin
+          - name: devspaces-images
+            type: robot
+            role: write
+      - name: devspaces-nested-podman
+        visibility: public
+        permissions:
+          - name: etsauer
+            type: user
+            role: admin
+          - name: cgruver
+            type: user
+            role: admin
+          - name: devspaces-images
+            type: robot
+            role: write
+      - name: devspaces-nested-podman-fedora
+        visibility: public
+        permissions:
+          - name: etsauer
+            type: user
+            role: admin
+          - name: cgruver
+            type: user
+            role: admin
+          - name: devspaces-images
             type: robot
             role: write
       - name: dynamic-rbac-operator
