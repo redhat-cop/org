@@ -908,6 +908,8 @@ orgs:
         description: Image Push Bot for openshift-management
       - name: argocd
         description: Image Push Bot for argocd
+      - name: devspaces-images
+        description: Images push bot for devspaces-images repo
     teams:
       - name: owners
         role: admin
