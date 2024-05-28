@@ -422,7 +422,7 @@ orgs:
           - sangeetaraghu
           - smrowley
         privacy: closed
-        repo:
+        repos:
           appdev-cop: admin
           quarkus-scalable-graphql-demo: admin
         teams:
@@ -434,7 +434,7 @@ orgs:
               - jeremyrdavis
               - pamenon
             privacy: closed
-            repo:
+            repos:
               appdev-cop: admin
               quarkus-scalable-graphql-demo: admin
       auto-docs:
