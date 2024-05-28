@@ -1407,12 +1407,17 @@ orgs:
           rhis-builder-admins:
             description: "rhis-builder repository administrators"
             maintainers:
+              - bkaraoren
               - heatmiser
+              - mannyci
               - parmstro
+              - yigitpolat
             members: []
             privacy: closed
             repos:
               rhis-builder: admin
+              showroom-code: admin
+              showroom-inventory: admin
           rhis-builder-writers:
             description: "rhis-builder repository writers"
             maintainers:
