@@ -40,7 +40,6 @@ orgs:
       - bbeaudoin
       - bbethell-1
       - beelandc
-      - berkeragir
       - bkaraoren
       - bontreger
       - boogiespook
@@ -918,7 +917,6 @@ orgs:
             maintainers:
               - radudd
             members:
-              - berkeragir
               - raffaelespazzoli
               - rflorenc
               - sabre1041
