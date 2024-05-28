@@ -435,6 +435,9 @@ orgs:
               - jeremyrdavis
               - pamenon
             privacy: closed
+            repo:
+              appdev-cop: admin
+              quarkus-scalable-graphql-demo: admin
       auto-docs:
         description: ""
         maintainers:
