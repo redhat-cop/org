@@ -212,6 +212,18 @@ orgs:
           - name: devspaces-images
             type: robot
             role: write
+      - name: devspaces-nodejs-20
+        visibility: public
+        permissions:
+          - name: etsauer
+            type: user
+            role: admin
+          - name: cgruver
+            type: user
+            role: admin
+          - name: devspaces-images
+            type: robot
+            role: write
       - name: devspaces-openjdk-17
         visibility: public
         permissions:
