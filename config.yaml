@@ -154,7 +154,6 @@ orgs:
       - mannyci
       - marcosmamorim
       - matallen
-      - matejbuocik
       - mathianasj
       - matoval
       - mattheh
@@ -1389,7 +1388,6 @@ orgs:
           - r0x0d
         members:
           - djdanielsson
-          - matejbuocik
           - solumath
         privacy: closed
         repos:
