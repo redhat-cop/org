@@ -600,6 +600,7 @@ orgs:
               network.restore: admin
               network.telemetry: admin
               network.vpn: admin
+              quay_configuration: admin
               security.firewall_mgmt: admin
       blockchain-cop:
         description: The Blockchain Community of Practice
