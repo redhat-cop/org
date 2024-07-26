@@ -21,7 +21,7 @@ jobs:
         uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
         
       - name: Run ansible-lint
-        uses: ansible/ansible-lint@v24.7.0
+        uses: ansible/ansible-lint@95382d398ea1744bf6bfa47b030f14c38b3f6957 # v24.7.0
 
       # Manually downgrade Ansible version due to https://github.com/ansible/ansible/issues/81965
       - name: Install Ansible 2.15.4
