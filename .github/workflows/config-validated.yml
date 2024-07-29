@@ -3,6 +3,10 @@ on:
   pull_request:
     paths:
       - "config.yaml"
+
+# Declare default permissions as read only.
+permissions: read-all
+
 jobs:
   config-validated:
     runs-on: ubuntu-latest

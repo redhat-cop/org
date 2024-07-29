@@ -11,6 +11,9 @@ on:
   schedule:
     - cron: "0 3 * * *"
 
+# Declare default permissions as read only.
+permissions: read-all
+
 jobs:
   quay-management:
     name: "Quay Organization Management"
