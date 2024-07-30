@@ -284,6 +284,18 @@ orgs:
           - name: devspaces-images
             type: robot
             role: write
+      - name: devspaces-java21-node20-python311
+        visibility: public
+        permissions:
+          - name: etsauer
+            type: user
+            role: admin
+          - name: cgruver
+            type: user
+            role: admin
+          - name: devspaces-images
+            type: robot
+            role: write
       - name: dynamic-rbac-operator
         visibility: public
         permissions:
