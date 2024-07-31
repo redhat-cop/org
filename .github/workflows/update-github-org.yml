@@ -7,6 +7,10 @@ on:
       - "config.yaml"
     branches:
       - main
+
+# Declare default permissions as read only.
+permissions: read-all
+
 jobs:
   manage-github-org-config-workflow:
     name: manage-github-org-config-workflow
