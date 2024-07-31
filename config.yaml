@@ -1281,6 +1281,14 @@ orgs:
         privacy: closed
         repos:
           openshift-reference-architectures: write
+      partner-ecosystem-certification:
+        description: Partner ecosystem certification team
+        maintainers:
+          - sumitridhal
+        members: []
+        privacy: closed
+        repos:
+          rhcert-automation: write
       project-initializer:
         description: ""
         maintainers:
