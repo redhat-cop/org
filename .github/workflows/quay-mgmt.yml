@@ -26,11 +26,9 @@ jobs:
       - name: Run ansible-lint
         uses: ansible/ansible-lint@95382d398ea1744bf6bfa47b030f14c38b3f6957 # v24.7.0
 
-      # Manually downgrade Ansible version due to https://github.com/ansible/ansible/issues/81965
-      - name: Install Ansible 2.15.4
-        run: pip install "ansible-core==2.15.4"
       - name: Install Dependencies
         run: ansible-galaxy install -r ansible/requirements.yml -p $HOME/roles
+
       - name: Manage Quay Repository
         if: github.event_name == 'push' || github.event_name == 'schedule'
         env:
