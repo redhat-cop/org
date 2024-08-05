@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
 
       - name: Lowercase and sort config.yaml key and values
-        uses: mikefarah/yq@f15500b20a1c991c8729870ba60a4dc3524b6a94 # v4.44.2
+        uses: mikefarah/yq@bbdd97482f2d439126582a59689eb1c855944955 # v4.44.3
         with:
           cmd: yq -i e '(... | select(type == "!!seq"))[] |= downcase' config.yaml && yq -i e '(... | select(type == "!!seq")) |= sort' config.yaml && yq -i 'sort_keys(..)' config.yaml
 
