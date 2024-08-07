@@ -1109,8 +1109,14 @@ orgs:
       flightpath:
         description: FlightPath blueprint for end-to-end automated OpenShift Deployment
         maintainers:
+          - bmarlow
+          - ddreggors
           - jforce
+          - machacekondra
+          - pkliczewski
           - rgoodson-redhat
+          - selrahal
+          - swapdisk
         members: []
         privacy: closed
         repos:
@@ -1119,7 +1125,9 @@ orgs:
           flightpath-admins:
             description: Flightpath Admins
             maintainers:
+              - pkliczewski
               - rgoodson-redhat
+              - selrahal
             privacy: closed
             repos:
               openshift-iac: admin
