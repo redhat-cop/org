@@ -1392,9 +1392,11 @@ orgs:
           - cgwalters
           - ckyrouac
           - jeckersb
+          - kubealex
           - sabre1041
         privacy: closed
         repos:
+          redhat-image-mode-demo: read
           rhel-bootc-examples: read
         teams:
           rhel-bootc-mergers:
@@ -1403,9 +1405,11 @@ orgs:
               - cgwalters
               - ckyrouac
               - jeckersb
+              - kubealex
               - sabre1041
             privacy: closed
             repos:
+              redhat-image-mode-demo: write
               rhel-bootc-examples: write
       rhel-edge-automation-arch:
         description: RHEL for Edge Automation Deployment Architecture
