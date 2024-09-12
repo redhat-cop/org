@@ -1283,6 +1283,26 @@ orgs:
               openshift-lab-origin: admin
               poolboy: admin
               rhdp-monitoring-scripts: admin
+      infra-platform-configuration:
+        description: A collection of roles to manage Ansible Automation Platform
+        maintainers:
+          - brennanpaciorek
+          - djdanielsson
+          - sean-m-sullivan
+          - thedoubl3j
+          - tompage1994
+        members: []
+        privacy: closed
+        repos:
+          infra.platform_configuration: write
+        teams:
+          infra-platform-configuration-admins:
+            description: infra.platform_configuration Admins
+            maintainers:
+              - brennanpaciorek
+            privacy: closed
+            repos:
+              infra.platform_configuration: admin
       mdt:
         description: Metrics Driven Transformation
         maintainers:
