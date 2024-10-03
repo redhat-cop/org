@@ -17,6 +17,8 @@ orgs:
     has_repository_projects: true
     location: ""
     members:
+      - YoNoSoyVictor #Victor #RHPDS
+      - andrew-jones #Andrew Jones RHPDS
       - 9strands
       - a-beck
       - abaird-rh
