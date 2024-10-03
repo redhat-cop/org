@@ -29,12 +29,12 @@ orgs:
       - agonzalezrh
       - ahardin-rh
       - ahsen-shah
-      - andrew-jones
       - akasurde
       - aleixhub
       - aliakkaya7
       - alinabuzachis
       - ally-jarrett
+      - andrew-jones
       - andywaltlova
       - arnaik-rh
       - arthomasredhat
@@ -263,8 +263,8 @@ orgs:
       - wilson-walrus
       - wkulhanek
       - wolfc
-      - YoNoSoyVictor
       - yigitpolat
+      - yonosoyvictor
       - yvarbanov
     members_can_create_repositories: false
     name: Red Hat Communities of Practice
