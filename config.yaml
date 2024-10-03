@@ -17,8 +17,6 @@ orgs:
     has_repository_projects: true
     location: ""
     members:
-      - YoNoSoyVictor #Victor #RHPDS
-      - andrew-jones #Andrew Jones RHPDS
       - 9strands
       - a-beck
       - abaird-rh
@@ -31,6 +29,7 @@ orgs:
       - agonzalezrh
       - ahardin-rh
       - ahsen-shah
+      - andrew-jones
       - akasurde
       - aleixhub
       - aliakkaya7
@@ -264,6 +263,7 @@ orgs:
       - wilson-walrus
       - wkulhanek
       - wolfc
+      - YoNoSoyVictor
       - yigitpolat
       - yvarbanov
     members_can_create_repositories: false
