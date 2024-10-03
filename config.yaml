@@ -23,7 +23,6 @@ orgs:
       - abhijithumbe
       - abikouo
       - adamgoossens
-      - adetalhouet
       - adlerfleurant
       - adonisgarciac
       - agonzalezrh
@@ -48,7 +47,6 @@ orgs:
       - bontreger
       - boogiespook
       - bosebc
-      - brady-spiva
       - branic
       - brennanpaciorek
       - bszeti
@@ -376,7 +374,6 @@ orgs:
         maintainers:
           - a-beck
           - bontreger
-          - brady-spiva
           - jeffcpullen
           - kyetter
           - sabre1041
@@ -391,7 +388,6 @@ orgs:
             maintainers:
               - a-beck
               - bontreger
-              - brady-spiva
               - jeffcpullen
               - kyetter
               - sabre1041
@@ -406,7 +402,6 @@ orgs:
             maintainers:
               - a-beck
               - bontreger
-              - brady-spiva
               - jeffcpullen
               - kyetter
               - sabre1041
@@ -915,7 +910,6 @@ orgs:
               gitops-wg-mergers:
                 description: "GitOps Working Group Mergers"
                 maintainers:
-                  - adetalhouet
                   - gnunn1
                   - pittar
                   - raffaelespazzoli
