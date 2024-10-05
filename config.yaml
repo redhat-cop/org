@@ -481,6 +481,7 @@ orgs:
         privacy: closed
         repos:
           aap_config_as_code_docs: write
+          aap_configuration_extended: write
           aap_configuration_template: write
           aap_utilities: write
           ansible_collections_tooling: write
@@ -497,6 +498,7 @@ orgs:
           ee_utilities: write
           elk_automation: write
           hardware_automation_collection: write
+          infra.controller_configuration: write
           infra.leapp: write
           molecule_cicd_automation: write
         teams:
@@ -529,6 +531,7 @@ orgs:
               ee_utilities: admin
               elk_automation: admin
               hardware_automation_collection: admin
+              infra.controller_configuration: admin
               molecule_cicd_automation: admin
           automation-cop-tower-mgrs:
             description: AAP Config as Code managers
@@ -540,12 +543,14 @@ orgs:
             privacy: closed
             repos:
               aap_config_as_code_docs: admin
+              aap_configuration_extended: admin
               aap_configuration_template: admin
               aap_utilities: admin
               ansible_collections_tooling: admin
               controller_configuration: admin
               eda_configuration: admin
               ee_utilities: admin
+              infra.controller_configuration: admin
           validated-content-curators:
             description: Validated Content Contributors
             maintainers: []
@@ -598,6 +603,7 @@ orgs:
               controller_configuration: write
               edge.microshift: admin
               ee_utilities: write
+              infra.controller_configuration: write
               infra.leapp: admin
               infra.osbuild: admin
               middleware_ocpv: admin
