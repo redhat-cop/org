@@ -493,11 +493,11 @@ orgs:
           automation-good-practices: write
           cloud_provision_automation_collection: write
           common-automation: write
-          infra.aap_configuration: write
           eda_configuration: write
           ee_utilities: write
           elk_automation: write
           hardware_automation_collection: write
+          infra.aap_configuration: write
           infra.controller_configuration: write
           infra.leapp: write
           molecule_cicd_automation: write
@@ -526,11 +526,11 @@ orgs:
               automation-good-practices: admin
               cloud_provision_automation_collection: admin
               common-automation: admin
-              infra.aap_configuration: admin
               eda_configuration: admin
               ee_utilities: admin
               elk_automation: admin
               hardware_automation_collection: admin
+              infra.aap_configuration: admin
               infra.controller_configuration: admin
               molecule_cicd_automation: admin
           automation-cop-tower-mgrs:
@@ -547,9 +547,9 @@ orgs:
               aap_configuration_template: admin
               aap_utilities: admin
               ansible_collections_tooling: admin
-              infra.aap_configuration: admin
               eda_configuration: admin
               ee_utilities: admin
+              infra.aap_configuration: admin
               infra.controller_configuration: admin
           validated-content-curators:
             description: Validated Content Contributors
@@ -600,9 +600,9 @@ orgs:
               cloud.gcp_ops: admin
               cloud.terraform_ops: admin
               cloud.vmware_ops: admin
-              infra.aap_configuration: write
               edge.microshift: admin
               ee_utilities: write
+              infra.aap_configuration: write
               infra.controller_configuration: write
               infra.leapp: admin
               infra.osbuild: admin
