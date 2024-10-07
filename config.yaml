@@ -493,7 +493,7 @@ orgs:
           automation-good-practices: write
           cloud_provision_automation_collection: write
           common-automation: write
-          controller_configuration: write
+          infra.aap_configuration: write
           eda_configuration: write
           ee_utilities: write
           elk_automation: write
@@ -526,7 +526,7 @@ orgs:
               automation-good-practices: admin
               cloud_provision_automation_collection: admin
               common-automation: admin
-              controller_configuration: admin
+              infra.aap_configuration: admin
               eda_configuration: admin
               ee_utilities: admin
               elk_automation: admin
@@ -547,7 +547,7 @@ orgs:
               aap_configuration_template: admin
               aap_utilities: admin
               ansible_collections_tooling: admin
-              controller_configuration: admin
+              infra.aap_configuration: admin
               eda_configuration: admin
               ee_utilities: admin
               infra.controller_configuration: admin
@@ -600,7 +600,7 @@ orgs:
               cloud.gcp_ops: admin
               cloud.terraform_ops: admin
               cloud.vmware_ops: admin
-              controller_configuration: write
+              infra.aap_configuration: write
               edge.microshift: admin
               ee_utilities: write
               infra.controller_configuration: write
