@@ -1472,20 +1472,6 @@ orgs:
         privacy: closed
         repos: {}
         teams:
-          rhis-builder-admins:
-            description: "rhis-builder repository administrators"
-            maintainers:
-              - bkaraoren
-              - heatmiser
-              - mannyci
-              - parmstro
-              - yigitpolat
-            members: []
-            privacy: closed
-            repos:
-              rhis-builder: admin
-              showroom-code: admin
-              showroom-inventory: admin
           rhis-builder-writers:
             description: "rhis-builder repository writers"
             maintainers:
@@ -1495,6 +1481,21 @@ orgs:
             privacy: closed
             repos:
               rhis-builder: write
+          rhis-code-admins:
+            description: "rhis-code repository administrators"
+            maintainers:
+              - bkaraoren
+              - heatmiser
+              - mannyci
+              - mhjacks
+              - mmtktl
+              - parmstro
+              - yigitpolat
+            members: []
+            privacy: closed
+            repos:
+              rhis-code: admin
+              rhis-inventory: admin
       serverlessworkflow-decisioning-cop:
         description: Contributors to the ServerlessWorkFlow & Decisioning CoP
         maintainers:
