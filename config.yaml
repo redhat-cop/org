@@ -1185,6 +1185,7 @@ orgs:
           - 9strands
           - ahsen-shah
           - aleixhub
+          - andrew-jones
           - ashokjammula1
           - bbethell-1
           - bosebc
@@ -1220,6 +1221,7 @@ orgs:
             maintainers:
               - 9strands
               - aleixhub
+              - andrew-jones
               - ashokjammula1
               - fridim
               - jkupferer
@@ -1242,6 +1244,7 @@ orgs:
                   - 9strands
                   - ahsen-shah
                   - aleixhub
+                  - andrew-jones
                   - ashokjammula1
                   - d-jana
                   - fridim
@@ -1261,6 +1264,7 @@ orgs:
             description: "GPTE Admin Team"
             maintainers:
               - 9strands
+              - andrew-jones
               - ashokjammula1
               - bbethell-1
               - d-jana
