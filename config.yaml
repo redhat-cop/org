@@ -1129,6 +1129,8 @@ orgs:
         privacy: closed
         repos:
           openshift-iac: write
+          openshift-iac-acm: write
+          openshift-iac-landing-zones: write
         teams:
           flightpath-admins:
             description: Flightpath Admins
@@ -1139,6 +1141,8 @@ orgs:
             privacy: closed
             repos:
               openshift-iac: admin
+              openshift-iac-acm: admin
+              openshift-iac-landing-zones: admin
       giveback-program:
         description: ""
         maintainers:
