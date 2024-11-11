@@ -464,6 +464,7 @@ orgs:
       automation-cop-members:
         description: ""
         maintainers:
+          - bontreger
           - djdanielsson
           - ericzolf
           - jeffmcutter
@@ -508,6 +509,7 @@ orgs:
           automation-cop-mgrs:
             description: ""
             maintainers:
+              - bontreger
               - djdanielsson
               - ericzolf
               - jeffmcutter
