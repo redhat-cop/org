@@ -9,24 +9,24 @@ on:
         type: boolean
       GHPROXY_IMAGE:
         description: "GHProxy Image"
-        default: "gcr.io/k8s-prow/ghproxy"
+        default: "us-docker.pkg.dev/k8s-infra-prow/images/ghproxy"
         required: false
         type: string
       GHPROXY_IMAGE_VERSION:
         description: "GHProxy Image Version"
-        # renovate: datasource=docker depName=ghproxy lookupName=gcr.io/k8s-prow/ghproxy versioning=loose
-        default: "v20240805-533a2035d"
+        # renovate: datasource=docker depName=ghproxy lookupName=us-docker.pkg.dev/k8s-infra-prow/images/ghproxy versioning=loose
+        default: "v20241021-9efd512d9"
         required: false
         type: string
       PERIBOLOS_IMAGE:
         description: "Peribolos Image"
-        default: "gcr.io/k8s-prow/peribolos"
+        default: "us-docker.pkg.dev/k8s-infra-prow/images/peribolos"
         required: false
         type: string
       PERIBOLOS_IMAGE_VERSION:
         description: "Peribolos Image Version"
-        # renovate: datasource=docker depName=peribolos lookupName=gcr.io/k8s-prow/peribolos versioning=loose
-        default: "v20240805-533a2035d"
+        # renovate: datasource=docker depName=peribolos lookupName=us-docker.pkg.dev/k8s-infra-prow/images/peribolos versioning=loose
+        default: "v20241021-9efd512d9"
         required: false
         type: string
     secrets:
