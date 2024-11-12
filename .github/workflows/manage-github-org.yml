@@ -36,6 +36,7 @@ on:
 
 env:
   PERIBOLOS_TOKEN: ${{ secrets.PERIBOLOS_TOKEN }}
+  PKG_DEV_KEY: ${{ secrets.PKG_DEV_KEY }}
   GHPROXY_IMAGE: ${{ inputs.GHPROXY_IMAGE }}
   GHPROXY_IMAGE_VERSION: ${{ inputs.GHPROXY_IMAGE_VERSION }}
   PERIBOLOS_IMAGE: ${{ inputs.PERIBOLOS_IMAGE }}
@@ -71,6 +72,8 @@ jobs:
         run: |
           echo ${{ env.PERIBOLOS_TOKEN }} > $RUNNER_TEMP/token
 
+          echo "${{ env.PKG_DEV_KEY }}" | docker login us-docker.pkg.dev --username _json_key_base64 --password-stdin
+          
           docker run --rm \
             --network=${{ env.DOCKER_NETWORK }} \
             -v $RUNNER_TEMP/token:/etc/github/token \
