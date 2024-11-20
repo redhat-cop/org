@@ -217,6 +217,7 @@ orgs:
       - robertsandoval
       - robotsail
       - rohitthakur2590
+      - ronger4
       - roverflow
       - rpelisse
       - ruchip16
@@ -230,6 +231,7 @@ orgs:
       - senthilredhat
       - seravat
       - shah-zobair
+      - shahargolshani
       - silvinux
       - smrowley
       - solumath
@@ -262,6 +264,7 @@ orgs:
       - wilson-walrus
       - wkulhanek
       - wolfc
+      - yaish25491
       - yigitpolat
       - yonosoyvictor
       - yvarbanov
@@ -589,12 +592,15 @@ orgs:
               - resolutecoder
               - rhodzelmans
               - rohitthakur2590
+              - ronger4
               - rpelisse
               - sabre1041
+              - shahargolshani
               - thom-at-redhat
               - tompage1994
               - trishnaguha
               - wolfc
+              - yaish25491
             privacy: closed
             repos:
               aap_utilities: write
@@ -611,6 +617,7 @@ orgs:
               infra.controller_configuration: write
               infra.leapp: admin
               infra.osbuild: admin
+              infra.windows_ops: admin
               middleware_ocpv: admin
               network.acls: admin
               network.backup: admin
