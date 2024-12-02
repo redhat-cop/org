@@ -33,6 +33,9 @@ on:
       PERIBOLOS_TOKEN:
         description: "Github PAT Token"
         required: true
+      PKG_DEV_KEY:
+        description: "pkg.dev Token"
+        required: true
 
 env:
   PERIBOLOS_TOKEN: ${{ secrets.PERIBOLOS_TOKEN }}

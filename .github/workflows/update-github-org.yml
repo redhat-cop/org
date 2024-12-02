@@ -17,5 +17,6 @@ jobs:
     uses: redhat-cop/org/.github/workflows/manage-github-org.yml@main
     secrets:
       PERIBOLOS_TOKEN: ${{ secrets.PERIBOLOS_TOKEN }}
+      PKG_DEV_KEY: ${{ secrets.PKG_DEV_KEY }}
     with:
       APPLY_CHANGES: true
