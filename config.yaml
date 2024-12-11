@@ -56,7 +56,6 @@ orgs:
       - cgwalters
       - chadmf
       - chanoian
-      - charles-shaw
       - chofstede
       - cidrblock
       - ckavili
@@ -1496,7 +1495,6 @@ orgs:
           rhis-builder-writers:
             description: "rhis-builder repository writers"
             maintainers:
-              - charles-shaw
               - mhjacks
             members: []
             privacy: closed
