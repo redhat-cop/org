@@ -17,6 +17,7 @@ orgs:
     has_repository_projects: true
     location: ""
     members:
+      - 0atest
       - 9strands
       - a-beck
       - abaird-rh
