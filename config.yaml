@@ -1446,6 +1446,7 @@ orgs:
           - sabre1041
         privacy: closed
         repos:
+          redhat-image-mode-actions: read
           redhat-image-mode-demo: read
           rhel-bootc-examples: read
         teams:
@@ -1460,6 +1461,7 @@ orgs:
               - sabre1041
             privacy: closed
             repos:
+              redhat-image-mode-actions: write
               redhat-image-mode-demo: write
               rhel-bootc-examples: write
       rhel-edge-automation-arch:
