@@ -14,18 +14,12 @@ orgs:
       - name: alertmanager-telegram-gateway
         visibility: public
         permissions:
-          - name: mzali
-            type: user
-            role: admin
           - name: pushbot
             type: robot
             role: write
       - name: alertmanager-line-gateway
         visibility: public
         permissions:
-          - name: mzali
-            type: user
-            role: admin
           - name: pushbot
             type: robot
             role: write
@@ -311,9 +305,6 @@ orgs:
       - name: dynamic-rbac-operator
         visibility: public
         permissions:
-          - name: jacobsee
-            type: user
-            role: admin
           - name: pushbot
             type: robot
             role: write
@@ -788,9 +779,6 @@ orgs:
       - name: resource-dispatcher
         visibility: public
         permissions:
-          - name: jacobsee
-            type: user
-            role: admin
           - name: pushbot
             type: robot
             role: write
@@ -983,6 +971,4 @@ orgs:
       - name: monitoring
         role: member
         members:
-          - name: jacobsee
-          - name: jfilipcz
           - name: obedin
