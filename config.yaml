@@ -34,7 +34,6 @@ orgs:
       - alinabuzachis
       - ally-jarrett
       - andrew-jones
-      - andywaltlova
       - arnaik-rh
       - arthomasredhat
       - arvin-a
@@ -1483,7 +1482,6 @@ orgs:
       rhel-migration:
         description: Team focused on RHEL migrations
         maintainers:
-          - andywaltlova
           - heatmiser
           - r0x0d
         members:
