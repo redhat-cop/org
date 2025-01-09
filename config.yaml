@@ -1569,3 +1569,37 @@ orgs:
         privacy: closed
         repos:
           testing-cop: admin
+      rhel-cop:
+        description: "Red Hat Enterprise Linux Community of Practice"
+        maintainers:
+          - mglantz
+          - heatmiser
+          - gonoph
+          - Ricker42
+        members: []
+        privacy: closed
+        repos:
+          rhel-good-practices: admin
+        teams:
+          rhel-cop-mgrs:
+            description: ""
+            maintainers:
+              - mglantz
+              - heatmiser
+              - gonoph
+              - Ricker42
+            members: []
+            privacy: closed
+            repos:
+              rhel-good-practices: admin
+          rhel-good-practices-authors:
+            description: ""
+            maintainers:
+              - mglantz
+              - heatmiser
+            members:
+              - kubealex
+              - deplist
+            privacy: closed
+            repos:
+              rhel-good-practices: write
