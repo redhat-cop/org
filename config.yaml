@@ -1466,6 +1466,40 @@ orgs:
               redhat-image-mode-actions: write
               redhat-image-mode-demo: write
               rhel-bootc-examples: write
+      rhel-cop:
+        description: "Red Hat Enterprise Linux Community of Practice"
+        maintainers:
+          - gonoph
+          - heatmiser
+          - mglantz
+          - ricker42
+        members: []
+        privacy: closed
+        repos:
+          rhel-good-practices: admin
+        teams:
+          rhel-cop-mgrs:
+            description: ""
+            maintainers:
+              - gonoph
+              - heatmiser
+              - mglantz
+              - ricker42
+            members: []
+            privacy: closed
+            repos:
+              rhel-good-practices: admin
+          rhel-good-practices-authors:
+            description: ""
+            maintainers:
+              - heatmiser
+              - mglantz
+            members:
+              - deplist
+              - kubealex
+            privacy: closed
+            repos:
+              rhel-good-practices: write
       rhel-edge-automation-arch:
         description: RHEL for Edge Automation Deployment Architecture
         maintainers:
