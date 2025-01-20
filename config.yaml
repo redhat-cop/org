@@ -1494,9 +1494,9 @@ orgs:
             maintainers:
               - heatmiser
               - mglantz
-            members:
               - deplist
               - kubealex
+            members: []
             privacy: closed
             repos:
               rhel-good-practices: write
