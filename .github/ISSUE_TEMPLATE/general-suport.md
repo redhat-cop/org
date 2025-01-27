@@ -24,4 +24,3 @@ Name of users or teams that are affected by the issue.
 Review request:
 
 cc: @redhat-cop/container-cop-core
-

@@ -28,7 +28,7 @@ jobs:
         if: steps.changes.outputs.changed >= 1
         run: |
           echo "Uncommitted changes to config.yaml exist. Failing."
-          echo 
+          echo
           git status --porcelain
-          git --no-pager diff config.yaml 
+          git --no-pager diff config.yaml
           exit 1
