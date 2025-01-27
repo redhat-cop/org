@@ -76,6 +76,7 @@ orgs:
       - ddreggors
       - deewhyweb
       - deplist
+      - dfajmon
       - djdanielsson
       - drichtarik
       - eformat
@@ -237,7 +238,6 @@ orgs:
       - shahargolshani
       - silvinux
       - smrowley
-      - solumath
       - springdo
       - stencell
       - stephennimmo
@@ -1526,8 +1526,8 @@ orgs:
           - heatmiser
           - r0x0d
         members:
+          - dfajmon
           - djdanielsson
-          - solumath
         privacy: closed
         repos:
           infra.convert2rhel: admin
