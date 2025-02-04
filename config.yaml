@@ -1299,6 +1299,7 @@ orgs:
             members:
               - marcosmamorim
               - rut31337
+              - stencell
             privacy: closed
             repos:
               agnosticd: admin
