@@ -1228,14 +1228,12 @@ orgs:
         repos:
           agnosticd: write
           agnosticv: read
-          anarchy: read
           babylon: read
           babylon-events-console: read
           classroom: write
           k8s_config: read
           openshift-infra-skel: read
           openshift-lab-origin: write
-          poolboy: read
         teams:
           babylon:
             description: "Babylon Team"
@@ -1253,11 +1251,9 @@ orgs:
             privacy: closed
             repos:
               agnosticv: write
-              anarchy: write
               babylon: write
               babylon-events-console: write
               k8s_config: write
-              poolboy: write
             teams:
               babylon-admins:
                 description: "Babylon Team Administrators"
@@ -1275,12 +1271,10 @@ orgs:
                 repos:
                   agnostics: admin
                   agnosticv: admin
-                  anarchy: admin
                   babylon: admin
                   babylon-events-console: admin
                   babylon_agnostics: admin
                   k8s_config: admin
-                  poolboy: admin
           gpte-admins:
             description: "GPTE Admin Team"
             maintainers:
@@ -1304,7 +1298,6 @@ orgs:
             repos:
               agnosticd: admin
               agnostics: admin
-              anarchy: admin
               babylon: admin
               babylon-events-console: admin
               babylon_agnostics: admin
@@ -1312,7 +1305,6 @@ orgs:
               k8s_config: admin
               openshift-infra-skel: admin
               openshift-lab-origin: admin
-              poolboy: admin
               rhdp-monitoring-scripts: admin
       infra-platform-configuration:
         description: A collection of roles to manage Ansible Automation Platform
