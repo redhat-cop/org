@@ -29,11 +29,10 @@ Name of the user(s) and the roles that should be applied (member or maintainer
 
 ### Repositories
 
-Name of the repositories that this team should be part of. If the user requesting this team is not a member of the referenced repository, provide the name of the user to contact to approve. 
+Name of the repositories that this team should be part of. If the user requesting this team is not a member of the referenced repository, provide the name of the user to contact to approve.
 
 ---
 
 Review request:
 
 cc: @redhat-cop/container-cop-core
-
