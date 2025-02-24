@@ -1317,6 +1317,7 @@ orgs:
         members: []
         privacy: closed
         repos:
+          infra.ansible_validated_workflows: write
           infra.platform_configuration: write
         teams:
           infra-platform-configuration-admins:
@@ -1325,6 +1326,7 @@ orgs:
               - brennanpaciorek
             privacy: closed
             repos:
+              infra.ansible_validated_workflows: admin
               infra.platform_configuration: admin
       mdt:
         description: Metrics Driven Transformation
