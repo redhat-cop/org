@@ -18,6 +18,9 @@ yq -i e '(... | select(type == "!!seq")) |= sort' config.yaml && \
 yq -i 'sort_keys(..)' config.yaml
 ```
 
-### Support
+### Management and Support
 
-Need support? Open an [issue](https://github.com/redhat-cop/org/issues).
+Need to manage repositories, teams, permissions or any other kind of support?
+
+If you don't know how to do it with a pull request yourself, or hesitate,
+open an [issue](https://github.com/redhat-cop/org/issues) and select the appropriate type.
