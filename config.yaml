@@ -1435,35 +1435,6 @@ orgs:
         privacy: closed
         repos:
           rhdirt: admin
-      rhel-bootc:
-        description: "RHEL bootc"
-        maintainers:
-          - cgwalters
-          - ckyrouac
-          - jeckersb
-          - kubealex
-          - nzwulfin
-          - sabre1041
-        privacy: closed
-        repos:
-          redhat-image-mode-actions: read
-          redhat-image-mode-demo: read
-          rhel-bootc-examples: read
-        teams:
-          rhel-bootc-mergers:
-            description: "RHEL bootc Mergers"
-            maintainers:
-              - cgwalters
-              - ckyrouac
-              - jeckersb
-              - kubealex
-              - nzwulfin
-              - sabre1041
-            privacy: closed
-            repos:
-              redhat-image-mode-actions: write
-              redhat-image-mode-demo: write
-              rhel-bootc-examples: write
       rhel-cop:
         description: "Red Hat Enterprise Linux Community of Practice"
         maintainers:
@@ -1498,22 +1469,59 @@ orgs:
             privacy: closed
             repos:
               rhel-good-practices: write
-      rhel-edge-automation-arch:
-        description: RHEL for Edge Automation Deployment Architecture
+      edge-readers:
+        description: Edge repos readers
         maintainers:
-          - jordigilh
-          - nasx
+          - cgwalters
+          - ckyrouac
+          - jeckersb
+          - kubealex
+          - nzwulfin
           - sabre1041
-        members:
-          - chadmf
-          - jarcher
-          - raedrizk
-          - samueltauil
-          - stephennimmo
-          - thomasphall
         privacy: closed
         repos:
-          rhel-edge-automation-arch: admin
+          redhat-image-mode-actions: read
+          redhat-image-mode-demo: read
+          rhel-bootc-examples: read
+          infra.image_mode: write
+        teams:
+          edge-devels:
+            description: Edge repos developers
+            maintainers:
+              - cgwalters
+              - ckyrouac
+              - jeckersb
+              - kubealex
+              - nzwulfin
+              - sabre1041
+              - ericzolf
+              - claudiol
+            privacy: closed
+            repos:
+              redhat-image-mode-actions: write
+              redhat-image-mode-demo: write
+              rhel-bootc-examples: write
+              edge.image_mode: write
+            teams:
+              edge-admins:
+                description: Edge repos administrators
+                maintainers:
+                  - jordigilh
+                  - nasx
+                  - sabre1041
+                  - ericzolf
+                  - claudiol
+                members:
+                  - chadmf
+                  - jarcher
+                  - raedrizk
+                  - samueltauil
+                  - stephennimmo
+                  - thomasphall
+                privacy: closed
+                repos:
+                  edge.image_mode: admin
+                  rhel-edge-automation-arch: admin
       rhel-migration:
         description: Team focused on RHEL migrations
         maintainers:
