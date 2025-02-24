@@ -32,4 +32,3 @@ Any additional information or context to describe the use case.
 Review request:
 
 cc: @redhat-cop/container-cop-core
-
