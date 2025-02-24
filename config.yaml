@@ -746,6 +746,7 @@ orgs:
                 privacy: closed
                 repos:
                   declarative-openshift: write
+                  git-flow: admin
                   gows: write
                   openshift-toolkit: admin
           casl:
