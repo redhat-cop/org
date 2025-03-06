@@ -20,6 +20,7 @@ orgs:
       - 9strands
       - a-beck
       - abaird-rh
+      - abenavid
       - abikouo
       - adamgoossens
       - adlerfleurant
@@ -263,6 +264,7 @@ orgs:
       - vbroniko
       - victorock
       - vvaldez
+      - wbentley15
       - welshstew
       - wilson-walrus
       - wkulhanek
@@ -348,6 +350,16 @@ orgs:
         privacy: closed
         repos:
           agnosticd: admin
+      ansible-library:
+        description: Ansible Library
+        maintainers:
+          - abenavid
+          - tech2734
+          - wbentley15
+        members: []
+        privacy: closed
+        repos:
+          ansible-library: admin
       ansible-networking:
         description: Ansible Networking
         maintainers:
