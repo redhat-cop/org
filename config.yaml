@@ -1129,8 +1129,8 @@ orgs:
         privacy: closed
         repos:
           disconnectedinfra: admin
-      edge-readers:
-        description: Edge repos readers
+      edge-automation:
+        description: Edge repos automation
         maintainers:
           - cgwalters
           - ckyrouac
@@ -1139,11 +1139,7 @@ orgs:
           - nzwulfin
           - sabre1041
         privacy: closed
-        repos:
-          infra.image_mode: write
-          redhat-image-mode-actions: read
-          redhat-image-mode-demo: read
-          rhel-bootc-examples: read
+        repos: {}
         teams:
           edge-devels:
             description: Edge repos developers
@@ -1162,26 +1158,25 @@ orgs:
               redhat-image-mode-actions: write
               redhat-image-mode-demo: write
               rhel-bootc-examples: write
-            teams:
-              edge-admins:
-                description: Edge repos administrators
-                maintainers:
-                  - claudiol
-                  - ericzolf
-                  - jordigilh
-                  - nasx
-                  - sabre1041
-                members:
-                  - chadmf
-                  - jarcher
-                  - raedrizk
-                  - samueltauil
-                  - stephennimmo
-                  - thomasphall
-                privacy: closed
-                repos:
-                  edge.image_mode: admin
-                  rhel-edge-automation-arch: admin
+          edge-admins:
+            description: Edge repos administrators
+            maintainers:
+              - claudiol
+              - ericzolf
+              - jordigilh
+              - nasx
+              - sabre1041
+            members:
+              - chadmf
+              - jarcher
+              - raedrizk
+              - samueltauil
+              - stephennimmo
+              - thomasphall
+            privacy: closed
+            repos:
+              edge.image_mode: admin
+              rhel-edge-automation-arch: admin
       flightpath:
         description: FlightPath blueprint for end-to-end automated OpenShift Deployment
         maintainers:
