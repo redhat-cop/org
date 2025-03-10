@@ -1490,10 +1490,10 @@ orgs:
           rhel-good-practices-authors:
             description: ""
             maintainers:
-              - heatmiser
-              - mglantz
               - deplist
+              - heatmiser
               - kubealex
+              - mglantz
             members: []
             privacy: closed
             repos:
