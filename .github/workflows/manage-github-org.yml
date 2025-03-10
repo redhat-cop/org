@@ -76,7 +76,7 @@ jobs:
           echo ${{ env.PERIBOLOS_TOKEN }} > $RUNNER_TEMP/token
 
           echo "${{ env.PKG_DEV_KEY }}" | docker login us-docker.pkg.dev --username _json_key_base64 --password-stdin
-          
+
           docker run --rm \
             --network=${{ env.DOCKER_NETWORK }} \
             -v $RUNNER_TEMP/token:/etc/github/token \

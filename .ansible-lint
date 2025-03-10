@@ -9,4 +9,5 @@ profile: production
 exclude_paths:
   - .github/
   - .ansible-lint
+  - .pre-commit-config.yaml
   - config.yaml
