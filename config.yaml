@@ -1129,6 +1129,54 @@ orgs:
         privacy: closed
         repos:
           disconnectedinfra: admin
+      edge-automation:
+        description: Edge repos automation
+        maintainers:
+          - cgwalters
+          - ckyrouac
+          - jeckersb
+          - kubealex
+          - nzwulfin
+          - sabre1041
+        privacy: closed
+        repos: {}
+        teams:
+          edge-admins:
+            description: Edge repos administrators
+            maintainers:
+              - claudiol
+              - ericzolf
+              - jordigilh
+              - nasx
+              - sabre1041
+            members:
+              - chadmf
+              - jarcher
+              - raedrizk
+              - samueltauil
+              - stephennimmo
+              - thomasphall
+            privacy: closed
+            repos:
+              edge.image_mode: admin
+              rhel-edge-automation-arch: admin
+          edge-devels:
+            description: Edge repos developers
+            maintainers:
+              - cgwalters
+              - ckyrouac
+              - claudiol
+              - ericzolf
+              - jeckersb
+              - kubealex
+              - nzwulfin
+              - sabre1041
+            privacy: closed
+            repos:
+              edge.image_mode: write
+              redhat-image-mode-actions: write
+              redhat-image-mode-demo: write
+              rhel-bootc-examples: write
       flightpath:
         description: FlightPath blueprint for end-to-end automated OpenShift Deployment
         maintainers:

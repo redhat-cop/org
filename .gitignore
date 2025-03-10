@@ -1,1 +1,4 @@
 .idea/
+# Vim temporary and backup files
+.*.swp
+*~
