@@ -1517,6 +1517,22 @@ orgs:
             privacy: closed
             repos:
               rhel-good-practices: write
+      rhel-edge-automation-arch:
+        description: RHEL for Edge Automation Deployment Architecture
+        maintainers:
+          - jordigilh
+          - nasx
+          - sabre1041
+        members:
+          - chadmf
+          - jarcher
+          - raedrizk
+          - samueltauil
+          - stephennimmo
+          - thomasphall
+        privacy: closed
+        repos:
+          rhel-edge-automation-arch: admin
       rhel-migration:
         description: Team focused on RHEL migrations
         maintainers:
