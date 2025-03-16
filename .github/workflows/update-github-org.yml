@@ -14,6 +14,7 @@ permissions: read-all
 jobs:
   manage-github-org-config-workflow:
     name: manage-github-org-config-workflow
+    if: "github.repository == 'redhat-cop/org'"
     uses: redhat-cop/org/.github/workflows/manage-github-org.yml@main
     secrets:
       PERIBOLOS_TOKEN: ${{ secrets.PERIBOLOS_TOKEN }}
