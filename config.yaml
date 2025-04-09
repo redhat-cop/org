@@ -179,6 +179,7 @@ orgs:
       - mophahr
       - mpetrive-rh
       - mwitzenm
+      - myllynen
       - nasx
       - natelove
       - neosilicon-redhat
@@ -190,6 +191,7 @@ orgs:
       - nonyno3lle
       - noseka1
       - nzwulfin
+      - opuk
       - p3ck
       - pacopeng
       - pamenon
@@ -1527,6 +1529,8 @@ orgs:
               - heatmiser
               - kubealex
               - mglantz
+              - myllynen
+              - opuk
             members: []
             privacy: closed
             repos:
