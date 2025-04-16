@@ -1267,6 +1267,7 @@ orgs:
           - wkulhanek
         members:
           - 9strands
+          - agonzalezrh
           - ahsen-shah
           - aleixhub
           - andrew-jones
@@ -1303,6 +1304,7 @@ orgs:
             description: "Babylon Team"
             maintainers:
               - 9strands
+              - agonzalezrh
               - aleixhub
               - andrew-jones
               - ashokjammula1
@@ -1323,6 +1325,7 @@ orgs:
                 description: "Babylon Team Administrators"
                 maintainers:
                   - 9strands
+                  - agonzalezrh
                   - ahsen-shah
                   - aleixhub
                   - andrew-jones
