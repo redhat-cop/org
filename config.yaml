@@ -567,7 +567,8 @@ orgs:
               - djdanielsson
               - sean-m-sullivan
               - tompage1994
-            members: []
+            members:
+              - bevans
             privacy: closed
             repos:
               aap_config_as_code_docs: admin
