@@ -1399,6 +1399,14 @@ orgs:
             repos:
               infra.ansible_validated_workflows: admin
               infra.platform_configuration: admin
+      infra-support-assist-admins:
+        description: "Ansible Collection that will gather various reports/outputs that are commonly asked for in Red Hat Support Cases"
+        maintainers:
+          - lennysh
+        members: []
+        privacy: closed
+        repos:
+          infra.support_assist: admin
       mdt:
         description: Metrics Driven Transformation
         maintainers:
