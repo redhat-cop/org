@@ -880,6 +880,7 @@ orgs:
               helm-charts: read
               ninja-points: read
               openshift-management: read
+              openshift-performance-testing: read
               rego-policies: read
             teams:
               day-in-the-life-mergers:
@@ -905,6 +906,7 @@ orgs:
                   containers-quickstarts: admin
                   helm-charts: admin
                   openshift-management: admin
+                  openshift-performance-testing: admin
                   openshift-templates: admin
                   openshift-toolkit: admin
           declarative-openshift:
