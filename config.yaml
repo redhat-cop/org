@@ -29,6 +29,7 @@ orgs:
       - ahardin-rh
       - ahsen-shah
       - akasurde
+      - albertoflorez
       - aleixhub
       - aliakkaya7
       - alinabuzachis
@@ -69,6 +70,7 @@ orgs:
       - cpmeadors
       - crenwick93
       - d-jana
+      - dagar22
       - danhawker
       - dasong666
       - davgordo
@@ -126,6 +128,7 @@ orgs:
       - jimdillon
       - jkupferer
       - johnsimcall
+      - jon2100
       - jooho
       - jordigilh
       - josecastillolema
@@ -159,6 +162,7 @@ orgs:
       - lpanza
       - lpsantil
       - luckylittle
+      - luizfao
       - luqmanbarry
       - machacekondra
       - mahalakshmiviju
@@ -186,6 +190,7 @@ orgs:
       - nasx
       - natelove
       - neosilicon-redhat
+      - nerdingitout
       - newgoliath
       - nickjordan
       - nilashishc
@@ -246,6 +251,7 @@ orgs:
       - silvinux
       - smrowley
       - springdo
+      - spyrexd
       - stencell
       - stephennimmo
       - stocky37
@@ -1430,6 +1436,55 @@ orgs:
         privacy: closed
         repos:
           openshift-reference-architectures: write
+      openshift-virtualization-migration:
+        description: "OpenShift Virtualization Migration"
+        maintainers:
+          - albertoflorez
+          - dagar22
+          - jeffcpullen
+          - jon2100
+          - luizfao
+          - nerdingitout
+          - sabre1041
+          - spyrexd
+          - vvaldez
+        members: []
+        privacy: closed
+        repos:
+          openshift-virtualization-migration-playbooks: read
+        teams:
+          openshift-virtualization-migration-admins:
+            description: OpenShift Virtualization Migration Admins
+            maintainers:
+              - albertoflorez
+              - dagar22
+              - jeffcpullen
+              - jon2100
+              - luizfao
+              - nerdingitout
+              - sabre1041
+              - spyrexd
+              - vvaldez
+            members: []
+            privacy: closed
+            repos:
+              openshift-virtualization-migration-playbooks: admin
+          openshift-virtualization-migration-mergers:
+            description: OpenShift Virtualization Migration Mergers
+            maintainers:
+              - albertoflorez
+              - dagar22
+              - jeffcpullen
+              - jon2100
+              - luizfao
+              - nerdingitout
+              - sabre1041
+              - spyrexd
+              - vvaldez
+            members: []
+            privacy: closed
+            repos:
+              openshift-virtualization-migration-playbooks: write
       partner-ecosystem-certification:
         description: Partner ecosystem certification team
         maintainers:
