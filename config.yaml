@@ -37,6 +37,7 @@ orgs:
       - andrew-jones
       - arnaik-rh
       - arthomasredhat
+      - artificial-intelligence
       - arvin-a
       - ashokjammula1
       - bardielle
@@ -1666,6 +1667,14 @@ orgs:
             repos:
               rhis-code: admin
               rhis-inventory: admin
+            teams:
+              rhis-code-aap-admins:
+                description: "Admins Group for the repository rhis-code-aap"
+                maintainers:
+                  - artificial-intelligence
+                members: {}
+                repos:
+                  rhis-code-aap: admin
       serverlessworkflow-decisioning-cop:
         description: Contributors to the ServerlessWorkFlow & Decisioning CoP
         maintainers:
