@@ -1672,7 +1672,7 @@ orgs:
                 description: "Admins Group for the repository rhis-code-aap"
                 maintainers:
                   - artificial-intelligence
-                members: {}
+                members: []
                 repos:
                   rhis-code-aap: admin
       serverlessworkflow-decisioning-cop:
