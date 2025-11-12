@@ -1710,3 +1710,31 @@ orgs:
         privacy: closed
         repos:
           testing-cop: admin
+      viewfinder:
+        description: "Viewfinder"
+        maintainers:
+          - boogiespook
+          - sabre1041
+        members: []
+        privacy: closed
+        repos:
+          viewfinder: admin
+        teams:
+          viewfinder-admins:
+            description: viewfinder Admins
+            maintainers:
+              - boogiespook
+              - sabre1041
+            members: []
+            privacy: closed
+            repos:
+              viewfinder: admin
+          viewfinder-mergers:
+            description: Viewfinder Mergers
+            maintainers:
+              - boogiespook
+              - sabre1041
+            members: []
+            privacy: closed
+            repos:
+              viewfinder: write
