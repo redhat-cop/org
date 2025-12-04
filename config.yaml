@@ -33,8 +33,10 @@ orgs:
       - aleixhub
       - aliakkaya7
       - alinabuzachis
+      - alisonlhart
       - ally-jarrett
       - andrew-jones
+      - anusshukla
       - arnaik-rh
       - arthomasredhat
       - artificial-intelligence
@@ -89,6 +91,7 @@ orgs:
       - erouvas
       - eye0fra
       - fridim
+      - ganeshrn
       - giofontana
       - gjbianco
       - gnekic
@@ -249,6 +252,7 @@ orgs:
       - seravat
       - shah-zobair
       - shahargolshani
+      - shatakshiiii
       - silvinux
       - spetrosi
       - springdo
@@ -266,6 +270,7 @@ orgs:
       - themoosman
       - thom-at-redhat
       - thomasphall
+      - tima
       - tomasfratrik
       - tompage1994
       - tonykay
@@ -364,6 +369,22 @@ orgs:
         privacy: closed
         repos:
           agnosticd: admin
+      ansible-devtools:
+        description: Members of the Ansible Devtools team.
+        maintainers:
+          - alisonlhart
+        members:
+          - anusshukla
+          - cidrblock
+          - ganeshrn
+          - qalthos
+          - shatakshiiii
+          - ssbarnea
+          - tima
+          - trishnaguha
+        privacy: closed
+        repos:
+          ansible.mcp_builder: admin
       ansible-library:
         description: Ansible Library
         maintainers:
