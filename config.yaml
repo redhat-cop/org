@@ -187,6 +187,7 @@ orgs:
       - mglantz
       - mhjacks
       - mike4263
+      - mikemorency
       - mjohns91
       - mmtktl
       - mophahr
@@ -642,6 +643,7 @@ orgs:
               - matoval
               - maxamillion
               - mhjacks
+              - mikemorency
               - nilashishc
               - nirarg
               - p3ck
@@ -674,6 +676,7 @@ orgs:
               infra.aap_configuration: write
               infra.controller_configuration: write
               infra.leapp: admin
+              infra.mecm_ops: admin
               infra.osbuild: admin
               infra.windows_ops: admin
               middleware_ocpv: admin
