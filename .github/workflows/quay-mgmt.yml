@@ -24,7 +24,7 @@ jobs:
         uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
 
       - name: Run ansible-lint
-        uses: ansible/ansible-lint@d7cd7cfa2469536527aceaef9ef2ec6f2fb331cb # v25.9.2
+        uses: ansible/ansible-lint@36075fad72d67ca74facfb2e5436a2428a4b5d5d # v25.12.0
 
       - name: Install Dependencies
         run: ansible-galaxy install -r ansible/requirements.yml -p $HOME/roles
