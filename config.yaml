@@ -1697,6 +1697,7 @@ orgs:
                 description: "Admins Group for the repository rhis-code-aap"
                 maintainers:
                   - artificial-intelligence
+                  - bkaraoren
                 members: []
                 repos:
                   rhis-code-aap: admin
