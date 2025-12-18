@@ -56,6 +56,7 @@ orgs:
       - branic
       - brennanpaciorek
       - bszeti
+      - burigolucas
       - cescoffier
       - cgruver
       - cgwalters
@@ -1476,6 +1477,7 @@ orgs:
         description: "OpenShift Virtualization Migration"
         maintainers:
           - albertoflorez
+          - burigolucas
           - dagar22
           - jeffcpullen
           - jon2100
