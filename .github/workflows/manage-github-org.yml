@@ -26,7 +26,7 @@ on:
       PERIBOLOS_IMAGE_VERSION:
         description: "Peribolos Image Version"
         # renovate: datasource=docker depName=peribolos lookupName=us-docker.pkg.dev/k8s-infra-prow/images/peribolos versioning=loose
-        default: "v20251212-3069980d6"
+        default: "v20251223-f0341d7b5"
         required: false
         type: string
     secrets:
