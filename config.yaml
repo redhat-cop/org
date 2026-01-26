@@ -250,7 +250,6 @@ orgs:
       - sangeetaraghu
       - sborenst
       - sean-m-sullivan
-      - selrahal
       - senthilredhat
       - seravat
       - shah-zobair
@@ -1242,7 +1241,6 @@ orgs:
           - machacekondra
           - pkliczewski
           - rgoodson-redhat
-          - selrahal
           - swapdisk
         members: []
         privacy: closed
@@ -1256,7 +1254,6 @@ orgs:
             maintainers:
               - pkliczewski
               - rgoodson-redhat
-              - selrahal
             privacy: closed
             repos:
               openshift-iac: admin
