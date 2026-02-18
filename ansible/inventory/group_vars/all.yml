@@ -923,6 +923,18 @@ orgs:
           - name: pushbot
             type: robot
             role: write
+      - name: viewfinder-upstream
+        visibility: public
+        permissions:
+          - name: ablock
+            type: user
+            role: admin
+          - name: pushbot
+            type: robot
+            role: write
+          - name: viewfinder
+            type: robot
+            role: write
       - name: volume-expander-operator
         visibility: public
         permissions:
@@ -958,6 +970,8 @@ orgs:
         description: Image Push Bot for argocd
       - name: devspaces-images
         description: Images push bot for devspaces-images repo
+      - name: viewfinder
+        description: Image push bot for Project Viewfinder
     teams:
       - name: owners
         role: admin
