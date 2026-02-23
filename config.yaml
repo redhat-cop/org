@@ -1761,7 +1761,7 @@ orgs:
             members: []
             privacy: closed
             repos:
-              viewfinder-lite: admin
+              viewfinder-upstream: admin
           viewfinder-mergers:
             description: Viewfinder Mergers
             maintainers:
@@ -1770,4 +1770,4 @@ orgs:
             members: []
             privacy: closed
             repos:
-              viewfinder-lite: write
+              viewfinder-upstream: write
