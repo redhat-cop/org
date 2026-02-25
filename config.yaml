@@ -45,6 +45,7 @@ orgs:
       - bardielle
       - bbeaudoin
       - bbethell-1
+      - bbgrimmett2
       - beeankha
       - beelandc
       - bevans
@@ -952,11 +953,15 @@ orgs:
           devspaces:
             description: OpenShift Dev Spaces
             maintainers:
+              - bbgrimmett2
               - cgruver
               - etsauer
+              - jeffcpullen
               - natelove
+              - sabre1041
             privacy: closed
             repos:
+              ansible-devspaces: admin
               devspaces-images: admin
           github-actions:
             description: GitHub Actions Collection
