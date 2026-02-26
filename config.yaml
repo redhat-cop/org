@@ -961,6 +961,7 @@ orgs:
               - sabre1041
             privacy: closed
             repos:
+              ansible-devspaces: admin
               devspaces-images: admin
           github-actions:
             description: GitHub Actions Collection
