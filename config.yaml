@@ -1490,24 +1490,38 @@ orgs:
         members: []
         privacy: closed
         repos:
-          openshift-virtualization-migration-playbooks: read
+          openshift-virtualization-migration-documentation: write
+          openshift-virtualization-migration-playbooks: write
+          openshift-virtualization-vmware-vddk: write
+          openshift_virtualization_migration: write
+          openshift_virtualization_migration_ci: write
+          openshift_virtualization_migration_ees: write
+          openshift_virtualization_ops: write
         teams:
           openshift-virtualization-migration-admins:
             description: OpenShift Virtualization Migration Admins
             maintainers:
               - albertoflorez
+              - burigolucas
               - dagar22
               - jeffcpullen
               - jon2100
               - luizfao
               - nerdingitout
               - sabre1041
+              - shebistar
               - spyrexd
               - vvaldez
             members: []
             privacy: closed
             repos:
+              openshift-virtualization-migration-documentation: admin
               openshift-virtualization-migration-playbooks: admin
+              openshift-virtualization-vmware-vddk: admin
+              openshift_virtualization_migration: admin
+              openshift_virtualization_migration_ci: admin
+              openshift_virtualization_migration_ees: admin
+              openshift_virtualization_ops: admin
           openshift-virtualization-migration-mergers:
             description: OpenShift Virtualization Migration Mergers
             maintainers:
