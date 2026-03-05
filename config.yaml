@@ -1528,18 +1528,26 @@ orgs:
             description: OpenShift Virtualization Migration Mergers
             maintainers:
               - albertoflorez
+              - burigolucas
               - dagar22
               - jeffcpullen
               - jon2100
               - luizfao
               - nerdingitout
               - sabre1041
+              - shebistar
               - spyrexd
               - vvaldez
             members: []
             privacy: closed
             repos:
-              openshift-virtualization-migration-playbooks: write
+              openshift-virtualization-migration-documentation: admin
+              openshift-virtualization-migration-playbooks: admin
+              openshift-virtualization-vmware-vddk: admin
+              openshift_virtualization_migration: admin
+              openshift_virtualization_migration_ci: admin
+              openshift_virtualization_migration_ees: admin
+              openshift_virtualization_ops: admin
       partner-ecosystem-certification:
         description: Partner ecosystem certification team
         maintainers:
