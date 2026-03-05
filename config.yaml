@@ -489,7 +489,15 @@ orgs:
           appdev-cop: admin
           quarkus-scalable-graphql-demo: admin
         teams:
-          committers:
+          appdev-cop-committers:
+            description: ""
+            maintainers:
+              - erouvas
+              - mahalakshmiviju
+            privacy: closed
+            repos:
+              appdev-cop: write
+          appdev-cop-committers-admins:
             description: ""
             maintainers:
               - deewhyweb
