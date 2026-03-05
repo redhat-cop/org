@@ -489,6 +489,14 @@ orgs:
           appdev-cop: admin
           quarkus-scalable-graphql-demo: admin
         teams:
+          appdev-cop-committers:
+            description: ""
+            maintainers:
+              - erouvas
+              - mahalakshmiviju
+            privacy: closed
+            repos:
+              appdev-cop: write
           appdev-cop-committers-admins:
             description: ""
             maintainers:
@@ -500,14 +508,6 @@ orgs:
             repos:
               appdev-cop: admin
               quarkus-scalable-graphql-demo: admin
-          appdev-cop-committers:
-            description: ""
-            maintainers:
-              - erouvas
-              - mahalakshmiviju
-            privacy: closed
-            repos:
-              appdev-cop: write
       auto-docs:
         description: ""
         maintainers:
