@@ -1,0 +1,15 @@
+name: Truffle Hog Secret Detection
+on:
+  schedule:
+    - cron: "0 1 * * MON"
+
+# Declare default permissions as read only.
+permissions: read-all
+
+jobs:
+  hog:
+    runs-on: ubuntu-latest
+    name: hog
+    steps:
+      - name: TruffleHog
+        run: docker run --rm -v .:/tmp -w /tmp ghcr.io/trufflesecurity/trufflehog:latest github --org=redhat-cop --results=verified --fail
