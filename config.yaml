@@ -431,6 +431,17 @@ orgs:
         privacy: closed
         repos:
           infra.lvm_snapshots: admin
+      ansible-tams:
+        description: Administrators for ansible-tams
+        maintainers:
+          - daleroux
+          - kevin-whitespace
+          - rhjhunt
+        members: []
+        privacy: closed
+        repos:
+          ansible-tams-demos: admin
+          ansible-tams-workshops: admin
       ansible-zipship:
         description: "Ansible ZipShip"
         maintainers:
