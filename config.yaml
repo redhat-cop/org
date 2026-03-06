@@ -701,6 +701,7 @@ orgs:
               infra.leapp: admin
               infra.mecm_ops: admin
               infra.osbuild: admin
+              infra.rhacs_configuration: admin
               infra.windows_ops: admin
               middleware_ocpv: admin
               network.acls: admin
