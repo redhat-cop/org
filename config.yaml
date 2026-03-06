@@ -570,6 +570,7 @@ orgs:
           infra.aap_configuration: write
           infra.controller_configuration: write
           infra.leapp: write
+          infra.satellite_configuration: write
           molecule_cicd_automation: write
         teams:
           automation-cop-mgrs:
@@ -603,6 +604,7 @@ orgs:
               hardware_automation_collection: admin
               infra.aap_configuration: admin
               infra.controller_configuration: admin
+              infra.satellite_configuration: admin
               molecule_cicd_automation: admin
           automation-cop-tower-mgrs:
             description: AAP Config as Code managers
