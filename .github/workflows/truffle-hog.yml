@@ -2,6 +2,7 @@ name: Truffle Hog Secret Detection
 on:
   schedule:
     - cron: "0 1 * * MON"
+  workflow_dispatch:
 
 # Declare default permissions as read only.
 permissions: read-all
