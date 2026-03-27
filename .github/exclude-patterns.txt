@@ -1,0 +1,3 @@
+# Exclude: https://github.com/redhat-cop/infra-ansible/blob/dd09d021b5b971550aaa80555145d6a43714ab0b/roles/quay-install/templates/quay-enterprise-redhat-quay-pull-secret.j2#L10 due to https://access.redhat.com/solutions/3533201
+
+roles/quay-install/templates/quay-enterprise-redhat-quay-pull-secret.j2
