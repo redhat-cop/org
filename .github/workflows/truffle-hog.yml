@@ -13,4 +13,4 @@ jobs:
     name: hog
     steps:
       - name: TruffleHog
-        run: docker run --rm -v .:/tmp -w /tmp ghcr.io/trufflesecurity/trufflehog:latest github --org=redhat-cop --results=verified --fail
+        run: docker run --rm -v .:/tmp -w /tmp ghcr.io/trufflesecurity/trufflehog:latest github --org=redhat-cop --results=verified --fail --exclude-paths .github/exclude-patterns.txt

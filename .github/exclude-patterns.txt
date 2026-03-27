@@ -1,0 +1,7 @@
+# Exclude:
+# - https://github.com/redhat-cop/infra-ansible/blob/dd09d021b5b971550aaa80555145d6a43714ab0b/roles/quay-install/templates/quay-enterprise-redhat-quay-pull-secret.j2#L10
+# - https://github.com/redhat-cop/agnosticd/blob/2e7c5ed8fbfa57165c5220e16537a405b4b2a690/ansible/roles_ocp_workloads/ocp4_workload_quay_workshop/templates/secret.yml#L11
+# due to https://access.redhat.com/solutions/3533201
+
+roles/quay-install/templates/quay-enterprise-redhat-quay-pull-secret.j2
+ansible/roles_ocp_workloads/ocp4_workload_quay_workshop/templates/secret.yml
