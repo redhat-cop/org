@@ -420,6 +420,7 @@ orgs:
           network.backup: admin
           network.base: admin
           network.bgp: admin
+          network.compliance: admin
           network.interfaces: admin
           network.ospf: admin
           network.restore: admin
@@ -653,6 +654,7 @@ orgs:
               - cidrblock
               - claudiol
               - ericzolf
+              - ganeshrn
               - gomathiselvis
               - gravesm
               - guidograzioli
@@ -711,6 +713,7 @@ orgs:
               network.backup: admin
               network.base: admin
               network.bgp: admin
+              network.compliance: admin
               network.interfaces: admin
               network.ospf: admin
               network.restore: admin
