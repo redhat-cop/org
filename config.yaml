@@ -2,6 +2,7 @@ orgs:
   redhat-cop:
     admins:
       - etsauer
+      - djdanielsson
       - garethahealy
       - jaredburck
       - oybed
