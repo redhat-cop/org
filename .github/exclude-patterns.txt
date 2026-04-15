@@ -1,7 +1,21 @@
-# Exclude:
-# - https://github.com/redhat-cop/infra-ansible/blob/dd09d021b5b971550aaa80555145d6a43714ab0b/roles/quay-install/templates/quay-enterprise-redhat-quay-pull-secret.j2#L10
-# - https://github.com/redhat-cop/agnosticd/blob/2e7c5ed8fbfa57165c5220e16537a405b4b2a690/ansible/roles_ocp_workloads/ocp4_workload_quay_workshop/templates/secret.yml#L11
-# due to https://access.redhat.com/solutions/3533201
-
+# Exclude due to https://access.redhat.com/solutions/3533201
+# - https://github.com/redhat-cop/infra-ansible/blob/dd09d021b5b971550aaa80555145d6a43714ab0b/roles/quay-install/templates/quay-enterprise-redhat-quay-pull-secret.j2
+# - https://github.com/redhat-cop/agnosticd/blob/2e7c5ed8fbfa57165c5220e16537a405b4b2a690/ansible/roles_ocp_workloads/ocp4_workload_quay_workshop/templates/secret.yml
 roles/quay-install/templates/quay-enterprise-redhat-quay-pull-secret.j2
 ansible/roles_ocp_workloads/ocp4_workload_quay_workshop/templates/secret.yml
+
+# Exclude:
+# - https://github.com/redhat-cop/agnosticd/blob/7c6bb553ae02ad7a107ed7b4c88aaf564da99ac3/ansible/roles_ocp_workloads/ocp4_workload_pntae_single_node/files/cee-cf-110
+ansible/roles_ocp_workloads/ocp4_workload_pntae_single_node/files/cee-cf-110
+
+# Exclude:
+# - https://github.com/redhat-cop/openshift-lab-origin/blob/3e9f5691cedf74af2b227c1545a4e9463d360786/OpenShift4/03_1_OpenShift_UPI_Offline_Body.adoc
+OpenShift4/03_1_OpenShift_UPI_Offline_Body.adoc
+
+# Exclude:
+# - https://github.com/redhat-cop/agnosticd/blob/7732d83778811dd97b3b1d61620fae9973ea0153/ansible/configs/sap-integration/files/k8s/3scale-pull-secret.yml
+ansible/configs/sap-integration/files/k8s/3scale-pull-secret.yml
+
+# Exclude:
+# - https://github.com/redhat-cop/agnosticd/blob/7732d83778811dd97b3b1d61620fae9973ea0153/ansible/configs/sap-integration/files/k8s/syndesis-pull-secret.yml
+ansible/configs/sap-integration/files/k8s/syndesis-pull-secret.yml
