@@ -1,6 +1,7 @@
 orgs:
   redhat-cop:
     admins:
+      - djdanielsson
       - etsauer
       - garethahealy
       - jaredburck
