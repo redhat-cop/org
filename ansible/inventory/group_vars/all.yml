@@ -2,6 +2,12 @@
 orgs:
   - name: redhat-cop
     repos:
+      - name: aap-bridge
+        visibility: public
+        permissions:
+          - name: bontreger
+            type: user
+            role: admin
       - name: argocd-operator
         visibility: public
         permissions:
