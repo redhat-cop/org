@@ -8,6 +8,9 @@ orgs:
           - name: bontreger
             type: user
             role: admin
+          - name: jeffmcutter
+            type: user
+            role: admin
       - name: argocd-operator
         visibility: public
         permissions:
