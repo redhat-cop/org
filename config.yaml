@@ -381,11 +381,11 @@ orgs:
       ansible-bridge:
         description: Members of the Ansible Bridge team
         maintainers:
+          - arnav3000
           - bontreger
+          - ericzolf
           - jeffmcutter
           - sabre1041
-          - arnav3000
-          - ericzolf
           - wmckinley1
         members: []
         privacy: closed
