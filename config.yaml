@@ -378,6 +378,19 @@ orgs:
         privacy: closed
         repos:
           agnosticd: admin
+      ansible-bridge:
+        description: Members of the Ansible Bridge team
+        maintainers:
+          - bontreger
+          - jeffmcutter
+          - sabre1041
+          - arnav3000
+          - ericzolf
+          - wmckinley1
+        members: []
+        privacy: closed
+        repos:
+          ansible-bridge: admin
       ansible-devtools:
         description: Members of the Ansible Devtools team.
         maintainers:
