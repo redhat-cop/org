@@ -247,7 +247,6 @@ orgs:
       - rohitthakur2590
       - ronger4
       - roverflow
-      - rpelisse
       - ruchip16
       - rut31337
       - ryanzhang
@@ -298,7 +297,6 @@ orgs:
       - wilson-walrus
       - wkulhanek
       - wmckinley1
-      - wolfc
       - yaish25491
       - yigitpolat
       - yonosoyvictor
@@ -697,13 +695,11 @@ orgs:
               - rhodzelmans
               - rohitthakur2590
               - ronger4
-              - rpelisse
               - sabre1041
               - shahargolshani
               - thom-at-redhat
               - tompage1994
               - trishnaguha
-              - wolfc
               - yaish25491
             privacy: closed
             repos:
@@ -779,7 +775,6 @@ orgs:
           - noelo
           - pabrahamsson
           - raffaelespazzoli
-          - rpelisse
           - shah-zobair
           - springdo
           - stocky37
