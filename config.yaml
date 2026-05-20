@@ -36,7 +36,6 @@ orgs:
       - alisonlhart
       - andrew-jones
       - antonysallas
-      - anusshukla
       - arnaik-rh
       - arnav3000
       - arthomasredhat
@@ -129,7 +128,6 @@ orgs:
       - jeckersb
       - jeffcpullen
       - jeffmcutter
-      - jeremyrdavis
       - jflowers
       - jforce
       - jillr
@@ -199,7 +197,6 @@ orgs:
       - myllynen
       - nasx
       - natelove
-      - neosilicon-redhat
       - nerdingitout
       - newgoliath
       - nickjordan
@@ -397,7 +394,6 @@ orgs:
         maintainers:
           - alisonlhart
         members:
-          - anusshukla
           - cidrblock
           - ganeshrn
           - qalthos
@@ -507,7 +503,6 @@ orgs:
         maintainers:
           - deewhyweb
           - infosec812
-          - jeremyrdavis
           - pamenon
         members:
           - cescoffier
@@ -532,7 +527,6 @@ orgs:
             maintainers:
               - deewhyweb
               - infosec812
-              - jeremyrdavis
               - pamenon
             privacy: closed
             repos:
