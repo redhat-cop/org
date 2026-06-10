@@ -31,7 +31,7 @@ orgs:
       - akasurde
       - albertoflorez
       - aleixhub
-      - alexgdmx
+      - alexgdusarh
       - aliakkaya7
       - alinabuzachis
       - alisonlhart
@@ -1504,7 +1504,7 @@ orgs:
       open-knowledge-cop:
         description: "Open Knowledge is a Community of Practice"
         maintainers:
-          - alexgdmx
+          - alexgdusarh
           - joerh-ocp
           - linuxeroagrio
           - psehgaft
@@ -1521,7 +1521,7 @@ orgs:
           open-knowledge-cop-admins:
             description: Open Knowledge is a Community of Practice Admins
             maintainers:
-              - alexgdmx
+              - alexgdusarh
               - joerh-ocp
               - linuxeroagrio
               - psehgaft
@@ -1537,7 +1537,7 @@ orgs:
           open-knowledge-cop-mergers:
             description: Open Knowledge is a Community of Practice Mergers
             maintainers:
-              - alexgdmx
+              - alexgdusarh
               - joerh-ocp
               - linuxeroagrio
               - psehgaft
