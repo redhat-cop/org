@@ -1505,9 +1505,9 @@ orgs:
         description: "Open Knowledge is a Community of Practice"
         maintainers:
           - alexgdmx
+          - joerh-ocp
           - linuxeroagrio
           - psehgaft
-          - joerh-ocp
         members: []
         privacy: closed
         repos:
@@ -1522,9 +1522,9 @@ orgs:
             description: Open Knowledge is a Community of Practice Admins
             maintainers:
               - alexgdmx
+              - joerh-ocp
               - linuxeroagrio
               - psehgaft
-              - joerh-ocp
             members: []
             privacy: closed
             repos:
@@ -1538,9 +1538,9 @@ orgs:
             description: Open Knowledge is a Community of Practice Mergers
             maintainers:
               - alexgdmx
+              - joerh-ocp
               - linuxeroagrio
               - psehgaft
-              - joerh-ocp
             members: []
             privacy: closed
             repos:
