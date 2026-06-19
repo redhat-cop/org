@@ -485,7 +485,6 @@ orgs:
         maintainers:
           - bontreger
           - djdanielsson
-          - ericzolf
           - jeffmcutter
           - mophahr
           - sabre1041
@@ -494,6 +493,7 @@ orgs:
           - adonisgarciac
           - branic
           - chofstede
+          - ericzolf
           - ivarmu
           - mpetrive-rh
           - sean-m-sullivan
@@ -529,7 +529,6 @@ orgs:
             maintainers:
               - bontreger
               - djdanielsson
-              - ericzolf
               - jeffmcutter
               - mophahr
               - sabre1041
