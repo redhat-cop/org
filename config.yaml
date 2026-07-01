@@ -31,6 +31,7 @@ orgs:
       - akasurde
       - albertoflorez
       - aleixhub
+      - alexgdusarh
       - aliakkaya7
       - alinabuzachis
       - alisonlhart
@@ -134,6 +135,7 @@ orgs:
       - jillr
       - jimdillon
       - jkupferer
+      - joerh-ocp
       - johnsimcall
       - jon2100
       - jooho
@@ -165,6 +167,7 @@ orgs:
       - leoaaraujo
       - levysantanna
       - limershein
+      - linuxeroagrio
       - linuxstudio
       - lpanza
       - lpsantil
@@ -220,6 +223,7 @@ orgs:
       - pittar
       - pkliczewski
       - prakhar1985
+      - psehgaft
       - qalthos
       - r0x0d
       - radudd
@@ -1496,6 +1500,55 @@ orgs:
           - themoosman
         privacy: closed
         repos: {}
+      open-knowledge-cop:
+        description: "Open Knowledge is a Community of Practice"
+        maintainers:
+          - alexgdusarh
+          - joerh-ocp
+          - linuxeroagrio
+          - psehgaft
+        members: []
+        privacy: closed
+        repos:
+          ok-ai: write
+          ok-automation: write
+          ok-cloud: write
+          ok-openshift: write
+          ok-rhel: write
+          ok-virt: write
+        teams:
+          open-knowledge-cop-admins:
+            description: Open Knowledge is a Community of Practice Admins
+            maintainers:
+              - alexgdusarh
+              - joerh-ocp
+              - linuxeroagrio
+              - psehgaft
+            members: []
+            privacy: closed
+            repos:
+              ok-ai: admin
+              ok-automation: admin
+              ok-cloud: admin
+              ok-openshift: admin
+              ok-rhel: admin
+              ok-virt: admin
+          open-knowledge-cop-mergers:
+            description: Open Knowledge is a Community of Practice Mergers
+            maintainers:
+              - alexgdusarh
+              - joerh-ocp
+              - linuxeroagrio
+              - psehgaft
+            members: []
+            privacy: closed
+            repos:
+              ok-ai: admin
+              ok-automation: admin
+              ok-cloud: admin
+              ok-openshift: admin
+              ok-rhel: admin
+              ok-virt: admin
       openshift-reference-architectures:
         description: "OpenShift Reference Architectures"
         maintainers:
