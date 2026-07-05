@@ -387,7 +387,8 @@ orgs:
           - jeffmcutter
           - sabre1041
           - wmckinley1
-        members: []
+        members:
+          - tech2734
         privacy: closed
         repos:
           aap-bridge: admin
@@ -1525,6 +1526,7 @@ orgs:
           - shellclear
           - spyrexd
           - stevefulme1
+          - tech2734
           - vvaldez
         members: []
         privacy: closed
