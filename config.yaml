@@ -227,6 +227,7 @@ orgs:
       - raffaelespazzoli
       - ranabirchakraborty
       - rdruss
+      - redcx1
       - resolutecoder
       - rflorenc
       - rgoodson-redhat
@@ -389,6 +390,7 @@ orgs:
           - sabre1041
           - wmckinley1
         members:
+          - redcx1
           - tech2734
         privacy: closed
         repos:
