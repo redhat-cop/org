@@ -301,7 +301,7 @@ orgs:
       - yaish25491
       - yigitpolat
       - yonosoyvictor
-      - yvarbanov
+      - yordangit
     members_can_create_repositories: false
     name: Red Hat Communities of Practice
     teams:
@@ -1371,7 +1371,7 @@ orgs:
           - treddy08
           - wilson-walrus
           - yonosoyvictor
-          - yvarbanov
+          - yordangit
         privacy: closed
         repos:
           agnosticd: write
@@ -1439,7 +1439,7 @@ orgs:
               - newgoliath
               - wkulhanek
               - yonosoyvictor
-              - yvarbanov
+              - yordangit
             members:
               - marcosmamorim
               - rut31337
