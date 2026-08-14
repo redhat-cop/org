@@ -1711,11 +1711,11 @@ orgs:
           rhel-soe-ai-admins:
             description: ""
             maintainers:
-              - rydekull
               - kubealex
               - mglantz
               - myllynen
               - opuk
+              - rydekull
             members: []
             privacy: closed
             repos:
