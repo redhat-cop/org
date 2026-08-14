@@ -1681,6 +1681,7 @@ orgs:
         privacy: closed
         repos:
           rhel-good-practices: admin
+          rhel-soe-ai: admin
         teams:
           rhel-cop-mgrs:
             description: ""
@@ -1693,6 +1694,7 @@ orgs:
             privacy: closed
             repos:
               rhel-good-practices: admin
+              rhel-soe-ai: admin
           rhel-good-practices-authors:
             description: ""
             maintainers:
@@ -1706,6 +1708,18 @@ orgs:
             privacy: closed
             repos:
               rhel-good-practices: write
+          rhel-soe-ai-admins:
+            description: ""
+            maintainers:
+              - Rydekull
+              - kubealex
+              - mglantz
+              - myllynen
+              - opuk
+            members: []
+            privacy: closed
+            repos:
+              rhel-soe-ai: admin
       rhel-edge-automation-arch:
         description: RHEL for Edge Automation Deployment Architecture
         maintainers:
