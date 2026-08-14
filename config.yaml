@@ -1711,7 +1711,7 @@ orgs:
           rhel-soe-ai-admins:
             description: ""
             maintainers:
-              - Rydekull
+              - rydekull
               - kubealex
               - mglantz
               - myllynen
