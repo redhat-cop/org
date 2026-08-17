@@ -270,7 +270,6 @@ orgs:
       - stevefulme1
       - stocky37
       - strangiato
-      - sumitridhal
       - swapdisk
       - systemroller
       - tech2734
@@ -1595,8 +1594,7 @@ orgs:
               openshift_virtualization_ops: admin
       partner-ecosystem-certification:
         description: Partner ecosystem certification team
-        maintainers:
-          - sumitridhal
+        maintainers: []
         members: []
         privacy: closed
         repos:
