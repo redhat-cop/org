@@ -15,7 +15,7 @@ jobs:
   manage-github-org-config-workflow:
     name: manage-github-org-config-workflow
     if: "github.repository == 'redhat-cop/org'"
-    uses: redhat-cop/org/.github/workflows/manage-github-org.yml@main
+    uses: redhat-cop/org/.github/workflows/manage-github-org.yml@b43b06fa3b57d7299027143848fbd11f524fe8cf # main
     secrets:
       PERIBOLOS_TOKEN: ${{ secrets.PERIBOLOS_TOKEN }}
       PKG_DEV_KEY: ${{ secrets.PKG_DEV_KEY }}
