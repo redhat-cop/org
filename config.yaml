@@ -73,6 +73,7 @@ orgs:
       - claudiol
       - cmcornejocrespo
       - cnuland
+      - cojmckee
       - cpeters
       - cpmeadors
       - crenwick93
@@ -146,6 +147,7 @@ orgs:
       - juliaaano
       - juliovp01
       - juozasa
+      - jwbernin
       - kaileshmistry
       - kaiobrien
       - kb-perbyte
@@ -362,6 +364,15 @@ orgs:
           spring-rest: admin
           template2helm: admin
           uncontained.io: admin
+      advanced-satellite-arch:
+        description: Core maintainers for the Advanced Satellite Architecture code
+        maintainers:
+          - jwbernin
+          - cojmckee
+        members: []
+        privacy: closed
+        repos:
+          adv-sat-arch: admin
       agnosticd-core:
         description: Core team members for the agnosticd project.
         maintainers:
