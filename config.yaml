@@ -36,6 +36,7 @@ orgs:
       - alisonlhart
       - andrew-jones
       - antonysallas
+      - anurag-saran
       - arnaik-rh
       - arnav3000
       - arthomasredhat
@@ -1485,6 +1486,16 @@ orgs:
         privacy: closed
         repos:
           infra.support_assist: admin
+      lightwell-adoption-demo:
+        description: Lightwell customer-adoption demos (badge, remediations PR, upgrade-delta grading). Public-docs-safe references only.
+        maintainers:
+          - anurag-saran
+        members: []
+        privacy: closed
+        repos:
+          lightwell-github-plugin-demo: admin
+          payments-service: admin
+          upgrade-delta: admin
       mdt:
         description: Metrics Driven Transformation
         maintainers:
