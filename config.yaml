@@ -367,8 +367,8 @@ orgs:
       advanced-satellite-arch:
         description: Core maintainers for the Advanced Satellite Architecture code
         maintainers:
-          - jwbernin
           - cojmckee
+          - jwbernin
         members: []
         privacy: closed
         repos:
