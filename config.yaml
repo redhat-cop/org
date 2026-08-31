@@ -1231,6 +1231,18 @@ orgs:
         privacy: closed
         repos:
           disconnectedinfra: admin
+      eco-ansible-content:
+        description: Ecosystem Engineering Ansible content team
+        maintainers:
+          - mikemorency
+          - p3ck
+          - ronger4
+          - shahargolshani
+          - Yaish25491
+        privacy: closed
+        repos:
+          infra.windows_ops: write
+          infra.mecm_ops: write
       edge-automation:
         description: Edge repos automation
         maintainers:
