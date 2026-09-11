@@ -49,7 +49,6 @@ orgs:
       - bbgrimmett2
       - beeankha
       - beelandc
-      - bevans
       - bkaraoren
       - bmarlow
       - bontreger
@@ -659,7 +658,7 @@ orgs:
               - sean-m-sullivan
               - tompage1994
             members:
-              - bevans
+              - branic
             privacy: closed
             repos:
               aap_config_as_code_docs: admin
