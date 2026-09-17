@@ -1493,6 +1493,28 @@ orgs:
               openshift-infra-skel: admin
               openshift-lab-origin: admin
               rhdp-monitoring-scripts: admin
+      infra-automation-development-office-developers:
+        description: infra.automation-development-office developers
+        maintainers:
+          - awoldegi-rh
+          - brandor5
+          - bstonema-rh
+          - ckyle-collab
+          - codixon-rh
+          - tiyoung-rh
+        privacy: closed
+        repos:
+          infra.automation-development-office: write
+      infra-automation-development-office-maintainers:
+        description: infra.automation-development-office maintainers
+        maintainers:
+          - chelliot-rh
+          - cush4prez
+          - jradabau-rh
+          - nsine-rh
+        privacy: closed
+        repos:
+          infra.automation-development-office: admin
       infra-platform-configuration:
         description: A collection of roles to manage Ansible Automation Platform
         maintainers:
