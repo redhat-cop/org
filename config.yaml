@@ -80,7 +80,6 @@ orgs:
       - cnuland
       - codixon-rh
       - cojmckee
-      - cpeters
       - cpmeadors
       - crenwick93
       - cush4prez
@@ -115,7 +114,6 @@ orgs:
       - gregjohnstewart
       - grodideal
       - gsampaio-rh
-      - guidograzioli
       - hakbailey
       - hararora123
       - hcherukuri
@@ -212,7 +210,6 @@ orgs:
       - natelove
       - nerdingitout
       - newgoliath
-      - nickjordan
       - nilashishc
       - nirarg
       - noelo
@@ -699,7 +696,6 @@ orgs:
               - ericzolf
               - ganeshrn
               - gomathiselvis
-              - guidograzioli
               - hakbailey
               - hcherukuri
               - hdefazio
@@ -1113,7 +1109,6 @@ orgs:
             members:
               - kkoller
               - mathianasj
-              - nickjordan
               - trevorbox
             privacy: closed
             repos:
@@ -1188,7 +1183,6 @@ orgs:
                   - cnuland
                   - kkoller
                   - mathianasj
-                  - nickjordan
                   - noseka1
                 privacy: closed
                 repos:
