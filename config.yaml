@@ -1062,6 +1062,14 @@ orgs:
               - tosmi
             privacy: closed
             repos: {}
+          linuxelitebr-safeshift-admins:
+            description: Administrators for the safeshift-doc-gen repository
+            maintainers:
+              - linuxelitebr
+            members: []
+            privacy: closed
+            repos:
+              safeshift-doc-gen: admin
           helpernode:
             description: "GitOps Working Group"
             maintainers:
