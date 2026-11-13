@@ -930,11 +930,23 @@ orgs:
               containers-quickstarts: admin
               homebrew-redhat-cop: admin
               keepalived-operator: admin
+          linuxelitebr-projects:
+            description: Repositories maintained by linuxelitebr
+            maintainers:
+              - linuxelitebr
+            members: []
+            privacy: closed
+            repos:
+              ai-health-check-tool: admin
+              ovtools: admin
+              rvtma: admin
+              safeshift-doc-gen: admin
               openshift-applier: admin
               openshift-templates: admin
               openshift-toolkit: admin
               org: admin
               osia: admin
+              skills: admin
           day-in-the-life:
             description: Day in the Life of a Developer team
             maintainers:
