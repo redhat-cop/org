@@ -1062,6 +1062,14 @@ orgs:
               - tosmi
             privacy: closed
             repos: {}
+          linuxelitebr-ovtools-admins:
+            description: Administrators for the ovtools repository
+            maintainers:
+              - linuxelitebr
+            members: []
+            privacy: closed
+            repos:
+              ovtools: admin
           helpernode:
             description: "GitOps Working Group"
             maintainers:
