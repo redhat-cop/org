@@ -1071,6 +1071,14 @@ orgs:
             privacy: closed
             repos:
               ocp4-helpernode: admin
+          linuxelitebr-safeshift-admins:
+            description: Administrators for the safeshift-doc-gen repository
+            maintainers:
+              - linuxelitebr
+            members: []
+            privacy: closed
+            repos:
+              safeshift-doc-gen: admin
           operators-wg:
             description: ""
             maintainers:
