@@ -935,6 +935,14 @@ orgs:
               openshift-toolkit: admin
               org: admin
               osia: admin
+          linuxelitebr-rvtma-admins:
+            description: Administrators for the rvtma repository
+            maintainers:
+              - linuxelitebr
+            members: []
+            privacy: closed
+            repos:
+              rvtma: admin
           day-in-the-life:
             description: Day in the Life of a Developer team
             maintainers:
