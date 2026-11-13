@@ -1071,6 +1071,14 @@ orgs:
             privacy: closed
             repos:
               ocp4-helpernode: admin
+          linuxelitebr-rvtma-admins:
+            description: Administrators for the rvtma repository
+            maintainers:
+              - linuxelitebr
+            members: []
+            privacy: closed
+            repos:
+              rvtma: admin
           operators-wg:
             description: ""
             maintainers:
