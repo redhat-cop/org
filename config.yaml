@@ -935,6 +935,7 @@ orgs:
               openshift-toolkit: admin
               org: admin
               osia: admin
+              skills: admin
           day-in-the-life:
             description: Day in the Life of a Developer team
             maintainers:
