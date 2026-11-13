@@ -1062,14 +1062,6 @@ orgs:
               - tosmi
             privacy: closed
             repos: {}
-          linuxelitebr-ai-health-check-admins:
-            description: Administrators for the ai-health-check-tool repository
-            maintainers:
-              - linuxelitebr
-            members: []
-            privacy: closed
-            repos:
-              ai-health-check-tool: admin
           helpernode:
             description: "GitOps Working Group"
             maintainers:
@@ -1079,6 +1071,14 @@ orgs:
             privacy: closed
             repos:
               ocp4-helpernode: admin
+          linuxelitebr-ai-health-check-admins:
+            description: Administrators for the ai-health-check-tool repository
+            maintainers:
+              - linuxelitebr
+            members: []
+            privacy: closed
+            repos:
+              ai-health-check-tool: admin
           operators-wg:
             description: ""
             maintainers:
