@@ -935,7 +935,6 @@ orgs:
               openshift-toolkit: admin
               org: admin
               osia: admin
-              skills: admin
           day-in-the-life:
             description: Day in the Life of a Developer team
             maintainers:
@@ -1741,6 +1740,14 @@ orgs:
         privacy: closed
         repos:
           serverlessworkflow-decisioning-cop: admin
+      skills:
+        description: "Maintains and manages agentic skills"
+        maintainers:
+          - eformat
+          - hultzj
+        privacy: closed
+        repos:
+          skills: admin
       sqlserver-coi:
         description: SQL Server Community of Interest
         maintainers:
