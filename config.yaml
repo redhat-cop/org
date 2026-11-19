@@ -105,6 +105,7 @@ orgs:
       - eformat
       - ericzolf
       - erouvas
+      - eshanks16
       - eye0fra
       - fabiendupont
       - flozanorht
@@ -1478,6 +1479,43 @@ orgs:
         privacy: closed
         repos:
           infra.support_assist: admin
+      lightwell-cop:
+        description: Lightwell Community of Practice
+        maintainers:
+          - eshanks16
+          - rmarting
+          - sabre1041
+        members:
+          - ericzolf
+          - rydekull
+        privacy: closed
+        repos:
+          lightwell-cop: read
+          security.lightwell: read
+        teams:
+          lightwell-cop-admins:
+            description: Lightwell Community of Practice Admins
+            maintainers:
+              - eshanks16
+              - rmarting
+              - sabre1041
+            privacy: closed
+            repos:
+              lightwell-cop: admin
+              security.lightwell: admin
+          lightwell-cop-mergers:
+            description: Lightwell Community of Practice Mergers
+            maintainers:
+              - eshanks16
+              - rmarting
+              - sabre1041
+            members:
+              - ericzolf
+              - rydekull
+            privacy: closed
+            repos:
+              lightwell-cop: write
+              security.lightwell: write
       mdt:
         description: Metrics Driven Transformation
         maintainers:
